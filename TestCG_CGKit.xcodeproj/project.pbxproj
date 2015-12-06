@@ -1665,6 +1665,7 @@
 				18DBAAB91C12818300552828 /* Frameworks */,
 				18DBAABA1C12818300552828 /* Resources */,
 				5E3640145FCA6FE6E2BC7630 /* Copy Pods Resources */,
+				185A740B1C144B98005936A5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1782,6 +1783,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		185A740B1C144B98005936A5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n##自动添加 build 次数\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\n\n#########";
+		};
 		5E3640145FCA6FE6E2BC7630 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

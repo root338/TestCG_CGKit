@@ -3,12 +3,14 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Base Navigation Controller-->
         <scene sceneID="5HE-Fx-vxy">
             <objects>
                 <navigationController id="w8s-sL-Dm8" customClass="CGBaseNavigationController" sceneMemberID="viewController">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="AGj-NO-xh8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -25,7 +27,7 @@
         <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HomeViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="BYZ-38-t0r" customClass="HomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -33,10 +35,55 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mIu-21-lv5">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qvA-56-WaL">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1UZ-jV-AOR">
+                                                <rect key="frame" x="8" y="8" width="103" height="30"/>
+                                                <animations/>
+                                                <state key="normal" title="Test TableView"/>
+                                                <connections>
+                                                    <action selector="pushTestDetailVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FQt-08-uD8"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="1UZ-jV-AOR" firstAttribute="leading" secondItem="qvA-56-WaL" secondAttribute="leading" constant="8" id="ame-bs-927"/>
+                                            <constraint firstAttribute="height" constant="536" id="f7I-VN-W6o"/>
+                                            <constraint firstItem="1UZ-jV-AOR" firstAttribute="top" secondItem="qvA-56-WaL" secondAttribute="top" constant="8" id="ggJ-hC-heJ"/>
+                                            <constraint firstAttribute="width" constant="600" id="yyC-uy-ipj"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstItem="qvA-56-WaL" firstAttribute="top" secondItem="mIu-21-lv5" secondAttribute="top" id="6S8-x7-J43"/>
+                                    <constraint firstAttribute="trailing" secondItem="qvA-56-WaL" secondAttribute="trailing" id="8du-Ld-z1T"/>
+                                    <constraint firstItem="qvA-56-WaL" firstAttribute="leading" secondItem="mIu-21-lv5" secondAttribute="leading" id="U5a-8P-PnZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="qvA-56-WaL" secondAttribute="bottom" id="dPf-cZ-dUF"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="mIu-21-lv5" secondAttribute="trailing" id="CbQ-Qv-DKP"/>
+                            <constraint firstItem="mIu-21-lv5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="RkK-IO-rTi"/>
+                            <constraint firstItem="mIu-21-lv5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="kvO-F3-M3W"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mIu-21-lv5" secondAttribute="bottom" id="t0a-bt-vs4"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="a3M-z5-wsV"/>
+                    <connections>
+                        <outlet property="contentViewHeight" destination="f7I-VN-W6o" id="AHi-Nm-a7Y"/>
+                        <outlet property="contentViewWidth" destination="yyC-uy-ipj" id="9Lg-ZW-nVS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

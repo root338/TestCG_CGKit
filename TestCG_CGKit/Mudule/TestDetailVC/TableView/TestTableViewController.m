@@ -14,6 +14,8 @@
 #import "UITableView+CGCreateTableView.h"
 #import "UIView+Constant.h"
 
+#import "UIColor+ColorValueTransform.h"
+
 @interface TestTableViewController ()
 
 @property (strong, nonatomic) CGBaseTableView *tableView;
@@ -34,6 +36,8 @@
     self.tableView.dataSourceManager.rowNumberForAllSections = 100;
     self.tableView.dataSourceManager.cellIdentifier = NSStringFromClass([TestTextFieldCell class]);
     [self.tableView cg_registerClassWithClassIdentifier:[TestTextFieldCell class]];
+    
+    
 }
 
 - (CGBaseTableView *)tableView

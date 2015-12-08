@@ -33,7 +33,7 @@
 - (void)layoutSubviews
 {
     [super layoutSubviews];
-    self.textField.frame = CGRectWithMargin(self.bounds, UIEdgeInsetsMake(10, 20, 10, 20));
+    self.textField.frame = CG_CGRectWithMargin(self.bounds, UIEdgeInsetsMake(10, 10, 10, 20));
 }
 
 #pragma mark - UITextFieldDelegate

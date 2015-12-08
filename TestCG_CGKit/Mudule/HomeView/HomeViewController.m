@@ -9,7 +9,7 @@
 #import "HomeViewController.h"
 #import "UIView+CGSetupFrame.h"
 
-#import "TestTableViewController.h"
+//#import "TestTableViewController.h"
 
 @interface HomeViewController ()
 
@@ -30,8 +30,8 @@
 
 - (IBAction)pushTestDetailVC:(id)sender
 {
-    TestTableViewController *tableViewVC = [[TestTableViewController alloc] init];
-    [self.navigationController pushViewController:tableViewVC animated:YES];
+//    TestTableViewController *tableViewVC = [[TestTableViewController alloc] init];
+//    [self.navigationController pushViewController:tableViewVC animated:YES];
 }
 
 @end

@@ -9,12 +9,17 @@
 #import "HomeViewController.h"
 #import "UIView+CGSetupFrame.h"
 
+#import "CGBaseLayerView.h"
 //#import "TestTableViewController.h"
+#import "UIView+CGSetupAppearance.h"
+#import "CGLineBoxLayerView.h"
 
 @interface HomeViewController ()
 
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *contentViewWidth;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *contentViewHeight;
+
+@property (nonatomic, strong) CGBaseLayerView *layerView;
 
 @end
 
@@ -24,8 +29,40 @@
 {
     [super viewDidLoad];
     
-    self.contentViewHeight.constant = self.view.height;
-    self.contentViewWidth.constant  = self.view.width;
+//    CGBaseLayerView *borderView = [[CGBaseLayerView alloc] initWithFrame:CGRectMake(100, 200, 200, 200)];
+//    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTapRecognizer:)];
+//    [borderView addGestureRecognizer:tap];
+//    [self.view addSubview:borderView];
+//    
+//    UIColor *redColor       = [UIColor redColor];
+//    UIColor *blueColor      = [UIColor blueColor];
+//    UIColor *orangeColor    = [UIColor orangeColor];
+//    UIColor *greenColor     = [UIColor greenColor];
+//    [borderView setViewWithBorderColor:redColor borderWidth:1 state:CGViewBorderStateHighlighted];
+//    [borderView setViewWithBorderColor:blueColor borderWidth:1 state:CGViewBorderStateDisabled];
+//    [borderView setViewWithBorderColor:orangeColor borderWidth:1 state:CGViewBorderStateNormal];
+//    [borderView setViewWithBorderColor:greenColor borderWidth:1 state:CGViewBorderStateSelected];
+//    
+////    [borderView cg_setupBorderWithWidth:1 color:redColor];
+//    self.layerView = borderView;
+//    self.contentViewHeight.constant = self.view.height;
+//    self.contentViewWidth.constant  = self.view.width;
+    
+    CGLineBoxLayerView *layerView = [[CGLineBoxLayerView alloc] initWithFrame:CGRectMake(100, 200, 200, 200)];
+    layerView.backgroundColor = [UIColor orangeColor];
+    [layerView cg_setupBorderWithWidth:1 color:[UIColor redColor]];
+    [self.view addSubview:layerView];
+}
+
+- (void)handleTapRecognizer:(UITapGestureRecognizer *)gesture
+{
+    CGViewBorderState state = self.layerView.borderState;
+    state++;
+    if (state > CGViewBorderStateSelected) {
+        state = CGViewBorderStateNormal;
+    }
+    self.layerView.borderState = state;
+    CGLog(@"state : %li", state);
 }
 
 - (IBAction)pushTestDetailVC:(id)sender

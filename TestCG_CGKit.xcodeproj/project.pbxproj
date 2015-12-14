@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001F13141C1EB2420068C1D5 /* CGLineBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 001F13131C1EB2420068C1D5 /* CGLineBoxView.m */; };
+		001F13181C1EB2BE0068C1D5 /* CGLineBoxLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 001F13171C1EB2BE0068C1D5 /* CGLineBoxLayerView.m */; };
+		0072CC091C191D1900C4745D /* CGBorderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0072CC081C191D1900C4745D /* CGBorderButton.m */; };
+		0072CC0D1C191D7900C4745D /* CGBorderBaseLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0072CC0C1C191D7900C4745D /* CGBorderBaseLayer.m */; };
+		0072CC171C197D5B00C4745D /* CGBorderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0072CC161C197D5B00C4745D /* CGBorderObject.m */; };
+		007A70351C1E65A500759793 /* CGBaseLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 007A70341C1E65A500759793 /* CGBaseLayerView.m */; };
 		180E7E881C16FC6900F11B48 /* UIScrollView+CGSetupScrollProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E7E871C16FC6900F11B48 /* UIScrollView+CGSetupScrollProperty.m */; };
 		180E7E941C170EA800F11B48 /* CGAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E7E8F1C170EA800F11B48 /* CGAlertController.m */; };
 		180E7E981C170F1500F11B48 /* CGSingleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E7E971C170F1500F11B48 /* CGSingleTableViewController.m */; };
@@ -121,7 +127,6 @@
 		18E6E2891C15AFC200906A5A /* CGTitleBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6E1C61C15AFC200906A5A /* CGTitleBaseView.m */; };
 		18E6E28A1C15AFC200906A5A /* CGTitleDoubleLayoutBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6E1C81C15AFC200906A5A /* CGTitleDoubleLayoutBaseView.m */; };
 		18E6E28B1C15AFC200906A5A /* CGDoubleButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6E1CB1C15AFC200906A5A /* CGDoubleButtonsView.m */; };
-		18E6E28C1C15AFC200906A5A /* CGLineBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6E1CD1C15AFC200906A5A /* CGLineBoxView.m */; };
 		18E6E28D1C15AFC200906A5A /* CGCycleViewCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6E1D21C15AFC200906A5A /* CGCycleViewCacheManager.m */; };
 		18E6E28E1C15AFC200906A5A /* CGCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6E1D41C15AFC200906A5A /* CGCycleScrollView.m */; };
 		18E6E28F1C15AFC200906A5A /* CGCycleScrollView+CGBuildLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6E1D71C15AFC200906A5A /* CGCycleScrollView+CGBuildLayout.m */; };
@@ -169,6 +174,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001F13121C1EB2420068C1D5 /* CGLineBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLineBoxView.h; sourceTree = "<group>"; };
+		001F13131C1EB2420068C1D5 /* CGLineBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLineBoxView.m; sourceTree = "<group>"; };
+		001F13151C1EB2760068C1D5 /* CGLineBoxTypeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGLineBoxTypeHeader.h; sourceTree = "<group>"; };
+		001F13161C1EB2BE0068C1D5 /* CGLineBoxLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLineBoxLayerView.h; sourceTree = "<group>"; };
+		001F13171C1EB2BE0068C1D5 /* CGLineBoxLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLineBoxLayerView.m; sourceTree = "<group>"; };
+		0072CC071C191D1900C4745D /* CGBorderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBorderButton.h; sourceTree = "<group>"; };
+		0072CC081C191D1900C4745D /* CGBorderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBorderButton.m; sourceTree = "<group>"; };
+		0072CC0B1C191D7900C4745D /* CGBorderBaseLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBorderBaseLayer.h; sourceTree = "<group>"; };
+		0072CC0C1C191D7900C4745D /* CGBorderBaseLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBorderBaseLayer.m; sourceTree = "<group>"; };
+		0072CC0E1C191F4100C4745D /* CGViewBorderStateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGViewBorderStateProtocol.h; sourceTree = "<group>"; };
+		0072CC151C197D5B00C4745D /* CGBorderObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBorderObject.h; sourceTree = "<group>"; };
+		0072CC161C197D5B00C4745D /* CGBorderObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBorderObject.m; sourceTree = "<group>"; };
+		007A70331C1E65A400759793 /* CGBaseLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseLayerView.h; sourceTree = "<group>"; };
+		007A70341C1E65A500759793 /* CGBaseLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseLayerView.m; sourceTree = "<group>"; };
+		007A70361C1E66DD00759793 /* CGBorderStateHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGBorderStateHeader.h; sourceTree = "<group>"; };
 		180E7E861C16FC6900F11B48 /* UIScrollView+CGSetupScrollProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CGSetupScrollProperty.h"; sourceTree = "<group>"; };
 		180E7E871C16FC6900F11B48 /* UIScrollView+CGSetupScrollProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CGSetupScrollProperty.m"; sourceTree = "<group>"; };
 		180E7E8E1C170EA800F11B48 /* CGAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAlertController.h; sourceTree = "<group>"; };
@@ -407,8 +427,6 @@
 		18E6E1C81C15AFC200906A5A /* CGTitleDoubleLayoutBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleDoubleLayoutBaseView.m; sourceTree = "<group>"; };
 		18E6E1CA1C15AFC200906A5A /* CGDoubleButtonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDoubleButtonsView.h; sourceTree = "<group>"; };
 		18E6E1CB1C15AFC200906A5A /* CGDoubleButtonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDoubleButtonsView.m; sourceTree = "<group>"; };
-		18E6E1CC1C15AFC200906A5A /* CGLineBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLineBoxView.h; sourceTree = "<group>"; };
-		18E6E1CD1C15AFC200906A5A /* CGLineBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLineBoxView.m; sourceTree = "<group>"; };
 		18E6E1D11C15AFC200906A5A /* CGCycleViewCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleViewCacheManager.h; sourceTree = "<group>"; };
 		18E6E1D21C15AFC200906A5A /* CGCycleViewCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleViewCacheManager.m; sourceTree = "<group>"; };
 		18E6E1D31C15AFC200906A5A /* CGCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleScrollView.h; sourceTree = "<group>"; };
@@ -503,6 +521,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		001F13111C1EB2260068C1D5 /* LineView */ = {
+			isa = PBXGroup;
+			children = (
+				001F13151C1EB2760068C1D5 /* CGLineBoxTypeHeader.h */,
+				001F13121C1EB2420068C1D5 /* CGLineBoxView.h */,
+				001F13131C1EB2420068C1D5 /* CGLineBoxView.m */,
+				001F13161C1EB2BE0068C1D5 /* CGLineBoxLayerView.h */,
+				001F13171C1EB2BE0068C1D5 /* CGLineBoxLayerView.m */,
+			);
+			path = LineView;
+			sourceTree = "<group>";
+		};
+		0072CC0A1C191D5C00C4745D /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				0072CC0B1C191D7900C4745D /* CGBorderBaseLayer.h */,
+				0072CC0C1C191D7900C4745D /* CGBorderBaseLayer.m */,
+			);
+			path = Layer;
+			sourceTree = "<group>";
+		};
+		0072CC121C197CC200C4745D /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				0072CC151C197D5B00C4745D /* CGBorderObject.h */,
+				0072CC161C197D5B00C4745D /* CGBorderObject.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
 		180E7E8D1C170EA800F11B48 /* AlertController */ = {
 			isa = PBXGroup;
 			children = (
@@ -1120,6 +1168,8 @@
 		18E6E11D1C15AFC200906A5A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0072CC121C197CC200C4745D /* NSObject */,
+				0072CC0A1C191D5C00C4745D /* Layer */,
 				18E6E11E1C15AFC200906A5A /* Category */,
 				18E6E17C1C15AFC200906A5A /* CustomView */,
 				18E6E1F91C15AFC200906A5A /* header */,
@@ -1355,6 +1405,8 @@
 			children = (
 				18E6E1811C15AFC200906A5A /* CGBaseButton.h */,
 				18E6E1821C15AFC200906A5A /* CGBaseButton.m */,
+				0072CC071C191D1900C4745D /* CGBorderButton.h */,
+				0072CC081C191D1900C4745D /* CGBorderButton.m */,
 				18E6E1831C15AFC200906A5A /* CGHighlightBgButton.h */,
 				18E6E1841C15AFC200906A5A /* CGHighlightBgButton.m */,
 				18E6E1851C15AFC200906A5A /* CGLayoutContentButton.h */,
@@ -1498,10 +1550,9 @@
 		18E6E1BF1C15AFC200906A5A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				001F13111C1EB2260068C1D5 /* LineView */,
 				18E6E1C01C15AFC200906A5A /* BaseView */,
 				18E6E1C91C15AFC200906A5A /* Button+Button */,
-				18E6E1CC1C15AFC200906A5A /* CGLineBoxView.h */,
-				18E6E1CD1C15AFC200906A5A /* CGLineBoxView.m */,
 				18E6E1CE1C15AFC200906A5A /* CycleScrollView */,
 				18E6E1E91C15AFC200906A5A /* TitleView */,
 			);
@@ -1513,6 +1564,8 @@
 			children = (
 				18E6E1C11C15AFC200906A5A /* CGBaseView.h */,
 				18E6E1C21C15AFC200906A5A /* CGBaseView.m */,
+				007A70331C1E65A400759793 /* CGBaseLayerView.h */,
+				007A70341C1E65A500759793 /* CGBaseLayerView.m */,
 				18E6E1C31C15AFC200906A5A /* CGDoubleTitleBaseView.h */,
 				18E6E1C41C15AFC200906A5A /* CGDoubleTitleBaseView.m */,
 				18E6E1C51C15AFC200906A5A /* CGTitleBaseView.h */,
@@ -1675,6 +1728,7 @@
 			children = (
 				18E6E1FA1C15AFC200906A5A /* CGAlignmentHeader.h */,
 				18E6E1FB1C15AFC200906A5A /* CGTableViewHeader.h */,
+				007A70361C1E66DD00759793 /* CGBorderStateHeader.h */,
 			);
 			path = header;
 			sourceTree = "<group>";
@@ -1729,6 +1783,7 @@
 			children = (
 				18E6E20F1C15AFC200906A5A /* CGInputTextProtocol.h */,
 				18E6E2101C15AFC200906A5A /* CGViewProtocol.h */,
+				0072CC0E1C191F4100C4745D /* CGViewBorderStateProtocol.h */,
 			);
 			path = ViewProtocol;
 			sourceTree = "<group>";
@@ -2020,6 +2075,7 @@
 				18E6E2351C15AFC200906A5A /* NSArray+CGArray.m in Sources */,
 				18E6E24B1C15AFC200906A5A /* UIButton+CGSetupAppearance.m in Sources */,
 				18E6E27B1C15AFC200906A5A /* CGBaseTableViewEditDataSourceManager.m in Sources */,
+				007A70351C1E65A500759793 /* CGBaseLayerView.m in Sources */,
 				18E6E22A1C15AFC200906A5A /* UIView+Constant.m in Sources */,
 				18E6E2291C15AFC200906A5A /* NSObject+JudgePurview.m in Sources */,
 				18E6E2591C15AFC200906A5A /* UILabel+CGSetupAppearance.m in Sources */,
@@ -2061,6 +2117,7 @@
 				18E6E2431C15AFC200906A5A /* NSUserDefaults+SaveData.m in Sources */,
 				18E6E26E1C15AFC200906A5A /* CGBaseButton.m in Sources */,
 				18E6E2321C15AFC200906A5A /* CGRequestBaseModel+Category.m in Sources */,
+				001F13141C1EB2420068C1D5 /* CGLineBoxView.m in Sources */,
 				18E6E2901C15AFC200906A5A /* CGCycleScrollView+CGBuildView.m in Sources */,
 				18E6E25A1C15AFC200906A5A /* UIScrollView+CGPullToRefresh.m in Sources */,
 				18E6E29B1C15AFC200906A5A /* UIView+CGAddConstraints.m in Sources */,
@@ -2069,6 +2126,7 @@
 				18E6E25D1C15AFC200906A5A /* UITableView+CGChangeGroupStyle.m in Sources */,
 				18E6E2711C15AFC200906A5A /* CGTimerButton.m in Sources */,
 				18E6E2361C15AFC200906A5A /* NSDate+CGTransformString.m in Sources */,
+				0072CC091C191D1900C4745D /* CGBorderButton.m in Sources */,
 				180E7E981C170F1500F11B48 /* CGSingleTableViewController.m in Sources */,
 				18E6E2501C15AFC200906A5A /* UIImageView+CGCreateView.m in Sources */,
 				18E6E2391C15AFC200906A5A /* NSObject+CGDelaySelector.m in Sources */,
@@ -2084,6 +2142,7 @@
 				18E6E2951C15AFC200906A5A /* CGCycleBrowseImageScrollView+CGSetupCycleProperty.m in Sources */,
 				18E6E29F1C15AFC200906A5A /* UIView+LayoutSetup.m in Sources */,
 				18E6E29C1C15AFC200906A5A /* ALView+PureLayout.m in Sources */,
+				001F13181C1EB2BE0068C1D5 /* CGLineBoxLayerView.m in Sources */,
 				180E7E881C16FC6900F11B48 /* UIScrollView+CGSetupScrollProperty.m in Sources */,
 				18E6E2651C15AFC200906A5A /* UIView+CGAnimated.m in Sources */,
 				18E6E2841C15AFC200906A5A /* CGTextView.m in Sources */,
@@ -2110,9 +2169,9 @@
 				18E6E2761C15AFC200906A5A /* HorizontalSingleAppearance.m in Sources */,
 				18E6E25E1C15AFC200906A5A /* UITableView+CGDequeueReusableCell.m in Sources */,
 				18E6E2691C15AFC200906A5A /* UIView+CGSetupFrame.m in Sources */,
+				0072CC171C197D5B00C4745D /* CGBorderObject.m in Sources */,
 				18E6E27D1C15AFC200906A5A /* CGSingleSectionTableViewDelegate.m in Sources */,
 				18E6E28F1C15AFC200906A5A /* CGCycleScrollView+CGBuildLayout.m in Sources */,
-				18E6E28C1C15AFC200906A5A /* CGLineBoxView.m in Sources */,
 				18E6E22B1C15AFC200906A5A /* CGDispathMethod.m in Sources */,
 				18E6E2491C15AFC200906A5A /* UIView+Transform.m in Sources */,
 				18E6E2921C15AFC200906A5A /* CGCycleAideContentView.m in Sources */,
@@ -2130,6 +2189,7 @@
 				18E6E2331C15AFC200906A5A /* CGRequestModel+Category.m in Sources */,
 				18E6E2531C15AFC200906A5A /* UITableView+CGCreateTableView.m in Sources */,
 				18E6E2371C15AFC200906A5A /* NSError+CGCreateError.m in Sources */,
+				0072CC0D1C191D7900C4745D /* CGBorderBaseLayer.m in Sources */,
 				18E6E2721C15AFC200906A5A /* CGBaseCollectionView.m in Sources */,
 				18E6E2891C15AFC200906A5A /* CGTitleBaseView.m in Sources */,
 				18E6E27C1C15AFC200906A5A /* CGSingleSectionTableViewDataSource.m in Sources */,
@@ -2283,6 +2343,7 @@
 			baseConfigurationReference = CB955F562162540E6C680F5B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestCG_CGKit",
@@ -2316,6 +2377,7 @@
 			baseConfigurationReference = 2579600A7457913BDB2035A0 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestCG_CGKit",

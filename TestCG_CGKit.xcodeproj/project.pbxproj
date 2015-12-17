@@ -13,6 +13,8 @@
 		0072CC0D1C191D7900C4745D /* CGBorderBaseLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0072CC0C1C191D7900C4745D /* CGBorderBaseLayer.m */; };
 		0072CC171C197D5B00C4745D /* CGBorderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0072CC161C197D5B00C4745D /* CGBorderObject.m */; };
 		007A70351C1E65A500759793 /* CGBaseLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 007A70341C1E65A500759793 /* CGBaseLayerView.m */; };
+		00C538821C213A3C00FE26EA /* CGInputConditionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C538811C213A3C00FE26EA /* CGInputConditionButton.m */; };
+		00C538851C213EE100FE26EA /* NSNotificationCenter+CGCreateNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C538841C213EE100FE26EA /* NSNotificationCenter+CGCreateNotification.m */; };
 		180E7E881C16FC6900F11B48 /* UIScrollView+CGSetupScrollProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E7E871C16FC6900F11B48 /* UIScrollView+CGSetupScrollProperty.m */; };
 		180E7E941C170EA800F11B48 /* CGAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E7E8F1C170EA800F11B48 /* CGAlertController.m */; };
 		180E7E981C170F1500F11B48 /* CGSingleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E7E971C170F1500F11B48 /* CGSingleTableViewController.m */; };
@@ -189,6 +191,10 @@
 		007A70331C1E65A400759793 /* CGBaseLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseLayerView.h; sourceTree = "<group>"; };
 		007A70341C1E65A500759793 /* CGBaseLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseLayerView.m; sourceTree = "<group>"; };
 		007A70361C1E66DD00759793 /* CGBorderStateHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGBorderStateHeader.h; sourceTree = "<group>"; };
+		00C538801C213A3C00FE26EA /* CGInputConditionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGInputConditionButton.h; sourceTree = "<group>"; };
+		00C538811C213A3C00FE26EA /* CGInputConditionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGInputConditionButton.m; sourceTree = "<group>"; };
+		00C538831C213EE100FE26EA /* NSNotificationCenter+CGCreateNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+CGCreateNotification.h"; sourceTree = "<group>"; };
+		00C538841C213EE100FE26EA /* NSNotificationCenter+CGCreateNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+CGCreateNotification.m"; sourceTree = "<group>"; };
 		180E7E861C16FC6900F11B48 /* UIScrollView+CGSetupScrollProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CGSetupScrollProperty.h"; sourceTree = "<group>"; };
 		180E7E871C16FC6900F11B48 /* UIScrollView+CGSetupScrollProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CGSetupScrollProperty.m"; sourceTree = "<group>"; };
 		180E7E8E1C170EA800F11B48 /* CGAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAlertController.h; sourceTree = "<group>"; };
@@ -549,6 +555,15 @@
 				0072CC161C197D5B00C4745D /* CGBorderObject.m */,
 			);
 			path = NSObject;
+			sourceTree = "<group>";
+		};
+		00C5387F1C213A0B00FE26EA /* ConditionButton */ = {
+			isa = PBXGroup;
+			children = (
+				00C538801C213A3C00FE26EA /* CGInputConditionButton.h */,
+				00C538811C213A3C00FE26EA /* CGInputConditionButton.m */,
+			);
+			path = ConditionButton;
 			sourceTree = "<group>";
 		};
 		180E7E8D1C170EA800F11B48 /* AlertController */ = {
@@ -1100,6 +1115,8 @@
 			children = (
 				18E6E10A1C15AFC200906A5A /* NSObject+HandleNotificationStatus.h */,
 				18E6E10B1C15AFC200906A5A /* NSObject+HandleNotificationStatus.m */,
+				00C538831C213EE100FE26EA /* NSNotificationCenter+CGCreateNotification.h */,
+				00C538841C213EE100FE26EA /* NSNotificationCenter+CGCreateNotification.m */,
 			);
 			path = Notification;
 			sourceTree = "<group>";
@@ -1403,6 +1420,7 @@
 		18E6E1801C15AFC200906A5A /* Button */ = {
 			isa = PBXGroup;
 			children = (
+				00C5387F1C213A0B00FE26EA /* ConditionButton */,
 				18E6E1811C15AFC200906A5A /* CGBaseButton.h */,
 				18E6E1821C15AFC200906A5A /* CGBaseButton.m */,
 				0072CC071C191D1900C4745D /* CGBorderButton.h */,
@@ -2103,6 +2121,7 @@
 				18E6E28E1C15AFC200906A5A /* CGCycleScrollView.m in Sources */,
 				180E7E9E1C1713FB00F11B48 /* UITableView+CGScrolling.m in Sources */,
 				18E6E2981C15AFC200906A5A /* CGTitleTextFieldView.m in Sources */,
+				00C538851C213EE100FE26EA /* NSNotificationCenter+CGCreateNotification.m in Sources */,
 				18E6E2831C15AFC200906A5A /* CGInputTextView.m in Sources */,
 				18E6E23A1C15AFC200906A5A /* CGBaseObject.m in Sources */,
 				18E6E27A1C15AFC200906A5A /* CGBaseTableViewDataSourceManager.m in Sources */,
@@ -2129,6 +2148,7 @@
 				0072CC091C191D1900C4745D /* CGBorderButton.m in Sources */,
 				180E7E981C170F1500F11B48 /* CGSingleTableViewController.m in Sources */,
 				18E6E2501C15AFC200906A5A /* UIImageView+CGCreateView.m in Sources */,
+				00C538821C213A3C00FE26EA /* CGInputConditionButton.m in Sources */,
 				18E6E2391C15AFC200906A5A /* NSObject+CGDelaySelector.m in Sources */,
 				18E6E2751C15AFC200906A5A /* CGRefreshBaseView.m in Sources */,
 				18E6E2A01C15AFC200906A5A /* CGNavigationAppearance.m in Sources */,

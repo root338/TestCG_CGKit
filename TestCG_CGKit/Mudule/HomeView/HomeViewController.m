@@ -9,7 +9,6 @@
 #import "HomeViewController.h"
 #import "UIView+CGSetupFrame.h"
 
-#import "CGBaseLayerView.h"
 //#import "TestTableViewController.h"
 #import "UIView+CGSetupAppearance.h"
 #import "CGLineBoxLayerView.h"
@@ -18,8 +17,6 @@
 
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *contentViewWidth;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *contentViewHeight;
-
-@property (nonatomic, strong) CGBaseLayerView *layerView;
 
 @end
 
@@ -56,13 +53,7 @@
 
 - (void)handleTapRecognizer:(UITapGestureRecognizer *)gesture
 {
-    CGViewBorderState state = self.layerView.borderState;
-    state++;
-    if (state > CGViewBorderStateSelected) {
-        state = CGViewBorderStateNormal;
-    }
-    self.layerView.borderState = state;
-    CGLog(@"state : %li", state);
+    
 }
 
 - (IBAction)pushTestDetailVC:(id)sender

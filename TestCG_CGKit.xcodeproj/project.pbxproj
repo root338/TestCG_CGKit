@@ -34,10 +34,8 @@
 		00BF23CC1C55BF77009ABB5B /* NSString+CGStrlen.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF225C1C55BF76009ABB5B /* NSString+CGStrlen.m */; };
 		00BF23CD1C55BF77009ABB5B /* NSString+VerificationString.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF225E1C55BF76009ABB5B /* NSString+VerificationString.m */; };
 		00BF23CE1C55BF77009ABB5B /* NSTimer+ChangeTimerStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF22651C55BF76009ABB5B /* NSTimer+ChangeTimerStatus.m */; };
-		00BF23CF1C55BF77009ABB5B /* NSObject+KeyboardNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF22681C55BF76009ABB5B /* NSObject+KeyboardNotification.m */; };
 		00BF23D01C55BF77009ABB5B /* UIImage+CGLaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF226B1C55BF76009ABB5B /* UIImage+CGLaunchImage.m */; };
 		00BF23D11C55BF77009ABB5B /* NSNotificationCenter+CGCreateNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF226E1C55BF76009ABB5B /* NSNotificationCenter+CGCreateNotification.m */; };
-		00BF23D21C55BF77009ABB5B /* NSObject+HandleNotificationStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF22701C55BF76009ABB5B /* NSObject+HandleNotificationStatus.m */; };
 		00BF23D31C55BF77009ABB5B /* UIApplication+CGOpenSystemApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF22731C55BF76009ABB5B /* UIApplication+CGOpenSystemApp.m */; };
 		00BF23D41C55BF77009ABB5B /* NSUserDefaults+SaveData.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF22761C55BF76009ABB5B /* NSUserDefaults+SaveData.m */; };
 		00BF23D61C55BF77009ABB5B /* UIApplication+CGVerificationRemoteNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF227E1C55BF76009ABB5B /* UIApplication+CGVerificationRemoteNotification.m */; };
@@ -243,14 +241,10 @@
 		00BF22601C55BF76009ABB5B /* CGPrintLogHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPrintLogHeader.h; sourceTree = "<group>"; };
 		00BF22641C55BF76009ABB5B /* NSTimer+ChangeTimerStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+ChangeTimerStatus.h"; sourceTree = "<group>"; };
 		00BF22651C55BF76009ABB5B /* NSTimer+ChangeTimerStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+ChangeTimerStatus.m"; sourceTree = "<group>"; };
-		00BF22671C55BF76009ABB5B /* NSObject+KeyboardNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KeyboardNotification.h"; sourceTree = "<group>"; };
-		00BF22681C55BF76009ABB5B /* NSObject+KeyboardNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KeyboardNotification.m"; sourceTree = "<group>"; };
 		00BF226A1C55BF76009ABB5B /* UIImage+CGLaunchImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CGLaunchImage.h"; sourceTree = "<group>"; };
 		00BF226B1C55BF76009ABB5B /* UIImage+CGLaunchImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CGLaunchImage.m"; sourceTree = "<group>"; };
 		00BF226D1C55BF76009ABB5B /* NSNotificationCenter+CGCreateNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+CGCreateNotification.h"; sourceTree = "<group>"; };
 		00BF226E1C55BF76009ABB5B /* NSNotificationCenter+CGCreateNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+CGCreateNotification.m"; sourceTree = "<group>"; };
-		00BF226F1C55BF76009ABB5B /* NSObject+HandleNotificationStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HandleNotificationStatus.h"; sourceTree = "<group>"; };
-		00BF22701C55BF76009ABB5B /* NSObject+HandleNotificationStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HandleNotificationStatus.m"; sourceTree = "<group>"; };
 		00BF22721C55BF76009ABB5B /* UIApplication+CGOpenSystemApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+CGOpenSystemApp.h"; sourceTree = "<group>"; };
 		00BF22731C55BF76009ABB5B /* UIApplication+CGOpenSystemApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+CGOpenSystemApp.m"; sourceTree = "<group>"; };
 		00BF22751C55BF76009ABB5B /* NSUserDefaults+SaveData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+SaveData.h"; sourceTree = "<group>"; };
@@ -880,7 +874,6 @@
 			isa = PBXGroup;
 			children = (
 				00BF22621C55BF76009ABB5B /* Category */,
-				00BF22661C55BF76009ABB5B /* KeyboardNotification */,
 				00BF22691C55BF76009ABB5B /* LoadLaunchImage */,
 				00BF226C1C55BF76009ABB5B /* Notification */,
 				00BF22711C55BF76009ABB5B /* OpenSystemAPP */,
@@ -905,15 +898,6 @@
 			path = NStimer;
 			sourceTree = "<group>";
 		};
-		00BF22661C55BF76009ABB5B /* KeyboardNotification */ = {
-			isa = PBXGroup;
-			children = (
-				00BF22671C55BF76009ABB5B /* NSObject+KeyboardNotification.h */,
-				00BF22681C55BF76009ABB5B /* NSObject+KeyboardNotification.m */,
-			);
-			path = KeyboardNotification;
-			sourceTree = "<group>";
-		};
 		00BF22691C55BF76009ABB5B /* LoadLaunchImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -928,8 +912,6 @@
 			children = (
 				00BF226D1C55BF76009ABB5B /* NSNotificationCenter+CGCreateNotification.h */,
 				00BF226E1C55BF76009ABB5B /* NSNotificationCenter+CGCreateNotification.m */,
-				00BF226F1C55BF76009ABB5B /* NSObject+HandleNotificationStatus.h */,
-				00BF22701C55BF76009ABB5B /* NSObject+HandleNotificationStatus.m */,
 			);
 			path = Notification;
 			sourceTree = "<group>";
@@ -2174,7 +2156,6 @@
 				00BF24161C55BF77009ABB5B /* CGDefalutTextFieldInputView.m in Sources */,
 				00BF24211C55BF77009ABB5B /* CGTitleDoubleLayoutBaseView.m in Sources */,
 				00BF23DD1C55BF77009ABB5B /* UIButton+AreaCalculate.m in Sources */,
-				00BF23D21C55BF77009ABB5B /* NSObject+HandleNotificationStatus.m in Sources */,
 				00BF24331C55BF77009ABB5B /* CGBorderBaseLayer.m in Sources */,
 				00BF23EE1C55BF77009ABB5B /* UIScrollView+CGSetupAppearance.m in Sources */,
 				00BF241E1C55BF77009ABB5B /* CGBaseView.m in Sources */,
@@ -2224,7 +2205,6 @@
 				00BF24341C55BF77009ABB5B /* UIView+CGAddConstraints.m in Sources */,
 				00BF23BC1C55BF77009ABB5B /* CGUserInfoModel.m in Sources */,
 				00BF23F51C55BF77009ABB5B /* UITableView+CGScrolling.m in Sources */,
-				00BF23CF1C55BF77009ABB5B /* NSObject+KeyboardNotification.m in Sources */,
 				00BF24241C55BF77009ABB5B /* CGCycleScrollView.m in Sources */,
 				00BF23FA1C55BF77009ABB5B /* UIView+CGBorderLayer.m in Sources */,
 				00BF24251C55BF77009ABB5B /* CGCycleScrollView+CGBuildLayout.m in Sources */,

@@ -45,7 +45,6 @@
 		00BF23D81C55BF77009ABB5B /* UIImage+CGColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF22841C55BF76009ABB5B /* UIImage+CGColor.m */; };
 		00BF23D91C55BF77009ABB5B /* UIImage+CGLoadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF22861C55BF76009ABB5B /* UIImage+CGLoadImage.m */; };
 		00BF23DA1C55BF77009ABB5B /* UILabel+CalculateTextSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF228B1C55BF76009ABB5B /* UILabel+CalculateTextSize.m */; };
-		00BF23DB1C55BF77009ABB5B /* UITextView+CGCalculateTextSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF228D1C55BF76009ABB5B /* UITextView+CGCalculateTextSize.m */; };
 		00BF23DC1C55BF77009ABB5B /* UIView+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF22901C55BF76009ABB5B /* UIView+Transform.m */; };
 		00BF23DD1C55BF77009ABB5B /* UIButton+AreaCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF22951C55BF76009ABB5B /* UIButton+AreaCalculate.m */; };
 		00BF23DE1C55BF77009ABB5B /* UIButton+CGSetupAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF22971C55BF76009ABB5B /* UIButton+CGSetupAppearance.m */; };
@@ -267,8 +266,6 @@
 		00BF22861C55BF76009ABB5B /* UIImage+CGLoadImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CGLoadImage.m"; sourceTree = "<group>"; };
 		00BF228A1C55BF76009ABB5B /* UILabel+CalculateTextSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CalculateTextSize.h"; sourceTree = "<group>"; };
 		00BF228B1C55BF76009ABB5B /* UILabel+CalculateTextSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CalculateTextSize.m"; sourceTree = "<group>"; };
-		00BF228C1C55BF76009ABB5B /* UITextView+CGCalculateTextSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+CGCalculateTextSize.h"; sourceTree = "<group>"; };
-		00BF228D1C55BF76009ABB5B /* UITextView+CGCalculateTextSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+CGCalculateTextSize.m"; sourceTree = "<group>"; };
 		00BF228E1C55BF76009ABB5B /* UIView+CG_CGAreaCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CG_CGAreaCalculate.h"; sourceTree = "<group>"; };
 		00BF228F1C55BF76009ABB5B /* UIView+Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Transform.h"; sourceTree = "<group>"; };
 		00BF22901C55BF76009ABB5B /* UIView+Transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Transform.m"; sourceTree = "<group>"; };
@@ -1046,8 +1043,6 @@
 			children = (
 				00BF228A1C55BF76009ABB5B /* UILabel+CalculateTextSize.h */,
 				00BF228B1C55BF76009ABB5B /* UILabel+CalculateTextSize.m */,
-				00BF228C1C55BF76009ABB5B /* UITextView+CGCalculateTextSize.h */,
-				00BF228D1C55BF76009ABB5B /* UITextView+CGCalculateTextSize.m */,
 				00BF228E1C55BF76009ABB5B /* UIView+CG_CGAreaCalculate.h */,
 				00BF228F1C55BF76009ABB5B /* UIView+Transform.h */,
 				00BF22901C55BF76009ABB5B /* UIView+Transform.m */,
@@ -2205,7 +2200,6 @@
 				00BF23D61C55BF77009ABB5B /* UIApplication+CGVerificationRemoteNotification.m in Sources */,
 				00BF24401C55BF77009ABB5B /* CGNavigationDelegateObject.m in Sources */,
 				00BF24381C55BF77009ABB5B /* UIView+LayoutSetup.m in Sources */,
-				00BF23DB1C55BF77009ABB5B /* UITextView+CGCalculateTextSize.m in Sources */,
 				00BF24071C55BF77009ABB5B /* CGTimerButton.m in Sources */,
 				00BF243C1C55BF77009ABB5B /* CGBaseNavigationController.m in Sources */,
 				00BF24121C55BF77009ABB5B /* CGBaseTableViewEditDataSourceManager.m in Sources */,

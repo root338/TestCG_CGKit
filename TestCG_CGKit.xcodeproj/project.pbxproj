@@ -137,7 +137,6 @@
 		00BF24371C55BF77009ABB5B /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF23831C55BF77009ABB5B /* NSLayoutConstraint+PureLayout.m */; };
 		00BF24381C55BF77009ABB5B /* UIView+LayoutSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF23891C55BF77009ABB5B /* UIView+LayoutSetup.m */; };
 		00BF24391C55BF77009ABB5B /* CGBorderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF238D1C55BF77009ABB5B /* CGBorderObject.m */; };
-		00BF243A1C55BF77009ABB5B /* 说明.md in Sources */ = {isa = PBXBuildFile; fileRef = 00BF238E1C55BF77009ABB5B /* 说明.md */; };
 		00BF243B1C55BF77009ABB5B /* CGNavigationAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF23981C55BF77009ABB5B /* CGNavigationAppearance.m */; };
 		00BF243C1C55BF77009ABB5B /* CGBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF239B1C55BF77009ABB5B /* CGBaseNavigationController.m */; };
 		00BF243D1C55BF77009ABB5B /* CGBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF239D1C55BF77009ABB5B /* CGBaseTableViewController.m */; };
@@ -146,6 +145,10 @@
 		00BF24401C55BF77009ABB5B /* CGNavigationDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF23A71C55BF77009ABB5B /* CGNavigationDelegateObject.m */; };
 		00BF24411C55BF77009ABB5B /* CGAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF23AD1C55BF77009ABB5B /* CGAlertController.m */; };
 		00BF24431C55BF77009ABB5B /* CGSingleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF23B31C55BF77009ABB5B /* CGSingleTableViewController.m */; };
+		00CE403D1C585C68001C22C6 /* CGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CE403C1C585C68001C22C6 /* CGNavigationController.m */; };
+		00CE40401C585E80001C22C6 /* UINavigationController+CGSetupGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CE403F1C585E80001C22C6 /* UINavigationController+CGSetupGestureRecognizer.m */; };
+		00CE40441C586B8A001C22C6 /* NSObject+CGGetPrivateAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CE40431C586B8A001C22C6 /* NSObject+CGGetPrivateAPI.m */; };
+		00CE40471C58B66C001C22C6 /* UIViewController+CGFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CE40461C58B66C001C22C6 /* UIViewController+CGFullscreenPopGesture.m */; };
 		187579961C12E8AB0065C29D /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187579951C12E8AB0065C29D /* Reveal.framework */; };
 		18B41A9E1C13FE450031002B /* TestTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B41A9D1C13FE450031002B /* TestTextFieldCell.m */; };
 		18DBAACA1C12818300552828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DBAAC81C12818300552828 /* Main.storyboard */; };
@@ -154,7 +157,6 @@
 		18DBAADA1C12818300552828 /* TestCG_CGKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAAD91C12818300552828 /* TestCG_CGKitTests.m */; };
 		18DBAAE51C12818400552828 /* TestCG_CGKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAAE41C12818400552828 /* TestCG_CGKitUITests.m */; };
 		18DBAAF91C12877E00552828 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAAF61C12877E00552828 /* AppDelegate.m */; };
-		18DBAAFA1C12877E00552828 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18DBAAF71C12877E00552828 /* Info.plist */; };
 		18DBAAFB1C12877E00552828 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAAF81C12877E00552828 /* main.m */; };
 		18DBADFE1C12965000552828 /* CGBaseNavigationController+SetupAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBADFD1C12965000552828 /* CGBaseNavigationController+SetupAppearance.m */; };
 		18DBAE021C12968900552828 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAE011C12968900552828 /* HomeViewController.m */; };
@@ -464,7 +466,6 @@
 		00BF238A1C55BF77009ABB5B /* UIView+LayoutSetupHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutSetupHeader.h"; sourceTree = "<group>"; };
 		00BF238C1C55BF77009ABB5B /* CGBorderObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBorderObject.h; sourceTree = "<group>"; };
 		00BF238D1C55BF77009ABB5B /* CGBorderObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBorderObject.m; sourceTree = "<group>"; };
-		00BF238E1C55BF77009ABB5B /* 说明.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "说明.md"; sourceTree = "<group>"; };
 		00BF23901C55BF77009ABB5B /* CGInputTextProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGInputTextProtocol.h; sourceTree = "<group>"; };
 		00BF23911C55BF77009ABB5B /* CGViewBorderStateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGViewBorderStateProtocol.h; sourceTree = "<group>"; };
 		00BF23921C55BF77009ABB5B /* CGViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGViewProtocol.h; sourceTree = "<group>"; };
@@ -487,7 +488,15 @@
 		00BF23AD1C55BF77009ABB5B /* CGAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAlertController.m; sourceTree = "<group>"; };
 		00BF23B21C55BF77009ABB5B /* CGSingleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleTableViewController.h; sourceTree = "<group>"; };
 		00BF23B31C55BF77009ABB5B /* CGSingleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleTableViewController.m; sourceTree = "<group>"; };
-		187579951C12E8AB0065C29D /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		00CE403B1C585C68001C22C6 /* CGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNavigationController.h; sourceTree = "<group>"; };
+		00CE403C1C585C68001C22C6 /* CGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGNavigationController.m; sourceTree = "<group>"; };
+		00CE403E1C585E80001C22C6 /* UINavigationController+CGSetupGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+CGSetupGestureRecognizer.h"; sourceTree = "<group>"; };
+		00CE403F1C585E80001C22C6 /* UINavigationController+CGSetupGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+CGSetupGestureRecognizer.m"; sourceTree = "<group>"; };
+		00CE40421C586B8A001C22C6 /* NSObject+CGGetPrivateAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CGGetPrivateAPI.h"; sourceTree = "<group>"; };
+		00CE40431C586B8A001C22C6 /* NSObject+CGGetPrivateAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CGGetPrivateAPI.m"; sourceTree = "<group>"; };
+		00CE40451C58B66C001C22C6 /* UIViewController+CGFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CGFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		00CE40461C58B66C001C22C6 /* UIViewController+CGFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CGFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		187579951C12E8AB0065C29D /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = TestCG_CGKit/Reveal.framework; sourceTree = "<group>"; };
 		18B41A9C1C13FE450031002B /* TestTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTextFieldCell.h; sourceTree = "<group>"; };
 		18B41A9D1C13FE450031002B /* TestTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTextFieldCell.m; sourceTree = "<group>"; };
 		18DBAABC1C12818300552828 /* TestCG_CGKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCG_CGKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -884,6 +893,7 @@
 		00BF22621C55BF76009ABB5B /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				00CE40411C586B6E001C22C6 /* GetPrivateAPI */,
 				00BF22631C55BF76009ABB5B /* NStimer */,
 			);
 			path = Category;
@@ -1631,7 +1641,6 @@
 			children = (
 				00BF238C1C55BF77009ABB5B /* CGBorderObject.h */,
 				00BF238D1C55BF77009ABB5B /* CGBorderObject.m */,
-				00BF238E1C55BF77009ABB5B /* 说明.md */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -1685,6 +1694,8 @@
 				00BF239D1C55BF77009ABB5B /* CGBaseTableViewController.m */,
 				00BF239E1C55BF77009ABB5B /* CGBaseViewController.h */,
 				00BF239F1C55BF77009ABB5B /* CGBaseViewController.m */,
+				00CE403B1C585C68001C22C6 /* CGNavigationController.h */,
+				00CE403C1C585C68001C22C6 /* CGNavigationController.m */,
 			);
 			path = BaseVC;
 			sourceTree = "<group>";
@@ -1694,6 +1705,10 @@
 			children = (
 				00BF23A11C55BF77009ABB5B /* UIViewController+InteractivePopEnable.h */,
 				00BF23A21C55BF77009ABB5B /* UIViewController+InteractivePopEnable.m */,
+				00CE403E1C585E80001C22C6 /* UINavigationController+CGSetupGestureRecognizer.h */,
+				00CE403F1C585E80001C22C6 /* UINavigationController+CGSetupGestureRecognizer.m */,
+				00CE40451C58B66C001C22C6 /* UIViewController+CGFullscreenPopGesture.h */,
+				00CE40461C58B66C001C22C6 /* UIViewController+CGFullscreenPopGesture.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -1760,6 +1775,15 @@
 			path = TableViewController;
 			sourceTree = "<group>";
 		};
+		00CE40411C586B6E001C22C6 /* GetPrivateAPI */ = {
+			isa = PBXGroup;
+			children = (
+				00CE40421C586B8A001C22C6 /* NSObject+CGGetPrivateAPI.h */,
+				00CE40431C586B8A001C22C6 /* NSObject+CGGetPrivateAPI.m */,
+			);
+			path = GetPrivateAPI;
+			sourceTree = "<group>";
+		};
 		1845475E1C12A4B50030DD0A /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -1818,7 +1842,6 @@
 			isa = PBXGroup;
 			children = (
 				00BF22051C55BF76009ABB5B /* CG_CGKit */,
-				187579951C12E8AB0065C29D /* Reveal.framework */,
 				18DBAAF31C12872500552828 /* Mudule */,
 				18DBAAC81C12818300552828 /* Main.storyboard */,
 				18DBAACB1C12818300552828 /* Assets.xcassets */,
@@ -1924,6 +1947,7 @@
 		B86B07EE8190F2F261E3DDEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				187579951C12E8AB0065C29D /* Reveal.framework */,
 				222F9D25D26223B807E03656 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -1994,7 +2018,7 @@
 		18DBAAB41C12818300552828 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = apple;
 				TargetAttributes = {
 					18DBAABB1C12818300552828 = {
@@ -2035,7 +2059,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DBAAFA1C12877E00552828 /* Info.plist in Resources */,
 				18DBAACF1C12818300552828 /* LaunchScreen.storyboard in Resources */,
 				18DBAACC1C12818300552828 /* Assets.xcassets in Resources */,
 				18DBAACA1C12818300552828 /* Main.storyboard in Resources */,
@@ -2128,6 +2151,7 @@
 				00BF23E01C55BF77009ABB5B /* UILabel+CGCreateLayoutCustomLabel.m in Sources */,
 				00BF23B61C55BF77009ABB5B /* NSObject+JudgePurview.m in Sources */,
 				00BF23E11C55BF77009ABB5B /* UIView+CreateAutoLayoutTypeView.m in Sources */,
+				00CE403D1C585C68001C22C6 /* CGNavigationController.m in Sources */,
 				00BF23EC1C55BF77009ABB5B /* UILabel+CGSetupAppearance.m in Sources */,
 				00BF23F71C55BF77009ABB5B /* UIView+CustomTableHeaderView.m in Sources */,
 				00BF242E1C55BF77009ABB5B /* CGTitleButtonView.m in Sources */,
@@ -2155,6 +2179,7 @@
 				00BF23F41C55BF77009ABB5B /* UITableView+CGReloadTableView.m in Sources */,
 				00BF24161C55BF77009ABB5B /* CGDefalutTextFieldInputView.m in Sources */,
 				00BF24211C55BF77009ABB5B /* CGTitleDoubleLayoutBaseView.m in Sources */,
+				00CE40401C585E80001C22C6 /* UINavigationController+CGSetupGestureRecognizer.m in Sources */,
 				00BF23DD1C55BF77009ABB5B /* UIButton+AreaCalculate.m in Sources */,
 				00BF24331C55BF77009ABB5B /* CGBorderBaseLayer.m in Sources */,
 				00BF23EE1C55BF77009ABB5B /* UIScrollView+CGSetupAppearance.m in Sources */,
@@ -2186,6 +2211,7 @@
 				00BF24121C55BF77009ABB5B /* CGBaseTableViewEditDataSourceManager.m in Sources */,
 				00BF240D1C55BF77009ABB5B /* HorizontalSingleAppearance.m in Sources */,
 				00BF242A1C55BF77009ABB5B /* CGCycleBrowseImageScrollView.m in Sources */,
+				00CE40441C586B8A001C22C6 /* NSObject+CGGetPrivateAPI.m in Sources */,
 				00BF23C91C55BF77009ABB5B /* NSPredicate+CreatePredicate.m in Sources */,
 				00BF24171C55BF77009ABB5B /* CGTextFieldInputView.m in Sources */,
 				00BF24201C55BF77009ABB5B /* CGTitleBaseView.m in Sources */,
@@ -2215,7 +2241,6 @@
 				00BF23B51C55BF77009ABB5B /* UINavigationController+PushAndPopAnmation.m in Sources */,
 				00BF23C01C55BF77009ABB5B /* CGRequestModel+Category.m in Sources */,
 				00BF23C41C55BF77009ABB5B /* NSError+CGCreateError.m in Sources */,
-				00BF243A1C55BF77009ABB5B /* 说明.md in Sources */,
 				00BF23E81C55BF77009ABB5B /* UIView+CGCreate.m in Sources */,
 				00BF23E51C55BF77009ABB5B /* UIScrollView+CGCreate.m in Sources */,
 				00BF24361C55BF77009ABB5B /* NSArray+PureLayout.m in Sources */,
@@ -2244,6 +2269,7 @@
 				00BF23F61C55BF77009ABB5B /* UITableView+SetupBackgroundView.m in Sources */,
 				00BF23E31C55BF77009ABB5B /* UIImageView+CGCreateView.m in Sources */,
 				00BF23DE1C55BF77009ABB5B /* UIButton+CGSetupAppearance.m in Sources */,
+				00CE40471C58B66C001C22C6 /* UIViewController+CGFullscreenPopGesture.m in Sources */,
 				00BF242B1C55BF77009ABB5B /* CGCycleBrowseImageScrollView+CGSetupCycleProperty.m in Sources */,
 				00BF24191C55BF77009ABB5B /* CGBaseTextView.m in Sources */,
 				00BF240C1C55BF77009ABB5B /* CGRefreshBaseView.m in Sources */,
@@ -2401,8 +2427,6 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
-					"CGPrintLogOpen=1",
-					"CGPrintInfoOpen=1",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/TestCG_CGKit/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

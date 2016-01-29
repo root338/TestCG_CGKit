@@ -75,8 +75,10 @@
 
 - (IBAction)pushTestDetailVC:(id)sender
 {
-//    TestTableViewController *tableViewVC = [[TestTableViewController alloc] init];
-//    [self.navigationController pushViewController:tableViewVC animated:YES];
+    UIViewController *vc    = [[UIViewController alloc] init];
+    vc.title                = @"内容页";
+    vc.view.backgroundColor = [UIColor orangeColor];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

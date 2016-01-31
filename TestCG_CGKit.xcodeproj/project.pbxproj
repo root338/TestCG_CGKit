@@ -150,6 +150,7 @@
 		00CE40441C586B8A001C22C6 /* NSObject+CGGetPrivateAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CE40431C586B8A001C22C6 /* NSObject+CGGetPrivateAPI.m */; };
 		00CE40471C58B66C001C22C6 /* UIViewController+CGFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CE40461C58B66C001C22C6 /* UIViewController+CGFullscreenPopGesture.m */; };
 		00D4F53D1C5B4DBF0074E0DF /* CGDefaultPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D4F53C1C5B4DBF0074E0DF /* CGDefaultPopAnimation.m */; };
+		184555771C5E676F00B385E3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184555761C5E676F00B385E3 /* DetailViewController.m */; };
 		187579961C12E8AB0065C29D /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187579951C12E8AB0065C29D /* Reveal.framework */; };
 		18B41A9E1C13FE450031002B /* TestTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B41A9D1C13FE450031002B /* TestTextFieldCell.m */; };
 		18DBAACA1C12818300552828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DBAAC81C12818300552828 /* Main.storyboard */; };
@@ -501,6 +502,8 @@
 		00D4F53C1C5B4DBF0074E0DF /* CGDefaultPopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDefaultPopAnimation.m; sourceTree = "<group>"; };
 		00D4F53E1C5B65E00074E0DF /* CGPopAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPopAnimationProtocol.h; sourceTree = "<group>"; };
 		00D4F53F1C5B69AE0074E0DF /* CGNavigationAppearanceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNavigationAppearanceProtocol.h; sourceTree = "<group>"; };
+		184555751C5E676F00B385E3 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		184555761C5E676F00B385E3 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		187579951C12E8AB0065C29D /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = TestCG_CGKit/Reveal.framework; sourceTree = "<group>"; };
 		18B41A9C1C13FE450031002B /* TestTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTextFieldCell.h; sourceTree = "<group>"; };
 		18B41A9D1C13FE450031002B /* TestTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTextFieldCell.m; sourceTree = "<group>"; };
@@ -1830,6 +1833,8 @@
 			isa = PBXGroup;
 			children = (
 				18A1D7F81C12A09700B93665 /* TableView */,
+				184555751C5E676F00B385E3 /* DetailViewController.h */,
+				184555761C5E676F00B385E3 /* DetailViewController.m */,
 			);
 			path = TestDetailVC;
 			sourceTree = "<group>";
@@ -2252,6 +2257,7 @@
 				00BF24221C55BF77009ABB5B /* CGDoubleButtonsView.m in Sources */,
 				00BF23F81C55BF77009ABB5B /* UIView+DeleteTableView.m in Sources */,
 				18E6E2AC1C15B87500906A5A /* AFNetworkActivityLogger.m in Sources */,
+				184555771C5E676F00B385E3 /* DetailViewController.m in Sources */,
 				00BF24281C55BF77009ABB5B /* CGCycleAideContentView.m in Sources */,
 				00BF24341C55BF77009ABB5B /* UIView+CGAddConstraints.m in Sources */,
 				00BF23BC1C55BF77009ABB5B /* CGUserInfoModel.m in Sources */,

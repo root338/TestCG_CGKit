@@ -8,6 +8,8 @@
 
 #import "HomeViewController.h"
 
+#import "DetailViewController.h"
+
 #import "UIView+CGSetupFrame.h"
 #import "UIView+CGSetupAppearance.h"
 
@@ -75,7 +77,7 @@
 
 - (IBAction)pushTestDetailVC:(id)sender
 {
-    UIViewController *vc    = [[UIViewController alloc] init];
+    DetailViewController *vc    = [[DetailViewController alloc] init];
     vc.title                = @"内容页";
     vc.view.backgroundColor = [UIColor orangeColor];
     [self.navigationController pushViewController:vc animated:YES];

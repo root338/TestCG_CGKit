@@ -18,6 +18,8 @@
 
 #import "UIApplication+CGVerificationRemoteNotification.h"
 
+#import "CGPrintLogHeader.h"
+
 @interface HomeViewController ()
 
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *contentViewWidth;

@@ -10,17 +10,13 @@
 
 #import "CGNavigationAppearanceProtocol.h"
 
+#import "CGPrintLogHeader.h"
+
 @interface DetailViewController ()<CGNavigationAppearanceProtocol>
 
 @end
 
 @implementation DetailViewController
-
-#pragma mark - CGNavigationAppearanceProtocol
-//- (BOOL)cg_prefersNavigationBarHidden
-//{
-//    return YES;
-//}
 
 - (UIColor *)cg_prefersNavigationBarBackgroundColor
 {

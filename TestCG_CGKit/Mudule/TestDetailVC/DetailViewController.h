@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CGNavigationBarViewController.h"
 
 @interface DetailViewController : UIViewController
 

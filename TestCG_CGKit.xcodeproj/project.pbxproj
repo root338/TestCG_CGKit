@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		008A78881C5F4E5B005BBF4D /* CGNavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A78871C5F4E5B005BBF4D /* CGNavigationBarView.m */; };
+		008A788B1C5F573B005BBF4D /* UIView+CGAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A788A1C5F573B005BBF4D /* UIView+CGAddView.m */; };
 		00BF23B41C55BF77009ABB5B /* UIView+CGMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF22091C55BF76009ABB5B /* UIView+CGMoveView.m */; };
 		00BF23B51C55BF77009ABB5B /* UINavigationController+PushAndPopAnmation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF220C1C55BF76009ABB5B /* UINavigationController+PushAndPopAnmation.m */; };
 		00BF23B61C55BF77009ABB5B /* NSObject+JudgePurview.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF220F1C55BF76009ABB5B /* NSObject+JudgePurview.m */; };
@@ -138,18 +140,20 @@
 		00BF24381C55BF77009ABB5B /* UIView+LayoutSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF23891C55BF77009ABB5B /* UIView+LayoutSetup.m */; };
 		00BF24391C55BF77009ABB5B /* CGBorderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF238D1C55BF77009ABB5B /* CGBorderObject.m */; };
 		00BF243B1C55BF77009ABB5B /* CGNavigationAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF23981C55BF77009ABB5B /* CGNavigationAppearance.m */; };
-		00BF243C1C55BF77009ABB5B /* CGBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF239B1C55BF77009ABB5B /* CGBaseNavigationController.m */; };
-		00BF243D1C55BF77009ABB5B /* CGBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF239D1C55BF77009ABB5B /* CGBaseTableViewController.m */; };
-		00BF243E1C55BF77009ABB5B /* CGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF239F1C55BF77009ABB5B /* CGBaseViewController.m */; };
 		00BF243F1C55BF77009ABB5B /* UIViewController+InteractivePopEnable.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF23A21C55BF77009ABB5B /* UIViewController+InteractivePopEnable.m */; };
 		00BF24401C55BF77009ABB5B /* CGNavigationDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF23A71C55BF77009ABB5B /* CGNavigationDelegateObject.m */; };
 		00BF24411C55BF77009ABB5B /* CGAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF23AD1C55BF77009ABB5B /* CGAlertController.m */; };
 		00BF24431C55BF77009ABB5B /* CGSingleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF23B31C55BF77009ABB5B /* CGSingleTableViewController.m */; };
-		00CE403D1C585C68001C22C6 /* CGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CE403C1C585C68001C22C6 /* CGNavigationController.m */; };
 		00CE40401C585E80001C22C6 /* UINavigationController+CGSetupGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CE403F1C585E80001C22C6 /* UINavigationController+CGSetupGestureRecognizer.m */; };
 		00CE40441C586B8A001C22C6 /* NSObject+CGGetPrivateAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CE40431C586B8A001C22C6 /* NSObject+CGGetPrivateAPI.m */; };
 		00CE40471C58B66C001C22C6 /* UIViewController+CGFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CE40461C58B66C001C22C6 /* UIViewController+CGFullscreenPopGesture.m */; };
 		00D4F53D1C5B4DBF0074E0DF /* CGDefaultPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D4F53C1C5B4DBF0074E0DF /* CGDefaultPopAnimation.m */; };
+		00E6148B1C5F3C4400968F92 /* NSObject+CGExchangeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E6148A1C5F3C4400968F92 /* NSObject+CGExchangeSelector.m */; };
+		00E614981C5F4A9500968F92 /* CGBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E614901C5F4A9500968F92 /* CGBaseNavigationController.m */; };
+		00E614991C5F4A9500968F92 /* CGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E614921C5F4A9500968F92 /* CGNavigationController.m */; };
+		00E6149A1C5F4A9500968F92 /* CGBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E614951C5F4A9500968F92 /* CGBaseTableViewController.m */; };
+		00E6149B1C5F4A9500968F92 /* CGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E614971C5F4A9500968F92 /* CGBaseViewController.m */; };
+		00E6149E1C5F4AC100968F92 /* CGNavigationBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E6149D1C5F4AC100968F92 /* CGNavigationBarViewController.m */; };
 		184555771C5E676F00B385E3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184555761C5E676F00B385E3 /* DetailViewController.m */; };
 		187579961C12E8AB0065C29D /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187579951C12E8AB0065C29D /* Reveal.framework */; };
 		18B41A9E1C13FE450031002B /* TestTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B41A9D1C13FE450031002B /* TestTextFieldCell.m */; };
@@ -184,6 +188,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		008A78861C5F4E5B005BBF4D /* CGNavigationBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNavigationBarView.h; sourceTree = "<group>"; };
+		008A78871C5F4E5B005BBF4D /* CGNavigationBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGNavigationBarView.m; sourceTree = "<group>"; };
+		008A78891C5F573B005BBF4D /* UIView+CGAddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGAddView.h"; sourceTree = "<group>"; };
+		008A788A1C5F573B005BBF4D /* UIView+CGAddView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGAddView.m"; sourceTree = "<group>"; };
 		00BF22081C55BF76009ABB5B /* UIView+CGMoveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGMoveView.h"; sourceTree = "<group>"; };
 		00BF22091C55BF76009ABB5B /* UIView+CGMoveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGMoveView.m"; sourceTree = "<group>"; };
 		00BF220B1C55BF76009ABB5B /* UINavigationController+PushAndPopAnmation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+PushAndPopAnmation.h"; sourceTree = "<group>"; };
@@ -474,12 +482,6 @@
 		00BF23931C55BF77009ABB5B /* CGViewSetupBorderStateDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGViewSetupBorderStateDelegate.h; sourceTree = "<group>"; };
 		00BF23971C55BF77009ABB5B /* CGNavigationAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNavigationAppearance.h; sourceTree = "<group>"; };
 		00BF23981C55BF77009ABB5B /* CGNavigationAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGNavigationAppearance.m; sourceTree = "<group>"; };
-		00BF239A1C55BF77009ABB5B /* CGBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseNavigationController.h; sourceTree = "<group>"; };
-		00BF239B1C55BF77009ABB5B /* CGBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseNavigationController.m; sourceTree = "<group>"; };
-		00BF239C1C55BF77009ABB5B /* CGBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseTableViewController.h; sourceTree = "<group>"; };
-		00BF239D1C55BF77009ABB5B /* CGBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseTableViewController.m; sourceTree = "<group>"; };
-		00BF239E1C55BF77009ABB5B /* CGBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseViewController.h; sourceTree = "<group>"; };
-		00BF239F1C55BF77009ABB5B /* CGBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseViewController.m; sourceTree = "<group>"; };
 		00BF23A11C55BF77009ABB5B /* UIViewController+InteractivePopEnable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+InteractivePopEnable.h"; sourceTree = "<group>"; };
 		00BF23A21C55BF77009ABB5B /* UIViewController+InteractivePopEnable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+InteractivePopEnable.m"; sourceTree = "<group>"; };
 		00BF23A51C55BF77009ABB5B /* CGBaseNavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseNavigationControllerDelegate.h; sourceTree = "<group>"; };
@@ -490,8 +492,6 @@
 		00BF23AD1C55BF77009ABB5B /* CGAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAlertController.m; sourceTree = "<group>"; };
 		00BF23B21C55BF77009ABB5B /* CGSingleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleTableViewController.h; sourceTree = "<group>"; };
 		00BF23B31C55BF77009ABB5B /* CGSingleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleTableViewController.m; sourceTree = "<group>"; };
-		00CE403B1C585C68001C22C6 /* CGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNavigationController.h; sourceTree = "<group>"; };
-		00CE403C1C585C68001C22C6 /* CGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGNavigationController.m; sourceTree = "<group>"; };
 		00CE403E1C585E80001C22C6 /* UINavigationController+CGSetupGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+CGSetupGestureRecognizer.h"; sourceTree = "<group>"; };
 		00CE403F1C585E80001C22C6 /* UINavigationController+CGSetupGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+CGSetupGestureRecognizer.m"; sourceTree = "<group>"; };
 		00CE40421C586B8A001C22C6 /* NSObject+CGGetPrivateAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CGGetPrivateAPI.h"; sourceTree = "<group>"; };
@@ -502,6 +502,18 @@
 		00D4F53C1C5B4DBF0074E0DF /* CGDefaultPopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDefaultPopAnimation.m; sourceTree = "<group>"; };
 		00D4F53E1C5B65E00074E0DF /* CGPopAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPopAnimationProtocol.h; sourceTree = "<group>"; };
 		00D4F53F1C5B69AE0074E0DF /* CGNavigationAppearanceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNavigationAppearanceProtocol.h; sourceTree = "<group>"; };
+		00E614891C5F3C4400968F92 /* NSObject+CGExchangeSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CGExchangeSelector.h"; sourceTree = "<group>"; };
+		00E6148A1C5F3C4400968F92 /* NSObject+CGExchangeSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CGExchangeSelector.m"; sourceTree = "<group>"; };
+		00E6148F1C5F4A9500968F92 /* CGBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseNavigationController.h; sourceTree = "<group>"; };
+		00E614901C5F4A9500968F92 /* CGBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseNavigationController.m; sourceTree = "<group>"; };
+		00E614911C5F4A9500968F92 /* CGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNavigationController.h; sourceTree = "<group>"; };
+		00E614921C5F4A9500968F92 /* CGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGNavigationController.m; sourceTree = "<group>"; };
+		00E614941C5F4A9500968F92 /* CGBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseTableViewController.h; sourceTree = "<group>"; };
+		00E614951C5F4A9500968F92 /* CGBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseTableViewController.m; sourceTree = "<group>"; };
+		00E614961C5F4A9500968F92 /* CGBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseViewController.h; sourceTree = "<group>"; };
+		00E614971C5F4A9500968F92 /* CGBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseViewController.m; sourceTree = "<group>"; };
+		00E6149C1C5F4AC100968F92 /* CGNavigationBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNavigationBarViewController.h; sourceTree = "<group>"; };
+		00E6149D1C5F4AC100968F92 /* CGNavigationBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGNavigationBarViewController.m; sourceTree = "<group>"; };
 		184555751C5E676F00B385E3 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		184555761C5E676F00B385E3 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		187579951C12E8AB0065C29D /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = TestCG_CGKit/Reveal.framework; sourceTree = "<group>"; };
@@ -612,6 +624,7 @@
 		00BF22101C55BF76009ABB5B /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				00E614881C5F3C0800968F92 /* Runtime */,
 				00BF22111C55BF76009ABB5B /* AreaCalculate */,
 				00BF22131C55BF76009ABB5B /* Block */,
 				00BF22151C55BF76009ABB5B /* Constant */,
@@ -1204,6 +1217,8 @@
 				00BF22E81C55BF76009ABB5B /* UIView+DrawBoxLine.m */,
 				00BF22E91C55BF76009ABB5B /* UIView+LoadXIBFile.h */,
 				00BF22EA1C55BF76009ABB5B /* UIView+LoadXIBFile.m */,
+				008A78891C5F573B005BBF4D /* UIView+CGAddView.h */,
+				008A788A1C5F573B005BBF4D /* UIView+CGAddView.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -1416,6 +1431,8 @@
 				00BF233A1C55BF77009ABB5B /* CGTitleBaseView.m */,
 				00BF233B1C55BF77009ABB5B /* CGTitleDoubleLayoutBaseView.h */,
 				00BF233C1C55BF77009ABB5B /* CGTitleDoubleLayoutBaseView.m */,
+				008A78861C5F4E5B005BBF4D /* CGNavigationBarView.h */,
+				008A78871C5F4E5B005BBF4D /* CGNavigationBarView.m */,
 			);
 			path = BaseView;
 			sourceTree = "<group>";
@@ -1698,14 +1715,8 @@
 		00BF23991C55BF77009ABB5B /* BaseVC */ = {
 			isa = PBXGroup;
 			children = (
-				00BF239A1C55BF77009ABB5B /* CGBaseNavigationController.h */,
-				00BF239B1C55BF77009ABB5B /* CGBaseNavigationController.m */,
-				00BF239C1C55BF77009ABB5B /* CGBaseTableViewController.h */,
-				00BF239D1C55BF77009ABB5B /* CGBaseTableViewController.m */,
-				00BF239E1C55BF77009ABB5B /* CGBaseViewController.h */,
-				00BF239F1C55BF77009ABB5B /* CGBaseViewController.m */,
-				00CE403B1C585C68001C22C6 /* CGNavigationController.h */,
-				00CE403C1C585C68001C22C6 /* CGNavigationController.m */,
+				00E6148E1C5F4A9500968F92 /* NavigationViewController */,
+				00E614931C5F4A9500968F92 /* ViewController */,
 			);
 			path = BaseVC;
 			sourceTree = "<group>";
@@ -1810,6 +1821,39 @@
 				00D4F53C1C5B4DBF0074E0DF /* CGDefaultPopAnimation.m */,
 			);
 			path = PushPopAnimation;
+			sourceTree = "<group>";
+		};
+		00E614881C5F3C0800968F92 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				00E614891C5F3C4400968F92 /* NSObject+CGExchangeSelector.h */,
+				00E6148A1C5F3C4400968F92 /* NSObject+CGExchangeSelector.m */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		00E6148E1C5F4A9500968F92 /* NavigationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00E6148F1C5F4A9500968F92 /* CGBaseNavigationController.h */,
+				00E614901C5F4A9500968F92 /* CGBaseNavigationController.m */,
+				00E614911C5F4A9500968F92 /* CGNavigationController.h */,
+				00E614921C5F4A9500968F92 /* CGNavigationController.m */,
+			);
+			path = NavigationViewController;
+			sourceTree = "<group>";
+		};
+		00E614931C5F4A9500968F92 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00E614941C5F4A9500968F92 /* CGBaseTableViewController.h */,
+				00E614951C5F4A9500968F92 /* CGBaseTableViewController.m */,
+				00E614961C5F4A9500968F92 /* CGBaseViewController.h */,
+				00E614971C5F4A9500968F92 /* CGBaseViewController.m */,
+				00E6149C1C5F4AC100968F92 /* CGNavigationBarViewController.h */,
+				00E6149D1C5F4AC100968F92 /* CGNavigationBarViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		1845475E1C12A4B50030DD0A /* View */ = {
@@ -2168,6 +2212,7 @@
 				00BF24081C55BF77009ABB5B /* CGInputConditionButton.m in Sources */,
 				00BF24261C55BF77009ABB5B /* CGCycleScrollView+CGBuildView.m in Sources */,
 				00BF23F21C55BF77009ABB5B /* UITableView+CGIndexPath.m in Sources */,
+				00E6149A1C5F4A9500968F92 /* CGBaseTableViewController.m in Sources */,
 				00BF23BA1C55BF77009ABB5B /* CGHandleRequestData.m in Sources */,
 				00BF23D71C55BF77009ABB5B /* UIColor+ColorValueTransform.m in Sources */,
 				00BF23D81C55BF77009ABB5B /* UIImage+CGColor.m in Sources */,
@@ -2181,7 +2226,6 @@
 				00BF23E01C55BF77009ABB5B /* UILabel+CGCreateLayoutCustomLabel.m in Sources */,
 				00BF23B61C55BF77009ABB5B /* NSObject+JudgePurview.m in Sources */,
 				00BF23E11C55BF77009ABB5B /* UIView+CreateAutoLayoutTypeView.m in Sources */,
-				00CE403D1C585C68001C22C6 /* CGNavigationController.m in Sources */,
 				00BF23EC1C55BF77009ABB5B /* UILabel+CGSetupAppearance.m in Sources */,
 				00BF23F71C55BF77009ABB5B /* UIView+CustomTableHeaderView.m in Sources */,
 				00BF242E1C55BF77009ABB5B /* CGTitleButtonView.m in Sources */,
@@ -2190,11 +2234,13 @@
 				00BF23F91C55BF77009ABB5B /* UIView+CGAnimated.m in Sources */,
 				18B41A9E1C13FE450031002B /* TestTextFieldCell.m in Sources */,
 				00BF23F01C55BF77009ABB5B /* UITableView+CGChangeGroupStyle.m in Sources */,
+				008A78881C5F4E5B005BBF4D /* CGNavigationBarView.m in Sources */,
 				18DBAAFB1C12877E00552828 /* main.m in Sources */,
 				00BF23E71C55BF77009ABB5B /* UITextField+CG_Create.m in Sources */,
 				00BF23DA1C55BF77009ABB5B /* UILabel+CalculateTextSize.m in Sources */,
 				00BF23CC1C55BF77009ABB5B /* NSString+CGStrlen.m in Sources */,
 				00BF24061C55BF77009ABB5B /* CGHighlightBgButton.m in Sources */,
+				00E6148B1C5F3C4400968F92 /* NSObject+CGExchangeSelector.m in Sources */,
 				00BF241D1C55BF77009ABB5B /* CGSingleSectionBaseTableViewCell.m in Sources */,
 				00BF23DF1C55BF77009ABB5B /* UIButton+UpdateLocate.m in Sources */,
 				00BF23BF1C55BF77009ABB5B /* CGRequestBaseModel+Category.m in Sources */,
@@ -2210,6 +2256,7 @@
 				00BF24161C55BF77009ABB5B /* CGDefalutTextFieldInputView.m in Sources */,
 				00BF24211C55BF77009ABB5B /* CGTitleDoubleLayoutBaseView.m in Sources */,
 				00CE40401C585E80001C22C6 /* UINavigationController+CGSetupGestureRecognizer.m in Sources */,
+				00E614981C5F4A9500968F92 /* CGBaseNavigationController.m in Sources */,
 				00BF23DD1C55BF77009ABB5B /* UIButton+AreaCalculate.m in Sources */,
 				00BF24331C55BF77009ABB5B /* CGBorderBaseLayer.m in Sources */,
 				00BF23EE1C55BF77009ABB5B /* UIScrollView+CGSetupAppearance.m in Sources */,
@@ -2224,6 +2271,7 @@
 				00BF23F11C55BF77009ABB5B /* UITableView+CGDequeueReusableCell.m in Sources */,
 				00BF23B91C55BF77009ABB5B /* RFKeyboard.m in Sources */,
 				00BF23FD1C55BF77009ABB5B /* UIView+CGSetupAppearance.m in Sources */,
+				00E614991C5F4A9500968F92 /* CGNavigationController.m in Sources */,
 				00BF23C11C55BF77009ABB5B /* UIImageView+CGSetupImageURL.m in Sources */,
 				00BF24291C55BF77009ABB5B /* CGCycleContentView.m in Sources */,
 				00BF24391C55BF77009ABB5B /* CGBorderObject.m in Sources */,
@@ -2237,9 +2285,9 @@
 				00BF24401C55BF77009ABB5B /* CGNavigationDelegateObject.m in Sources */,
 				00BF24381C55BF77009ABB5B /* UIView+LayoutSetup.m in Sources */,
 				00BF24071C55BF77009ABB5B /* CGTimerButton.m in Sources */,
-				00BF243C1C55BF77009ABB5B /* CGBaseNavigationController.m in Sources */,
 				00BF24121C55BF77009ABB5B /* CGBaseTableViewEditDataSourceManager.m in Sources */,
 				00BF240D1C55BF77009ABB5B /* HorizontalSingleAppearance.m in Sources */,
+				008A788B1C5F573B005BBF4D /* UIView+CGAddView.m in Sources */,
 				00BF242A1C55BF77009ABB5B /* CGCycleBrowseImageScrollView.m in Sources */,
 				00CE40441C586B8A001C22C6 /* NSObject+CGGetPrivateAPI.m in Sources */,
 				00BF23C91C55BF77009ABB5B /* NSPredicate+CreatePredicate.m in Sources */,
@@ -2252,7 +2300,6 @@
 				00BF23C71C55BF77009ABB5B /* NSObject+CGObjectToDictionary.m in Sources */,
 				00BF23EB1C55BF77009ABB5B /* UICollectionView+CGRegisterCell.m in Sources */,
 				00BF23B41C55BF77009ABB5B /* UIView+CGMoveView.m in Sources */,
-				00BF243E1C55BF77009ABB5B /* CGBaseViewController.m in Sources */,
 				00BF23DC1C55BF77009ABB5B /* UIView+Transform.m in Sources */,
 				00BF24221C55BF77009ABB5B /* CGDoubleButtonsView.m in Sources */,
 				00BF23F81C55BF77009ABB5B /* UIView+DeleteTableView.m in Sources */,
@@ -2279,9 +2326,9 @@
 				00BF24141C55BF77009ABB5B /* CGSingleSectionTableViewDelegate.m in Sources */,
 				00BF23EA1C55BF77009ABB5B /* UICollectionView+CGDequeueReusableCell.m in Sources */,
 				00BF23BE1C55BF77009ABB5B /* CGRequestModel.m in Sources */,
-				00BF243D1C55BF77009ABB5B /* CGBaseTableViewController.m in Sources */,
 				00BF24041C55BF77009ABB5B /* CGBorderButton.m in Sources */,
 				00BF241F1C55BF77009ABB5B /* CGDoubleTitleBaseView.m in Sources */,
+				00E6149B1C5F4A9500968F92 /* CGBaseViewController.m in Sources */,
 				18DBAE021C12968900552828 /* HomeViewController.m in Sources */,
 				00BF24231C55BF77009ABB5B /* CGCycleViewCacheManager.m in Sources */,
 				00BF240A1C55BF77009ABB5B /* CGBaseLabel.m in Sources */,
@@ -2305,6 +2352,7 @@
 				00BF242B1C55BF77009ABB5B /* CGCycleBrowseImageScrollView+CGSetupCycleProperty.m in Sources */,
 				00BF24191C55BF77009ABB5B /* CGBaseTextView.m in Sources */,
 				00BF240C1C55BF77009ABB5B /* CGRefreshBaseView.m in Sources */,
+				00E6149E1C5F4AC100968F92 /* CGNavigationBarViewController.m in Sources */,
 				00BF23D11C55BF77009ABB5B /* NSNotificationCenter+CGCreateNotification.m in Sources */,
 				00BF23F31C55BF77009ABB5B /* UITableView+CGRegisterCell.m in Sources */,
 				00BF23E91C55BF77009ABB5B /* UITextField+AddInputView.m in Sources */,

@@ -23,4 +23,16 @@
     return [UIColor blueColor];
 }
 
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    [self setNeedsStatusBarAppearanceUpdate];
+}
+
 @end

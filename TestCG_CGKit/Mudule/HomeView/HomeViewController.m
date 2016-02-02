@@ -17,14 +17,20 @@
 #import "CGLineBoxLayerView.h"
 
 #import "UIApplication+CGVerificationRemoteNotification.h"
+#import "UIView+CGLineMoveView.h"
 
 #import "CGPrintLogHeader.h"
 
 @interface HomeViewController ()
-
+{
+    BOOL isShow;
+    
+    CGLineMoveViewType  lineMoveViewType;
+}
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *contentViewWidth;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *contentViewHeight;
 
+@property (nullable, nonatomic, strong) UIView *testView;
 @end
 
 @implementation HomeViewController
@@ -62,14 +68,37 @@
     CGButton *button = [CGButton buttonWithType:UIButtonTypeSystem];
     [button setTitle:@"test button" forState:UIControlStateNormal];
     [button setImage:[UIImage imageNamed:@"01"] forState:UIControlStateNormal];
-    button.buttonStyle  = CGButtonStyleHorizonalLeft;
-    button.contentAlignment = CGButtonContentAlignmentBottom;
+    button.buttonStyle  = CGButtonStyleHorizonalRight;
     button.space        = 8;
     button.marginEdgeInsets = UIEdgeInsetsMake(8, 8, 8, 8);
-//    button.size     = CGSizeMake(200 , 200);
     [button sizeToFit];
     button.origin = CGPointMake(100, 200);
     [self.view addSubview:button];
+    [button addTarget:self action:@selector(handleButtonEvent:) forControlEvents:UIControlEventTouchUpInside];
+    
+    UIView *testView            = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, 217)];
+    testView.backgroundColor    = [UIColor orangeColor];
+    self.testView               = testView;
+    lineMoveViewType            = CGLineMoveViewTypeBottom;
+}
+
+- (void)handleButtonEvent:(UIButton *)button
+{
+    if (!self.testView.superview) {
+        [self.view addSubview:self.testView];
+    }
+    if (isShow) {
+        [self.testView cg_dismissLineMoveWithOverlayView:self.view type:lineMoveViewType];
+        lineMoveViewType++;
+        if (lineMoveViewType > CGLineMoveViewTypeLeft) {
+            lineMoveViewType = CGLineMoveViewTypeTop;
+        }
+        isShow = NO;
+    }else {
+        [self.testView cg_showLineMoveWithOverlayView:self.view type:lineMoveViewType];
+        isShow  = YES;
+    }
+    
 }
 
 - (void)handleTapRecognizer:(UITapGestureRecognizer *)gesture

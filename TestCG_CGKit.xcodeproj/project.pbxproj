@@ -147,6 +147,7 @@
 		00C794291C619D93007E0A8D /* UIView+CGSetupAnimationArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C794281C619D93007E0A8D /* UIView+CGSetupAnimationArea.m */; };
 		00C7942F1C61A4C7007E0A8D /* UIView+CGScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C7942E1C61A4C7007E0A8D /* UIView+CGScaleView.m */; };
 		00C794321C61ADAD007E0A8D /* UIView+CGScaleViewFromOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C794311C61ADAD007E0A8D /* UIView+CGScaleViewFromOverlayView.m */; };
+		00C794371C620262007E0A8D /* CGAssetsLibraryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C794361C620262007E0A8D /* CGAssetsLibraryManager.m */; };
 		00CE40401C585E80001C22C6 /* UINavigationController+CGSetupGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CE403F1C585E80001C22C6 /* UINavigationController+CGSetupGestureRecognizer.m */; };
 		00CE40441C586B8A001C22C6 /* NSObject+CGGetPrivateAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CE40431C586B8A001C22C6 /* NSObject+CGGetPrivateAPI.m */; };
 		00CE40471C58B66C001C22C6 /* UIViewController+CGFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CE40461C58B66C001C22C6 /* UIViewController+CGFullscreenPopGesture.m */; };
@@ -501,6 +502,8 @@
 		00C7942E1C61A4C7007E0A8D /* UIView+CGScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGScaleView.m"; sourceTree = "<group>"; };
 		00C794301C61ADAD007E0A8D /* UIView+CGScaleViewFromOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGScaleViewFromOverlayView.h"; sourceTree = "<group>"; };
 		00C794311C61ADAD007E0A8D /* UIView+CGScaleViewFromOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGScaleViewFromOverlayView.m"; sourceTree = "<group>"; };
+		00C794351C620262007E0A8D /* CGAssetsLibraryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAssetsLibraryManager.h; sourceTree = "<group>"; };
+		00C794361C620262007E0A8D /* CGAssetsLibraryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAssetsLibraryManager.m; sourceTree = "<group>"; };
 		00CE403E1C585E80001C22C6 /* UINavigationController+CGSetupGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+CGSetupGestureRecognizer.h"; sourceTree = "<group>"; };
 		00CE403F1C585E80001C22C6 /* UINavigationController+CGSetupGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+CGSetupGestureRecognizer.m"; sourceTree = "<group>"; };
 		00CE40421C586B8A001C22C6 /* NSObject+CGGetPrivateAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CGGetPrivateAPI.h"; sourceTree = "<group>"; };
@@ -583,6 +586,7 @@
 		00BF22051C55BF76009ABB5B /* CG_CGKit */ = {
 			isa = PBXGroup;
 			children = (
+				00C794331C620245007E0A8D /* OtherLibrary */,
 				00BF22061C55BF76009ABB5B /* Anmation */,
 				00BF220D1C55BF76009ABB5B /* APPPurviewJudge */,
 				00BF22101C55BF76009ABB5B /* Foundation */,
@@ -1814,6 +1818,23 @@
 			path = TableViewController;
 			sourceTree = "<group>";
 		};
+		00C794331C620245007E0A8D /* OtherLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				00C794341C620245007E0A8D /* AssetsLibrary */,
+			);
+			path = OtherLibrary;
+			sourceTree = "<group>";
+		};
+		00C794341C620245007E0A8D /* AssetsLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				00C794351C620262007E0A8D /* CGAssetsLibraryManager.h */,
+				00C794361C620262007E0A8D /* CGAssetsLibraryManager.m */,
+			);
+			path = AssetsLibrary;
+			sourceTree = "<group>";
+		};
 		00CE40411C586B6E001C22C6 /* GetPrivateAPI */ = {
 			isa = PBXGroup;
 			children = (
@@ -2329,6 +2350,7 @@
 				00BF24221C55BF77009ABB5B /* CGDoubleButtonsView.m in Sources */,
 				00BF23F81C55BF77009ABB5B /* UIView+DeleteTableView.m in Sources */,
 				18E6E2AC1C15B87500906A5A /* AFNetworkActivityLogger.m in Sources */,
+				00C794371C620262007E0A8D /* CGAssetsLibraryManager.m in Sources */,
 				184555771C5E676F00B385E3 /* DetailViewController.m in Sources */,
 				00BF24281C55BF77009ABB5B /* CGCycleAideContentView.m in Sources */,
 				00BF24341C55BF77009ABB5B /* UIView+CGAddConstraints.m in Sources */,

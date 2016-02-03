@@ -17,7 +17,10 @@
 #import "CGLineBoxLayerView.h"
 
 #import "UIApplication+CGVerificationRemoteNotification.h"
+
+#import "UIView+CGScaleView.h"
 #import "UIView+CGLineMoveView.h"
+#import "UIView+CGScaleViewFromOverlayView.h"
 
 #import "CGPrintLogHeader.h"
 
@@ -26,6 +29,7 @@
     BOOL isShow;
     
     CGLineMoveViewType  lineMoveViewType;
+    CGScaleViewType     scaleViewType;
 }
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *contentViewWidth;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *contentViewHeight;
@@ -75,30 +79,37 @@
     button.origin = CGPointMake(100, 200);
     [self.view addSubview:button];
     [button addTarget:self action:@selector(handleButtonEvent:) forControlEvents:UIControlEventTouchUpInside];
+    button.backgroundColor  = [UIColor lightGrayColor];
     
-    UIView *testView            = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, 217)];
+    UIView *testView            = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 40)];
     testView.backgroundColor    = [UIColor orangeColor];
     self.testView               = testView;
+    
+    
     lineMoveViewType            = CGLineMoveViewTypeBottom;
+    scaleViewType               = CGScaleViewTypeTopVertex;
+    
+//    [self.view addSubview:testView];
 }
 
 - (void)handleButtonEvent:(UIButton *)button
 {
+    CGPoint offsetPoint = CGPointMake(0, 5);
     if (!self.testView.superview) {
         [self.view addSubview:self.testView];
     }
     if (isShow) {
-        [self.testView cg_dismissLineMoveWithOverlayView:self.view type:lineMoveViewType];
-        lineMoveViewType++;
-        if (lineMoveViewType > CGLineMoveViewTypeLeft) {
-            lineMoveViewType = CGLineMoveViewTypeTop;
+        [self.testView cg_dismissScaleWithOverlayView:button type:scaleViewType offsetPoint:offsetPoint];
+        scaleViewType++;
+        if (scaleViewType > CGScaleViewTypeRightTopVertex) {
+            scaleViewType = CGScaleViewTypeTopVertex;
         }
         isShow = NO;
     }else {
-        [self.testView cg_showLineMoveWithOverlayView:self.view type:lineMoveViewType];
+        self.testView.frame = CGRectMake(100, 100, 100, 40);
+        [self.testView cg_showScaleWithOverlayView:button type:scaleViewType offsetPoint:offsetPoint];
         isShow  = YES;
     }
-    
 }
 
 - (void)handleTapRecognizer:(UITapGestureRecognizer *)gesture

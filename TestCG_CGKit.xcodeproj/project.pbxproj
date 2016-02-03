@@ -144,6 +144,9 @@
 		00BF24401C55BF77009ABB5B /* CGNavigationDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF23A71C55BF77009ABB5B /* CGNavigationDelegateObject.m */; };
 		00BF24411C55BF77009ABB5B /* CGAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF23AD1C55BF77009ABB5B /* CGAlertController.m */; };
 		00BF24431C55BF77009ABB5B /* CGSingleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF23B31C55BF77009ABB5B /* CGSingleTableViewController.m */; };
+		00C794291C619D93007E0A8D /* UIView+CGSetupAnimationArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C794281C619D93007E0A8D /* UIView+CGSetupAnimationArea.m */; };
+		00C7942F1C61A4C7007E0A8D /* UIView+CGScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C7942E1C61A4C7007E0A8D /* UIView+CGScaleView.m */; };
+		00C794321C61ADAD007E0A8D /* UIView+CGScaleViewFromOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C794311C61ADAD007E0A8D /* UIView+CGScaleViewFromOverlayView.m */; };
 		00CE40401C585E80001C22C6 /* UINavigationController+CGSetupGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CE403F1C585E80001C22C6 /* UINavigationController+CGSetupGestureRecognizer.m */; };
 		00CE40441C586B8A001C22C6 /* NSObject+CGGetPrivateAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CE40431C586B8A001C22C6 /* NSObject+CGGetPrivateAPI.m */; };
 		00CE40471C58B66C001C22C6 /* UIViewController+CGFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CE40461C58B66C001C22C6 /* UIViewController+CGFullscreenPopGesture.m */; };
@@ -491,6 +494,13 @@
 		00BF23AD1C55BF77009ABB5B /* CGAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAlertController.m; sourceTree = "<group>"; };
 		00BF23B21C55BF77009ABB5B /* CGSingleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleTableViewController.h; sourceTree = "<group>"; };
 		00BF23B31C55BF77009ABB5B /* CGSingleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleTableViewController.m; sourceTree = "<group>"; };
+		00C794261C619D0E007E0A8D /* CGMoveViewTypeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGMoveViewTypeHeader.h; sourceTree = "<group>"; };
+		00C794271C619D93007E0A8D /* UIView+CGSetupAnimationArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGSetupAnimationArea.h"; sourceTree = "<group>"; };
+		00C794281C619D93007E0A8D /* UIView+CGSetupAnimationArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGSetupAnimationArea.m"; sourceTree = "<group>"; };
+		00C7942D1C61A4C7007E0A8D /* UIView+CGScaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGScaleView.h"; sourceTree = "<group>"; };
+		00C7942E1C61A4C7007E0A8D /* UIView+CGScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGScaleView.m"; sourceTree = "<group>"; };
+		00C794301C61ADAD007E0A8D /* UIView+CGScaleViewFromOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGScaleViewFromOverlayView.h"; sourceTree = "<group>"; };
+		00C794311C61ADAD007E0A8D /* UIView+CGScaleViewFromOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGScaleViewFromOverlayView.m"; sourceTree = "<group>"; };
 		00CE403E1C585E80001C22C6 /* UINavigationController+CGSetupGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+CGSetupGestureRecognizer.h"; sourceTree = "<group>"; };
 		00CE403F1C585E80001C22C6 /* UINavigationController+CGSetupGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+CGSetupGestureRecognizer.m"; sourceTree = "<group>"; };
 		00CE40421C586B8A001C22C6 /* NSObject+CGGetPrivateAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CGGetPrivateAPI.h"; sourceTree = "<group>"; };
@@ -596,8 +606,15 @@
 		00BF22071C55BF76009ABB5B /* MoveView */ = {
 			isa = PBXGroup;
 			children = (
+				00C794261C619D0E007E0A8D /* CGMoveViewTypeHeader.h */,
+				00C794271C619D93007E0A8D /* UIView+CGSetupAnimationArea.h */,
+				00C794281C619D93007E0A8D /* UIView+CGSetupAnimationArea.m */,
 				00BF22081C55BF76009ABB5B /* UIView+CGLineMoveView.h */,
 				00BF22091C55BF76009ABB5B /* UIView+CGLineMoveView.m */,
+				00C7942D1C61A4C7007E0A8D /* UIView+CGScaleView.h */,
+				00C7942E1C61A4C7007E0A8D /* UIView+CGScaleView.m */,
+				00C794301C61ADAD007E0A8D /* UIView+CGScaleViewFromOverlayView.h */,
+				00C794311C61ADAD007E0A8D /* UIView+CGScaleViewFromOverlayView.m */,
 			);
 			path = MoveView;
 			sourceTree = "<group>";
@@ -2278,6 +2295,7 @@
 				00BF23B91C55BF77009ABB5B /* RFKeyboard.m in Sources */,
 				00BF23FD1C55BF77009ABB5B /* UIView+CGSetupAppearance.m in Sources */,
 				00E614991C5F4A9500968F92 /* CGNavigationController.m in Sources */,
+				00C794291C619D93007E0A8D /* UIView+CGSetupAnimationArea.m in Sources */,
 				00BF23C11C55BF77009ABB5B /* UIImageView+CGSetupImageURL.m in Sources */,
 				00BF24291C55BF77009ABB5B /* CGCycleContentView.m in Sources */,
 				00BF24391C55BF77009ABB5B /* CGBorderObject.m in Sources */,
@@ -2291,6 +2309,7 @@
 				00BF24401C55BF77009ABB5B /* CGNavigationDelegateObject.m in Sources */,
 				00BF24381C55BF77009ABB5B /* UIView+LayoutSetup.m in Sources */,
 				00BF24071C55BF77009ABB5B /* CGTimerButton.m in Sources */,
+				00C7942F1C61A4C7007E0A8D /* UIView+CGScaleView.m in Sources */,
 				00BF24121C55BF77009ABB5B /* CGBaseTableViewEditDataSourceManager.m in Sources */,
 				00BF240D1C55BF77009ABB5B /* HorizontalSingleAppearance.m in Sources */,
 				008A788B1C5F573B005BBF4D /* UIView+CGAddView.m in Sources */,
@@ -2323,6 +2342,7 @@
 				00BF23CD1C55BF77009ABB5B /* NSString+VerificationString.m in Sources */,
 				00D4F53D1C5B4DBF0074E0DF /* CGDefaultPopAnimation.m in Sources */,
 				00BF23B81C55BF77009ABB5B /* CGDispathMethod.m in Sources */,
+				00C794321C61ADAD007E0A8D /* UIView+CGScaleViewFromOverlayView.m in Sources */,
 				00BF23B51C55BF77009ABB5B /* UINavigationController+PushAndPopAnmation.m in Sources */,
 				00BF23C01C55BF77009ABB5B /* CGRequestModel+Category.m in Sources */,
 				00BF23C41C55BF77009ABB5B /* NSError+CGCreateError.m in Sources */,

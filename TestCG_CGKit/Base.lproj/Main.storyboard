@@ -49,7 +49,7 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="1UZ-jV-AOR" firstAttribute="leading" secondItem="qvA-56-WaL" secondAttribute="leading" constant="8" id="ame-bs-927"/>
                                             <constraint firstAttribute="height" constant="536" id="f7I-VN-W6o"/>

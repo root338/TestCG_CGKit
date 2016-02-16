@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		001E6A771C716B6F00550918 /* CGAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E6A761C716B6F00550918 /* CGAssetModel.m */; };
-		001E6A7A1C71BC1300550918 /* CGAssetsGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E6A791C71BC1300550918 /* CGAssetsGroupModel.m */; };
 		008A78881C5F4E5B005BBF4D /* CGNavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A78871C5F4E5B005BBF4D /* CGNavigationBarView.m */; };
 		008A788B1C5F573B005BBF4D /* UIView+CGAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A788A1C5F573B005BBF4D /* UIView+CGAddView.m */; };
 		00BAB2E81C72BA1700FC1F3A /* CGAssetsFilterObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BAB2E71C72BA1700FC1F3A /* CGAssetsFilterObject.m */; };
 		00BAB2EE1C72C0F100FC1F3A /* TestPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BAB2ED1C72C0F100FC1F3A /* TestPhotosCollectionViewController.m */; };
 		00BAB2F11C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BAB2F01C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m */; };
+		00BAB2F61C72FB6E00FC1F3A /* ALAsset+CGProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BAB2F51C72FB6E00FC1F3A /* ALAsset+CGProperty.m */; };
+		00BAB2F91C72FDD100FC1F3A /* ALAssetsGroup+CGProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BAB2F81C72FDD100FC1F3A /* ALAssetsGroup+CGProperty.m */; };
+		00BAB2FC1C73023A00FC1F3A /* CGTitleBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BAB2FB1C73023A00FC1F3A /* CGTitleBarViewController.m */; };
 		00BF23B41C55BF77009ABB5B /* UIView+CGLineMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF22091C55BF76009ABB5B /* UIView+CGLineMoveView.m */; };
 		00BF23B51C55BF77009ABB5B /* UINavigationController+PushAndPopAnmation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF220C1C55BF76009ABB5B /* UINavigationController+PushAndPopAnmation.m */; };
 		00BF23B61C55BF77009ABB5B /* NSObject+JudgePurview.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF220F1C55BF76009ABB5B /* NSObject+JudgePurview.m */; };
@@ -197,10 +198,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		001E6A751C716B6F00550918 /* CGAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAssetModel.h; sourceTree = "<group>"; };
-		001E6A761C716B6F00550918 /* CGAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAssetModel.m; sourceTree = "<group>"; };
-		001E6A781C71BC1300550918 /* CGAssetsGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAssetsGroupModel.h; sourceTree = "<group>"; };
-		001E6A791C71BC1300550918 /* CGAssetsGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAssetsGroupModel.m; sourceTree = "<group>"; };
 		008A78861C5F4E5B005BBF4D /* CGNavigationBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNavigationBarView.h; sourceTree = "<group>"; };
 		008A78871C5F4E5B005BBF4D /* CGNavigationBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGNavigationBarView.m; sourceTree = "<group>"; };
 		008A78891C5F573B005BBF4D /* UIView+CGAddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGAddView.h"; sourceTree = "<group>"; };
@@ -213,6 +210,12 @@
 		00BAB2ED1C72C0F100FC1F3A /* TestPhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPhotosCollectionViewController.m; sourceTree = "<group>"; };
 		00BAB2EF1C72C37D00FC1F3A /* TestPhotosCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPhotosCollectionViewCell.h; sourceTree = "<group>"; };
 		00BAB2F01C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPhotosCollectionViewCell.m; sourceTree = "<group>"; };
+		00BAB2F41C72FB6E00FC1F3A /* ALAsset+CGProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAsset+CGProperty.h"; sourceTree = "<group>"; };
+		00BAB2F51C72FB6E00FC1F3A /* ALAsset+CGProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAsset+CGProperty.m"; sourceTree = "<group>"; };
+		00BAB2F71C72FDD100FC1F3A /* ALAssetsGroup+CGProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsGroup+CGProperty.h"; sourceTree = "<group>"; };
+		00BAB2F81C72FDD100FC1F3A /* ALAssetsGroup+CGProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsGroup+CGProperty.m"; sourceTree = "<group>"; };
+		00BAB2FA1C73023A00FC1F3A /* CGTitleBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleBarViewController.h; sourceTree = "<group>"; };
+		00BAB2FB1C73023A00FC1F3A /* CGTitleBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleBarViewController.m; sourceTree = "<group>"; };
 		00BF22081C55BF76009ABB5B /* UIView+CGLineMoveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGLineMoveView.h"; sourceTree = "<group>"; };
 		00BF22091C55BF76009ABB5B /* UIView+CGLineMoveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGLineMoveView.m"; sourceTree = "<group>"; };
 		00BF220B1C55BF76009ABB5B /* UINavigationController+PushAndPopAnmation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+PushAndPopAnmation.h"; sourceTree = "<group>"; };
@@ -605,14 +608,28 @@
 			children = (
 				00BAB2E91C72BAA500FC1F3A /* CGAssetTypeHeader.h */,
 				00BAB2EB1C72BBF800FC1F3A /* CGAssetsFilterTypeHeader.h */,
-				001E6A751C716B6F00550918 /* CGAssetModel.h */,
-				001E6A761C716B6F00550918 /* CGAssetModel.m */,
-				001E6A781C71BC1300550918 /* CGAssetsGroupModel.h */,
-				001E6A791C71BC1300550918 /* CGAssetsGroupModel.m */,
 				00BAB2E61C72BA1700FC1F3A /* CGAssetsFilterObject.h */,
 				00BAB2E71C72BA1700FC1F3A /* CGAssetsFilterObject.m */,
 			);
 			path = AssetsModel;
+			sourceTree = "<group>";
+		};
+		00BAB2F21C72FACD00FC1F3A /* SelectPhotos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SelectPhotos;
+			sourceTree = "<group>";
+		};
+		00BAB2F31C72FB4F00FC1F3A /* AssetsCategory */ = {
+			isa = PBXGroup;
+			children = (
+				00BAB2F41C72FB6E00FC1F3A /* ALAsset+CGProperty.h */,
+				00BAB2F51C72FB6E00FC1F3A /* ALAsset+CGProperty.m */,
+				00BAB2F71C72FDD100FC1F3A /* ALAssetsGroup+CGProperty.h */,
+				00BAB2F81C72FDD100FC1F3A /* ALAssetsGroup+CGProperty.m */,
+			);
+			path = AssetsCategory;
 			sourceTree = "<group>";
 		};
 		00BF22051C55BF76009ABB5B /* CG_CGKit */ = {
@@ -1837,6 +1854,9 @@
 		00BF23AE1C55BF77009ABB5B /* OtherToolController */ = {
 			isa = PBXGroup;
 			children = (
+				00BAB2F21C72FACD00FC1F3A /* SelectPhotos */,
+				00BAB2FA1C73023A00FC1F3A /* CGTitleBarViewController.h */,
+				00BAB2FB1C73023A00FC1F3A /* CGTitleBarViewController.m */,
 			);
 			path = OtherToolController;
 			sourceTree = "<group>";
@@ -1861,6 +1881,7 @@
 		00C794341C620245007E0A8D /* AssetsLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				00BAB2F31C72FB4F00FC1F3A /* AssetsCategory */,
 				001E6A741C716B4E00550918 /* AssetsModel */,
 				00C794351C620262007E0A8D /* CGAssetsLibraryManager.h */,
 				00C794361C620262007E0A8D /* CGAssetsLibraryManager.m */,
@@ -2297,7 +2318,6 @@
 				00BF23BA1C55BF77009ABB5B /* CGHandleRequestData.m in Sources */,
 				00BF23D71C55BF77009ABB5B /* UIColor+ColorValueTransform.m in Sources */,
 				00BF23D81C55BF77009ABB5B /* UIImage+CGColor.m in Sources */,
-				001E6A7A1C71BC1300550918 /* CGAssetsGroupModel.m in Sources */,
 				00BF23C21C55BF77009ABB5B /* NSArray+CGArray.m in Sources */,
 				00BF24181C55BF77009ABB5B /* CGTextFieldInputViewAppearance.m in Sources */,
 				00BF23FC1C55BF77009ABB5B /* UIView+CGSearchView.m in Sources */,
@@ -2365,7 +2385,6 @@
 				00BF24091C55BF77009ABB5B /* CGBaseCollectionView.m in Sources */,
 				00BF23E41C55BF77009ABB5B /* UILabel+CGCreateCustomLabel.m in Sources */,
 				00BF23D61C55BF77009ABB5B /* UIApplication+CGVerificationRemoteNotification.m in Sources */,
-				001E6A771C716B6F00550918 /* CGAssetModel.m in Sources */,
 				00BF24401C55BF77009ABB5B /* CGNavigationDelegateObject.m in Sources */,
 				00BF24381C55BF77009ABB5B /* UIView+LayoutSetup.m in Sources */,
 				00BF24071C55BF77009ABB5B /* CGTimerButton.m in Sources */,
@@ -2384,14 +2403,17 @@
 				00BF23FB1C55BF77009ABB5B /* UIView+CGCopyView.m in Sources */,
 				00BF241C1C55BF77009ABB5B /* CGBaseTableViewCell.m in Sources */,
 				00BF23C71C55BF77009ABB5B /* NSObject+CGObjectToDictionary.m in Sources */,
+				00BAB2F91C72FDD100FC1F3A /* ALAssetsGroup+CGProperty.m in Sources */,
 				00BF23EB1C55BF77009ABB5B /* UICollectionView+CGRegisterCell.m in Sources */,
 				00BF23B41C55BF77009ABB5B /* UIView+CGLineMoveView.m in Sources */,
 				00BF23DC1C55BF77009ABB5B /* UIView+Transform.m in Sources */,
 				00BF24221C55BF77009ABB5B /* CGDoubleButtonsView.m in Sources */,
 				00BAB2E81C72BA1700FC1F3A /* CGAssetsFilterObject.m in Sources */,
+				00BAB2F61C72FB6E00FC1F3A /* ALAsset+CGProperty.m in Sources */,
 				00BF23F81C55BF77009ABB5B /* UIView+DeleteTableView.m in Sources */,
 				18E6E2AC1C15B87500906A5A /* AFNetworkActivityLogger.m in Sources */,
 				00C794371C620262007E0A8D /* CGAssetsLibraryManager.m in Sources */,
+				00BAB2FC1C73023A00FC1F3A /* CGTitleBarViewController.m in Sources */,
 				184555771C5E676F00B385E3 /* DetailViewController.m in Sources */,
 				00BF24281C55BF77009ABB5B /* CGCycleAideContentView.m in Sources */,
 				00BF24341C55BF77009ABB5B /* UIView+CGAddConstraints.m in Sources */,

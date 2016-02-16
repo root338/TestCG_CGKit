@@ -17,6 +17,8 @@
 
 #import <AssetsLibrary/AssetsLibrary.h>
 
+#import "ALAsset+CGProperty.h"
+
 @implementation TestPhotosCollectionViewController
 
 + (instancetype)createDefaultCollectionViewControllerWithDataSource:(NSArray *)dataSource
@@ -53,7 +55,7 @@
     TestPhotosCollectionViewCell *cell = [collectionView cg_dequeueReusableCellWithReuseClass:[TestPhotosCollectionViewCell class] forIndexPath:indexPath];
     
     ALAsset *asset          = self.photosListDataSource[indexPath.row];
-    cell.imageView.image    = [UIImage imageWithCGImage:asset.thumbnail];
+    cell.imageView.image    = [asset cg_assetImageWithType:CGAssetImageTypeSquareThumbnails];
     return cell;
 }
 @end

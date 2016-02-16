@@ -25,6 +25,7 @@
 #import "CGAssetsFilterObject.h"
 #import "CGAssetsLibraryManager.h"
 
+#import "CGTitleBarViewController.h"
 #import "TestPhotosCollectionViewController.h"
 
 #import "CGPrintLogHeader.h"
@@ -96,6 +97,8 @@
     scaleViewType               = CGScaleViewTypeTopVertex;
     
 //    [self.view addSubview:testView];
+    
+    self.view.backgroundColor = [UIColor orangeColor];
 }
 
 - (void)handleButtonEvent:(UIButton *)button
@@ -125,21 +128,25 @@
 
 - (IBAction)pushTestDetailVC:(id)sender
 {
-//    DetailViewController *vc    = [[DetailViewController alloc] init];
-//    vc.title                = @"内容页";
-//    vc.view.backgroundColor = [UIColor orangeColor];
+    CGTitleBarViewController *vc    = [[CGTitleBarViewController alloc] init];
+    vc.leftItemTitle                = @"取消";
+    vc.rightItemTitle               = @"完成";
+    vc.view.backgroundColor = [UIColor orangeColor];
+    
+    
+    [self presentViewController:vc animated:YES completion:nil];
 //    [self.navigationController pushViewController:vc animated:YES];
     
-    CGAssetsLibraryManager *assetsLibraryManager    = [CGAssetsLibraryManager sharedManager];
-    
-    CGAssetsFilterObject *filterObj = [[CGAssetsFilterObject alloc] init];
-    filterObj.assetsGroupType       = ALAssetsGroupSavedPhotos;
-    filterObj.assetsSequenceType    = CGAssetsSequenceTypeAscending;
-    
-    [assetsLibraryManager cg_assetsListWithAssetsFilter:filterObj assetList:^(NSArray<ALAsset *> * _Nullable paramAssetList) {
-        TestPhotosCollectionViewController *photosCollectionVC   = [TestPhotosCollectionViewController createDefaultCollectionViewControllerWithDataSource:paramAssetList];
-        [self presentViewController:photosCollectionVC animated:YES completion:nil];
-    } failureBlock:nil];
+//    CGAssetsLibraryManager *assetsLibraryManager    = [CGAssetsLibraryManager sharedManager];
+//    
+//    CGAssetsFilterObject *filterObj = [[CGAssetsFilterObject alloc] init];
+//    filterObj.assetsGroupType       = ALAssetsGroupSavedPhotos;
+//    filterObj.assetsSequenceType    = CGAssetsSequenceTypeAscending;
+//    
+//    [assetsLibraryManager cg_assetsListWithAssetsFilter:filterObj assetList:^(NSArray<ALAsset *> * _Nullable paramAssetList) {
+//        TestPhotosCollectionViewController *photosCollectionVC   = [TestPhotosCollectionViewController createDefaultCollectionViewControllerWithDataSource:paramAssetList];
+//        [self presentViewController:photosCollectionVC animated:YES completion:nil];
+//    } failureBlock:nil];
 }
 
 @end

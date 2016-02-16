@@ -22,6 +22,11 @@
 #import "UIView+CGLineMoveView.h"
 #import "UIView+CGScaleViewFromOverlayView.h"
 
+#import "CGAssetsFilterObject.h"
+#import "CGAssetsLibraryManager.h"
+
+#import "TestPhotosCollectionViewController.h"
+
 #import "CGPrintLogHeader.h"
 
 @interface HomeViewController ()
@@ -35,6 +40,7 @@
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *contentViewHeight;
 
 @property (nullable, nonatomic, strong) UIView *testView;
+
 @end
 
 @implementation HomeViewController
@@ -119,10 +125,21 @@
 
 - (IBAction)pushTestDetailVC:(id)sender
 {
-    DetailViewController *vc    = [[DetailViewController alloc] init];
-    vc.title                = @"内容页";
-    vc.view.backgroundColor = [UIColor orangeColor];
-    [self.navigationController pushViewController:vc animated:YES];
+//    DetailViewController *vc    = [[DetailViewController alloc] init];
+//    vc.title                = @"内容页";
+//    vc.view.backgroundColor = [UIColor orangeColor];
+//    [self.navigationController pushViewController:vc animated:YES];
+    
+    CGAssetsLibraryManager *assetsLibraryManager    = [CGAssetsLibraryManager sharedManager];
+    
+    CGAssetsFilterObject *filterObj = [[CGAssetsFilterObject alloc] init];
+    filterObj.assetsGroupType       = ALAssetsGroupSavedPhotos;
+    filterObj.assetsSequenceType    = CGAssetsSequenceTypeAscending;
+    
+    [assetsLibraryManager cg_assetsListWithAssetsFilter:filterObj assetList:^(NSArray<ALAsset *> * _Nullable paramAssetList) {
+        TestPhotosCollectionViewController *photosCollectionVC   = [TestPhotosCollectionViewController createDefaultCollectionViewControllerWithDataSource:paramAssetList];
+        [self presentViewController:photosCollectionVC animated:YES completion:nil];
+    } failureBlock:nil];
 }
 
 @end

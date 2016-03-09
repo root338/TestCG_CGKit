@@ -27,6 +27,7 @@
 
 #import "CGTitleBarViewController.h"
 #import "TestPhotosCollectionViewController.h"
+#import "TestCATranform3DViewController.h"
 
 #import "CGPrintLogHeader.h"
 
@@ -128,13 +129,16 @@
 
 - (IBAction)pushTestDetailVC:(id)sender
 {
-    CGTitleBarViewController *vc    = [[CGTitleBarViewController alloc] init];
-    vc.leftItemTitle                = @"取消";
-    vc.rightItemTitle               = @"完成";
-    vc.view.backgroundColor = [UIColor orangeColor];
+    TestCATranform3DViewController *tranformVC = [[TestCATranform3DViewController alloc] init];
+    [self.navigationController pushViewController:tranformVC animated:YES];
     
-    
-    [self presentViewController:vc animated:YES completion:nil];
+//    CGTitleBarViewController *vc    = [[CGTitleBarViewController alloc] init];
+//    vc.leftItemTitle                = @"取消";
+//    vc.rightItemTitle               = @"完成";
+//    vc.view.backgroundColor = [UIColor orangeColor];
+//    
+//    
+//    [self presentViewController:vc animated:YES completion:nil];
 //    [self.navigationController pushViewController:vc animated:YES];
     
 //    CGAssetsLibraryManager *assetsLibraryManager    = [CGAssetsLibraryManager sharedManager];

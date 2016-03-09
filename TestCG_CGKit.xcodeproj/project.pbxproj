@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */; };
+		0069BB061C85431A00C5A628 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0069BB051C85431A00C5A628 /* 2.jpg */; };
 		008A78881C5F4E5B005BBF4D /* CGNavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A78871C5F4E5B005BBF4D /* CGNavigationBarView.m */; };
 		008A788B1C5F573B005BBF4D /* UIView+CGAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A788A1C5F573B005BBF4D /* UIView+CGAddView.m */; };
 		00BAB2E81C72BA1700FC1F3A /* CGAssetsFilterObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BAB2E71C72BA1700FC1F3A /* CGAssetsFilterObject.m */; };
@@ -198,6 +200,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0069BB001C853FFA00C5A628 /* CGAngleRadianHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGAngleRadianHeader.h; sourceTree = "<group>"; };
+		0069BB011C85418C00C5A628 /* TestCATranform3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCATranform3DViewController.h; sourceTree = "<group>"; };
+		0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCATranform3DViewController.m; sourceTree = "<group>"; };
+		0069BB051C85431A00C5A628 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		008A78861C5F4E5B005BBF4D /* CGNavigationBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNavigationBarView.h; sourceTree = "<group>"; };
 		008A78871C5F4E5B005BBF4D /* CGNavigationBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGNavigationBarView.m; sourceTree = "<group>"; };
 		008A78891C5F573B005BBF4D /* UIView+CGAddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGAddView.h"; sourceTree = "<group>"; };
@@ -614,6 +620,22 @@
 			path = AssetsModel;
 			sourceTree = "<group>";
 		};
+		0069BAFF1C853FDB00C5A628 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				0069BB001C853FFA00C5A628 /* CGAngleRadianHeader.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		0069BB041C85431000C5A628 /* ImageResource */ = {
+			isa = PBXGroup;
+			children = (
+				0069BB051C85431A00C5A628 /* 2.jpg */,
+			);
+			path = ImageResource;
+			sourceTree = "<group>";
+		};
 		00BAB2F21C72FACD00FC1F3A /* SelectPhotos */ = {
 			isa = PBXGroup;
 			children = (
@@ -650,6 +672,7 @@
 		00BF22061C55BF76009ABB5B /* Anmation */ = {
 			isa = PBXGroup;
 			children = (
+				0069BAFF1C853FDB00C5A628 /* Header */,
 				00BF22071C55BF76009ABB5B /* MoveView */,
 				00BF220A1C55BF76009ABB5B /* UINavigationViewController+PushAndPopAnmation */,
 			);
@@ -1983,6 +2006,8 @@
 				184555761C5E676F00B385E3 /* DetailViewController.m */,
 				00BAB2EC1C72C0F100FC1F3A /* TestPhotosCollectionViewController.h */,
 				00BAB2ED1C72C0F100FC1F3A /* TestPhotosCollectionViewController.m */,
+				0069BB011C85418C00C5A628 /* TestCATranform3DViewController.h */,
+				0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */,
 			);
 			path = TestDetailVC;
 			sourceTree = "<group>";
@@ -2063,6 +2088,7 @@
 		18DBAAF41C12877E00552828 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0069BB041C85431000C5A628 /* ImageResource */,
 				18DBAAF51C12877E00552828 /* AppDelegate.h */,
 				18DBAAF61C12877E00552828 /* AppDelegate.m */,
 				18DBAAF71C12877E00552828 /* Info.plist */,
@@ -2237,6 +2263,7 @@
 			files = (
 				18DBAACF1C12818300552828 /* LaunchScreen.storyboard in Resources */,
 				18DBAACC1C12818300552828 /* Assets.xcassets in Resources */,
+				0069BB061C85431A00C5A628 /* 2.jpg in Resources */,
 				18DBAACA1C12818300552828 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2320,6 +2347,7 @@
 				00BF23D81C55BF77009ABB5B /* UIImage+CGColor.m in Sources */,
 				00BF23C21C55BF77009ABB5B /* NSArray+CGArray.m in Sources */,
 				00BF24181C55BF77009ABB5B /* CGTextFieldInputViewAppearance.m in Sources */,
+				0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */,
 				00BF23FC1C55BF77009ABB5B /* UIView+CGSearchView.m in Sources */,
 				00BF23ED1C55BF77009ABB5B /* UIScrollView+CGPullToRefresh.m in Sources */,
 				00BF23B71C55BF77009ABB5B /* UIView+Constant.m in Sources */,

@@ -22,6 +22,9 @@
 #import "UIView+CGLineMoveView.h"
 #import "UIView+CGScaleViewFromOverlayView.h"
 
+#import "CGAddSubviewsAppearance.h"
+#import "UIView+CGCreateViews.h"
+
 #import "CGAssetsFilterObject.h"
 #import "CGAssetsLibraryManager.h"
 
@@ -77,29 +80,50 @@
 //    
 //    [UIApplication cg_verifyUserOpenRemoteNotification];
     
-    CGButton *button = [CGButton buttonWithType:UIButtonTypeSystem];
-    [button setTitle:@"test button" forState:UIControlStateNormal];
-    [button setImage:[UIImage imageNamed:@"01"] forState:UIControlStateNormal];
-    button.buttonStyle  = CGButtonStyleHorizonalRight;
-    button.space        = 8;
-    button.marginEdgeInsets = UIEdgeInsetsMake(8, 8, 8, 8);
-    [button sizeToFit];
-    button.origin = CGPointMake(100, 200);
-    [self.view addSubview:button];
-    [button addTarget:self action:@selector(handleButtonEvent:) forControlEvents:UIControlEventTouchUpInside];
-    button.backgroundColor  = [UIColor lightGrayColor];
+//    CGButton *button = [CGButton buttonWithType:UIButtonTypeSystem];
+//    [button setTitle:@"test button" forState:UIControlStateNormal];
+//    [button setImage:[UIImage imageNamed:@"01"] forState:UIControlStateNormal];
+//    button.buttonStyle  = CGButtonStyleVerticalTop;
+//    button.contentHorizontalAlignment   = UIControlContentHorizontalAlignmentCenter;
+//    button.contentVerticalAlignment     = UIControlContentVerticalAlignmentCenter;
+//    button.space        = 8;
+//    button.marginEdgeInsets = UIEdgeInsetsMake(8, 8, 8, 8);
+////    [button sizeToFit];
+//    button.size     = CGSizeMake(200, 200);
+//    button.origin   = CGPointMake(100, 200);
+//    [self.view addSubview:button];
+//    [button addTarget:self action:@selector(handleButtonEvent:) forControlEvents:UIControlEventTouchUpInside];
+//    button.backgroundColor  = [UIColor lightGrayColor];
+//    
+//    UIView *testView            = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 40)];
+//    testView.backgroundColor    = [UIColor orangeColor];
+//    self.testView               = testView;
+//    
+//    
+//    lineMoveViewType            = CGLineMoveViewTypeBottom;
+//    scaleViewType               = CGScaleViewTypeTopVertex;
     
-    UIView *testView            = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 40)];
-    testView.backgroundColor    = [UIColor orangeColor];
-    self.testView               = testView;
+    CGAddSubviewsAppearance *subviewsAppearance = [[CGAddSubviewsAppearance alloc] init];
+    subviewsAppearance.subviewsTotal    = 30;
+    subviewsAppearance.count            = 4;
+    subviewsAppearance.horizontalSpace  = 8;
+    subviewsAppearance.marginEdgeInset  = UIEdgeInsetsMake(8, 8, 8, 8);
+    subviewsAppearance.verticalSpace    = 8;
     
+    UIColor *textColor      = [UIColor blackColor];
+    UIColor *borderColor    = textColor;
     
-    lineMoveViewType            = CGLineMoveViewTypeBottom;
-    scaleViewType               = CGScaleViewTypeTopVertex;
+    [self.view cg_createViewsWithRule:subviewsAppearance stopAddSubviews:nil subview:^__kindof UIView * _Nonnull(NSInteger index) {
+        UIButton *button    = [UIButton buttonWithType:UIButtonTypeSystem];
+        [button setTitle:[@(index) stringValue] forState:UIControlStateNormal];
+        [button cg_setupBorderWithWidth:1 color:borderColor cornerRadius:7];
+        [button setTitleColor:textColor forState:UIControlStateNormal];
+        return button;
+    } didSetupCallback:nil];
     
 //    [self.view addSubview:testView];
     
-    self.view.backgroundColor = [UIColor orangeColor];
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)handleButtonEvent:(UIButton *)button

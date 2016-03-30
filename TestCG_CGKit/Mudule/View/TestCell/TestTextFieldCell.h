@@ -7,8 +7,8 @@
 //
 
 #import "CGSingleSectionBaseTableViewCell.h"
-#import "CGBaseTableViewCell.h"
+#import "CGTableViewCell.h"
 
-@interface TestTextFieldCell : CGBaseTableViewCell
+@interface TestTextFieldCell : CGTableViewCell
 
 @end

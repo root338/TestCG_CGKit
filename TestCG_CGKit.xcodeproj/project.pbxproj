@@ -121,8 +121,8 @@
 		18D8841D1CA5EC0400A7DF31 /* HorizontalSingleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D882F61CA5EC0400A7DF31 /* HorizontalSingleView.m */; };
 		18D8841E1CA5EC0400A7DF31 /* CGBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D882FA1CA5EC0400A7DF31 /* CGBaseTableView.m */; };
 		18D8841F1CA5EC0400A7DF31 /* CGSingleSectionBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D882FC1CA5EC0400A7DF31 /* CGSingleSectionBaseTableView.m */; };
-		18D884201CA5EC0400A7DF31 /* CGBaseTableViewDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D882FF1CA5EC0400A7DF31 /* CGBaseTableViewDataSourceManager.m */; };
-		18D884211CA5EC0400A7DF31 /* CGBaseTableViewEditDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D883011CA5EC0400A7DF31 /* CGBaseTableViewEditDataSourceManager.m */; };
+		18D884201CA5EC0400A7DF31 /* CGTableViewDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D882FF1CA5EC0400A7DF31 /* CGTableViewDataSourceManager.m */; };
+		18D884211CA5EC0400A7DF31 /* CGTableViewEditDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D883011CA5EC0400A7DF31 /* CGTableViewEditDataSourceManager.m */; };
 		18D884221CA5EC0400A7DF31 /* CGSingleSectionTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D883041CA5EC0400A7DF31 /* CGSingleSectionTableViewDataSource.m */; };
 		18D884231CA5EC0400A7DF31 /* CGSingleSectionTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D883061CA5EC0400A7DF31 /* CGSingleSectionTableViewDelegate.m */; };
 		18D884241CA5EC0400A7DF31 /* CGBaseTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D883091CA5EC0400A7DF31 /* CGBaseTextField.m */; };
@@ -132,7 +132,7 @@
 		18D884281CA5EC0400A7DF31 /* CGBaseTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D883121CA5EC0400A7DF31 /* CGBaseTextView.m */; };
 		18D884291CA5EC0400A7DF31 /* CGInputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D883141CA5EC0400A7DF31 /* CGInputTextView.m */; };
 		18D8842A1CA5EC0400A7DF31 /* CGTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D883161CA5EC0400A7DF31 /* CGTextView.m */; };
-		18D8842B1CA5EC0400A7DF31 /* CGBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8831A1CA5EC0400A7DF31 /* CGBaseTableViewCell.m */; };
+		18D8842B1CA5EC0400A7DF31 /* CGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8831A1CA5EC0400A7DF31 /* CGTableViewCell.m */; };
 		18D8842C1CA5EC0400A7DF31 /* CGSingleSectionBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8831C1CA5EC0400A7DF31 /* CGSingleSectionBaseTableViewCell.m */; };
 		18D8842D1CA5EC0400A7DF31 /* CGBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D883201CA5EC0400A7DF31 /* CGBaseView.m */; };
 		18D8842E1CA5EC0400A7DF31 /* CGDoubleTitleBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D883221CA5EC0400A7DF31 /* CGDoubleTitleBaseView.m */; };
@@ -190,6 +190,7 @@
 		18DBAAFB1C12877E00552828 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAAF81C12877E00552828 /* main.m */; };
 		18DBAE021C12968900552828 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAE011C12968900552828 /* HomeViewController.m */; };
 		18E6E2AC1C15B87500906A5A /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6E2AB1C15B87500906A5A /* AFNetworkActivityLogger.m */; };
+		18E873D51CAC8F3500F2BB84 /* CGSingeContentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E873D41CAC8F3500F2BB84 /* CGSingeContentTableView.m */; };
 		302C9A770D2BEB9460B47FBE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 222F9D25D26223B807E03656 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -458,10 +459,10 @@
 		18D882FA1CA5EC0400A7DF31 /* CGBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseTableView.m; sourceTree = "<group>"; };
 		18D882FB1CA5EC0400A7DF31 /* CGSingleSectionBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleSectionBaseTableView.h; sourceTree = "<group>"; };
 		18D882FC1CA5EC0400A7DF31 /* CGSingleSectionBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleSectionBaseTableView.m; sourceTree = "<group>"; };
-		18D882FE1CA5EC0400A7DF31 /* CGBaseTableViewDataSourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseTableViewDataSourceManager.h; sourceTree = "<group>"; };
-		18D882FF1CA5EC0400A7DF31 /* CGBaseTableViewDataSourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseTableViewDataSourceManager.m; sourceTree = "<group>"; };
-		18D883001CA5EC0400A7DF31 /* CGBaseTableViewEditDataSourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseTableViewEditDataSourceManager.h; sourceTree = "<group>"; };
-		18D883011CA5EC0400A7DF31 /* CGBaseTableViewEditDataSourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseTableViewEditDataSourceManager.m; sourceTree = "<group>"; };
+		18D882FE1CA5EC0400A7DF31 /* CGTableViewDataSourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTableViewDataSourceManager.h; sourceTree = "<group>"; };
+		18D882FF1CA5EC0400A7DF31 /* CGTableViewDataSourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTableViewDataSourceManager.m; sourceTree = "<group>"; };
+		18D883001CA5EC0400A7DF31 /* CGTableViewEditDataSourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTableViewEditDataSourceManager.h; sourceTree = "<group>"; };
+		18D883011CA5EC0400A7DF31 /* CGTableViewEditDataSourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTableViewEditDataSourceManager.m; sourceTree = "<group>"; };
 		18D883031CA5EC0400A7DF31 /* CGSingleSectionTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleSectionTableViewDataSource.h; sourceTree = "<group>"; };
 		18D883041CA5EC0400A7DF31 /* CGSingleSectionTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleSectionTableViewDataSource.m; sourceTree = "<group>"; };
 		18D883051CA5EC0400A7DF31 /* CGSingleSectionTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleSectionTableViewDelegate.h; sourceTree = "<group>"; };
@@ -480,8 +481,8 @@
 		18D883141CA5EC0400A7DF31 /* CGInputTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGInputTextView.m; sourceTree = "<group>"; };
 		18D883151CA5EC0400A7DF31 /* CGTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTextView.h; sourceTree = "<group>"; };
 		18D883161CA5EC0400A7DF31 /* CGTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTextView.m; sourceTree = "<group>"; };
-		18D883191CA5EC0400A7DF31 /* CGBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseTableViewCell.h; sourceTree = "<group>"; };
-		18D8831A1CA5EC0400A7DF31 /* CGBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseTableViewCell.m; sourceTree = "<group>"; };
+		18D883191CA5EC0400A7DF31 /* CGTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTableViewCell.h; sourceTree = "<group>"; };
+		18D8831A1CA5EC0400A7DF31 /* CGTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTableViewCell.m; sourceTree = "<group>"; };
 		18D8831B1CA5EC0400A7DF31 /* CGSingleSectionBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleSectionBaseTableViewCell.h; sourceTree = "<group>"; };
 		18D8831C1CA5EC0400A7DF31 /* CGSingleSectionBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleSectionBaseTableViewCell.m; sourceTree = "<group>"; };
 		18D8831F1CA5EC0400A7DF31 /* CGBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseView.h; sourceTree = "<group>"; };
@@ -614,6 +615,8 @@
 		18E6E2AA1C15B87500906A5A /* AFNetworkActivityLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityLogger.h; path = AFNetworkActivityLogger/AFNetworkActivityLogger.h; sourceTree = "<group>"; };
 		18E6E2AB1C15B87500906A5A /* AFNetworkActivityLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityLogger.m; path = AFNetworkActivityLogger/AFNetworkActivityLogger.m; sourceTree = "<group>"; };
 		18E7A7231CA8186C006B3F97 /* CGAddSubviewsErrorTypeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGAddSubviewsErrorTypeHeader.h; sourceTree = "<group>"; };
+		18E873D31CAC8F3500F2BB84 /* CGSingeContentTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingeContentTableView.h; sourceTree = "<group>"; };
+		18E873D41CAC8F3500F2BB84 /* CGSingeContentTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingeContentTableView.m; sourceTree = "<group>"; };
 		222F9D25D26223B807E03656 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2579600A7457913BDB2035A0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CB955F562162540E6C680F5B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1590,10 +1593,10 @@
 		18D882FD1CA5EC0400A7DF31 /* DataSourceManager */ = {
 			isa = PBXGroup;
 			children = (
-				18D882FE1CA5EC0400A7DF31 /* CGBaseTableViewDataSourceManager.h */,
-				18D882FF1CA5EC0400A7DF31 /* CGBaseTableViewDataSourceManager.m */,
-				18D883001CA5EC0400A7DF31 /* CGBaseTableViewEditDataSourceManager.h */,
-				18D883011CA5EC0400A7DF31 /* CGBaseTableViewEditDataSourceManager.m */,
+				18D882FE1CA5EC0400A7DF31 /* CGTableViewDataSourceManager.h */,
+				18D882FF1CA5EC0400A7DF31 /* CGTableViewDataSourceManager.m */,
+				18D883001CA5EC0400A7DF31 /* CGTableViewEditDataSourceManager.h */,
+				18D883011CA5EC0400A7DF31 /* CGTableViewEditDataSourceManager.m */,
 			);
 			path = DataSourceManager;
 			sourceTree = "<group>";
@@ -1648,8 +1651,8 @@
 		18D883181CA5EC0400A7DF31 /* baseCell */ = {
 			isa = PBXGroup;
 			children = (
-				18D883191CA5EC0400A7DF31 /* CGBaseTableViewCell.h */,
-				18D8831A1CA5EC0400A7DF31 /* CGBaseTableViewCell.m */,
+				18D883191CA5EC0400A7DF31 /* CGTableViewCell.h */,
+				18D8831A1CA5EC0400A7DF31 /* CGTableViewCell.m */,
 				18D8831B1CA5EC0400A7DF31 /* CGSingleSectionBaseTableViewCell.h */,
 				18D8831C1CA5EC0400A7DF31 /* CGSingleSectionBaseTableViewCell.m */,
 			);
@@ -1681,6 +1684,8 @@
 				18D883261CA5EC0400A7DF31 /* CGTitleBaseView.m */,
 				18D883271CA5EC0400A7DF31 /* CGTitleDoubleLayoutBaseView.h */,
 				18D883281CA5EC0400A7DF31 /* CGTitleDoubleLayoutBaseView.m */,
+				18E873D31CAC8F3500F2BB84 /* CGSingeContentTableView.h */,
+				18E873D41CAC8F3500F2BB84 /* CGSingeContentTableView.m */,
 			);
 			path = BaseView;
 			sourceTree = "<group>";
@@ -2500,7 +2505,7 @@
 				18D883CA1CA5EC0400A7DF31 /* NSObject+CGDelaySelector.m in Sources */,
 				18D884081CA5EC0400A7DF31 /* UIView+CGSetupAppearance.m in Sources */,
 				18D8842F1CA5EC0400A7DF31 /* CGNavigationBarView.m in Sources */,
-				18D8842B1CA5EC0400A7DF31 /* CGBaseTableViewCell.m in Sources */,
+				18D8842B1CA5EC0400A7DF31 /* CGTableViewCell.m in Sources */,
 				18D883D61CA5EC0400A7DF31 /* NSNotificationCenter+CGCreateNotification.m in Sources */,
 				18D883F61CA5EC0400A7DF31 /* UIScrollView+CGSetupAppearance.m in Sources */,
 				18D883F51CA5EC0400A7DF31 /* UIScrollView+CGPullToRefresh.m in Sources */,
@@ -2534,7 +2539,7 @@
 				18D883B51CA5EC0400A7DF31 /* UIView+CGLineMoveView.m in Sources */,
 				18D884531CA5EC0400A7DF31 /* UINavigationController+CGSetupGestureRecognizer.m in Sources */,
 				18D884151CA5EC0400A7DF31 /* CGBrowseImageCollectionView.m in Sources */,
-				18D884201CA5EC0400A7DF31 /* CGBaseTableViewDataSourceManager.m in Sources */,
+				18D884201CA5EC0400A7DF31 /* CGTableViewDataSourceManager.m in Sources */,
 				18D884071CA5EC0400A7DF31 /* UIView+CGSearchView.m in Sources */,
 				18D8844E1CA5EC0400A7DF31 /* CGNavigationAppearance.m in Sources */,
 				18D883BF1CA5EC0400A7DF31 /* CGRequestManager.m in Sources */,
@@ -2544,11 +2549,12 @@
 				18D8843B1CA5EC0400A7DF31 /* CGCycleBrowseImageScrollView.m in Sources */,
 				18D883CB1CA5EC0400A7DF31 /* NSObject+CGObjectToDictionary.m in Sources */,
 				18D883E71CA5EC0400A7DF31 /* UILabel+CGCreateLayoutCustomLabel.m in Sources */,
-				18D884211CA5EC0400A7DF31 /* CGBaseTableViewEditDataSourceManager.m in Sources */,
+				18D884211CA5EC0400A7DF31 /* CGTableViewEditDataSourceManager.m in Sources */,
 				18D884561CA5EC0400A7DF31 /* CGNavigationDelegateObject.m in Sources */,
 				18D883E61CA5EC0400A7DF31 /* UIButton+UpdateLocate.m in Sources */,
 				18D883D51CA5EC0400A7DF31 /* UIImage+CGLaunchImage.m in Sources */,
 				18D8841C1CA5EC0400A7DF31 /* HorizontalSingleAppearance.m in Sources */,
+				18E873D51CAC8F3500F2BB84 /* CGSingeContentTableView.m in Sources */,
 				18D884251CA5EC0400A7DF31 /* CGDefalutTextFieldInputView.m in Sources */,
 				18D883BB1CA5EC0400A7DF31 /* UIView+Constant.m in Sources */,
 				18BB0B621CA6F87D00368F21 /* CGCreateViewsAppearance.m in Sources */,

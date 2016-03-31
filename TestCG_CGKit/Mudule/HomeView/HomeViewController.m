@@ -8,12 +8,20 @@
 
 #import "HomeViewController.h"
 
+#import "CGTableViewCell.h"
+
+#import "CGHomeDataModel.h"
+#import "CGTableViewDataSourceManager.h"
+
 #import "CGPrintLogHeader.h"
 
-@interface HomeViewController ()
+@interface HomeViewController ()<UITableViewDelegate>
 {
     
+    __weak IBOutlet UITableView *tableView;
 }
+
+@property (nonatomic, strong) CGTableViewDataSourceManager *dataSourceManager;
 
 @end
 
@@ -23,7 +31,29 @@
 {
     [super viewDidLoad];
     
+    self.dataSourceManager  = [[CGTableViewDataSourceManager alloc] initWithDataSource:[CGHomeDataModel cg_getHomeDataSourceList] cellIdentifierForString:@"CGTableViewCell" setupCellBlock:^(UITableView * _Nonnull tableView, __kindof CGTableViewCell * _Nonnull cell, NSIndexPath * _Nonnull indexPath, CGHomeDataModel *  _Nonnull data) {
+        
+        cell.textLabel.text         = data.title;
+        cell.detailTextLabel.text   = data.subtitle;
+    }];
+    tableView.dataSource    = self.dataSourceManager;
+    tableView.delegate      = self;
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
     
+}
+
+#pragma mark - UITableViewDelegate
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    CGHomeDataModel *homeDataObj        = self.dataSourceManager.dataSource[indexPath.row];
+    UIViewController *viewController    = [homeDataObj createTargetViewController];
+    if (viewController) {
+        [self.navigationController pushViewController:viewController animated:YES];
+    }
 }
 
 @end

@@ -11,6 +11,8 @@
 		0069BB061C85431A00C5A628 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0069BB051C85431A00C5A628 /* 2.jpg */; };
 		00BAB2EE1C72C0F100FC1F3A /* TestPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BAB2ED1C72C0F100FC1F3A /* TestPhotosCollectionViewController.m */; };
 		00BAB2F11C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BAB2F01C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m */; };
+		00C315C81CACBDD7009BFD7A /* CGLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C315C71CACBDD7009BFD7A /* CGLayoutManager.m */; };
+		00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */; };
 		184555771C5E676F00B385E3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184555761C5E676F00B385E3 /* DetailViewController.m */; };
 		187579961C12E8AB0065C29D /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187579951C12E8AB0065C29D /* Reveal.framework */; };
 		18B41A9E1C13FE450031002B /* TestTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B41A9D1C13FE450031002B /* TestTextFieldCell.m */; };
@@ -219,6 +221,11 @@
 		00BAB2ED1C72C0F100FC1F3A /* TestPhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPhotosCollectionViewController.m; sourceTree = "<group>"; };
 		00BAB2EF1C72C37D00FC1F3A /* TestPhotosCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPhotosCollectionViewCell.h; sourceTree = "<group>"; };
 		00BAB2F01C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPhotosCollectionViewCell.m; sourceTree = "<group>"; };
+		00C315C61CACBDD7009BFD7A /* CGLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLayoutManager.h; sourceTree = "<group>"; };
+		00C315C71CACBDD7009BFD7A /* CGLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLayoutManager.m; sourceTree = "<group>"; };
+		00C315C91CACBF71009BFD7A /* CGLayoutConstraintsTypeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGLayoutConstraintsTypeHeader.h; sourceTree = "<group>"; };
+		00C315CC1CACC17E009BFD7A /* CGHomeDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGHomeDataModel.h; sourceTree = "<group>"; };
+		00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGHomeDataModel.m; sourceTree = "<group>"; };
 		184555751C5E676F00B385E3 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		184555761C5E676F00B385E3 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		187579951C12E8AB0065C29D /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = TestCG_CGKit/Reveal.framework; sourceTree = "<group>"; };
@@ -655,6 +662,23 @@
 				0069BB051C85431A00C5A628 /* 2.jpg */,
 			);
 			path = ImageResource;
+			sourceTree = "<group>";
+		};
+		00C315CA1CACC0FD009BFD7A /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				00C315CB1CACC115009BFD7A /* HomeData */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		00C315CB1CACC115009BFD7A /* HomeData */ = {
+			isa = PBXGroup;
+			children = (
+				00C315CC1CACC17E009BFD7A /* CGHomeDataModel.h */,
+				00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */,
+			);
+			path = HomeData;
 			sourceTree = "<group>";
 		};
 		1845475E1C12A4B50030DD0A /* View */ = {
@@ -1888,6 +1912,9 @@
 			children = (
 				18D8836B1CA5EC0400A7DF31 /* UIView+CGAddConstraints.h */,
 				18D8836C1CA5EC0400A7DF31 /* UIView+CGAddConstraints.m */,
+				00C315C61CACBDD7009BFD7A /* CGLayoutManager.h */,
+				00C315C71CACBDD7009BFD7A /* CGLayoutManager.m */,
+				00C315C91CACBF71009BFD7A /* CGLayoutConstraintsTypeHeader.h */,
 			);
 			path = CustomLayoutCategory;
 			sourceTree = "<group>";
@@ -2167,6 +2194,7 @@
 		18DBAAF31C12872500552828 /* Mudule */ = {
 			isa = PBXGroup;
 			children = (
+				00C315CA1CACC0FD009BFD7A /* DataModel */,
 				1845475E1C12A4B50030DD0A /* View */,
 				18A1D7F31C129C6600B93665 /* TestDetailVC */,
 				18DBADFF1C12967500552828 /* HomeView */,
@@ -2432,6 +2460,7 @@
 				18D8843E1CA5EC0400A7DF31 /* CGLineBoxView.m in Sources */,
 				18D883E01CA5EC0400A7DF31 /* UIImage+CGColor.m in Sources */,
 				18D8840E1CA5EC0400A7DF31 /* CGBaseButton.m in Sources */,
+				00C315C81CACBDD7009BFD7A /* CGLayoutManager.m in Sources */,
 				18D883C31CA5EC0400A7DF31 /* CGRequestBaseModel+Category.m in Sources */,
 				18D884291CA5EC0400A7DF31 /* CGInputTextView.m in Sources */,
 				18D8840C1CA5EC0400A7DF31 /* UIView+LoadXIBFile.m in Sources */,
@@ -2447,6 +2476,7 @@
 				18D884361CA5EC0400A7DF31 /* CGCycleScrollView+CGBuildView.m in Sources */,
 				18DBAAFB1C12877E00552828 /* main.m in Sources */,
 				18D8841B1CA5EC0400A7DF31 /* CGScrollView.m in Sources */,
+				00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */,
 				18D883DE1CA5EC0400A7DF31 /* UIApplication+CGVerificationRemoteNotification.m in Sources */,
 				18BB0B651CA6FC3F00368F21 /* UIView+CGJudgeProperty.m in Sources */,
 				18D884011CA5EC0400A7DF31 /* UIView+CGAddSubview.m in Sources */,

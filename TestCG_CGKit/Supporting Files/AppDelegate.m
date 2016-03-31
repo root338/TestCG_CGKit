@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "CGNavigationAppearance.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
     // Override point for customization after application launch.
+    
+    CGNavigationAppearance *appearance  = [[CGNavigationAppearance alloc] init];
+    appearance.titleTextAttributes  = @{
+                                        NSFontAttributeName : [UIFont systemFontOfSize:18],
+                                        NSForegroundColorAttributeName : [UIColor orangeColor],
+                                        };
+    [appearance applyAppearance];
+    
     return YES;
 }
 

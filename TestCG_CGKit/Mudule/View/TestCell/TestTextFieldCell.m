@@ -51,8 +51,8 @@
     self.nextTnputTextView          = [nextCell searchInputTextControl];
     self.previousInputTextView      = [previousCell searchInputTextControl];
     
-    self.buttonsView.leftButton.enabled     = self.previousInputTextView;
-    self.buttonsView.rightButton.enabled    = self.nextTnputTextView;
+    self.buttonsView.leftButton.enabled     = self.previousInputTextView ? YES : NO;
+    self.buttonsView.rightButton.enabled    = self.nextTnputTextView ? YES : NO;
     
     return YES;
 }

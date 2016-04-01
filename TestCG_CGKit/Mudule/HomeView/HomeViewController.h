@@ -10,5 +10,4 @@
 
 @interface HomeViewController : CGBaseViewController
 
-
 @end

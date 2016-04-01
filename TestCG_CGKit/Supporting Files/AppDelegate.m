@@ -21,12 +21,12 @@
     
     // Override point for customization after application launch.
     
-    CGNavigationAppearance *appearance  = [[CGNavigationAppearance alloc] init];
-    appearance.titleTextAttributes  = @{
-                                        NSFontAttributeName : [UIFont systemFontOfSize:18],
-                                        NSForegroundColorAttributeName : [UIColor orangeColor],
-                                        };
-    [appearance applyAppearance];
+//    CGNavigationAppearance *appearance  = [[CGNavigationAppearance alloc] init];
+//    appearance.titleTextAttributes  = @{
+//                                        NSFontAttributeName : [UIFont systemFontOfSize:18],
+//                                        NSForegroundColorAttributeName : [UIColor orangeColor],
+//                                        };
+//    [appearance applyAppearance];
     
     return YES;
 }

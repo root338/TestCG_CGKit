@@ -11,9 +11,9 @@
 #import "AppDelegate.h"
 
 #import "UIView+LoadXIBFile.h"
-#import "HomeViewController.h"
 
-
+#import "CGPhotoListViewController.h"
+#import "CGPhotoNavigationController.h"
 
 @implementation CGHomeDataModel
 
@@ -48,6 +48,7 @@
         default:
             break;
     }
+    
     if (![viewController isKindOfClass:[UIViewController class]]) {
         viewController  = nil;
     }
@@ -98,9 +99,9 @@
 {
     NSMutableArray *dataSourceList  = [NSMutableArray array];
     
-    CGHomeDataModel *homeVCObject   = [CGHomeDataModel cg_createHomeDataWithClass:[HomeViewController class] title:@"主页" subtitle:@"首页"];
-    homeVCObject.loadType           = CGLoadTypeStoryboard;
-    [dataSourceList addObject:homeVCObject];
+    CGHomeDataModel *photoListVC    = [CGHomeDataModel cg_createHomeDataWithClass:[CGPhotoListViewController class] title:@"浏览相机图片" subtitle:@"本地相机图片，可以选择"];
+    
+    [dataSourceList addObject:photoListVC];
     
     return dataSourceList;
 }

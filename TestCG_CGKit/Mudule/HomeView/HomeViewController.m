@@ -31,6 +31,8 @@
 {
     [super viewDidLoad];
     
+    self.title  = @"Test CG_CGKit";
+    
     self.dataSourceManager  = [[CGTableViewDataSourceManager alloc] initWithDataSource:[CGHomeDataModel cg_getHomeDataSourceList] cellIdentifierForString:@"CGTableViewCell" setupCellBlock:^(UITableView * _Nonnull tableView, __kindof CGTableViewCell * _Nonnull cell, NSIndexPath * _Nonnull indexPath, CGHomeDataModel *  _Nonnull data) {
         
         cell.textLabel.text         = data.title;
@@ -46,7 +48,14 @@
     CGHomeDataModel *homeDataObj        = self.dataSourceManager.dataSource[indexPath.row];
     UIViewController *viewController    = [homeDataObj createTargetViewController];
     if (viewController) {
-        [self.navigationController pushViewController:viewController animated:YES];
+        if (homeDataObj.showType == CGShowTypeModel) {
+            
+            [self.navigationController presentViewController:viewController animated:YES completion:nil];
+        }else if (homeDataObj.showType == CGShowTypePush) {
+            
+            [self.navigationController pushViewController:viewController animated:YES];
+        }
+        
     }
 }
 

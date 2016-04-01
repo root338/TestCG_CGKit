@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		005633AB1CAD200100520F94 /* TestPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005633AA1CAD200100520F94 /* TestPhotosCollectionViewController.m */; };
+		005633BA1CAD208300520F94 /* CGPhotoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005633B71CAD208300520F94 /* CGPhotoListViewController.m */; };
+		005633BB1CAD208300520F94 /* CGPhotoNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005633B91CAD208300520F94 /* CGPhotoNavigationController.m */; };
 		0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */; };
 		0069BB061C85431A00C5A628 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0069BB051C85431A00C5A628 /* 2.jpg */; };
-		00BAB2EE1C72C0F100FC1F3A /* TestPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BAB2ED1C72C0F100FC1F3A /* TestPhotosCollectionViewController.m */; };
 		00BAB2F11C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BAB2F01C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m */; };
 		00C315C81CACBDD7009BFD7A /* CGLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C315C71CACBDD7009BFD7A /* CGLayoutManager.m */; };
 		00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */; };
@@ -214,11 +216,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		005633A91CAD200100520F94 /* TestPhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPhotosCollectionViewController.h; sourceTree = "<group>"; };
+		005633AA1CAD200100520F94 /* TestPhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPhotosCollectionViewController.m; sourceTree = "<group>"; };
+		005633B61CAD208300520F94 /* CGPhotoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPhotoListViewController.h; sourceTree = "<group>"; };
+		005633B71CAD208300520F94 /* CGPhotoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPhotoListViewController.m; sourceTree = "<group>"; };
+		005633B81CAD208300520F94 /* CGPhotoNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPhotoNavigationController.h; sourceTree = "<group>"; };
+		005633B91CAD208300520F94 /* CGPhotoNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPhotoNavigationController.m; sourceTree = "<group>"; };
 		0069BB011C85418C00C5A628 /* TestCATranform3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCATranform3DViewController.h; sourceTree = "<group>"; };
 		0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCATranform3DViewController.m; sourceTree = "<group>"; };
 		0069BB051C85431A00C5A628 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
-		00BAB2EC1C72C0F100FC1F3A /* TestPhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPhotosCollectionViewController.h; sourceTree = "<group>"; };
-		00BAB2ED1C72C0F100FC1F3A /* TestPhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPhotosCollectionViewController.m; sourceTree = "<group>"; };
 		00BAB2EF1C72C37D00FC1F3A /* TestPhotosCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPhotosCollectionViewCell.h; sourceTree = "<group>"; };
 		00BAB2F01C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPhotosCollectionViewCell.m; sourceTree = "<group>"; };
 		00C315C61CACBDD7009BFD7A /* CGLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLayoutManager.h; sourceTree = "<group>"; };
@@ -656,6 +662,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		005633A81CAD1FDC00520F94 /* TestSelectPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				005633A91CAD200100520F94 /* TestPhotosCollectionViewController.h */,
+				005633AA1CAD200100520F94 /* TestPhotosCollectionViewController.m */,
+			);
+			path = TestSelectPhoto;
+			sourceTree = "<group>";
+		};
+		005633B51CAD208300520F94 /* SelectPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				005633B61CAD208300520F94 /* CGPhotoListViewController.h */,
+				005633B71CAD208300520F94 /* CGPhotoListViewController.m */,
+				005633B81CAD208300520F94 /* CGPhotoNavigationController.h */,
+				005633B91CAD208300520F94 /* CGPhotoNavigationController.m */,
+			);
+			path = SelectPhotos;
+			sourceTree = "<group>";
+		};
 		0069BB041C85431000C5A628 /* ImageResource */ = {
 			isa = PBXGroup;
 			children = (
@@ -703,11 +729,10 @@
 		18A1D7F31C129C6600B93665 /* TestDetailVC */ = {
 			isa = PBXGroup;
 			children = (
+				005633A81CAD1FDC00520F94 /* TestSelectPhoto */,
 				18A1D7F81C12A09700B93665 /* TableView */,
 				184555751C5E676F00B385E3 /* DetailViewController.h */,
 				184555761C5E676F00B385E3 /* DetailViewController.m */,
-				00BAB2EC1C72C0F100FC1F3A /* TestPhotosCollectionViewController.h */,
-				00BAB2ED1C72C0F100FC1F3A /* TestPhotosCollectionViewController.m */,
 				0069BB011C85418C00C5A628 /* TestCATranform3DViewController.h */,
 				0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */,
 			);
@@ -2089,6 +2114,7 @@
 		18D883A71CA5EC0400A7DF31 /* OtherToolController */ = {
 			isa = PBXGroup;
 			children = (
+				005633B51CAD208300520F94 /* SelectPhotos */,
 				18D883AA1CA5EC0400A7DF31 /* CGTitleBarViewController.h */,
 				18D883AB1CA5EC0400A7DF31 /* CGTitleBarViewController.m */,
 			);
@@ -2510,7 +2536,6 @@
 				18D8845A1CA5EC0400A7DF31 /* CGSingleTableViewController.m in Sources */,
 				18D883CD1CA5EC0400A7DF31 /* NSPredicate+CreatePredicate.m in Sources */,
 				18D884231CA5EC0400A7DF31 /* CGSingleSectionTableViewDelegate.m in Sources */,
-				00BAB2EE1C72C0F100FC1F3A /* TestPhotosCollectionViewController.m in Sources */,
 				18D884501CA5EC0400A7DF31 /* CGBaseTableViewController.m in Sources */,
 				18D884381CA5EC0400A7DF31 /* CGCycleScrollView+CGScrollAnimation.m in Sources */,
 				18D8842E1CA5EC0400A7DF31 /* CGDoubleTitleBaseView.m in Sources */,
@@ -2538,6 +2563,7 @@
 				18D8842B1CA5EC0400A7DF31 /* CGTableViewCell.m in Sources */,
 				18D883D61CA5EC0400A7DF31 /* NSNotificationCenter+CGCreateNotification.m in Sources */,
 				18D883F61CA5EC0400A7DF31 /* UIScrollView+CGSetupAppearance.m in Sources */,
+				005633AB1CAD200100520F94 /* TestPhotosCollectionViewController.m in Sources */,
 				18D883F51CA5EC0400A7DF31 /* UIScrollView+CGPullToRefresh.m in Sources */,
 				18D884461CA5EC0400A7DF31 /* UIView+CGAddConstraints.m in Sources */,
 				18D884431CA5EC0400A7DF31 /* CGTitleTextView.m in Sources */,
@@ -2560,6 +2586,7 @@
 				18D884261CA5EC0400A7DF31 /* CGTextFieldInputView.m in Sources */,
 				18D884091CA5EC0400A7DF31 /* UIView+CGSetupFrame.m in Sources */,
 				18D8844F1CA5EC0400A7DF31 /* CGNavigationController.m in Sources */,
+				005633BA1CAD208300520F94 /* CGPhotoListViewController.m in Sources */,
 				18D884441CA5EC0400A7DF31 /* CGBaseWebView.m in Sources */,
 				18D8843A1CA5EC0400A7DF31 /* CGCycleContentView.m in Sources */,
 				18D883F81CA5EC0400A7DF31 /* UITableView+CGChangeGroupStyle.m in Sources */,
@@ -2569,6 +2596,7 @@
 				18D883B51CA5EC0400A7DF31 /* UIView+CGLineMoveView.m in Sources */,
 				18D884531CA5EC0400A7DF31 /* UINavigationController+CGSetupGestureRecognizer.m in Sources */,
 				18D884151CA5EC0400A7DF31 /* CGBrowseImageCollectionView.m in Sources */,
+				005633BB1CAD208300520F94 /* CGPhotoNavigationController.m in Sources */,
 				18D884201CA5EC0400A7DF31 /* CGTableViewDataSourceManager.m in Sources */,
 				18D884071CA5EC0400A7DF31 /* UIView+CGSearchView.m in Sources */,
 				18D8844E1CA5EC0400A7DF31 /* CGNavigationAppearance.m in Sources */,

@@ -19,6 +19,14 @@ typedef NS_ENUM(NSInteger, CGLoadType) {
     CGLoadTypeStoryboard,
 };
 
+typedef NS_ENUM(NSInteger, CGShowType) {
+    
+    /** 弹入 */
+    CGShowTypePush,
+    /** 模态视图 */
+    CGShowTypeModel,
+};
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CGHomeDataModel : CGBaseObject
@@ -29,6 +37,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nullable, nonatomic, strong) NSString *subtitle;
 
+@property (nonatomic, assign) CGShowType showType;
 @property (nonatomic, assign) CGLoadType loadType;
 
 /** 当加载方式为xib时使用 默认为类名 */

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		005633AB1CAD200100520F94 /* TestPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005633AA1CAD200100520F94 /* TestPhotosCollectionViewController.m */; };
 		005633BA1CAD208300520F94 /* CGPhotoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005633B71CAD208300520F94 /* CGPhotoListViewController.m */; };
 		005633BB1CAD208300520F94 /* CGPhotoNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005633B91CAD208300520F94 /* CGPhotoNavigationController.m */; };
 		0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */; };
@@ -15,11 +14,18 @@
 		00BAB2F11C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BAB2F01C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m */; };
 		00C315C81CACBDD7009BFD7A /* CGLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C315C71CACBDD7009BFD7A /* CGLayoutManager.m */; };
 		00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */; };
-		184555771C5E676F00B385E3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184555761C5E676F00B385E3 /* DetailViewController.m */; };
 		187579961C12E8AB0065C29D /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187579951C12E8AB0065C29D /* Reveal.framework */; };
+		1885F3921CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1885F3911CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m */; };
+		1885F3951CB150E3002A6D68 /* CGViewConstraintsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1885F3941CB150E3002A6D68 /* CGViewConstraintsModel.m */; };
+		1885F3981CB15317002A6D68 /* UIView+CGSearchConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 1885F3971CB15317002A6D68 /* UIView+CGSearchConstraints.m */; };
+		1885F39B1CB16AAB002A6D68 /* CGPhotoGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1885F39A1CB16AAB002A6D68 /* CGPhotoGroupViewController.m */; };
+		1894AE871CAFD4F3005A518C /* CGTestDefinesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AE861CAFD4F3005A518C /* CGTestDefinesTableViewController.m */; };
+		1894AE8B1CAFD83F005A518C /* CGTestDefinesData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AE8A1CAFD83F005A518C /* CGTestDefinesData.m */; };
+		1894AE8E1CAFF305005A518C /* UICollectionViewLayout+CGCreateLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AE8D1CAFF305005A518C /* UICollectionViewLayout+CGCreateLayout.m */; };
 		18B41A9E1C13FE450031002B /* TestTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B41A9D1C13FE450031002B /* TestTextFieldCell.m */; };
 		18BB0B621CA6F87D00368F21 /* CGCreateViewsAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BB0B611CA6F87D00368F21 /* CGCreateViewsAppearance.m */; };
 		18BB0B651CA6FC3F00368F21 /* UIView+CGJudgeProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BB0B641CA6FC3F00368F21 /* UIView+CGJudgeProperty.m */; };
+		18C66E0F1CB081AA00B37911 /* CGTitleButtonsLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C66E0E1CB081AA00B37911 /* CGTitleButtonsLayoutView.m */; };
 		18D883B51CA5EC0400A7DF31 /* UIView+CGLineMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D881C91CA5EC0400A7DF31 /* UIView+CGLineMoveView.m */; };
 		18D883B61CA5EC0400A7DF31 /* UIView+CGScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D881CB1CA5EC0400A7DF31 /* UIView+CGScaleView.m */; };
 		18D883B71CA5EC0400A7DF31 /* UIView+CGScaleViewFromOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D881CD1CA5EC0400A7DF31 /* UIView+CGScaleViewFromOverlayView.m */; };
@@ -108,13 +114,12 @@
 		18D8840C1CA5EC0400A7DF31 /* UIView+LoadXIBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D882C91CA5EC0400A7DF31 /* UIView+LoadXIBFile.m */; };
 		18D8840D1CA5EC0400A7DF31 /* CGAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D882CD1CA5EC0400A7DF31 /* CGAlertView.m */; };
 		18D8840E1CA5EC0400A7DF31 /* CGBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D882D01CA5EC0400A7DF31 /* CGBaseButton.m */; };
-		18D8840F1CA5EC0400A7DF31 /* CGBorderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D882D21CA5EC0400A7DF31 /* CGBorderButton.m */; };
 		18D884101CA5EC0400A7DF31 /* CGButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D882D41CA5EC0400A7DF31 /* CGButton.m */; };
 		18D884111CA5EC0400A7DF31 /* CGHighlightBgButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D882D61CA5EC0400A7DF31 /* CGHighlightBgButton.m */; };
 		18D884121CA5EC0400A7DF31 /* CGTimerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D882D81CA5EC0400A7DF31 /* CGTimerButton.m */; };
 		18D884131CA5EC0400A7DF31 /* CGInputConditionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D882DB1CA5EC0400A7DF31 /* CGInputConditionButton.m */; };
-		18D884141CA5EC0400A7DF31 /* CGBaseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D882DE1CA5EC0400A7DF31 /* CGBaseCollectionView.m */; };
-		18D884151CA5EC0400A7DF31 /* CGBrowseImageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D882E01CA5EC0400A7DF31 /* CGBrowseImageCollectionView.m */; };
+		18D884141CA5EC0400A7DF31 /* CGCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D882DE1CA5EC0400A7DF31 /* CGCollectionView.m */; };
+		18D884151CA5EC0400A7DF31 /* CGBrowsePhotoListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D882E01CA5EC0400A7DF31 /* CGBrowsePhotoListView.m */; };
 		18D884161CA5EC0400A7DF31 /* CGBrowseImageCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D882E31CA5EC0400A7DF31 /* CGBrowseImageCollectionViewFlowLayout.m */; };
 		18D884171CA5EC0400A7DF31 /* CGBaseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D882E61CA5EC0400A7DF31 /* CGBaseLabel.m */; };
 		18D884181CA5EC0400A7DF31 /* CGLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D882E81CA5EC0400A7DF31 /* CGLabel.m */; };
@@ -195,6 +200,10 @@
 		18DBAE021C12968900552828 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAE011C12968900552828 /* HomeViewController.m */; };
 		18E6E2AC1C15B87500906A5A /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6E2AB1C15B87500906A5A /* AFNetworkActivityLogger.m */; };
 		18E873D51CAC8F3500F2BB84 /* CGSingeContentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E873D41CAC8F3500F2BB84 /* CGSingeContentTableView.m */; };
+		18FB41391CAF18A000BE4F34 /* CGBaseViewController+CGSetupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FB41381CAF18A000BE4F34 /* CGBaseViewController+CGSetupItem.m */; };
+		18FB413D1CAF2F4700BE4F34 /* CGCollectionViewDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FB413C1CAF2F4700BE4F34 /* CGCollectionViewDataSourceManager.m */; };
+		18FB41461CAF34F300BE4F34 /* CGCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FB41451CAF34F300BE4F34 /* CGCollectionViewCell.m */; };
+		18FB41491CAF351E00BE4F34 /* CGPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FB41481CAF351E00BE4F34 /* CGPhotoCollectionViewCell.m */; };
 		302C9A770D2BEB9460B47FBE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 222F9D25D26223B807E03656 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -216,8 +225,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		005633A91CAD200100520F94 /* TestPhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPhotosCollectionViewController.h; sourceTree = "<group>"; };
-		005633AA1CAD200100520F94 /* TestPhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPhotosCollectionViewController.m; sourceTree = "<group>"; };
 		005633B61CAD208300520F94 /* CGPhotoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPhotoListViewController.h; sourceTree = "<group>"; };
 		005633B71CAD208300520F94 /* CGPhotoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPhotoListViewController.m; sourceTree = "<group>"; };
 		005633B81CAD208300520F94 /* CGPhotoNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPhotoNavigationController.h; sourceTree = "<group>"; };
@@ -232,15 +239,30 @@
 		00C315C91CACBF71009BFD7A /* CGLayoutConstraintsTypeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGLayoutConstraintsTypeHeader.h; sourceTree = "<group>"; };
 		00C315CC1CACC17E009BFD7A /* CGHomeDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGHomeDataModel.h; sourceTree = "<group>"; };
 		00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGHomeDataModel.m; sourceTree = "<group>"; };
-		184555751C5E676F00B385E3 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		184555761C5E676F00B385E3 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		187579951C12E8AB0065C29D /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = TestCG_CGKit/Reveal.framework; sourceTree = "<group>"; };
+		1885F3901CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestLayoutConstranintsViewController.h; sourceTree = "<group>"; };
+		1885F3911CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestLayoutConstranintsViewController.m; sourceTree = "<group>"; };
+		1885F3931CB150E3002A6D68 /* CGViewConstraintsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGViewConstraintsModel.h; sourceTree = "<group>"; };
+		1885F3941CB150E3002A6D68 /* CGViewConstraintsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGViewConstraintsModel.m; sourceTree = "<group>"; };
+		1885F3961CB15317002A6D68 /* UIView+CGSearchConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGSearchConstraints.h"; sourceTree = "<group>"; };
+		1885F3971CB15317002A6D68 /* UIView+CGSearchConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGSearchConstraints.m"; sourceTree = "<group>"; };
+		1885F3991CB16AAB002A6D68 /* CGPhotoGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPhotoGroupViewController.h; sourceTree = "<group>"; };
+		1885F39A1CB16AAB002A6D68 /* CGPhotoGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPhotoGroupViewController.m; sourceTree = "<group>"; };
+		1894AE831CAFD0A8005A518C /* CGLayoutDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGLayoutDefines.h; sourceTree = "<group>"; };
+		1894AE851CAFD4F3005A518C /* CGTestDefinesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestDefinesTableViewController.h; sourceTree = "<group>"; };
+		1894AE861CAFD4F3005A518C /* CGTestDefinesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestDefinesTableViewController.m; sourceTree = "<group>"; };
+		1894AE891CAFD83F005A518C /* CGTestDefinesData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestDefinesData.h; sourceTree = "<group>"; };
+		1894AE8A1CAFD83F005A518C /* CGTestDefinesData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestDefinesData.m; sourceTree = "<group>"; };
+		1894AE8C1CAFF305005A518C /* UICollectionViewLayout+CGCreateLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewLayout+CGCreateLayout.h"; sourceTree = "<group>"; };
+		1894AE8D1CAFF305005A518C /* UICollectionViewLayout+CGCreateLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewLayout+CGCreateLayout.m"; sourceTree = "<group>"; };
 		18B41A9C1C13FE450031002B /* TestTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTextFieldCell.h; sourceTree = "<group>"; };
 		18B41A9D1C13FE450031002B /* TestTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTextFieldCell.m; sourceTree = "<group>"; };
 		18BB0B601CA6F87D00368F21 /* CGCreateViewsAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCreateViewsAppearance.h; sourceTree = "<group>"; };
 		18BB0B611CA6F87D00368F21 /* CGCreateViewsAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCreateViewsAppearance.m; sourceTree = "<group>"; };
 		18BB0B631CA6FC3F00368F21 /* UIView+CGJudgeProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGJudgeProperty.h"; sourceTree = "<group>"; };
 		18BB0B641CA6FC3F00368F21 /* UIView+CGJudgeProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGJudgeProperty.m"; sourceTree = "<group>"; };
+		18C66E0D1CB081AA00B37911 /* CGTitleButtonsLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleButtonsLayoutView.h; sourceTree = "<group>"; };
+		18C66E0E1CB081AA00B37911 /* CGTitleButtonsLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleButtonsLayoutView.m; sourceTree = "<group>"; };
 		18D881C51CA5EC0400A7DF31 /* CGAngleRadianHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAngleRadianHeader.h; sourceTree = "<group>"; };
 		18D881C71CA5EC0400A7DF31 /* CGMoveViewTypeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGMoveViewTypeHeader.h; sourceTree = "<group>"; };
 		18D881C81CA5EC0400A7DF31 /* UIView+CGLineMoveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGLineMoveView.h"; sourceTree = "<group>"; };
@@ -437,8 +459,6 @@
 		18D882CD1CA5EC0400A7DF31 /* CGAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAlertView.m; sourceTree = "<group>"; };
 		18D882CF1CA5EC0400A7DF31 /* CGBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseButton.h; sourceTree = "<group>"; };
 		18D882D01CA5EC0400A7DF31 /* CGBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseButton.m; sourceTree = "<group>"; };
-		18D882D11CA5EC0400A7DF31 /* CGBorderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBorderButton.h; sourceTree = "<group>"; };
-		18D882D21CA5EC0400A7DF31 /* CGBorderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBorderButton.m; sourceTree = "<group>"; };
 		18D882D31CA5EC0400A7DF31 /* CGButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGButton.h; sourceTree = "<group>"; };
 		18D882D41CA5EC0400A7DF31 /* CGButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGButton.m; sourceTree = "<group>"; };
 		18D882D51CA5EC0400A7DF31 /* CGHighlightBgButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGHighlightBgButton.h; sourceTree = "<group>"; };
@@ -447,10 +467,10 @@
 		18D882D81CA5EC0400A7DF31 /* CGTimerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTimerButton.m; sourceTree = "<group>"; };
 		18D882DA1CA5EC0400A7DF31 /* CGInputConditionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGInputConditionButton.h; sourceTree = "<group>"; };
 		18D882DB1CA5EC0400A7DF31 /* CGInputConditionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGInputConditionButton.m; sourceTree = "<group>"; };
-		18D882DD1CA5EC0400A7DF31 /* CGBaseCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseCollectionView.h; sourceTree = "<group>"; };
-		18D882DE1CA5EC0400A7DF31 /* CGBaseCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseCollectionView.m; sourceTree = "<group>"; };
-		18D882DF1CA5EC0400A7DF31 /* CGBrowseImageCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBrowseImageCollectionView.h; sourceTree = "<group>"; };
-		18D882E01CA5EC0400A7DF31 /* CGBrowseImageCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBrowseImageCollectionView.m; sourceTree = "<group>"; };
+		18D882DD1CA5EC0400A7DF31 /* CGCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCollectionView.h; sourceTree = "<group>"; };
+		18D882DE1CA5EC0400A7DF31 /* CGCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCollectionView.m; sourceTree = "<group>"; };
+		18D882DF1CA5EC0400A7DF31 /* CGBrowsePhotoListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBrowsePhotoListView.h; sourceTree = "<group>"; };
+		18D882E01CA5EC0400A7DF31 /* CGBrowsePhotoListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBrowsePhotoListView.m; sourceTree = "<group>"; };
 		18D882E21CA5EC0400A7DF31 /* CGBrowseImageCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBrowseImageCollectionViewFlowLayout.h; sourceTree = "<group>"; };
 		18D882E31CA5EC0400A7DF31 /* CGBrowseImageCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBrowseImageCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		18D882E51CA5EC0400A7DF31 /* CGBaseLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseLabel.h; sourceTree = "<group>"; };
@@ -630,6 +650,14 @@
 		18E7A7231CA8186C006B3F97 /* CGAddSubviewsErrorTypeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGAddSubviewsErrorTypeHeader.h; sourceTree = "<group>"; };
 		18E873D31CAC8F3500F2BB84 /* CGSingeContentTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingeContentTableView.h; sourceTree = "<group>"; };
 		18E873D41CAC8F3500F2BB84 /* CGSingeContentTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingeContentTableView.m; sourceTree = "<group>"; };
+		18FB41371CAF18A000BE4F34 /* CGBaseViewController+CGSetupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGBaseViewController+CGSetupItem.h"; sourceTree = "<group>"; };
+		18FB41381CAF18A000BE4F34 /* CGBaseViewController+CGSetupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGBaseViewController+CGSetupItem.m"; sourceTree = "<group>"; };
+		18FB413B1CAF2F4700BE4F34 /* CGCollectionViewDataSourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCollectionViewDataSourceManager.h; sourceTree = "<group>"; };
+		18FB413C1CAF2F4700BE4F34 /* CGCollectionViewDataSourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCollectionViewDataSourceManager.m; sourceTree = "<group>"; };
+		18FB41441CAF34F300BE4F34 /* CGCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCollectionViewCell.h; sourceTree = "<group>"; };
+		18FB41451CAF34F300BE4F34 /* CGCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCollectionViewCell.m; sourceTree = "<group>"; };
+		18FB41471CAF351E00BE4F34 /* CGPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		18FB41481CAF351E00BE4F34 /* CGPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		222F9D25D26223B807E03656 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2579600A7457913BDB2035A0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CB955F562162540E6C680F5B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -665,8 +693,6 @@
 		005633A81CAD1FDC00520F94 /* TestSelectPhoto */ = {
 			isa = PBXGroup;
 			children = (
-				005633A91CAD200100520F94 /* TestPhotosCollectionViewController.h */,
-				005633AA1CAD200100520F94 /* TestPhotosCollectionViewController.m */,
 			);
 			path = TestSelectPhoto;
 			sourceTree = "<group>";
@@ -678,6 +704,8 @@
 				005633B71CAD208300520F94 /* CGPhotoListViewController.m */,
 				005633B81CAD208300520F94 /* CGPhotoNavigationController.h */,
 				005633B91CAD208300520F94 /* CGPhotoNavigationController.m */,
+				1885F3991CB16AAB002A6D68 /* CGPhotoGroupViewController.h */,
+				1885F39A1CB16AAB002A6D68 /* CGPhotoGroupViewController.m */,
 			);
 			path = SelectPhotos;
 			sourceTree = "<group>";
@@ -693,6 +721,7 @@
 		00C315CA1CACC0FD009BFD7A /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
+				1894AE881CAFD814005A518C /* TestDefinesData */,
 				00C315CB1CACC115009BFD7A /* HomeData */,
 			);
 			path = DataModel;
@@ -726,13 +755,40 @@
 			path = TestCell;
 			sourceTree = "<group>";
 		};
+		1885F38F1CB13A4F002A6D68 /* Test Layout Constranints */ = {
+			isa = PBXGroup;
+			children = (
+				1885F3901CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.h */,
+				1885F3911CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m */,
+			);
+			path = "Test Layout Constranints";
+			sourceTree = "<group>";
+		};
+		1894AE841CAFD4BA005A518C /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				1894AE851CAFD4F3005A518C /* CGTestDefinesTableViewController.h */,
+				1894AE861CAFD4F3005A518C /* CGTestDefinesTableViewController.m */,
+			);
+			path = Defines;
+			sourceTree = "<group>";
+		};
+		1894AE881CAFD814005A518C /* TestDefinesData */ = {
+			isa = PBXGroup;
+			children = (
+				1894AE891CAFD83F005A518C /* CGTestDefinesData.h */,
+				1894AE8A1CAFD83F005A518C /* CGTestDefinesData.m */,
+			);
+			path = TestDefinesData;
+			sourceTree = "<group>";
+		};
 		18A1D7F31C129C6600B93665 /* TestDetailVC */ = {
 			isa = PBXGroup;
 			children = (
+				1885F38F1CB13A4F002A6D68 /* Test Layout Constranints */,
+				1894AE841CAFD4BA005A518C /* Defines */,
 				005633A81CAD1FDC00520F94 /* TestSelectPhoto */,
 				18A1D7F81C12A09700B93665 /* TableView */,
-				184555751C5E676F00B385E3 /* DetailViewController.h */,
-				184555761C5E676F00B385E3 /* DetailViewController.m */,
 				0069BB011C85418C00C5A628 /* TestCATranform3DViewController.h */,
 				0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */,
 			);
@@ -744,6 +800,15 @@
 			children = (
 			);
 			path = TableView;
+			sourceTree = "<group>";
+		};
+		18C66E0C1CB0817F00B37911 /* SupportLayoutView */ = {
+			isa = PBXGroup;
+			children = (
+				18C66E0D1CB081AA00B37911 /* CGTitleButtonsLayoutView.h */,
+				18C66E0E1CB081AA00B37911 /* CGTitleButtonsLayoutView.m */,
+			);
+			path = SupportLayoutView;
 			sourceTree = "<group>";
 		};
 		18D881C21CA5EC0400A7DF31 /* CG_CGKit */ = {
@@ -1501,6 +1566,7 @@
 		18D882CA1CA5EC0400A7DF31 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				18FB413E1CAF2FD700BE4F34 /* UICollectionViewCell */,
 				18D882CB1CA5EC0400A7DF31 /* AlertView */,
 				18D882CE1CA5EC0400A7DF31 /* Button */,
 				18D882DC1CA5EC0400A7DF31 /* CollectionView */,
@@ -1532,8 +1598,6 @@
 			children = (
 				18D882CF1CA5EC0400A7DF31 /* CGBaseButton.h */,
 				18D882D01CA5EC0400A7DF31 /* CGBaseButton.m */,
-				18D882D11CA5EC0400A7DF31 /* CGBorderButton.h */,
-				18D882D21CA5EC0400A7DF31 /* CGBorderButton.m */,
 				18D882D31CA5EC0400A7DF31 /* CGButton.h */,
 				18D882D41CA5EC0400A7DF31 /* CGButton.m */,
 				18D882D51CA5EC0400A7DF31 /* CGHighlightBgButton.h */,
@@ -1557,10 +1621,11 @@
 		18D882DC1CA5EC0400A7DF31 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				18D882DD1CA5EC0400A7DF31 /* CGBaseCollectionView.h */,
-				18D882DE1CA5EC0400A7DF31 /* CGBaseCollectionView.m */,
-				18D882DF1CA5EC0400A7DF31 /* CGBrowseImageCollectionView.h */,
-				18D882E01CA5EC0400A7DF31 /* CGBrowseImageCollectionView.m */,
+				18FB413A1CAF2F2B00BE4F34 /* DataSourceManager */,
+				18D882DD1CA5EC0400A7DF31 /* CGCollectionView.h */,
+				18D882DE1CA5EC0400A7DF31 /* CGCollectionView.m */,
+				18D882DF1CA5EC0400A7DF31 /* CGBrowsePhotoListView.h */,
+				18D882E01CA5EC0400A7DF31 /* CGBrowsePhotoListView.m */,
 				18D882E11CA5EC0400A7DF31 /* CustomCollectionViewLayout */,
 			);
 			path = CollectionView;
@@ -1571,6 +1636,8 @@
 			children = (
 				18D882E21CA5EC0400A7DF31 /* CGBrowseImageCollectionViewFlowLayout.h */,
 				18D882E31CA5EC0400A7DF31 /* CGBrowseImageCollectionViewFlowLayout.m */,
+				1894AE8C1CAFF305005A518C /* UICollectionViewLayout+CGCreateLayout.h */,
+				1894AE8D1CAFF305005A518C /* UICollectionViewLayout+CGCreateLayout.m */,
 			);
 			path = CustomCollectionViewLayout;
 			sourceTree = "<group>";
@@ -1711,6 +1778,7 @@
 		18D8831D1CA5EC0400A7DF31 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				18C66E0C1CB0817F00B37911 /* SupportLayoutView */,
 				18D8831E1CA5EC0400A7DF31 /* BaseView */,
 				18D883291CA5EC0400A7DF31 /* Button+Button */,
 				18D8832C1CA5EC0400A7DF31 /* CycleScrollView */,
@@ -1937,8 +2005,13 @@
 			children = (
 				18D8836B1CA5EC0400A7DF31 /* UIView+CGAddConstraints.h */,
 				18D8836C1CA5EC0400A7DF31 /* UIView+CGAddConstraints.m */,
+				1885F3961CB15317002A6D68 /* UIView+CGSearchConstraints.h */,
+				1885F3971CB15317002A6D68 /* UIView+CGSearchConstraints.m */,
+				1894AE831CAFD0A8005A518C /* CGLayoutDefines.h */,
 				00C315C61CACBDD7009BFD7A /* CGLayoutManager.h */,
 				00C315C71CACBDD7009BFD7A /* CGLayoutManager.m */,
+				1885F3931CB150E3002A6D68 /* CGViewConstraintsModel.h */,
+				1885F3941CB150E3002A6D68 /* CGViewConstraintsModel.m */,
 				00C315C91CACBF71009BFD7A /* CGLayoutConstraintsTypeHeader.h */,
 			);
 			path = CustomLayoutCategory;
@@ -2025,6 +2098,7 @@
 		18D8838B1CA5EC0400A7DF31 /* BaseVC */ = {
 			isa = PBXGroup;
 			children = (
+				18FB41361CAF188800BE4F34 /* Category */,
 				18D8838C1CA5EC0400A7DF31 /* NavigationViewController */,
 				18D8838F1CA5EC0400A7DF31 /* ViewController */,
 			);
@@ -2283,6 +2357,51 @@
 			path = HomeView;
 			sourceTree = "<group>";
 		};
+		18FB41361CAF188800BE4F34 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18FB41371CAF18A000BE4F34 /* CGBaseViewController+CGSetupItem.h */,
+				18FB41381CAF18A000BE4F34 /* CGBaseViewController+CGSetupItem.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		18FB413A1CAF2F2B00BE4F34 /* DataSourceManager */ = {
+			isa = PBXGroup;
+			children = (
+				18FB413B1CAF2F4700BE4F34 /* CGCollectionViewDataSourceManager.h */,
+				18FB413C1CAF2F4700BE4F34 /* CGCollectionViewDataSourceManager.m */,
+			);
+			path = DataSourceManager;
+			sourceTree = "<group>";
+		};
+		18FB413E1CAF2FD700BE4F34 /* UICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				18FB41431CAF34DA00BE4F34 /* DetailCell */,
+				18FB41421CAF34CC00BE4F34 /* BaseCell */,
+			);
+			path = UICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		18FB41421CAF34CC00BE4F34 /* BaseCell */ = {
+			isa = PBXGroup;
+			children = (
+				18FB41441CAF34F300BE4F34 /* CGCollectionViewCell.h */,
+				18FB41451CAF34F300BE4F34 /* CGCollectionViewCell.m */,
+			);
+			path = BaseCell;
+			sourceTree = "<group>";
+		};
+		18FB41431CAF34DA00BE4F34 /* DetailCell */ = {
+			isa = PBXGroup;
+			children = (
+				18FB41471CAF351E00BE4F34 /* CGPhotoCollectionViewCell.h */,
+				18FB41481CAF351E00BE4F34 /* CGPhotoCollectionViewCell.m */,
+			);
+			path = DetailCell;
+			sourceTree = "<group>";
+		};
 		9E0BE1FB9A8DD6F176B693F1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -2494,6 +2613,7 @@
 				18D883EC1CA5EC0400A7DF31 /* UIScrollView+CGCreate.m in Sources */,
 				18D8844A1CA5EC0400A7DF31 /* UIView+LayoutSetup.m in Sources */,
 				18D883EE1CA5EC0400A7DF31 /* UITextField+CG_Create.m in Sources */,
+				1885F39B1CB16AAB002A6D68 /* CGPhotoGroupViewController.m in Sources */,
 				0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */,
 				18D883E81CA5EC0400A7DF31 /* UIView+CreateAutoLayoutTypeView.m in Sources */,
 				18D884311CA5EC0400A7DF31 /* CGTitleDoubleLayoutBaseView.m in Sources */,
@@ -2502,6 +2622,7 @@
 				18D884361CA5EC0400A7DF31 /* CGCycleScrollView+CGBuildView.m in Sources */,
 				18DBAAFB1C12877E00552828 /* main.m in Sources */,
 				18D8841B1CA5EC0400A7DF31 /* CGScrollView.m in Sources */,
+				1885F3951CB150E3002A6D68 /* CGViewConstraintsModel.m in Sources */,
 				00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */,
 				18D883DE1CA5EC0400A7DF31 /* UIApplication+CGVerificationRemoteNotification.m in Sources */,
 				18BB0B651CA6FC3F00368F21 /* UIView+CGJudgeProperty.m in Sources */,
@@ -2521,6 +2642,7 @@
 				18D8843C1CA5EC0400A7DF31 /* CGCycleBrowseImageScrollView+CGSetupCycleProperty.m in Sources */,
 				18D884471CA5EC0400A7DF31 /* ALView+PureLayout.m in Sources */,
 				18D883F31CA5EC0400A7DF31 /* UILabel+CGSetupAppearance.m in Sources */,
+				1885F3981CB15317002A6D68 /* UIView+CGSearchConstraints.m in Sources */,
 				18D883D41CA5EC0400A7DF31 /* NSTimer+ChangeTimerStatus.m in Sources */,
 				18D8842D1CA5EC0400A7DF31 /* CGBaseView.m in Sources */,
 				18D883EF1CA5EC0400A7DF31 /* UIView+CGCreate.m in Sources */,
@@ -2544,7 +2666,6 @@
 				18D884301CA5EC0400A7DF31 /* CGTitleBaseView.m in Sources */,
 				18E6E2AC1C15B87500906A5A /* AFNetworkActivityLogger.m in Sources */,
 				18D883D81CA5EC0400A7DF31 /* NSUserDefaults+SaveData.m in Sources */,
-				184555771C5E676F00B385E3 /* DetailViewController.m in Sources */,
 				18D883EB1CA5EC0400A7DF31 /* UILabel+CGCreateCustomLabel.m in Sources */,
 				18D884131CA5EC0400A7DF31 /* CGInputConditionButton.m in Sources */,
 				18D884391CA5EC0400A7DF31 /* CGCycleAideContentView.m in Sources */,
@@ -2563,7 +2684,6 @@
 				18D8842B1CA5EC0400A7DF31 /* CGTableViewCell.m in Sources */,
 				18D883D61CA5EC0400A7DF31 /* NSNotificationCenter+CGCreateNotification.m in Sources */,
 				18D883F61CA5EC0400A7DF31 /* UIScrollView+CGSetupAppearance.m in Sources */,
-				005633AB1CAD200100520F94 /* TestPhotosCollectionViewController.m in Sources */,
 				18D883F51CA5EC0400A7DF31 /* UIScrollView+CGPullToRefresh.m in Sources */,
 				18D884461CA5EC0400A7DF31 /* UIView+CGAddConstraints.m in Sources */,
 				18D884431CA5EC0400A7DF31 /* CGTitleTextView.m in Sources */,
@@ -2595,7 +2715,7 @@
 				18D884591CA5EC0400A7DF31 /* CGTitleBarViewController.m in Sources */,
 				18D883B51CA5EC0400A7DF31 /* UIView+CGLineMoveView.m in Sources */,
 				18D884531CA5EC0400A7DF31 /* UINavigationController+CGSetupGestureRecognizer.m in Sources */,
-				18D884151CA5EC0400A7DF31 /* CGBrowseImageCollectionView.m in Sources */,
+				18D884151CA5EC0400A7DF31 /* CGBrowsePhotoListView.m in Sources */,
 				005633BB1CAD208300520F94 /* CGPhotoNavigationController.m in Sources */,
 				18D884201CA5EC0400A7DF31 /* CGTableViewDataSourceManager.m in Sources */,
 				18D884071CA5EC0400A7DF31 /* UIView+CGSearchView.m in Sources */,
@@ -2611,8 +2731,12 @@
 				18D884561CA5EC0400A7DF31 /* CGNavigationDelegateObject.m in Sources */,
 				18D883E61CA5EC0400A7DF31 /* UIButton+UpdateLocate.m in Sources */,
 				18D883D51CA5EC0400A7DF31 /* UIImage+CGLaunchImage.m in Sources */,
+				18C66E0F1CB081AA00B37911 /* CGTitleButtonsLayoutView.m in Sources */,
+				1885F3921CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m in Sources */,
+				18FB413D1CAF2F4700BE4F34 /* CGCollectionViewDataSourceManager.m in Sources */,
 				18D8841C1CA5EC0400A7DF31 /* HorizontalSingleAppearance.m in Sources */,
 				18E873D51CAC8F3500F2BB84 /* CGSingeContentTableView.m in Sources */,
+				1894AE8B1CAFD83F005A518C /* CGTestDefinesData.m in Sources */,
 				18D884251CA5EC0400A7DF31 /* CGDefalutTextFieldInputView.m in Sources */,
 				18D883BB1CA5EC0400A7DF31 /* UIView+Constant.m in Sources */,
 				18BB0B621CA6F87D00368F21 /* CGCreateViewsAppearance.m in Sources */,
@@ -2622,10 +2746,13 @@
 				18D884651CA5F2A600A7DF31 /* CGSubviewsSpaceAppearance.m in Sources */,
 				18D884111CA5EC0400A7DF31 /* CGHighlightBgButton.m in Sources */,
 				18D884221CA5EC0400A7DF31 /* CGSingleSectionTableViewDataSource.m in Sources */,
+				18FB41491CAF351E00BE4F34 /* CGPhotoCollectionViewCell.m in Sources */,
+				1894AE8E1CAFF305005A518C /* UICollectionViewLayout+CGCreateLayout.m in Sources */,
 				18D884571CA5EC0400A7DF31 /* CGAlertController.m in Sources */,
 				18D884051CA5EC0400A7DF31 /* UIView+CGCopyView.m in Sources */,
-				18D884141CA5EC0400A7DF31 /* CGBaseCollectionView.m in Sources */,
+				18D884141CA5EC0400A7DF31 /* CGCollectionView.m in Sources */,
 				18D884491CA5EC0400A7DF31 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				18FB41461CAF34F300BE4F34 /* CGCollectionViewCell.m in Sources */,
 				18D883FC1CA5EC0400A7DF31 /* UITableView+CGReloadTableView.m in Sources */,
 				18D8845F1CA5F04000A7DF31 /* CGAddSubviewsAppearance.m in Sources */,
 				18DBAE021C12968900552828 /* HomeViewController.m in Sources */,
@@ -2648,9 +2775,11 @@
 				18D883C61CA5EC0400A7DF31 /* NSArray+CGArray.m in Sources */,
 				18D883CF1CA5EC0400A7DF31 /* NSString+CGString.m in Sources */,
 				18D884041CA5EC0400A7DF31 /* UIView+CGBorderLayer.m in Sources */,
+				1894AE871CAFD4F3005A518C /* CGTestDefinesTableViewController.m in Sources */,
 				18D883DB1CA5EC0400A7DF31 /* CGAssetsFilterObject.m in Sources */,
 				18D883D11CA5EC0400A7DF31 /* NSString+VerificationString.m in Sources */,
 				18D883D01CA5EC0400A7DF31 /* NSString+CGStrlen.m in Sources */,
+				18FB41391CAF18A000BE4F34 /* CGBaseViewController+CGSetupItem.m in Sources */,
 				18D884451CA5EC0400A7DF31 /* CGBorderBaseLayer.m in Sources */,
 				18D883F71CA5EC0400A7DF31 /* UIScrollView+CGSetupScrollProperty.m in Sources */,
 				18D884411CA5EC0400A7DF31 /* CGTitleLabelView.m in Sources */,
@@ -2661,7 +2790,6 @@
 				18D884181CA5EC0400A7DF31 /* CGLabel.m in Sources */,
 				18D883BC1CA5EC0400A7DF31 /* CGDispathMethod.m in Sources */,
 				18D884271CA5EC0400A7DF31 /* CGTextFieldInputViewAppearance.m in Sources */,
-				18D8840F1CA5EC0400A7DF31 /* CGBorderButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

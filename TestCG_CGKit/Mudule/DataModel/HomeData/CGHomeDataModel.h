@@ -29,6 +29,7 @@ typedef NS_ENUM(NSInteger, CGShowType) {
 
 NS_ASSUME_NONNULL_BEGIN
 
+/** 首页数据模型 */
 @interface CGHomeDataModel : CGBaseObject
 
 @property (nonatomic, assign) Class className;
@@ -51,6 +52,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (nullable __kindof UIViewController *)createTargetViewController;
 
 + (instancetype)cg_createHomeDataWithClass:(Class)paramClass;
++ (instancetype)cg_createHomeDataWithClass:(Class)paramClass subtitle:(nullable NSString *)subtitle;
 + (instancetype)cg_createHomeDataWithClass:(Class)paramClass title:(nullable NSString *)title subtitle:(nullable NSString *)subtitle;
 
 @end

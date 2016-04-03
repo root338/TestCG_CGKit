@@ -19,6 +19,8 @@
 {
     
     __weak IBOutlet UITableView *tableView;
+    
+    
 }
 
 @property (nonatomic, strong) CGTableViewDataSourceManager *dataSourceManager;
@@ -26,6 +28,16 @@
 @end
 
 @implementation HomeViewController
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    //取消tableView中 cell 的选中状态
+    if (tableView.indexPathForSelectedRow) {
+        [tableView deselectRowAtIndexPath:tableView.indexPathForSelectedRow animated:YES];
+    }
+}
 
 - (void)viewDidLoad
 {
@@ -48,6 +60,8 @@
     CGHomeDataModel *homeDataObj        = self.dataSourceManager.dataSource[indexPath.row];
     UIViewController *viewController    = [homeDataObj createTargetViewController];
     if (viewController) {
+        
+        //根据设置的加载类型不同加载视图
         if (homeDataObj.showType == CGShowTypeModel) {
             
             [self.navigationController presentViewController:viewController animated:YES completion:nil];
@@ -55,7 +69,6 @@
             
             [self.navigationController pushViewController:viewController animated:YES];
         }
-        
     }
 }
 

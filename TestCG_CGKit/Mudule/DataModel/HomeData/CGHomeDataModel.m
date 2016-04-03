@@ -11,15 +11,24 @@
 #import "AppDelegate.h"
 
 #import "UIView+LoadXIBFile.h"
-
+/** 查看系统相册 */
 #import "CGPhotoListViewController.h"
 #import "CGPhotoNavigationController.h"
+/** 宏定义收集 */
+#import "CGTestDefinesTableViewController.h"
+/** 测试约束 */
+#import "CGTestLayoutConstranintsViewController.h"
 
 @implementation CGHomeDataModel
 
 + (instancetype)cg_createHomeDataWithClass:(Class)paramClass
 {
     return [self cg_createHomeDataWithClass:paramClass title:nil subtitle:nil];
+}
+
++ (instancetype)cg_createHomeDataWithClass:(Class)paramClass subtitle:(NSString *)subtitle
+{
+    return [self cg_createHomeDataWithClass:paramClass title:nil subtitle:subtitle];
 }
 
 + (instancetype)cg_createHomeDataWithClass:(Class)paramClass title:(NSString *)title subtitle:(NSString *)subtitle
@@ -54,6 +63,14 @@
     }
     
     viewController.title    = self.title;
+    
+    if ([viewController isKindOfClass:[CGPhotoListViewController class]]) {
+        
+        [(CGPhotoListViewController *)viewController setRightItemTitle:@"取消"];
+        CGPhotoNavigationController *photoNavigationController = [[CGPhotoNavigationController alloc] initWithRootViewController:viewController];
+        
+        viewController  = photoNavigationController;
+    }
     
     return viewController;
 }
@@ -100,8 +117,14 @@
     NSMutableArray *dataSourceList  = [NSMutableArray array];
     
     CGHomeDataModel *photoListVC    = [CGHomeDataModel cg_createHomeDataWithClass:[CGPhotoListViewController class] title:@"浏览相机图片" subtitle:@"本地相机图片，可以选择"];
-    
+    photoListVC.showType            = CGShowTypeModel;
     [dataSourceList addObject:photoListVC];
+    
+    CGHomeDataModel *testDefinesVC  = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestDefinesTableViewController class] title:@"记录观看的宏定义" subtitle:@"记录开发中看见的宏定义说明，有可能存在表格中，也可能日志形式打印"];
+    [dataSourceList addObject:testDefinesVC];
+    
+    CGHomeDataModel *testLayoutConstranintsVC   = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestLayoutConstranintsViewController class] title:@"测试约束" subtitle:@"测试 UIView 扩展文件 UIView+CGAddConstraints.h 功能"];
+    [dataSourceList addObject:testLayoutConstranintsVC];
     
     return dataSourceList;
 }

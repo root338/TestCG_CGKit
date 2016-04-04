@@ -12,8 +12,8 @@
 
 #import "UIView+LoadXIBFile.h"
 /** 查看系统相册 */
-#import "CGPhotoListViewController.h"
 #import "CGPhotoNavigationController.h"
+
 /** 宏定义收集 */
 #import "CGTestDefinesTableViewController.h"
 /** 测试约束 */
@@ -44,32 +44,35 @@
 - (nullable __kindof UIViewController *)createTargetViewController
 {
     UIViewController *viewController    = nil;
-    switch (self.loadType) {
-        case CGLoadTypeClass:
-            viewController  = [[self.className alloc] init];
-            break;
-        case CGLoadTypeXIB:
-            viewController  = [self.className loadXIBFileWithName:self.xibFileName];
-            break;
-        case CGLoadTypeStoryboard:
-            viewController  = [self.storyboard instantiateViewControllerWithIdentifier:self.storyboardID];
-            break;
-        default:
-            break;
+    
+    if (self.className == [CGPhotoNavigationController class]) {
+        
+        CGPhotoNavigationController *photoNavigationController = [CGPhotoNavigationController cg_createDefalutNavigationController];
+        
+        viewController  = photoNavigationController;
+    }
+    
+    if (!viewController) {
+        
+        switch (self.loadType) {
+            case CGLoadTypeClass:
+                viewController  = [[self.className alloc] init];
+                break;
+            case CGLoadTypeXIB:
+                viewController  = [self.className loadXIBFileWithName:self.xibFileName];
+                break;
+            case CGLoadTypeStoryboard:
+                viewController  = [self.storyboard instantiateViewControllerWithIdentifier:self.storyboardID];
+                break;
+            default:
+                break;
+        }
+        
+        viewController.title    = self.title;
     }
     
     if (![viewController isKindOfClass:[UIViewController class]]) {
         viewController  = nil;
-    }
-    
-    viewController.title    = self.title;
-    
-    if ([viewController isKindOfClass:[CGPhotoListViewController class]]) {
-        
-        [(CGPhotoListViewController *)viewController setRightItemTitle:@"取消"];
-        CGPhotoNavigationController *photoNavigationController = [[CGPhotoNavigationController alloc] initWithRootViewController:viewController];
-        
-        viewController  = photoNavigationController;
     }
     
     return viewController;
@@ -116,7 +119,7 @@
 {
     NSMutableArray *dataSourceList  = [NSMutableArray array];
     
-    CGHomeDataModel *photoListVC    = [CGHomeDataModel cg_createHomeDataWithClass:[CGPhotoListViewController class] title:@"浏览相机图片" subtitle:@"本地相机图片，可以选择"];
+    CGHomeDataModel *photoListVC    = [CGHomeDataModel cg_createHomeDataWithClass:[CGPhotoNavigationController class] title:@"浏览相机图片" subtitle:@"本地相机图片，可以选择"];
     photoListVC.showType            = CGShowTypeModel;
     [dataSourceList addObject:photoListVC];
     

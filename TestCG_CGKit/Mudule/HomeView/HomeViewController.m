@@ -52,6 +52,7 @@
     }];
     tableView.dataSource    = self.dataSourceManager;
     tableView.delegate      = self;
+    
 }
 
 #pragma mark - UITableViewDelegate

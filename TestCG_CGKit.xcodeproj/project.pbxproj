@@ -11,6 +11,7 @@
 		005633BB1CAD208300520F94 /* CGPhotoNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005633B91CAD208300520F94 /* CGPhotoNavigationController.m */; };
 		0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */; };
 		0069BB061C85431A00C5A628 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0069BB051C85431A00C5A628 /* 2.jpg */; };
+		00A8D3CB1CB4B41E00896C27 /* UIFont+CGCreateFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8D3CA1CB4B41E00896C27 /* UIFont+CGCreateFont.m */; };
 		00BAB2F11C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BAB2F01C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m */; };
 		00C315C81CACBDD7009BFD7A /* CGLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C315C71CACBDD7009BFD7A /* CGLayoutManager.m */; };
 		00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */; };
@@ -237,6 +238,8 @@
 		0069BB011C85418C00C5A628 /* TestCATranform3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCATranform3DViewController.h; sourceTree = "<group>"; };
 		0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCATranform3DViewController.m; sourceTree = "<group>"; };
 		0069BB051C85431A00C5A628 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		00A8D3C91CB4B41E00896C27 /* UIFont+CGCreateFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+CGCreateFont.h"; sourceTree = "<group>"; };
+		00A8D3CA1CB4B41E00896C27 /* UIFont+CGCreateFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+CGCreateFont.m"; sourceTree = "<group>"; };
 		00BAB2EF1C72C37D00FC1F3A /* TestPhotosCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPhotosCollectionViewCell.h; sourceTree = "<group>"; };
 		00BAB2F01C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPhotosCollectionViewCell.m; sourceTree = "<group>"; };
 		00C315C61CACBDD7009BFD7A /* CGLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLayoutManager.h; sourceTree = "<group>"; };
@@ -733,6 +736,15 @@
 				0069BB051C85431A00C5A628 /* 2.jpg */,
 			);
 			path = ImageResource;
+			sourceTree = "<group>";
+		};
+		00A8D3C81CB4B40300896C27 /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				00A8D3C91CB4B41E00896C27 /* UIFont+CGCreateFont.h */,
+				00A8D3CA1CB4B41E00896C27 /* UIFont+CGCreateFont.m */,
+			);
+			path = UIFont;
 			sourceTree = "<group>";
 		};
 		00C315CA1CACC0FD009BFD7A /* DataModel */ = {
@@ -1346,6 +1358,7 @@
 		18D882531CA5EC0400A7DF31 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				00A8D3C81CB4B40300896C27 /* UIFont */,
 				18D882541CA5EC0400A7DF31 /* UIApplication */,
 				18D882571CA5EC0400A7DF31 /* UIColor */,
 				18D8825A1CA5EC0400A7DF31 /* UIImage */,
@@ -2754,6 +2767,7 @@
 				18D8840D1CA5EC0400A7DF31 /* CGAlertView.m in Sources */,
 				18D8840A1CA5EC0400A7DF31 /* UIView+CGUpdateLayout.m in Sources */,
 				18D883F41CA5EC0400A7DF31 /* UIScrollView+CGProperty.m in Sources */,
+				00A8D3CB1CB4B41E00896C27 /* UIFont+CGCreateFont.m in Sources */,
 				18D884261CA5EC0400A7DF31 /* CGTextFieldInputView.m in Sources */,
 				18D884091CA5EC0400A7DF31 /* UIView+CGSetupFrame.m in Sources */,
 				18D8844F1CA5EC0400A7DF31 /* CGNavigationController.m in Sources */,

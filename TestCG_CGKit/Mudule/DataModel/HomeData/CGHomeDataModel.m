@@ -18,6 +18,8 @@
 #import "CGTestDefinesTableViewController.h"
 /** 测试约束 */
 #import "CGTestLayoutConstranintsViewController.h"
+/** 测试隐藏导航栏 */
+#import "CGTitleBarViewController.h"
 
 @implementation CGHomeDataModel
 
@@ -128,6 +130,9 @@
     
     CGHomeDataModel *testLayoutConstranintsVC   = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestLayoutConstranintsViewController class] title:@"测试约束" subtitle:@"测试 UIView 扩展文件 UIView+CGAddConstraints.h 功能"];
     [dataSourceList addObject:testLayoutConstranintsVC];
+    
+    CGHomeDataModel *testCustomBarVC    = [CGHomeDataModel cg_createHomeDataWithClass:[CGTitleBarViewController class] subtitle:@"测试隐藏导航栏"];
+    [dataSourceList addObject:testCustomBarVC];
     
     return dataSourceList;
 }

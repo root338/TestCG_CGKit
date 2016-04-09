@@ -10,6 +10,7 @@
 
 #import "UIView+CGCreateViews.h"
 #import "UIView+CGAddConstraints.h"
+#import "UIView+CGUpdateConstraints.h"
 #import "UIEdgeInsets+Category.h"
 
 @interface CGTestLayoutConstranintsViewController ()
@@ -24,7 +25,8 @@
 {
     [super viewDidLoad];
     
-    [self testDoubleViewToViewController];
+//    [self testDoubleViewToViewController];
+    [self test5];
     
     self.view.backgroundColor   = [UIColor whiteColor];
 }
@@ -36,6 +38,76 @@
     UIView *view = [UIView cg_createViewWithBackgroundColor:[UIColor blueColor]];
     [self.view addSubview:view];
     [view cg_autoEdgesToViewController:self withInsets:UIEdgeInsetsMakeAllEqualValue(15)];
+}
+
+- (void)test2
+{
+    /** 测试 UIView (CGSuperviewConstranint) 扩展方法 */
+    UIView *redView = [UIView cg_createViewWithBackgroundColor:[UIColor redColor]];
+    [self.view addSubview:redView];
+    [redView cg_autoEdgesToViewController:self withInsets:UIEdgeInsetsMakeAllEqualValue(15)];
+    
+    UIView * yellowView   = [UIView cg_createViewWithBackgroundColor:[UIColor yellowColor]];
+    [redView addSubview:yellowView];
+    
+    NSMutableArray *constranints    = [NSMutableArray array];
+    [constranints addObject:[yellowView cg_autoConstrainToSuperviewAttribute:NSLayoutAttributeTop withOffset:20] ];
+    [constranints addObject:[yellowView cg_autoConstrainToSuperviewAttribute:NSLayoutAttributeLeading withOffset:20]];
+//    [constranints addObject:[yellowView cg_autoConstrainToSuperviewAttribute:NSLayoutAttributeBottom withOffset:20]];
+//    [constranints addObject:[yellowView cg_autoConstrainToSuperviewAttribute:NSLayoutAttributeTrailing withOffset:20]];
+    [constranints addObject:[yellowView cg_autoConstrainToSuperviewAttribute:NSLayoutAttributeLeading withOffset:20 relation:NSLayoutRelationLessThanOrEqual]];
+    [constranints addObject:[yellowView cg_autoConstrainToSuperviewAttribute:NSLayoutAttributeBottom withOffset:20 relation:NSLayoutRelationLessThanOrEqual]];
+    [constranints addObject:[yellowView cg_autoConstrainToSuperviewAttribute:NSLayoutAttributeTrailing withOffset:20 relation:NSLayoutRelationLessThanOrEqual]];
+    
+}
+
+- (void)test3
+{
+    //测试 UIView (CGViewControllerConstraint) 扩展方法
+    UIView *blueView    = [UIView cg_createViewWithBackgroundColor:[UIColor blueColor]];
+    [self.view addSubview:blueView];
+    
+    [blueView cg_topLayoutGuideOfViewController:self withInset:20 relatedBy:NSLayoutRelationLessThanOrEqual];
+    [blueView cg_autoConstrainToSuperviewAttribute:NSLayoutAttributeLeading withOffset:20];
+    [blueView cg_bottomLayoutGuideOfViewController:self withInset:20 relatedBy:NSLayoutRelationLessThanOrEqual];
+    [blueView cg_autoConstrainToSuperviewAttribute:NSLayoutAttributeTrailing withOffset:20];
+}
+
+- (void)test4
+{
+    //测试 UIView (CGSuperviewConstranint)
+    UIView *greenView   = [UIView cg_createViewWithBackgroundColor:[UIColor greenColor]];
+    [self.view addSubview:greenView];
+    [greenView cg_autoEdgesToViewController:self withInsets:UIEdgeInsetsMakeAllEqualValue(20)];
+    
+    UIView *grayView    = [UIView cg_createViewWithBackgroundColor:[UIColor grayColor]];
+    [greenView addSubview:grayView];
+    [grayView cg_autoEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsMakeAllEqualValue(20) excludingEdge:CGLayoutEdgeBottom];
+    [grayView cg_autoConstrainToSuperviewAttribute:NSLayoutAttributeBottom withOffset:20 relation:NSLayoutRelationLessThanOrEqual];
+}
+
+- (void)test5
+{
+    //测试UIView (CGViewDimensionConstraint)
+    UIView *grayView    = [UIView cg_createViewWithBackgroundColor:[UIColor grayColor]];
+    [self.view addSubview:grayView];
+    
+    UIView *orangeView  = [UIView cg_createViewWithBackgroundColor:[UIColor orangeColor]];
+    [grayView addSubview:orangeView];
+    
+    [grayView cg_updateAutoEdgesToViewController:self withInsets:UIEdgeInsetsMakeAllEqualValue(20)];
+    [orangeView cg_updateAutoSetupViewSize:CGSizeMake(100, 100)];
+    [orangeView cg_updateAutoCenterToSameAxisOfView:grayView];
+    
+    NSLog(@"%lu", self.view.constraints.count);
+    NSLog(@"%lu", grayView.constraints.count);
+    NSLog(@"%lu", orangeView.constraints.count);
+    
+//    [orangeView cg_autoDimension:CGDimensionWidth fixedLength:100 relation:NSLayoutRelationGreaterThanOrEqual];
+//    [orangeView cg_autoDimension:CGDimensionHeight view:grayView relatedBy:NSLayoutRelationGreaterThanOrEqual];
+    
+//    [orangeView cg_autoAxis:CGAxisVertical toSameAxisOfView:grayView withOffset:100];
+//    [orangeView cg_autoConstrainToSuperviewAttribute:NSLayoutAttributeTop withOffset:20];
 }
 
 /** 多视图综合测试 */

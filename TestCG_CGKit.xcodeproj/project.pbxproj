@@ -15,6 +15,8 @@
 		00BAB2F11C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BAB2F01C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m */; };
 		00C315C81CACBDD7009BFD7A /* CGLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C315C71CACBDD7009BFD7A /* CGLayoutManager.m */; };
 		00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */; };
+		00C71D0A1CBB99F800B22C9D /* UIDevice+CGDirection.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C71D091CBB99F800B22C9D /* UIDevice+CGDirection.m */; };
+		00C71D0D1CBB9ACD00B22C9D /* UIApplication+CGVerifyDeviceDirection.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C71D0C1CBB9ACD00B22C9D /* UIApplication+CGVerifyDeviceDirection.m */; };
 		18387D971CB317BA00F73CD9 /* CGBrowsePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18387D961CB317BA00F73CD9 /* CGBrowsePhotoViewController.m */; };
 		183F846B1CB1A4CC00562857 /* CGPhotoGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F846A1CB1A4CC00562857 /* CGPhotoGroupTableViewCell.m */; };
 		183F846F1CB1CE2E00562857 /* CGFCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F846E1CB1CE2E00562857 /* CGFCManager.m */; };
@@ -251,6 +253,10 @@
 		00C315C91CACBF71009BFD7A /* CGLayoutConstraintsTypeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGLayoutConstraintsTypeHeader.h; sourceTree = "<group>"; };
 		00C315CC1CACC17E009BFD7A /* CGHomeDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGHomeDataModel.h; sourceTree = "<group>"; };
 		00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGHomeDataModel.m; sourceTree = "<group>"; };
+		00C71D081CBB99F800B22C9D /* UIDevice+CGDirection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+CGDirection.h"; sourceTree = "<group>"; };
+		00C71D091CBB99F800B22C9D /* UIDevice+CGDirection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+CGDirection.m"; sourceTree = "<group>"; };
+		00C71D0B1CBB9ACD00B22C9D /* UIApplication+CGVerifyDeviceDirection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+CGVerifyDeviceDirection.h"; sourceTree = "<group>"; };
+		00C71D0C1CBB9ACD00B22C9D /* UIApplication+CGVerifyDeviceDirection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+CGVerifyDeviceDirection.m"; sourceTree = "<group>"; };
 		18387D951CB317BA00F73CD9 /* CGBrowsePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBrowsePhotoViewController.h; sourceTree = "<group>"; };
 		18387D961CB317BA00F73CD9 /* CGBrowsePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBrowsePhotoViewController.m; sourceTree = "<group>"; };
 		183F84691CB1A4CC00562857 /* CGPhotoGroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPhotoGroupTableViewCell.h; sourceTree = "<group>"; };
@@ -776,6 +782,15 @@
 				00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */,
 			);
 			path = HomeData;
+			sourceTree = "<group>";
+		};
+		00C71D071CBB99CE00B22C9D /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				00C71D081CBB99F800B22C9D /* UIDevice+CGDirection.h */,
+				00C71D091CBB99F800B22C9D /* UIDevice+CGDirection.m */,
+			);
+			path = UIDevice;
 			sourceTree = "<group>";
 		};
 		183F84681CB1A49B00562857 /* DetailCell */ = {
@@ -1371,6 +1386,7 @@
 		18D882531CA5EC0400A7DF31 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				00C71D071CBB99CE00B22C9D /* UIDevice */,
 				00A8D3C81CB4B40300896C27 /* UIFont */,
 				18D882541CA5EC0400A7DF31 /* UIApplication */,
 				18D882571CA5EC0400A7DF31 /* UIColor */,
@@ -1384,6 +1400,8 @@
 			children = (
 				18D882551CA5EC0400A7DF31 /* UIApplication+CGVerificationRemoteNotification.h */,
 				18D882561CA5EC0400A7DF31 /* UIApplication+CGVerificationRemoteNotification.m */,
+				00C71D0B1CBB9ACD00B22C9D /* UIApplication+CGVerifyDeviceDirection.h */,
+				00C71D0C1CBB9ACD00B22C9D /* UIApplication+CGVerifyDeviceDirection.m */,
 			);
 			path = UIApplication;
 			sourceTree = "<group>";
@@ -2818,6 +2836,7 @@
 				18D884281CA5EC0400A7DF31 /* CGBaseTextView.m in Sources */,
 				18DB763A1CB9301F00CAB269 /* UIView+CGSearchView.m in Sources */,
 				18D883B81CA5EC0400A7DF31 /* UIView+CGSetupAnimationArea.m in Sources */,
+				00C71D0A1CBB99F800B22C9D /* UIDevice+CGDirection.m in Sources */,
 				18D884541CA5EC0400A7DF31 /* UIViewController+CGFullscreenPopGesture.m in Sources */,
 				18D883D91CA5EC0400A7DF31 /* ALAsset+CGProperty.m in Sources */,
 				18D883C51CA5EC0400A7DF31 /* UIImageView+CGSetupImageURL.m in Sources */,
@@ -2862,6 +2881,7 @@
 				18D8844E1CA5EC0400A7DF31 /* CGNavigationAppearance.m in Sources */,
 				18D883BF1CA5EC0400A7DF31 /* CGRequestManager.m in Sources */,
 				18D884621CA5F10700A7DF31 /* CGSubviewsSizeAppearance.m in Sources */,
+				00C71D0D1CBB9ACD00B22C9D /* UIApplication+CGVerifyDeviceDirection.m in Sources */,
 				18F2A9B91CB4554E007A4B3F /* CGBrowsePhotoCollectionViewCell.m in Sources */,
 				18D883B91CA5EC0400A7DF31 /* UINavigationController+PushAndPopAnmation.m in Sources */,
 				18D8843B1CA5EC0400A7DF31 /* CGCycleBrowseImageScrollView.m in Sources */,
@@ -3071,6 +3091,7 @@
 			baseConfigurationReference = CB955F562162540E6C680F5B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3103,6 +3124,7 @@
 			baseConfigurationReference = 2579600A7457913BDB2035A0 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CGKitShareExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>TestCG_CGKit.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>18DBAADF1C12818400552828</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>18F21B8D1CC3F6B100B58B16</key>
 		<dict>
 			<key>primary</key>
 			<true/>

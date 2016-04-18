@@ -18,8 +18,11 @@
 		00C71D0A1CBB99F800B22C9D /* UIDevice+CGDirection.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C71D091CBB99F800B22C9D /* UIDevice+CGDirection.m */; };
 		00C71D0D1CBB9ACD00B22C9D /* UIApplication+CGVerifyDeviceDirection.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C71D0C1CBB9ACD00B22C9D /* UIApplication+CGVerifyDeviceDirection.m */; };
 		18387D971CB317BA00F73CD9 /* CGBrowsePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18387D961CB317BA00F73CD9 /* CGBrowsePhotoViewController.m */; };
+		183CCCA41CC5894400235486 /* CGTestPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */; };
 		183F846B1CB1A4CC00562857 /* CGPhotoGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F846A1CB1A4CC00562857 /* CGPhotoGroupTableViewCell.m */; };
 		183F846F1CB1CE2E00562857 /* CGFCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F846E1CB1CE2E00562857 /* CGFCManager.m */; };
+		185086E51CC303BF001CBC6B /* CGImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 185086E41CC303BF001CBC6B /* CGImageManager.m */; };
+		185086E71CC303E4001CBC6B /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185086E61CC303E4001CBC6B /* Photos.framework */; };
 		187579961C12E8AB0065C29D /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187579951C12E8AB0065C29D /* Reveal.framework */; };
 		18785F4A1CB9B864002FF67E /* NSLayoutConstraint+CGVerifyConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 18785F491CB9B864002FF67E /* NSLayoutConstraint+CGVerifyConstraint.m */; };
 		18785F4E1CB9C0FB002FF67E /* UIView+CGUpdateConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 18785F4D1CB9C0FB002FF67E /* UIView+CGUpdateConstraints.m */; };
@@ -201,7 +204,6 @@
 		18DB763F1CB9301F00CAB269 /* UIView+DrawBoxLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB76331CB9301F00CAB269 /* UIView+DrawBoxLine.m */; };
 		18DB76431CB9303E00CAB269 /* UIView+CGAddGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB76421CB9303E00CAB269 /* UIView+CGAddGestureRecognizer.m */; };
 		18DBAACA1C12818300552828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DBAAC81C12818300552828 /* Main.storyboard */; };
-		18DBAACC1C12818300552828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DBAACB1C12818300552828 /* Assets.xcassets */; };
 		18DBAACF1C12818300552828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DBAACD1C12818300552828 /* LaunchScreen.storyboard */; };
 		18DBAADA1C12818300552828 /* TestCG_CGKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAAD91C12818300552828 /* TestCG_CGKitTests.m */; };
 		18DBAAE51C12818400552828 /* TestCG_CGKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAAE41C12818400552828 /* TestCG_CGKitUITests.m */; };
@@ -210,6 +212,9 @@
 		18DBAE021C12968900552828 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAE011C12968900552828 /* HomeViewController.m */; };
 		18E6E2AC1C15B87500906A5A /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6E2AB1C15B87500906A5A /* AFNetworkActivityLogger.m */; };
 		18E873D51CAC8F3500F2BB84 /* CGSingeContentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E873D41CAC8F3500F2BB84 /* CGSingeContentTableView.m */; };
+		18F21B921CC3F6B100B58B16 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F21B911CC3F6B100B58B16 /* ShareViewController.m */; };
+		18F21B951CC3F6B100B58B16 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F21B931CC3F6B100B58B16 /* MainInterface.storyboard */; };
+		18F21B9A1CC3F6B100B58B16 /* CGKitShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 18F21B8E1CC3F6B100B58B16 /* CGKitShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		18F2A9B91CB4554E007A4B3F /* CGBrowsePhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2A9B81CB4554E007A4B3F /* CGBrowsePhotoCollectionViewCell.m */; };
 		18F2A9BD1CB458FD007A4B3F /* CGImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2A9BC1CB458FD007A4B3F /* CGImageView.m */; };
 		18FB41391CAF18A000BE4F34 /* CGBaseViewController+CGSetupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FB41381CAF18A000BE4F34 /* CGBaseViewController+CGSetupItem.m */; };
@@ -234,7 +239,28 @@
 			remoteGlobalIDString = 18DBAABB1C12818300552828;
 			remoteInfo = TestCG_CGKit;
 		};
+		18F21B971CC3F6B100B58B16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18DBAAB41C12818300552828 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F21B8D1CC3F6B100B58B16;
+			remoteInfo = CGKitShareExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18F21B991CC3F6B100B58B16 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				18F21B9A1CC3F6B100B58B16 /* CGKitShareExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		005633B61CAD208300520F94 /* CGPhotoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPhotoListViewController.h; sourceTree = "<group>"; };
@@ -259,10 +285,15 @@
 		00C71D0C1CBB9ACD00B22C9D /* UIApplication+CGVerifyDeviceDirection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+CGVerifyDeviceDirection.m"; sourceTree = "<group>"; };
 		18387D951CB317BA00F73CD9 /* CGBrowsePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBrowsePhotoViewController.h; sourceTree = "<group>"; };
 		18387D961CB317BA00F73CD9 /* CGBrowsePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBrowsePhotoViewController.m; sourceTree = "<group>"; };
+		183CCCA21CC5894400235486 /* CGTestPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestPhotosViewController.h; sourceTree = "<group>"; };
+		183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestPhotosViewController.m; sourceTree = "<group>"; };
 		183F84691CB1A4CC00562857 /* CGPhotoGroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPhotoGroupTableViewCell.h; sourceTree = "<group>"; };
 		183F846A1CB1A4CC00562857 /* CGPhotoGroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPhotoGroupTableViewCell.m; sourceTree = "<group>"; };
 		183F846D1CB1CE2E00562857 /* CGFCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGFCManager.h; sourceTree = "<group>"; };
 		183F846E1CB1CE2E00562857 /* CGFCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGFCManager.m; sourceTree = "<group>"; };
+		185086E31CC303BF001CBC6B /* CGImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGImageManager.h; sourceTree = "<group>"; };
+		185086E41CC303BF001CBC6B /* CGImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGImageManager.m; sourceTree = "<group>"; };
+		185086E61CC303E4001CBC6B /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		187579951C12E8AB0065C29D /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = TestCG_CGKit/Reveal.framework; sourceTree = "<group>"; };
 		18785F481CB9B864002FF67E /* NSLayoutConstraint+CGVerifyConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+CGVerifyConstraint.h"; sourceTree = "<group>"; };
 		18785F491CB9B864002FF67E /* NSLayoutConstraint+CGVerifyConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+CGVerifyConstraint.m"; sourceTree = "<group>"; };
@@ -683,6 +714,11 @@
 		18E7A7231CA8186C006B3F97 /* CGAddSubviewsErrorTypeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGAddSubviewsErrorTypeHeader.h; sourceTree = "<group>"; };
 		18E873D31CAC8F3500F2BB84 /* CGSingeContentTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingeContentTableView.h; sourceTree = "<group>"; };
 		18E873D41CAC8F3500F2BB84 /* CGSingeContentTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingeContentTableView.m; sourceTree = "<group>"; };
+		18F21B8E1CC3F6B100B58B16 /* CGKitShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CGKitShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F21B901CC3F6B100B58B16 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		18F21B911CC3F6B100B58B16 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		18F21B941CC3F6B100B58B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		18F21B961CC3F6B100B58B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F2A9B71CB4554E007A4B3F /* CGBrowsePhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBrowsePhotoCollectionViewCell.h; sourceTree = "<group>"; };
 		18F2A9B81CB4554E007A4B3F /* CGBrowsePhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBrowsePhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		18F2A9BB1CB458FD007A4B3F /* CGImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGImageView.h; sourceTree = "<group>"; };
@@ -705,6 +741,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185086E71CC303E4001CBC6B /* Photos.framework in Frameworks */,
 				302C9A770D2BEB9460B47FBE /* libPods.a in Frameworks */,
 				187579961C12E8AB0065C29D /* Reveal.framework in Frameworks */,
 			);
@@ -718,6 +755,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		18DBAADD1C12818400552828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F21B8B1CC3F6B100B58B16 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -793,6 +837,15 @@
 			path = UIDevice;
 			sourceTree = "<group>";
 		};
+		183CCCA11CC5892B00235486 /* TestPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				183CCCA21CC5894400235486 /* CGTestPhotosViewController.h */,
+				183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */,
+			);
+			path = TestPhotos;
+			sourceTree = "<group>";
+		};
 		183F84681CB1A49B00562857 /* DetailCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -830,6 +883,15 @@
 			path = TestCell;
 			sourceTree = "<group>";
 		};
+		185086E21CC30377001CBC6B /* PHImageManager */ = {
+			isa = PBXGroup;
+			children = (
+				185086E31CC303BF001CBC6B /* CGImageManager.h */,
+				185086E41CC303BF001CBC6B /* CGImageManager.m */,
+			);
+			path = PHImageManager;
+			sourceTree = "<group>";
+		};
 		1885F38F1CB13A4F002A6D68 /* Test Layout Constranints */ = {
 			isa = PBXGroup;
 			children = (
@@ -860,6 +922,7 @@
 		18A1D7F31C129C6600B93665 /* TestDetailVC */ = {
 			isa = PBXGroup;
 			children = (
+				183CCCA11CC5892B00235486 /* TestPhotos */,
 				1885F38F1CB13A4F002A6D68 /* Test Layout Constranints */,
 				1894AE841CAFD4BA005A518C /* Defines */,
 				005633A81CAD1FDC00520F94 /* TestSelectPhoto */,
@@ -1328,6 +1391,7 @@
 		18D882411CA5EC0400A7DF31 /* OtherLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				185086E21CC30377001CBC6B /* PHImageManager */,
 				18D882421CA5EC0400A7DF31 /* AssetsLibrary */,
 			);
 			path = OtherLibrary;
@@ -2383,6 +2447,7 @@
 				18DBAABE1C12818300552828 /* TestCG_CGKit */,
 				18DBAAD81C12818300552828 /* TestCG_CGKitTests */,
 				18DBAAE31C12818400552828 /* TestCG_CGKitUITests */,
+				18F21B8F1CC3F6B100B58B16 /* CGKitShareExtension */,
 				18DBAABD1C12818300552828 /* Products */,
 				9E0BE1FB9A8DD6F176B693F1 /* Pods */,
 				B86B07EE8190F2F261E3DDEB /* Frameworks */,
@@ -2395,6 +2460,7 @@
 				18DBAABC1C12818300552828 /* TestCG_CGKit.app */,
 				18DBAAD51C12818300552828 /* TestCG_CGKitTests.xctest */,
 				18DBAAE01C12818400552828 /* TestCG_CGKitUITests.xctest */,
+				18F21B8E1CC3F6B100B58B16 /* CGKitShareExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2496,6 +2562,17 @@
 			path = HomeView;
 			sourceTree = "<group>";
 		};
+		18F21B8F1CC3F6B100B58B16 /* CGKitShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				18F21B901CC3F6B100B58B16 /* ShareViewController.h */,
+				18F21B911CC3F6B100B58B16 /* ShareViewController.m */,
+				18F21B931CC3F6B100B58B16 /* MainInterface.storyboard */,
+				18F21B961CC3F6B100B58B16 /* Info.plist */,
+			);
+			path = CGKitShareExtension;
+			sourceTree = "<group>";
+		};
 		18F2A9BA1CB458ED007A4B3F /* ImageView */ = {
 			isa = PBXGroup;
 			children = (
@@ -2564,6 +2641,7 @@
 		B86B07EE8190F2F261E3DDEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				185086E61CC303E4001CBC6B /* Photos.framework */,
 				187579951C12E8AB0065C29D /* Reveal.framework */,
 				222F9D25D26223B807E03656 /* libPods.a */,
 			);
@@ -2583,10 +2661,12 @@
 				18DBAABA1C12818300552828 /* Resources */,
 				5E3640145FCA6FE6E2BC7630 /* Copy Pods Resources */,
 				185A740B1C144B98005936A5 /* ShellScript */,
+				18F21B991CC3F6B100B58B16 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				18F21B981CC3F6B100B58B16 /* PBXTargetDependency */,
 			);
 			name = TestCG_CGKit;
 			productName = TestCG_CGKit;
@@ -2629,6 +2709,23 @@
 			productReference = 18DBAAE01C12818400552828 /* TestCG_CGKitUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		18F21B8D1CC3F6B100B58B16 /* CGKitShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F21B9D1CC3F6B100B58B16 /* Build configuration list for PBXNativeTarget "CGKitShareExtension" */;
+			buildPhases = (
+				18F21B8A1CC3F6B100B58B16 /* Sources */,
+				18F21B8B1CC3F6B100B58B16 /* Frameworks */,
+				18F21B8C1CC3F6B100B58B16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGKitShareExtension;
+			productName = CGKitShareExtension;
+			productReference = 18F21B8E1CC3F6B100B58B16 /* CGKitShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2649,6 +2746,9 @@
 						CreatedOnToolsVersion = 7.1.1;
 						TestTargetID = 18DBAABB1C12818300552828;
 					};
+					18F21B8D1CC3F6B100B58B16 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 18DBAAB71C12818300552828 /* Build configuration list for PBXProject "TestCG_CGKit" */;
@@ -2667,6 +2767,7 @@
 				18DBAABB1C12818300552828 /* TestCG_CGKit */,
 				18DBAAD41C12818300552828 /* TestCG_CGKitTests */,
 				18DBAADF1C12818400552828 /* TestCG_CGKitUITests */,
+				18F21B8D1CC3F6B100B58B16 /* CGKitShareExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -2677,7 +2778,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18DBAACF1C12818300552828 /* LaunchScreen.storyboard in Resources */,
-				18DBAACC1C12818300552828 /* Assets.xcassets in Resources */,
 				0069BB061C85431A00C5A628 /* 2.jpg in Resources */,
 				18DBAACA1C12818300552828 /* Main.storyboard in Resources */,
 			);
@@ -2694,6 +2794,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F21B8C1CC3F6B100B58B16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F21B951CC3F6B100B58B16 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2851,6 +2959,7 @@
 				18D883E41CA5EC0400A7DF31 /* UIButton+AreaCalculate.m in Sources */,
 				18D8841F1CA5EC0400A7DF31 /* CGSingleSectionBaseTableView.m in Sources */,
 				18D883E21CA5EC0400A7DF31 /* UILabel+CalculateTextSize.m in Sources */,
+				183CCCA41CC5894400235486 /* CGTestPhotosViewController.m in Sources */,
 				18D8841D1CA5EC0400A7DF31 /* HorizontalSingleView.m in Sources */,
 				18D883BE1CA5EC0400A7DF31 /* CGHandleRequestData.m in Sources */,
 				18D884341CA5EC0400A7DF31 /* CGCycleScrollView.m in Sources */,
@@ -2919,6 +3028,7 @@
 				18D8845F1CA5F04000A7DF31 /* CGAddSubviewsAppearance.m in Sources */,
 				18DBAE021C12968900552828 /* HomeViewController.m in Sources */,
 				18D883F11CA5EC0400A7DF31 /* UICollectionView+CGDequeueReusableCell.m in Sources */,
+				185086E51CC303BF001CBC6B /* CGImageManager.m in Sources */,
 				18D884421CA5EC0400A7DF31 /* CGTitleTextFieldView.m in Sources */,
 				18D883ED1CA5EC0400A7DF31 /* UITableView+CGCreateTableView.m in Sources */,
 				18D883B71CA5EC0400A7DF31 /* UIView+CGScaleViewFromOverlayView.m in Sources */,
@@ -2971,6 +3081,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18F21B8A1CC3F6B100B58B16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F21B921CC3F6B100B58B16 /* ShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -2983,6 +3101,11 @@
 			isa = PBXTargetDependency;
 			target = 18DBAABB1C12818300552828 /* TestCG_CGKit */;
 			targetProxy = 18DBAAE11C12818400552828 /* PBXContainerItemProxy */;
+		};
+		18F21B981CC3F6B100B58B16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F21B8D1CC3F6B100B58B16 /* CGKitShareExtension */;
+			targetProxy = 18F21B971CC3F6B100B58B16 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -3001,6 +3124,14 @@
 				18DBAACE1C12818300552828 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		18F21B931CC3F6B100B58B16 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F21B941CC3F6B100B58B16 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -3196,6 +3327,30 @@
 			};
 			name = Release;
 		};
+		18F21B9B1CC3F6B100B58B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CGKitShareExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CG.TestCG-CGKit.CGKitShareExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		18F21B9C1CC3F6B100B58B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CGKitShareExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CG.TestCG-CGKit.CGKitShareExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3231,6 +3386,15 @@
 			buildConfigurations = (
 				18DBAAF01C12818400552828 /* Debug */,
 				18DBAAF11C12818400552828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F21B9D1CC3F6B100B58B16 /* Build configuration list for PBXNativeTarget "CGKitShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F21B9B1CC3F6B100B58B16 /* Debug */,
+				18F21B9C1CC3F6B100B58B16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

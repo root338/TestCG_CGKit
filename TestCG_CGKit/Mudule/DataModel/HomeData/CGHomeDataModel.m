@@ -23,6 +23,10 @@
 /** 测试Photos库 */
 #import "CGTestPhotosViewController.h"
 
+
+/** 测试 WebKit */
+#import "CGTestWKWebViewController.h"
+
 @implementation CGHomeDataModel
 
 + (instancetype)cg_createHomeDataWithClass:(Class)paramClass
@@ -138,6 +142,9 @@
     
     CGHomeDataModel *testPhotosVC       = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestPhotosViewController class] title:@"测试Photos照片库" subtitle:@"测试Photos库中的个各类中的方法"];
     [dataSourceList addObject:testPhotosVC];
+    
+    CGHomeDataModel *testWebKitVC       = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestWKWebViewController class] title:@"测试 WebKit 库" subtitle:@"测试WebKit 库中个各类中的方法"];
+    [dataSourceList addObject:testWebKitVC];
     
     return dataSourceList;
 }

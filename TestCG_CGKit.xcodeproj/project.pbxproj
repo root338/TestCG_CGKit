@@ -17,6 +17,11 @@
 		00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */; };
 		00C71D0A1CBB99F800B22C9D /* UIDevice+CGDirection.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C71D091CBB99F800B22C9D /* UIDevice+CGDirection.m */; };
 		00C71D0D1CBB9ACD00B22C9D /* UIApplication+CGVerifyDeviceDirection.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C71D0C1CBB9ACD00B22C9D /* UIApplication+CGVerifyDeviceDirection.m */; };
+		00D307A31CC752BA0040EFC8 /* CGWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D307A21CC752BA0040EFC8 /* CGWebView.m */; };
+		00D307A91CC7659C0040EFC8 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D307A71CC7659C0040EFC8 /* EXTScope.m */; };
+		00D307AD1CC76E350040EFC8 /* CGTestWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */; };
+		00D307B01CC772520040EFC8 /* CGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D307AF1CC772520040EFC8 /* CGWebViewController.m */; };
+		00D307B31CC77E9F0040EFC8 /* UIView+CGCreateConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D307B21CC77E9F0040EFC8 /* UIView+CGCreateConstraint.m */; };
 		18387D971CB317BA00F73CD9 /* CGBrowsePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18387D961CB317BA00F73CD9 /* CGBrowsePhotoViewController.m */; };
 		183CCCA41CC5894400235486 /* CGTestPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */; };
 		183F846B1CB1A4CC00562857 /* CGPhotoGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F846A1CB1A4CC00562857 /* CGPhotoGroupTableViewCell.m */; };
@@ -283,6 +288,18 @@
 		00C71D091CBB99F800B22C9D /* UIDevice+CGDirection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+CGDirection.m"; sourceTree = "<group>"; };
 		00C71D0B1CBB9ACD00B22C9D /* UIApplication+CGVerifyDeviceDirection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+CGVerifyDeviceDirection.h"; sourceTree = "<group>"; };
 		00C71D0C1CBB9ACD00B22C9D /* UIApplication+CGVerifyDeviceDirection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+CGVerifyDeviceDirection.m"; sourceTree = "<group>"; };
+		00D307A11CC752BA0040EFC8 /* CGWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebView.h; sourceTree = "<group>"; };
+		00D307A21CC752BA0040EFC8 /* CGWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWebView.m; sourceTree = "<group>"; };
+		00D307A51CC7659C0040EFC8 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		00D307A61CC7659C0040EFC8 /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
+		00D307A71CC7659C0040EFC8 /* EXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
+		00D307A81CC7659C0040EFC8 /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		00D307AB1CC76E350040EFC8 /* CGTestWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestWKWebViewController.h; sourceTree = "<group>"; };
+		00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestWKWebViewController.m; sourceTree = "<group>"; };
+		00D307AE1CC772520040EFC8 /* CGWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebViewController.h; sourceTree = "<group>"; };
+		00D307AF1CC772520040EFC8 /* CGWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWebViewController.m; sourceTree = "<group>"; };
+		00D307B11CC77E9F0040EFC8 /* UIView+CGCreateConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGCreateConstraint.h"; sourceTree = "<group>"; };
+		00D307B21CC77E9F0040EFC8 /* UIView+CGCreateConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGCreateConstraint.m"; sourceTree = "<group>"; };
 		18387D951CB317BA00F73CD9 /* CGBrowsePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBrowsePhotoViewController.h; sourceTree = "<group>"; };
 		18387D961CB317BA00F73CD9 /* CGBrowsePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBrowsePhotoViewController.m; sourceTree = "<group>"; };
 		183CCCA21CC5894400235486 /* CGTestPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestPhotosViewController.h; sourceTree = "<group>"; };
@@ -837,6 +854,26 @@
 			path = UIDevice;
 			sourceTree = "<group>";
 		};
+		00D307A41CC7659C0040EFC8 /* extobjc */ = {
+			isa = PBXGroup;
+			children = (
+				00D307A51CC7659C0040EFC8 /* EXTKeyPathCoding.h */,
+				00D307A61CC7659C0040EFC8 /* EXTScope.h */,
+				00D307A71CC7659C0040EFC8 /* EXTScope.m */,
+				00D307A81CC7659C0040EFC8 /* metamacros.h */,
+			);
+			path = extobjc;
+			sourceTree = "<group>";
+		};
+		00D307AA1CC76E170040EFC8 /* Test WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				00D307AB1CC76E350040EFC8 /* CGTestWKWebViewController.h */,
+				00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */,
+			);
+			path = "Test WKWebView";
+			sourceTree = "<group>";
+		};
 		183CCCA11CC5892B00235486 /* TestPhotos */ = {
 			isa = PBXGroup;
 			children = (
@@ -922,6 +959,7 @@
 		18A1D7F31C129C6600B93665 /* TestDetailVC */ = {
 			isa = PBXGroup;
 			children = (
+				00D307AA1CC76E170040EFC8 /* Test WKWebView */,
 				183CCCA11CC5892B00235486 /* TestPhotos */,
 				1885F38F1CB13A4F002A6D68 /* Test Layout Constranints */,
 				1894AE841CAFD4BA005A518C /* Defines */,
@@ -1309,6 +1347,7 @@
 		18D8822B1CA5EC0400A7DF31 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				00D307A41CC7659C0040EFC8 /* extobjc */,
 				18D8822C1CA5EC0400A7DF31 /* Category */,
 				18D882331CA5EC0400A7DF31 /* LoadLaunchImage */,
 				18D882361CA5EC0400A7DF31 /* Notification */,
@@ -2096,6 +2135,8 @@
 			children = (
 				18D8835F1CA5EC0400A7DF31 /* CGBaseWebView.h */,
 				18D883601CA5EC0400A7DF31 /* CGBaseWebView.m */,
+				00D307A11CC752BA0040EFC8 /* CGWebView.h */,
+				00D307A21CC752BA0040EFC8 /* CGWebView.m */,
 			);
 			path = WebView;
 			sourceTree = "<group>";
@@ -2135,6 +2176,8 @@
 			children = (
 				18D8836B1CA5EC0400A7DF31 /* UIView+CGAddConstraints.h */,
 				18D8836C1CA5EC0400A7DF31 /* UIView+CGAddConstraints.m */,
+				00D307B11CC77E9F0040EFC8 /* UIView+CGCreateConstraint.h */,
+				00D307B21CC77E9F0040EFC8 /* UIView+CGCreateConstraint.m */,
 				18785F481CB9B864002FF67E /* NSLayoutConstraint+CGVerifyConstraint.h */,
 				18785F491CB9B864002FF67E /* NSLayoutConstraint+CGVerifyConstraint.m */,
 				1885F3961CB15317002A6D68 /* UIView+CGSearchConstraints.h */,
@@ -2326,6 +2369,8 @@
 				005633B51CAD208300520F94 /* SelectPhotos */,
 				18D883AA1CA5EC0400A7DF31 /* CGTitleBarViewController.h */,
 				18D883AB1CA5EC0400A7DF31 /* CGTitleBarViewController.m */,
+				00D307AE1CC772520040EFC8 /* CGWebViewController.h */,
+				00D307AF1CC772520040EFC8 /* CGWebViewController.m */,
 			);
 			path = OtherToolController;
 			sourceTree = "<group>";
@@ -2872,6 +2917,7 @@
 				18D883EE1CA5EC0400A7DF31 /* UITextField+CG_Create.m in Sources */,
 				1885F39B1CB16AAB002A6D68 /* CGPhotoGroupViewController.m in Sources */,
 				0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */,
+				00D307B31CC77E9F0040EFC8 /* UIView+CGCreateConstraint.m in Sources */,
 				18D883E81CA5EC0400A7DF31 /* UIView+CreateAutoLayoutTypeView.m in Sources */,
 				18D884311CA5EC0400A7DF31 /* CGTitleDoubleLayoutBaseView.m in Sources */,
 				18D883EA1CA5EC0400A7DF31 /* UIImageView+CGCreateView.m in Sources */,
@@ -2897,6 +2943,7 @@
 				18D884241CA5EC0400A7DF31 /* CGBaseTextField.m in Sources */,
 				18D883FB1CA5EC0400A7DF31 /* UITableView+CGRegisterCell.m in Sources */,
 				18D8843C1CA5EC0400A7DF31 /* CGCycleBrowseImageScrollView+CGSetupCycleProperty.m in Sources */,
+				00D307B01CC772520040EFC8 /* CGWebViewController.m in Sources */,
 				18DB76391CB9301F00CAB269 /* UIView+CGJudgeProperty.m in Sources */,
 				18D884471CA5EC0400A7DF31 /* ALView+PureLayout.m in Sources */,
 				18DB763C1CB9301F00CAB269 /* UIView+CGSetupAppearance.m in Sources */,
@@ -2918,6 +2965,7 @@
 				18D884161CA5EC0400A7DF31 /* CGBrowseImageCollectionViewFlowLayout.m in Sources */,
 				18F2A9BD1CB458FD007A4B3F /* CGImageView.m in Sources */,
 				18D8845A1CA5EC0400A7DF31 /* CGSingleTableViewController.m in Sources */,
+				00D307A91CC7659C0040EFC8 /* EXTScope.m in Sources */,
 				18B36FB11CB5C4D800F5550F /* UICollectionView+CGPropertyValue.m in Sources */,
 				18D883CD1CA5EC0400A7DF31 /* NSPredicate+CreatePredicate.m in Sources */,
 				18D884231CA5EC0400A7DF31 /* CGSingleSectionTableViewDelegate.m in Sources */,
@@ -3040,6 +3088,7 @@
 				18D883E31CA5EC0400A7DF31 /* UIView+Transform.m in Sources */,
 				18DBAAF91C12877E00552828 /* AppDelegate.m in Sources */,
 				18D883B61CA5EC0400A7DF31 /* UIView+CGScaleView.m in Sources */,
+				00D307AD1CC76E350040EFC8 /* CGTestWKWebViewController.m in Sources */,
 				18D884481CA5EC0400A7DF31 /* NSArray+PureLayout.m in Sources */,
 				00BAB2F11C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m in Sources */,
 				18D884191CA5EC0400A7DF31 /* CGMultilineLabel.m in Sources */,
@@ -3048,6 +3097,7 @@
 				18D883CF1CA5EC0400A7DF31 /* NSString+CGString.m in Sources */,
 				1894AE871CAFD4F3005A518C /* CGTestDefinesTableViewController.m in Sources */,
 				18D883DB1CA5EC0400A7DF31 /* CGAssetsFilterObject.m in Sources */,
+				00D307A31CC752BA0040EFC8 /* CGWebView.m in Sources */,
 				18D883D11CA5EC0400A7DF31 /* NSString+VerificationString.m in Sources */,
 				18D883D01CA5EC0400A7DF31 /* NSString+CGStrlen.m in Sources */,
 				18FB41391CAF18A000BE4F34 /* CGBaseViewController+CGSetupItem.m in Sources */,

@@ -99,9 +99,9 @@
     [orangeView cg_updateAutoSetupViewSize:CGSizeMake(100, 100)];
     [orangeView cg_updateAutoCenterToSameAxisOfView:grayView];
     
-    NSLog(@"%lu", self.view.constraints.count);
-    NSLog(@"%lu", grayView.constraints.count);
-    NSLog(@"%lu", orangeView.constraints.count);
+    NSLog(@"%lu", (unsigned long)self.view.constraints.count);
+    NSLog(@"%lu", (unsigned long)grayView.constraints.count);
+    NSLog(@"%lu", (unsigned long)orangeView.constraints.count);
     
 //    [orangeView cg_autoDimension:CGDimensionWidth fixedLength:100 relation:NSLayoutRelationGreaterThanOrEqual];
 //    [orangeView cg_autoDimension:CGDimensionHeight view:grayView relatedBy:NSLayoutRelationGreaterThanOrEqual];

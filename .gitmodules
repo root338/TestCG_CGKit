@@ -4,3 +4,6 @@
 [submodule "TestCG_CGKit/Mudule/RequestNetwork/AFNetworkActivityLogger"]
 	path = TestCG_CGKit/Mudule/RequestNetwork/AFNetworkActivityLogger
 	url = git@github.com:AFNetworking/AFNetworkActivityLogger.git
+[submodule "TestCG_CGKit/CGSwiftKit"]
+	path = TestCG_CGKit/CGSwiftKit
+	url = git@github.com:root338/CGSwiftKit.git

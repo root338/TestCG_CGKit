@@ -2486,6 +2486,7 @@
 			children = (
 				18D881C21CA5EC0400A7DF31 /* CG_CGKit */,
 				18DBAAF31C12872500552828 /* Mudule */,
+				18FAA06B1CD0294400C73C55 /* SwiftMudule */,
 				18DBAAC81C12818300552828 /* Main.storyboard */,
 				18DBAACB1C12818300552828 /* Assets.xcassets */,
 				18DBAACD1C12818300552828 /* LaunchScreen.storyboard */,
@@ -2694,6 +2695,13 @@
 				18F2A9BC1CB458FD007A4B3F /* CGImageView.m */,
 			);
 			path = ImageView;
+			sourceTree = "<group>";
+		};
+		18FAA06B1CD0294400C73C55 /* SwiftMudule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftMudule;
 			sourceTree = "<group>";
 		};
 		18FB41361CAF188800BE4F34 /* Category */ = {

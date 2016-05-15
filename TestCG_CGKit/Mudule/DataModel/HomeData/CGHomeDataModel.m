@@ -27,6 +27,8 @@
 /** 测试 WebKit */
 #import "CGTestWKWebViewController.h"
 
+#import "TestCG_CGKit-Swift.h"
+
 @implementation CGHomeDataModel
 
 + (instancetype)cg_createHomeDataWithClass:(Class)paramClass
@@ -145,6 +147,9 @@
     
     CGHomeDataModel *testWebKitVC       = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestWKWebViewController class] title:@"测试 WebKit 库" subtitle:@"测试WebKit 库中个各类中的方法"];
     [dataSourceList addObject:testWebKitVC];
+    
+    CGHomeDataModel *testFoulLineView   = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestFoulLineViewController class] title:@"测试 四周边框" subtitle:@"测试 视图的四边绘制 swift 实现"];
+    [dataSourceList addObject:testFoulLineView];
     
     return dataSourceList;
 }

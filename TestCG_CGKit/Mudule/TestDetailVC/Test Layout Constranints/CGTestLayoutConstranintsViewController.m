@@ -99,9 +99,36 @@
     [orangeView cg_updateAutoSetupViewSize:CGSizeMake(100, 100)];
     [orangeView cg_updateAutoCenterToSameAxisOfView:grayView];
     
-    NSLog(@"%lu", (unsigned long)self.view.constraints.count);
-    NSLog(@"%lu", (unsigned long)grayView.constraints.count);
-    NSLog(@"%lu", (unsigned long)orangeView.constraints.count);
+    UILabel *titleLabel     = [[UILabel alloc] init];
+    
+    NSMutableParagraphStyle *style  = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
+    style.lineSpacing               = 5;
+    style.firstLineHeadIndent       = 10;
+    NSDictionary *titleDic  = @{
+                                NSFontAttributeName : [UIFont systemFontOfSize:15],
+                                NSForegroundColorAttributeName : [UIColor orangeColor],
+                                NSBackgroundColorAttributeName : [UIColor greenColor],
+                                NSParagraphStyleAttributeName  : style,
+                                
+                                };
+    NSMutableAttributedString *attributedString   = [[NSMutableAttributedString alloc] initWithString:@"hello, world" attributes:titleDic];
+    
+    NSDictionary *detailDic = @{
+                                NSFontAttributeName     : [UIFont systemFontOfSize:20],
+                                NSForegroundColorAttributeName : [UIColor redColor],
+                                NSBackgroundColorAttributeName  : [UIColor blueColor],
+                                };
+    [attributedString appendAttributedString:[[NSAttributedString alloc] initWithString:@"WORLD, HELLO" attributes:detailDic]];
+    
+    titleLabel.attributedText   = attributedString;
+    
+    [grayView addSubview:titleLabel];
+    
+    [titleLabel cg_autoEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsZero excludingEdge:CGLayoutEdgeBottom];
+    
+//    NSLog(@"%lu", (unsigned long)self.view.constraints.count);
+//    NSLog(@"%lu", (unsigned long)grayView.constraints.count);
+//    NSLog(@"%lu", (unsigned long)orangeView.constraints.count);
     
 //    [orangeView cg_autoDimension:CGDimensionWidth fixedLength:100 relation:NSLayoutRelationGreaterThanOrEqual];
 //    [orangeView cg_autoDimension:CGDimensionHeight view:grayView relatedBy:NSLayoutRelationGreaterThanOrEqual];

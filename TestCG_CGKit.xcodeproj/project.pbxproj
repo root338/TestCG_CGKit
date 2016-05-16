@@ -218,6 +218,8 @@
 		18E44A671CD00CD300AF6E6B /* UIView+CGSearchConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E44A601CD00CD300AF6E6B /* UIView+CGSearchConstraints.m */; };
 		18E6E2AC1C15B87500906A5A /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6E2AB1C15B87500906A5A /* AFNetworkActivityLogger.m */; };
 		18E873D51CAC8F3500F2BB84 /* CGSingeContentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E873D41CAC8F3500F2BB84 /* CGSingeContentTableView.m */; };
+		18E8747F1CD16268002CA1E3 /* CGFoulLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8747E1CD16268002CA1E3 /* CGFoulLineView.swift */; };
+		18F093EE1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F093ED1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift */; };
 		18F21B921CC3F6B100B58B16 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F21B911CC3F6B100B58B16 /* ShareViewController.m */; };
 		18F21B951CC3F6B100B58B16 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F21B931CC3F6B100B58B16 /* MainInterface.storyboard */; };
 		18F21B9A1CC3F6B100B58B16 /* CGKitShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 18F21B8E1CC3F6B100B58B16 /* CGKitShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -734,6 +736,9 @@
 		18E7A7231CA8186C006B3F97 /* CGAddSubviewsErrorTypeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGAddSubviewsErrorTypeHeader.h; sourceTree = "<group>"; };
 		18E873D31CAC8F3500F2BB84 /* CGSingeContentTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingeContentTableView.h; sourceTree = "<group>"; };
 		18E873D41CAC8F3500F2BB84 /* CGSingeContentTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingeContentTableView.m; sourceTree = "<group>"; };
+		18E8747D1CD16268002CA1E3 /* CGSwiftKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGSwiftKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		18E8747E1CD16268002CA1E3 /* CGFoulLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFoulLineView.swift; sourceTree = "<group>"; };
+		18F093ED1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGTestFoulLineViewController.swift; sourceTree = "<group>"; };
 		18F21B8E1CC3F6B100B58B16 /* CGKitShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CGKitShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F21B901CC3F6B100B58B16 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
 		18F21B911CC3F6B100B58B16 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
@@ -2484,6 +2489,7 @@
 		18DBAABE1C12818300552828 /* TestCG_CGKit */ = {
 			isa = PBXGroup;
 			children = (
+				18FAA06C1CD02ABE00C73C55 /* CGSwiftKit */,
 				18D881C21CA5EC0400A7DF31 /* CG_CGKit */,
 				18DBAAF31C12872500552828 /* Mudule */,
 				18FAA06B1CD0294400C73C55 /* SwiftMudule */,
@@ -2516,6 +2522,7 @@
 		18DBAAF31C12872500552828 /* Mudule */ = {
 			isa = PBXGroup;
 			children = (
+				18F093EC1CDBFFC3001FBE3E /* TestDetailVC-Swift */,
 				00C315CA1CACC0FD009BFD7A /* DataModel */,
 				1845475E1C12A4B50030DD0A /* View */,
 				18A1D7F31C129C6600B93665 /* TestDetailVC */,
@@ -2677,6 +2684,31 @@
 			path = "Search Constraint";
 			sourceTree = "<group>";
 		};
+		18E8747B1CD161B4002CA1E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18E8747C1CD161C4002CA1E3 /* UIView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18E8747C1CD161C4002CA1E3 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				18E8747E1CD16268002CA1E3 /* CGFoulLineView.swift */,
+				18E8747D1CD16268002CA1E3 /* CGSwiftKit-Bridging-Header.h */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		18F093EC1CDBFFC3001FBE3E /* TestDetailVC-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				18F093ED1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift */,
+			);
+			path = "TestDetailVC-Swift";
+			sourceTree = "<group>";
+		};
 		18F21B8F1CC3F6B100B58B16 /* CGKitShareExtension */ = {
 			isa = PBXGroup;
 			children = (
@@ -2702,6 +2734,14 @@
 			children = (
 			);
 			path = SwiftMudule;
+			sourceTree = "<group>";
+		};
+		18FAA06C1CD02ABE00C73C55 /* CGSwiftKit */ = {
+			isa = PBXGroup;
+			children = (
+				18E8747B1CD161B4002CA1E3 /* View */,
+			);
+			path = CGSwiftKit;
 			sourceTree = "<group>";
 		};
 		18FB41361CAF188800BE4F34 /* Category */ = {
@@ -3020,6 +3060,7 @@
 				18D883F21CA5EC0400A7DF31 /* UICollectionView+CGRegisterCell.m in Sources */,
 				18D884241CA5EC0400A7DF31 /* CGBaseTextField.m in Sources */,
 				18D883FB1CA5EC0400A7DF31 /* UITableView+CGRegisterCell.m in Sources */,
+				18F093EE1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift in Sources */,
 				18D8843C1CA5EC0400A7DF31 /* CGCycleBrowseImageScrollView+CGSetupCycleProperty.m in Sources */,
 				18DB76391CB9301F00CAB269 /* UIView+CGJudgeProperty.m in Sources */,
 				18DB763C1CB9301F00CAB269 /* UIView+CGSetupAppearance.m in Sources */,
@@ -3162,6 +3203,7 @@
 				18D883FA1CA5EC0400A7DF31 /* UITableView+CGIndexPath.m in Sources */,
 				18D883CE1CA5EC0400A7DF31 /* NSString+CGEncryption.m in Sources */,
 				18DB763F1CB9301F00CAB269 /* UIView+DrawBoxLine.m in Sources */,
+				18E8747F1CD16268002CA1E3 /* CGFoulLineView.swift in Sources */,
 				18D8841E1CA5EC0400A7DF31 /* CGTableView.m in Sources */,
 				18D883E31CA5EC0400A7DF31 /* UIView+Transform.m in Sources */,
 				18DBAAF91C12877E00552828 /* AppDelegate.m in Sources */,
@@ -3351,6 +3393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3373,6 +3416,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "CG.TestCG-CGKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestCG_CGKit/CGSwiftKit/View/UIView/CGSwiftKit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				USER_HEADER_SEARCH_PATHS = "";
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
@@ -3384,6 +3429,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3402,6 +3448,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "CG.TestCG-CGKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestCG_CGKit/CGSwiftKit/View/UIView/CGSwiftKit-Bridging-Header.h";
 				USER_HEADER_SEARCH_PATHS = "";
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};

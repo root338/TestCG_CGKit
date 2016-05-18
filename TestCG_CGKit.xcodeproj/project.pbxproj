@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		002A33A71CC8CF3F005AFD45 /* CGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002A33A61CC8CF3F005AFD45 /* CGWebViewController.m */; };
 		002A33AB1CC8D40B005AFD45 /* CGWebBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 002A33AA1CC8D40B005AFD45 /* CGWebBottomView.m */; };
+		0038420C1CEC132C00CB6B9D /* CGFoulLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003842091CEC132C00CB6B9D /* CGFoulLineView.swift */; };
 		005633BA1CAD208300520F94 /* CGPhotoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005633B71CAD208300520F94 /* CGPhotoListViewController.m */; };
 		005633BB1CAD208300520F94 /* CGPhotoNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005633B91CAD208300520F94 /* CGPhotoNavigationController.m */; };
 		0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */; };
@@ -218,7 +219,6 @@
 		18E44A671CD00CD300AF6E6B /* UIView+CGSearchConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E44A601CD00CD300AF6E6B /* UIView+CGSearchConstraints.m */; };
 		18E6E2AC1C15B87500906A5A /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6E2AB1C15B87500906A5A /* AFNetworkActivityLogger.m */; };
 		18E873D51CAC8F3500F2BB84 /* CGSingeContentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E873D41CAC8F3500F2BB84 /* CGSingeContentTableView.m */; };
-		18E8747F1CD16268002CA1E3 /* CGFoulLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8747E1CD16268002CA1E3 /* CGFoulLineView.swift */; };
 		18F093EE1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F093ED1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift */; };
 		18F21B921CC3F6B100B58B16 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F21B911CC3F6B100B58B16 /* ShareViewController.m */; };
 		18F21B951CC3F6B100B58B16 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F21B931CC3F6B100B58B16 /* MainInterface.storyboard */; };
@@ -275,6 +275,8 @@
 		002A33A61CC8CF3F005AFD45 /* CGWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWebViewController.m; sourceTree = "<group>"; };
 		002A33A91CC8D40B005AFD45 /* CGWebBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebBottomView.h; sourceTree = "<group>"; };
 		002A33AA1CC8D40B005AFD45 /* CGWebBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWebBottomView.m; sourceTree = "<group>"; };
+		003842091CEC132C00CB6B9D /* CGFoulLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFoulLineView.swift; sourceTree = "<group>"; };
+		0038420A1CEC132C00CB6B9D /* CGSwiftKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGSwiftKit-Bridging-Header.h"; sourceTree = "<group>"; };
 		005633B61CAD208300520F94 /* CGPhotoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPhotoListViewController.h; sourceTree = "<group>"; };
 		005633B71CAD208300520F94 /* CGPhotoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPhotoListViewController.m; sourceTree = "<group>"; };
 		005633B81CAD208300520F94 /* CGPhotoNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPhotoNavigationController.h; sourceTree = "<group>"; };
@@ -736,8 +738,6 @@
 		18E7A7231CA8186C006B3F97 /* CGAddSubviewsErrorTypeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGAddSubviewsErrorTypeHeader.h; sourceTree = "<group>"; };
 		18E873D31CAC8F3500F2BB84 /* CGSingeContentTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingeContentTableView.h; sourceTree = "<group>"; };
 		18E873D41CAC8F3500F2BB84 /* CGSingeContentTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingeContentTableView.m; sourceTree = "<group>"; };
-		18E8747D1CD16268002CA1E3 /* CGSwiftKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGSwiftKit-Bridging-Header.h"; sourceTree = "<group>"; };
-		18E8747E1CD16268002CA1E3 /* CGFoulLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFoulLineView.swift; sourceTree = "<group>"; };
 		18F093ED1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGTestFoulLineViewController.swift; sourceTree = "<group>"; };
 		18F21B8E1CC3F6B100B58B16 /* CGKitShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CGKitShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F21B901CC3F6B100B58B16 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
@@ -813,6 +813,31 @@
 				002A33AA1CC8D40B005AFD45 /* CGWebBottomView.m */,
 			);
 			path = WebSubview;
+			sourceTree = "<group>";
+		};
+		003842051CEC132C00CB6B9D /* CGSwiftKit */ = {
+			isa = PBXGroup;
+			children = (
+				003842071CEC132C00CB6B9D /* View */,
+			);
+			path = CGSwiftKit;
+			sourceTree = "<group>";
+		};
+		003842071CEC132C00CB6B9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				003842081CEC132C00CB6B9D /* UIView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		003842081CEC132C00CB6B9D /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				003842091CEC132C00CB6B9D /* CGFoulLineView.swift */,
+				0038420A1CEC132C00CB6B9D /* CGSwiftKit-Bridging-Header.h */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 		005633A81CAD1FDC00520F94 /* TestSelectPhoto */ = {
@@ -2489,7 +2514,7 @@
 		18DBAABE1C12818300552828 /* TestCG_CGKit */ = {
 			isa = PBXGroup;
 			children = (
-				18FAA06C1CD02ABE00C73C55 /* CGSwiftKit */,
+				003842051CEC132C00CB6B9D /* CGSwiftKit */,
 				18D881C21CA5EC0400A7DF31 /* CG_CGKit */,
 				18DBAAF31C12872500552828 /* Mudule */,
 				18FAA06B1CD0294400C73C55 /* SwiftMudule */,
@@ -2684,23 +2709,6 @@
 			path = "Search Constraint";
 			sourceTree = "<group>";
 		};
-		18E8747B1CD161B4002CA1E3 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				18E8747C1CD161C4002CA1E3 /* UIView */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		18E8747C1CD161C4002CA1E3 /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-				18E8747E1CD16268002CA1E3 /* CGFoulLineView.swift */,
-				18E8747D1CD16268002CA1E3 /* CGSwiftKit-Bridging-Header.h */,
-			);
-			path = UIView;
-			sourceTree = "<group>";
-		};
 		18F093EC1CDBFFC3001FBE3E /* TestDetailVC-Swift */ = {
 			isa = PBXGroup;
 			children = (
@@ -2734,14 +2742,6 @@
 			children = (
 			);
 			path = SwiftMudule;
-			sourceTree = "<group>";
-		};
-		18FAA06C1CD02ABE00C73C55 /* CGSwiftKit */ = {
-			isa = PBXGroup;
-			children = (
-				18E8747B1CD161B4002CA1E3 /* View */,
-			);
-			path = CGSwiftKit;
 			sourceTree = "<group>";
 		};
 		18FB41361CAF188800BE4F34 /* Category */ = {
@@ -3191,6 +3191,7 @@
 				18E44A671CD00CD300AF6E6B /* UIView+CGSearchConstraints.m in Sources */,
 				18DB76351CB9301F00CAB269 /* UIView+CGAddSubview.m in Sources */,
 				18FB41461CAF34F300BE4F34 /* CGCollectionViewCell.m in Sources */,
+				0038420C1CEC132C00CB6B9D /* CGFoulLineView.swift in Sources */,
 				18D883FC1CA5EC0400A7DF31 /* UITableView+CGReloadTableView.m in Sources */,
 				18D8845F1CA5F04000A7DF31 /* CGAddSubviewsAppearance.m in Sources */,
 				18DBAE021C12968900552828 /* HomeViewController.m in Sources */,
@@ -3203,7 +3204,6 @@
 				18D883FA1CA5EC0400A7DF31 /* UITableView+CGIndexPath.m in Sources */,
 				18D883CE1CA5EC0400A7DF31 /* NSString+CGEncryption.m in Sources */,
 				18DB763F1CB9301F00CAB269 /* UIView+DrawBoxLine.m in Sources */,
-				18E8747F1CD16268002CA1E3 /* CGFoulLineView.swift in Sources */,
 				18D8841E1CA5EC0400A7DF31 /* CGTableView.m in Sources */,
 				18D883E31CA5EC0400A7DF31 /* UIView+Transform.m in Sources */,
 				18DBAAF91C12877E00552828 /* AppDelegate.m in Sources */,

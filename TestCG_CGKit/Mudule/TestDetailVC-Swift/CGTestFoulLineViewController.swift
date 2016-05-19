@@ -22,9 +22,11 @@ class CGTestFoulLineViewController: CGBaseViewController {
         
         super.viewDidLoad()
         
-        foulLineView.foulLineEdgeInsets = UIEdgeInsetsMake(1, 1, 1, 1)
+//        foulLineView.foulLineEdgeInsets = UIEdgeInsetsMake(1, 1, 1, 1)
         foulLineView.foulLineColor      = UIColor.redColor()
-        foulLineView.foulLineType       = CGFoulLineType.All
+        foulLineView.foulLineType       = CGFoulLineType.EdgeInsetsExcludeLeft
+//        foulLineView.layer.cornerRadius = 5
+//        foulLineView.layer.masksToBounds = true
         self.view.addSubview(foulLineView)
     }
     

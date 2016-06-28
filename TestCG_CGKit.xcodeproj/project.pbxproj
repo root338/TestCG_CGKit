@@ -22,6 +22,8 @@
 		00D307A31CC752BA0040EFC8 /* CGWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D307A21CC752BA0040EFC8 /* CGWebView.m */; };
 		00D307A91CC7659C0040EFC8 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D307A71CC7659C0040EFC8 /* EXTScope.m */; };
 		00D307AD1CC76E350040EFC8 /* CGTestWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */; };
+		18036F3A1D1F3E60007B3494 /* UIViewController+CGAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 18036F391D1F3E60007B3494 /* UIViewController+CGAlert.m */; };
+		18036F421D1F402C007B3494 /* CGAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18036F411D1F402C007B3494 /* CGAlertController.m */; };
 		18387D971CB317BA00F73CD9 /* CGBrowsePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18387D961CB317BA00F73CD9 /* CGBrowsePhotoViewController.m */; };
 		183CCCA41CC5894400235486 /* CGTestPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */; };
 		183F846B1CB1A4CC00562857 /* CGPhotoGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F846A1CB1A4CC00562857 /* CGPhotoGroupTableViewCell.m */; };
@@ -179,7 +181,6 @@
 		18D884541CA5EC0400A7DF31 /* UIViewController+CGFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8839A1CA5EC0400A7DF31 /* UIViewController+CGFullscreenPopGesture.m */; };
 		18D884551CA5EC0400A7DF31 /* UIViewController+InteractivePopEnable.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8839C1CA5EC0400A7DF31 /* UIViewController+InteractivePopEnable.m */; };
 		18D884561CA5EC0400A7DF31 /* CGNavigationDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D883A01CA5EC0400A7DF31 /* CGNavigationDelegateObject.m */; };
-		18D884571CA5EC0400A7DF31 /* CGAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D883A61CA5EC0400A7DF31 /* CGAlertController.m */; };
 		18D884591CA5EC0400A7DF31 /* CGTitleBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D883AB1CA5EC0400A7DF31 /* CGTitleBarViewController.m */; };
 		18D8845A1CA5EC0400A7DF31 /* CGSingleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D883AE1CA5EC0400A7DF31 /* CGSingleTableViewController.m */; };
 		18D8845B1CA5EC0400A7DF31 /* CGDefaultPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D883B41CA5EC0400A7DF31 /* CGDefaultPopAnimation.m */; };
@@ -302,6 +303,11 @@
 		00D307A81CC7659C0040EFC8 /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
 		00D307AB1CC76E350040EFC8 /* CGTestWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestWKWebViewController.h; sourceTree = "<group>"; };
 		00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestWKWebViewController.m; sourceTree = "<group>"; };
+		18036F371D1F3A5D007B3494 /* CGBlockHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGBlockHeader.h; sourceTree = "<group>"; };
+		18036F381D1F3E60007B3494 /* UIViewController+CGAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CGAlert.h"; sourceTree = "<group>"; };
+		18036F391D1F3E60007B3494 /* UIViewController+CGAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CGAlert.m"; sourceTree = "<group>"; };
+		18036F401D1F402C007B3494 /* CGAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAlertController.h; sourceTree = "<group>"; };
+		18036F411D1F402C007B3494 /* CGAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAlertController.m; sourceTree = "<group>"; };
 		18387D951CB317BA00F73CD9 /* CGBrowsePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBrowsePhotoViewController.h; sourceTree = "<group>"; };
 		18387D961CB317BA00F73CD9 /* CGBrowsePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBrowsePhotoViewController.m; sourceTree = "<group>"; };
 		183CCCA21CC5894400235486 /* CGTestPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestPhotosViewController.h; sourceTree = "<group>"; };
@@ -646,8 +652,6 @@
 		18D8839F1CA5EC0400A7DF31 /* CGNavigationDelegateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNavigationDelegateObject.h; sourceTree = "<group>"; };
 		18D883A01CA5EC0400A7DF31 /* CGNavigationDelegateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGNavigationDelegateObject.m; sourceTree = "<group>"; };
 		18D883A21CA5EC0400A7DF31 /* CGTableViewDataSourceManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTableViewDataSourceManagerProtocol.h; sourceTree = "<group>"; };
-		18D883A51CA5EC0400A7DF31 /* CGAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAlertController.h; sourceTree = "<group>"; };
-		18D883A61CA5EC0400A7DF31 /* CGAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAlertController.m; sourceTree = "<group>"; };
 		18D883AA1CA5EC0400A7DF31 /* CGTitleBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleBarViewController.h; sourceTree = "<group>"; };
 		18D883AB1CA5EC0400A7DF31 /* CGTitleBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleBarViewController.m; sourceTree = "<group>"; };
 		18D883AD1CA5EC0400A7DF31 /* CGSingleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleTableViewController.h; sourceTree = "<group>"; };
@@ -926,6 +930,15 @@
 			path = "Test WKWebView";
 			sourceTree = "<group>";
 		};
+		18036F3F1D1F402C007B3494 /* AlertController */ = {
+			isa = PBXGroup;
+			children = (
+				18036F401D1F402C007B3494 /* CGAlertController.h */,
+				18036F411D1F402C007B3494 /* CGAlertController.m */,
+			);
+			path = AlertController;
+			sourceTree = "<group>";
+		};
 		183CCCA11CC5892B00235486 /* TestPhotos */ = {
 			isa = PBXGroup;
 			children = (
@@ -1143,6 +1156,7 @@
 			isa = PBXGroup;
 			children = (
 				18D881DA1CA5EC0400A7DF31 /* CGBlockdDefinitionHeader.h */,
+				18036F371D1F3A5D007B3494 /* CGBlockHeader.h */,
 			);
 			path = Block;
 			sourceTree = "<group>";
@@ -2316,6 +2330,8 @@
 				18D8839A1CA5EC0400A7DF31 /* UIViewController+CGFullscreenPopGesture.m */,
 				18D8839B1CA5EC0400A7DF31 /* UIViewController+InteractivePopEnable.h */,
 				18D8839C1CA5EC0400A7DF31 /* UIViewController+InteractivePopEnable.m */,
+				18036F381D1F3E60007B3494 /* UIViewController+CGAlert.h */,
+				18036F391D1F3E60007B3494 /* UIViewController+CGAlert.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -2349,20 +2365,11 @@
 		18D883A31CA5EC0400A7DF31 /* DetailToolsVC */ = {
 			isa = PBXGroup;
 			children = (
-				18D883A41CA5EC0400A7DF31 /* AlertController */,
+				18036F3F1D1F402C007B3494 /* AlertController */,
 				18D883A71CA5EC0400A7DF31 /* OtherToolController */,
 				18D883AC1CA5EC0400A7DF31 /* TableViewController */,
 			);
 			path = DetailToolsVC;
-			sourceTree = "<group>";
-		};
-		18D883A41CA5EC0400A7DF31 /* AlertController */ = {
-			isa = PBXGroup;
-			children = (
-				18D883A51CA5EC0400A7DF31 /* CGAlertController.h */,
-				18D883A61CA5EC0400A7DF31 /* CGAlertController.m */,
-			);
-			path = AlertController;
 			sourceTree = "<group>";
 		};
 		18D883A71CA5EC0400A7DF31 /* OtherToolController */ = {
@@ -3083,6 +3090,7 @@
 				18F2A9BD1CB458FD007A4B3F /* CGImageView.m in Sources */,
 				18D8845A1CA5EC0400A7DF31 /* CGSingleTableViewController.m in Sources */,
 				00D307A91CC7659C0040EFC8 /* EXTScope.m in Sources */,
+				18036F3A1D1F3E60007B3494 /* UIViewController+CGAlert.m in Sources */,
 				18B36FB11CB5C4D800F5550F /* UICollectionView+CGPropertyValue.m in Sources */,
 				002A33AB1CC8D40B005AFD45 /* CGWebBottomView.m in Sources */,
 				18D883CD1CA5EC0400A7DF31 /* NSPredicate+CreatePredicate.m in Sources */,
@@ -3186,7 +3194,6 @@
 				18D884221CA5EC0400A7DF31 /* CGSingleSectionTableViewDataSource.m in Sources */,
 				18FB41491CAF351E00BE4F34 /* CGPhotoCollectionViewCell.m in Sources */,
 				1894AE8E1CAFF305005A518C /* UICollectionViewFlowLayout+CGCreateLayout.m in Sources */,
-				18D884571CA5EC0400A7DF31 /* CGAlertController.m in Sources */,
 				18D884141CA5EC0400A7DF31 /* CGCollectionView.m in Sources */,
 				18E44A671CD00CD300AF6E6B /* UIView+CGSearchConstraints.m in Sources */,
 				18DB76351CB9301F00CAB269 /* UIView+CGAddSubview.m in Sources */,
@@ -3204,6 +3211,7 @@
 				18D883FA1CA5EC0400A7DF31 /* UITableView+CGIndexPath.m in Sources */,
 				18D883CE1CA5EC0400A7DF31 /* NSString+CGEncryption.m in Sources */,
 				18DB763F1CB9301F00CAB269 /* UIView+DrawBoxLine.m in Sources */,
+				18036F421D1F402C007B3494 /* CGAlertController.m in Sources */,
 				18D8841E1CA5EC0400A7DF31 /* CGTableView.m in Sources */,
 				18D883E31CA5EC0400A7DF31 /* UIView+Transform.m in Sources */,
 				18DBAAF91C12877E00552828 /* AppDelegate.m in Sources */,

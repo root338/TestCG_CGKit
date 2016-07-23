@@ -95,12 +95,12 @@
     
     UIView *paramView = [UIView cg_createViewWithBackgroundColor:[UIColor greenColor]];
     [self.view addSubview:paramView];
-    paramView.translatesAutoresizingMaskIntoConstraints  = NO;
-    
+    paramView.translatesAutoresizingMaskIntoConstraints     = NO;
+    viewFromViewController.layoutPriorityForConstraint      = 1000;
     [viewFromViewController cg_autoEdgesToViewController:self withInsets:edgeInsets exculdingEdge:CGLayoutEdgeBottom];
     [paramView cg_autoEdgesToViewController:self withInsets:edgeInsets exculdingEdge:CGLayoutEdgeTop];
     
-    [viewFromViewController cg_attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:paramView attribute:NSLayoutAttributeTop constant:-space];
+    [viewFromViewController cg_attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:paramView attribute:NSLayoutAttributeTop constant:space];
     [viewFromViewController cg_attribute:NSLayoutAttributeHeight toItem:paramView];
     
     UIView *redView = [UIView cg_createViewWithBackgroundColor:[UIColor redColor]];
@@ -115,7 +115,7 @@
     [grayView cg_autoEdgesToSuperviewEdgesWithInsets:edgeInsets excludingEdge:CGLayoutEdgeBottom];
     [orangeView cg_autoEdgesToSuperviewEdgesWithInsets:edgeInsets excludingEdge:CGLayoutEdgeTop];
     [grayView cg_attribute:NSLayoutAttributeHeight toItem:orangeView];
-    [grayView cg_attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:orangeView attribute:NSLayoutAttributeTop constant:-space];
+    [grayView cg_attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:orangeView attribute:NSLayoutAttributeTop constant:space];
 //    [paramView cg_autoDimension:CGDimensionHeight fixedLength:100];
 //    [viewFromViewController cg_autoDimension:CGDimensionHeight fixedLength:100];
 }

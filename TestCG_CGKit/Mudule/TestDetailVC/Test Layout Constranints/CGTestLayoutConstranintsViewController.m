@@ -8,9 +8,14 @@
 
 #import "CGTestLayoutConstranintsViewController.h"
 
+#import "CGTitleLabelayoutView.h"
+#import "CGTitleImageLayoutView.h"
+#import "CGTitleButtonsLayoutView.h"
+
 #import "UIView+CGCreateViews.h"
-#import "UIView+CGAddConstraints.h"
 #import "UIEdgeInsets+Category.h"
+#import "UIView+CGAddConstraints.h"
+#import "NSArray+CGAddConstraints.h"
 
 @interface CGTestLayoutConstranintsViewController ()
 {
@@ -24,8 +29,51 @@
 {
     [super viewDidLoad];
     
-    [self testDoubleViewToViewController];    
+    [self testTitleViews];
     self.view.backgroundColor   = [UIColor whiteColor];
+}
+
+- (void)testTitleViews
+{
+    CGTitleLabelayoutView *titleLabel   = [[CGTitleLabelayoutView alloc] initWithMarginEdgeInstes:UIEdgeInsetsMakeAllEqualValue(15)];
+    titleLabel.titleLabel.text   = @"测试 CGTitleLabelayoutView\n\
+                                    测试 CGTitleLabelayoutView\n\
+                                    测试 CGTitleLabelayoutView";
+    titleLabel.titleLabel.numberOfLines = 0;
+    titleLabel.backgroundColor          = [UIColor orangeColor];
+    
+    CGTitleButtonsLayoutView *buttonsView   = [[CGTitleButtonsLayoutView alloc] init];
+    buttonsView.marginEdgeInsets            = UIEdgeInsetsMakeAllEqualValue(8);
+    buttonsView.firstTargetViewEdgeInsets   = UIEdgeInsetsMakeAllEqualValue(15);
+    buttonsView.secondTargetViewEdgeInsets  = UIEdgeInsetsMakeAllEqualValue(15);
+    buttonsView.targetViewsBetweenSapce     = 8;
+    [buttonsView.firstButton setTitle:@"first button" forState:UIControlStateNormal];
+    [buttonsView.secondButton setTitle:@"second button" forState:UIControlStateNormal];
+    [buttonsView setBackgroundColor:[UIColor darkGrayColor]];
+    [buttonsView.firstButton setBackgroundColor:[UIColor blueColor]];
+    [buttonsView.secondButton setBackgroundColor:[UIColor greenColor]];
+    buttonsView.alignment   = CGAlignmentTypeVertical;
+    
+    CGTitleImageLayoutView  *titleImages    = [[CGTitleImageLayoutView alloc] init];
+    titleImages.marginEdgeInsets            = UIEdgeInsetsMakeAllEqualValue(8);
+    titleImages.firstTargetViewEdgeInsets   = UIEdgeInsetsMakeAllEqualValue(15);
+    titleImages.secondTargetViewEdgeInsets  = UIEdgeInsetsMakeAllEqualValue(15);
+    titleImages.targetViewsBetweenSapce     = 8;
+    [titleImages.titleLabel setText:@"测试 CGTitleImageLayoutView"];
+    [titleImages setBackgroundColor:[UIColor redColor]];
+    [titleImages.titleLabel setBackgroundColor:[UIColor lightGrayColor]];
+    [titleImages.imageView setBackgroundColor:[UIColor orangeColor]];
+    
+    [self.view addSubview:titleLabel];
+    [self.view addSubview:buttonsView];
+    [self.view addSubview:titleImages];
+    
+    NSArray *views = @[
+                       titleLabel,
+                       buttonsView,
+                       titleImages,
+                       ];
+    [views cg_autoSetupVerticalSubviewsLayoutWithViewController:self];
 }
 
 /** 测试单个视图添加到 UIViewController 上 */

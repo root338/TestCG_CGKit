@@ -8,6 +8,8 @@
 
 #import "CGTestDefinesData.h"
 
+#import "NSString+VerificationString.h"
+
 @interface CGTestDefinesData ()
 
 @end
@@ -28,5 +30,7 @@
           \n    NSFoundationVersionNumber   = %f    \
           ", [[UIDevice currentDevice] systemVersion], NSFoundationVersionNumber);
     
+    NSString *link  = @"https://www.apple.com";
+    NSLog(@"%@ 是否http:// 链接吗? %i", link, [link verificationIsHTTPPrefix]);
 }
 @end

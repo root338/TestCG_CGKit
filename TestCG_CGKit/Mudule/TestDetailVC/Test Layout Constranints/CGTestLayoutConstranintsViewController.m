@@ -10,7 +10,6 @@
 
 #import "UIView+CGCreateViews.h"
 #import "UIView+CGAddConstraints.h"
-#import "UIView+CGUpdateConstraints.h"
 #import "UIEdgeInsets+Category.h"
 
 @interface CGTestLayoutConstranintsViewController ()
@@ -25,9 +24,7 @@
 {
     [super viewDidLoad];
     
-//    [self testDoubleViewToViewController];
-    [self test5];
-    
+    [self testDoubleViewToViewController];    
     self.view.backgroundColor   = [UIColor whiteColor];
 }
 
@@ -84,57 +81,6 @@
     [greenView addSubview:grayView];
     [grayView cg_autoEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsMakeAllEqualValue(20) excludingEdge:CGLayoutEdgeBottom];
     [grayView cg_autoConstrainToSuperviewAttribute:NSLayoutAttributeBottom withOffset:20 relation:NSLayoutRelationLessThanOrEqual];
-}
-
-- (void)test5
-{
-    //测试UIView (CGViewDimensionConstraint)
-    UIView *grayView    = [UIView cg_createViewWithBackgroundColor:[UIColor grayColor]];
-    [self.view addSubview:grayView];
-    
-    UIView *orangeView  = [UIView cg_createViewWithBackgroundColor:[UIColor orangeColor]];
-    [grayView addSubview:orangeView];
-    
-    [grayView cg_updateAutoEdgesToViewController:self withInsets:UIEdgeInsetsMakeAllEqualValue(20)];
-    [orangeView cg_updateAutoSetupViewSize:CGSizeMake(100, 100)];
-    [orangeView cg_updateAutoCenterToSameAxisOfView:grayView];
-    
-    UILabel *titleLabel     = [[UILabel alloc] init];
-    
-    NSMutableParagraphStyle *style  = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
-    style.lineSpacing               = 5;
-    style.firstLineHeadIndent       = 10;
-    NSDictionary *titleDic  = @{
-                                NSFontAttributeName : [UIFont systemFontOfSize:15],
-                                NSForegroundColorAttributeName : [UIColor orangeColor],
-                                NSBackgroundColorAttributeName : [UIColor greenColor],
-                                NSParagraphStyleAttributeName  : style,
-                                
-                                };
-    NSMutableAttributedString *attributedString   = [[NSMutableAttributedString alloc] initWithString:@"hello, world" attributes:titleDic];
-    
-    NSDictionary *detailDic = @{
-                                NSFontAttributeName     : [UIFont systemFontOfSize:20],
-                                NSForegroundColorAttributeName : [UIColor redColor],
-                                NSBackgroundColorAttributeName  : [UIColor blueColor],
-                                };
-    [attributedString appendAttributedString:[[NSAttributedString alloc] initWithString:@"WORLD, HELLO" attributes:detailDic]];
-    
-    titleLabel.attributedText   = attributedString;
-    
-    [grayView addSubview:titleLabel];
-    
-    [titleLabel cg_autoEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsZero excludingEdge:CGLayoutEdgeBottom];
-    
-//    NSLog(@"%lu", (unsigned long)self.view.constraints.count);
-//    NSLog(@"%lu", (unsigned long)grayView.constraints.count);
-//    NSLog(@"%lu", (unsigned long)orangeView.constraints.count);
-    
-//    [orangeView cg_autoDimension:CGDimensionWidth fixedLength:100 relation:NSLayoutRelationGreaterThanOrEqual];
-//    [orangeView cg_autoDimension:CGDimensionHeight view:grayView relatedBy:NSLayoutRelationGreaterThanOrEqual];
-    
-//    [orangeView cg_autoAxis:CGAxisVertical toSameAxisOfView:grayView withOffset:100];
-//    [orangeView cg_autoConstrainToSuperviewAttribute:NSLayoutAttributeTop withOffset:20];
 }
 
 /** 多视图综合测试 */

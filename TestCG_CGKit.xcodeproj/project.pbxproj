@@ -24,12 +24,14 @@
 		00D307AD1CC76E350040EFC8 /* CGTestWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */; };
 		18036F3A1D1F3E60007B3494 /* UIViewController+CGAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 18036F391D1F3E60007B3494 /* UIViewController+CGAlert.m */; };
 		18036F421D1F402C007B3494 /* CGAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18036F411D1F402C007B3494 /* CGAlertController.m */; };
+		180AECE31D42E649006F8287 /* CGLayoutMarginBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180AECE21D42E649006F8287 /* CGLayoutMarginBaseView.m */; };
 		18387D971CB317BA00F73CD9 /* CGBrowsePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18387D961CB317BA00F73CD9 /* CGBrowsePhotoViewController.m */; };
 		183CCCA41CC5894400235486 /* CGTestPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */; };
 		183F846B1CB1A4CC00562857 /* CGPhotoGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F846A1CB1A4CC00562857 /* CGPhotoGroupTableViewCell.m */; };
 		183F846F1CB1CE2E00562857 /* CGFCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F846E1CB1CE2E00562857 /* CGFCManager.m */; };
 		185086E51CC303BF001CBC6B /* CGImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 185086E41CC303BF001CBC6B /* CGImageManager.m */; };
 		185086E71CC303E4001CBC6B /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185086E61CC303E4001CBC6B /* Photos.framework */; };
+		18741B471D435E790091905E /* UIView+CGAddConstraintStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 18741B461D435E790091905E /* UIView+CGAddConstraintStatus.m */; };
 		187579961C12E8AB0065C29D /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187579951C12E8AB0065C29D /* Reveal.framework */; };
 		1885F3921CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1885F3911CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m */; };
 		1885F39B1CB16AAB002A6D68 /* CGPhotoGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1885F39A1CB16AAB002A6D68 /* CGPhotoGroupViewController.m */; };
@@ -162,7 +164,6 @@
 		18D8843A1CA5EC0400A7DF31 /* CGCycleContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D883421CA5EC0400A7DF31 /* CGCycleContentView.m */; };
 		18D8843B1CA5EC0400A7DF31 /* CGCycleBrowseImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D883451CA5EC0400A7DF31 /* CGCycleBrowseImageScrollView.m */; };
 		18D8843C1CA5EC0400A7DF31 /* CGCycleBrowseImageScrollView+CGSetupCycleProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D883481CA5EC0400A7DF31 /* CGCycleBrowseImageScrollView+CGSetupCycleProperty.m */; };
-		18D8843D1CA5EC0400A7DF31 /* CGLineBoxLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8834B1CA5EC0400A7DF31 /* CGLineBoxLayerView.m */; };
 		18D8843E1CA5EC0400A7DF31 /* CGLineBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8834E1CA5EC0400A7DF31 /* CGLineBoxView.m */; };
 		18D8843F1CA5EC0400A7DF31 /* CGTitleButtonContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D883521CA5EC0400A7DF31 /* CGTitleButtonContentView.m */; };
 		18D884401CA5EC0400A7DF31 /* CGTitleButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D883541CA5EC0400A7DF31 /* CGTitleButtonView.m */; };
@@ -212,7 +213,6 @@
 		18E44A471CD00CA700AF6E6B /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E44A371CD00CA700AF6E6B /* NSLayoutConstraint+PureLayout.m */; };
 		18E44A481CD00CA700AF6E6B /* UIView+LayoutSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E44A3D1CD00CA700AF6E6B /* UIView+LayoutSetup.m */; };
 		18E44A611CD00CD300AF6E6B /* UIView+CGAddConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E44A4C1CD00CD300AF6E6B /* UIView+CGAddConstraints.m */; };
-		18E44A621CD00CD300AF6E6B /* UIView+CGUpdateConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E44A4E1CD00CD300AF6E6B /* UIView+CGUpdateConstraints.m */; };
 		18E44A631CD00CD300AF6E6B /* CGLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E44A501CD00CD300AF6E6B /* CGLayoutManager.m */; };
 		18E44A641CD00CD300AF6E6B /* NSLayoutConstraint+CGVerifyConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E44A531CD00CD300AF6E6B /* NSLayoutConstraint+CGVerifyConstraint.m */; };
 		18E44A651CD00CD300AF6E6B /* UIView+CGCreateConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E44A561CD00CD300AF6E6B /* UIView+CGCreateConstraint.m */; };
@@ -308,6 +308,8 @@
 		18036F391D1F3E60007B3494 /* UIViewController+CGAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CGAlert.m"; sourceTree = "<group>"; };
 		18036F401D1F402C007B3494 /* CGAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAlertController.h; sourceTree = "<group>"; };
 		18036F411D1F402C007B3494 /* CGAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAlertController.m; sourceTree = "<group>"; };
+		180AECE11D42E649006F8287 /* CGLayoutMarginBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLayoutMarginBaseView.h; sourceTree = "<group>"; };
+		180AECE21D42E649006F8287 /* CGLayoutMarginBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLayoutMarginBaseView.m; sourceTree = "<group>"; };
 		18387D951CB317BA00F73CD9 /* CGBrowsePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBrowsePhotoViewController.h; sourceTree = "<group>"; };
 		18387D961CB317BA00F73CD9 /* CGBrowsePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBrowsePhotoViewController.m; sourceTree = "<group>"; };
 		183CCCA21CC5894400235486 /* CGTestPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestPhotosViewController.h; sourceTree = "<group>"; };
@@ -319,6 +321,9 @@
 		185086E31CC303BF001CBC6B /* CGImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGImageManager.h; sourceTree = "<group>"; };
 		185086E41CC303BF001CBC6B /* CGImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGImageManager.m; sourceTree = "<group>"; };
 		185086E61CC303E4001CBC6B /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		18741B441D435A5B0091905E /* CGLayoutMarginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLayoutMarginDelegate.h; sourceTree = "<group>"; };
+		18741B451D435E790091905E /* UIView+CGAddConstraintStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGAddConstraintStatus.h"; sourceTree = "<group>"; };
+		18741B461D435E790091905E /* UIView+CGAddConstraintStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGAddConstraintStatus.m"; sourceTree = "<group>"; };
 		187579951C12E8AB0065C29D /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = TestCG_CGKit/Reveal.framework; sourceTree = "<group>"; };
 		1885F3901CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestLayoutConstranintsViewController.h; sourceTree = "<group>"; };
 		1885F3911CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestLayoutConstranintsViewController.m; sourceTree = "<group>"; };
@@ -604,8 +609,6 @@
 		18D883451CA5EC0400A7DF31 /* CGCycleBrowseImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleBrowseImageScrollView.m; sourceTree = "<group>"; };
 		18D883471CA5EC0400A7DF31 /* CGCycleBrowseImageScrollView+CGSetupCycleProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGCycleBrowseImageScrollView+CGSetupCycleProperty.h"; sourceTree = "<group>"; };
 		18D883481CA5EC0400A7DF31 /* CGCycleBrowseImageScrollView+CGSetupCycleProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGCycleBrowseImageScrollView+CGSetupCycleProperty.m"; sourceTree = "<group>"; };
-		18D8834A1CA5EC0400A7DF31 /* CGLineBoxLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLineBoxLayerView.h; sourceTree = "<group>"; };
-		18D8834B1CA5EC0400A7DF31 /* CGLineBoxLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLineBoxLayerView.m; sourceTree = "<group>"; };
 		18D8834C1CA5EC0400A7DF31 /* CGLineBoxTypeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLineBoxTypeHeader.h; sourceTree = "<group>"; };
 		18D8834D1CA5EC0400A7DF31 /* CGLineBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLineBoxView.h; sourceTree = "<group>"; };
 		18D8834E1CA5EC0400A7DF31 /* CGLineBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLineBoxView.m; sourceTree = "<group>"; };
@@ -722,8 +725,6 @@
 		18E44A3E1CD00CA700AF6E6B /* UIView+LayoutSetupHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutSetupHeader.h"; sourceTree = "<group>"; };
 		18E44A4B1CD00CD300AF6E6B /* UIView+CGAddConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGAddConstraints.h"; sourceTree = "<group>"; };
 		18E44A4C1CD00CD300AF6E6B /* UIView+CGAddConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGAddConstraints.m"; sourceTree = "<group>"; };
-		18E44A4D1CD00CD300AF6E6B /* UIView+CGUpdateConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGUpdateConstraints.h"; sourceTree = "<group>"; };
-		18E44A4E1CD00CD300AF6E6B /* UIView+CGUpdateConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGUpdateConstraints.m"; sourceTree = "<group>"; };
 		18E44A4F1CD00CD300AF6E6B /* CGLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLayoutManager.h; sourceTree = "<group>"; };
 		18E44A501CD00CD300AF6E6B /* CGLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLayoutManager.m; sourceTree = "<group>"; };
 		18E44A521CD00CD300AF6E6B /* NSLayoutConstraint+CGVerifyConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+CGVerifyConstraint.h"; sourceTree = "<group>"; };
@@ -939,6 +940,15 @@
 			path = AlertController;
 			sourceTree = "<group>";
 		};
+		180AECDD1D42E601006F8287 /* CGLayoutBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				180AECE11D42E649006F8287 /* CGLayoutMarginBaseView.h */,
+				180AECE21D42E649006F8287 /* CGLayoutMarginBaseView.m */,
+			);
+			path = CGLayoutBaseView;
+			sourceTree = "<group>";
+		};
 		183CCCA11CC5892B00235486 /* TestPhotos */ = {
 			isa = PBXGroup;
 			children = (
@@ -994,6 +1004,14 @@
 			path = PHImageManager;
 			sourceTree = "<group>";
 		};
+		18741B431D435A320091905E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				18741B441D435A5B0091905E /* CGLayoutMarginDelegate.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		1885F38F1CB13A4F002A6D68 /* Test Layout Constranints */ = {
 			isa = PBXGroup;
 			children = (
@@ -1046,6 +1064,7 @@
 		18C66E0C1CB0817F00B37911 /* SupportLayoutView */ = {
 			isa = PBXGroup;
 			children = (
+				180AECDD1D42E601006F8287 /* CGLayoutBaseView */,
 				18C66E0D1CB081AA00B37911 /* CGTitleButtonsLayoutView.h */,
 				18C66E0E1CB081AA00B37911 /* CGTitleButtonsLayoutView.m */,
 			);
@@ -2013,6 +2032,7 @@
 		18D8831D1CA5EC0400A7DF31 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				18741B431D435A320091905E /* Protocol */,
 				18C66E0C1CB0817F00B37911 /* SupportLayoutView */,
 				18D8831E1CA5EC0400A7DF31 /* BaseView */,
 				18D883291CA5EC0400A7DF31 /* Button+Button */,
@@ -2138,8 +2158,6 @@
 		18D883491CA5EC0400A7DF31 /* LineView */ = {
 			isa = PBXGroup;
 			children = (
-				18D8834A1CA5EC0400A7DF31 /* CGLineBoxLayerView.h */,
-				18D8834B1CA5EC0400A7DF31 /* CGLineBoxLayerView.m */,
 				18D8834C1CA5EC0400A7DF31 /* CGLineBoxTypeHeader.h */,
 				18D8834D1CA5EC0400A7DF31 /* CGLineBoxView.h */,
 				18D8834E1CA5EC0400A7DF31 /* CGLineBoxView.m */,
@@ -2664,8 +2682,8 @@
 			children = (
 				18E44A4B1CD00CD300AF6E6B /* UIView+CGAddConstraints.h */,
 				18E44A4C1CD00CD300AF6E6B /* UIView+CGAddConstraints.m */,
-				18E44A4D1CD00CD300AF6E6B /* UIView+CGUpdateConstraints.h */,
-				18E44A4E1CD00CD300AF6E6B /* UIView+CGUpdateConstraints.m */,
+				18741B451D435E790091905E /* UIView+CGAddConstraintStatus.h */,
+				18741B461D435E790091905E /* UIView+CGAddConstraintStatus.m */,
 			);
 			path = AddConstraint;
 			sourceTree = "<group>";
@@ -3074,7 +3092,6 @@
 				18D883F31CA5EC0400A7DF31 /* UILabel+CGSetupAppearance.m in Sources */,
 				18D883D41CA5EC0400A7DF31 /* NSTimer+ChangeTimerStatus.m in Sources */,
 				18D8842D1CA5EC0400A7DF31 /* CGBaseView.m in Sources */,
-				18E44A621CD00CD300AF6E6B /* UIView+CGUpdateConstraints.m in Sources */,
 				18D883EF1CA5EC0400A7DF31 /* UIView+CGCreate.m in Sources */,
 				18D884121CA5EC0400A7DF31 /* CGTimerButton.m in Sources */,
 				18D884351CA5EC0400A7DF31 /* CGCycleScrollView+CGBuildLayout.m in Sources */,
@@ -3141,7 +3158,6 @@
 				18D883C91CA5EC0400A7DF31 /* NSBundle+GetAppInfo.m in Sources */,
 				18D883C81CA5EC0400A7DF31 /* NSError+CGCreateError.m in Sources */,
 				18D883D71CA5EC0400A7DF31 /* UIApplication+CGOpenSystemApp.m in Sources */,
-				18D8843D1CA5EC0400A7DF31 /* CGLineBoxLayerView.m in Sources */,
 				18D8842A1CA5EC0400A7DF31 /* CGTextView.m in Sources */,
 				18D8840D1CA5EC0400A7DF31 /* CGAlertView.m in Sources */,
 				18D883F41CA5EC0400A7DF31 /* UIScrollView+CGProperty.m in Sources */,
@@ -3171,6 +3187,7 @@
 				18D883CB1CA5EC0400A7DF31 /* NSObject+CGObjectToDictionary.m in Sources */,
 				18D883E71CA5EC0400A7DF31 /* UILabel+CGCreateLayoutCustomLabel.m in Sources */,
 				18D884211CA5EC0400A7DF31 /* CGTableViewEditDataSourceManager.m in Sources */,
+				18741B471D435E790091905E /* UIView+CGAddConstraintStatus.m in Sources */,
 				18DB76431CB9303E00CAB269 /* UIView+CGAddGestureRecognizer.m in Sources */,
 				18D884561CA5EC0400A7DF31 /* CGNavigationDelegateObject.m in Sources */,
 				18D883E61CA5EC0400A7DF31 /* UIButton+UpdateLocate.m in Sources */,
@@ -3178,6 +3195,7 @@
 				18C66E0F1CB081AA00B37911 /* CGTitleButtonsLayoutView.m in Sources */,
 				18E44A631CD00CD300AF6E6B /* CGLayoutManager.m in Sources */,
 				1885F3921CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m in Sources */,
+				180AECE31D42E649006F8287 /* CGLayoutMarginBaseView.m in Sources */,
 				18FB413D1CAF2F4700BE4F34 /* CGCollectionViewDataSourceManager.m in Sources */,
 				18D8841C1CA5EC0400A7DF31 /* HorizontalSingleAppearance.m in Sources */,
 				18E873D51CAC8F3500F2BB84 /* CGSingeContentTableView.m in Sources */,

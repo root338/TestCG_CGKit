@@ -232,6 +232,10 @@
 		186D2B991D44F535005327A2 /* CGLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D2B981D44F535005327A2 /* CGLayoutManager.m */; };
 		186D2B9C1D44F576005327A2 /* CGSingleViewConstraintsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D2B9B1D44F576005327A2 /* CGSingleViewConstraintsManager.m */; };
 		1881809C1D454BFD0092B723 /* CGDoubleTitleBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1881809B1D454BFD0092B723 /* CGDoubleTitleBaseView.m */; };
+		188180A01D454F9C0092B723 /* UIImageView+CGCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1881809F1D454F9C0092B723 /* UIImageView+CGCreate.m */; };
+		188180A31D4553580092B723 /* UIView+ShowOrHideAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 188180A21D4553580092B723 /* UIView+ShowOrHideAnimation.m */; };
+		188180A81D4554340092B723 /* CGPlaceholderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 188180A51D4554340092B723 /* CGPlaceholderLabel.m */; };
+		188180A91D4554340092B723 /* CGTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 188180A71D4554340092B723 /* CGTitleLabel.m */; };
 		1885F3921CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1885F3911CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m */; };
 		1894AE871CAFD4F3005A518C /* CGTestDefinesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AE861CAFD4F3005A518C /* CGTestDefinesTableViewController.m */; };
 		1894AE8B1CAFD83F005A518C /* CGTestDefinesData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AE8A1CAFD83F005A518C /* CGTestDefinesData.m */; };
@@ -788,6 +792,14 @@
 		186D2B9B1D44F576005327A2 /* CGSingleViewConstraintsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleViewConstraintsManager.m; sourceTree = "<group>"; };
 		1881809A1D454BFD0092B723 /* CGDoubleTitleBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDoubleTitleBaseView.h; sourceTree = "<group>"; };
 		1881809B1D454BFD0092B723 /* CGDoubleTitleBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDoubleTitleBaseView.m; sourceTree = "<group>"; };
+		1881809E1D454F9C0092B723 /* UIImageView+CGCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CGCreate.h"; sourceTree = "<group>"; };
+		1881809F1D454F9C0092B723 /* UIImageView+CGCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CGCreate.m"; sourceTree = "<group>"; };
+		188180A11D4553580092B723 /* UIView+ShowOrHideAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ShowOrHideAnimation.h"; sourceTree = "<group>"; };
+		188180A21D4553580092B723 /* UIView+ShowOrHideAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ShowOrHideAnimation.m"; sourceTree = "<group>"; };
+		188180A41D4554340092B723 /* CGPlaceholderLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPlaceholderLabel.h; sourceTree = "<group>"; };
+		188180A51D4554340092B723 /* CGPlaceholderLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPlaceholderLabel.m; sourceTree = "<group>"; };
+		188180A61D4554340092B723 /* CGTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleLabel.h; sourceTree = "<group>"; };
+		188180A71D4554340092B723 /* CGTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleLabel.m; sourceTree = "<group>"; };
 		1885F3901CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestLayoutConstranintsViewController.h; sourceTree = "<group>"; };
 		1885F3911CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestLayoutConstranintsViewController.m; sourceTree = "<group>"; };
 		1894AE851CAFD4F3005A518C /* CGTestDefinesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestDefinesTableViewController.h; sourceTree = "<group>"; };
@@ -967,6 +979,8 @@
 		181EC6441D437C1200357680 /* MoveView */ = {
 			isa = PBXGroup;
 			children = (
+				188180A11D4553580092B723 /* UIView+ShowOrHideAnimation.h */,
+				188180A21D4553580092B723 /* UIView+ShowOrHideAnimation.m */,
 				181EC6451D437C1200357680 /* CGMoveViewTypeHeader.h */,
 				181EC6461D437C1200357680 /* UIView+CGLineMoveView.h */,
 				181EC6471D437C1200357680 /* UIView+CGLineMoveView.m */,
@@ -1561,6 +1575,7 @@
 		181EC7031D437C1200357680 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				1881809D1D454F7C0092B723 /* UIImageView */,
 				181EC7041D437C1200357680 /* AreaCalculate */,
 				181EC70C1D437C1200357680 /* Button */,
 				181EC7151D437C1300357680 /* CoreScene */,
@@ -1650,6 +1665,8 @@
 				181EC7281D437C1300357680 /* UITextField+CG_Create.m */,
 				181EC7291D437C1300357680 /* UIView+CGCreate.h */,
 				181EC72A1D437C1300357680 /* UIView+CGCreate.m */,
+				1881809E1D454F9C0092B723 /* UIImageView+CGCreate.h */,
+				1881809F1D454F9C0092B723 /* UIImageView+CGCreate.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1939,6 +1956,10 @@
 		181EC7A21D437C1300357680 /* Label */ = {
 			isa = PBXGroup;
 			children = (
+				188180A41D4554340092B723 /* CGPlaceholderLabel.h */,
+				188180A51D4554340092B723 /* CGPlaceholderLabel.m */,
+				188180A61D4554340092B723 /* CGTitleLabel.h */,
+				188180A71D4554340092B723 /* CGTitleLabel.m */,
 				181EC7A31D437C1300357680 /* CGBaseLabel.h */,
 				181EC7A41D437C1300357680 /* CGBaseLabel.m */,
 				181EC7A51D437C1300357680 /* CGLabel.h */,
@@ -2803,6 +2824,13 @@
 			path = "Constraints Manager";
 			sourceTree = "<group>";
 		};
+		1881809D1D454F7C0092B723 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
 		1885F38F1CB13A4F002A6D68 /* Test Layout Constranints */ = {
 			isa = PBXGroup;
 			children = (
@@ -3307,6 +3335,7 @@
 				181EC9191D437C1300357680 /* UILabel+CGSetupAppearance.m in Sources */,
 				181EC91D1D437C1300357680 /* UIScrollView+CGSetupScrollProperty.m in Sources */,
 				181EC92A1D437C1300357680 /* UIView+CGCreateViews.m in Sources */,
+				188180A01D454F9C0092B723 /* UIImageView+CGCreate.m in Sources */,
 				181EC9311D437C1300357680 /* UIView+CGSetupFrame.m in Sources */,
 				181EC9611D437C1300357680 /* CGSingeContentTableView.m in Sources */,
 				181EC8E41D437C1300357680 /* NSPredicate+CreatePredicate.m in Sources */,
@@ -3389,8 +3418,10 @@
 				181EC8E01D437C1300357680 /* NSBundle+GetAppInfo.m in Sources */,
 				181EC8D91D437C1300357680 /* CGRequestModel.m in Sources */,
 				181EC96E1D437C1300357680 /* CGCycleBrowseImageScrollView+CGSetupCycleProperty.m in Sources */,
+				188180A81D4554340092B723 /* CGPlaceholderLabel.m in Sources */,
 				181EC9081D437C1300357680 /* UIView+Transform.m in Sources */,
 				181EC9481D437C1300357680 /* HorizontalSingleAppearance.m in Sources */,
+				188180A91D4554340092B723 /* CGTitleLabel.m in Sources */,
 				181EC9581D437C1300357680 /* CGCollectionViewCell.m in Sources */,
 				181EC8FC1D437C1300357680 /* UIApplication+CGVerifyDeviceDirection.m in Sources */,
 				181EC9201D437C1300357680 /* UITableView+CGIndexPath.m in Sources */,
@@ -3400,6 +3431,7 @@
 				181EC8CC1D437C1300357680 /* UIView+CGLineMoveView.m in Sources */,
 				186D2B991D44F535005327A2 /* CGLayoutManager.m in Sources */,
 				181EC9841D437C1300357680 /* NSArray+CGSearchConstraints.m in Sources */,
+				188180A31D4553580092B723 /* UIView+ShowOrHideAnimation.m in Sources */,
 				181EC9811D437C1300357680 /* NSLayoutConstraint+CGVerifyConstraint.m in Sources */,
 				181EC97C1D437C1300357680 /* CGBorderBaseLayer.m in Sources */,
 				18DBAE021C12968900552828 /* HomeViewController.m in Sources */,

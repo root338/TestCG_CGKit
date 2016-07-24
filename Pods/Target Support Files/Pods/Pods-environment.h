@@ -54,12 +54,6 @@
 #define COCOAPODS_VERSION_MINOR_JSONModel 1
 #define COCOAPODS_VERSION_PATCH_JSONModel 2
 
-// Masonry
-#define COCOAPODS_POD_AVAILABLE_Masonry
-#define COCOAPODS_VERSION_MAJOR_Masonry 0
-#define COCOAPODS_VERSION_MINOR_Masonry 6
-#define COCOAPODS_VERSION_PATCH_Masonry 3
-
 // SDWebImage
 #define COCOAPODS_POD_AVAILABLE_SDWebImage
 #define COCOAPODS_VERSION_MAJOR_SDWebImage 3
@@ -72,3 +66,13 @@
 #define COCOAPODS_VERSION_MINOR_SDWebImage_Core 7
 #define COCOAPODS_VERSION_PATCH_SDWebImage_Core 3
 
+// Debug build configuration
+#ifdef DEBUG
+
+  // Reveal-iOS-SDK
+  #define COCOAPODS_POD_AVAILABLE_Reveal_iOS_SDK
+  #define COCOAPODS_VERSION_MAJOR_Reveal_iOS_SDK 1
+  #define COCOAPODS_VERSION_MINOR_Reveal_iOS_SDK 5
+  #define COCOAPODS_VERSION_PATCH_Reveal_iOS_SDK 1
+
+#endif

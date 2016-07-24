@@ -159,11 +159,9 @@
 		181EC95C1D437C1300357680 /* CGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC7E61D437C1300357680 /* CGTableViewCell.m */; };
 		181EC95D1D437C1300357680 /* CGPhotoGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC7E91D437C1300357680 /* CGPhotoGroupTableViewCell.m */; };
 		181EC95E1D437C1300357680 /* CGBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC7ED1D437C1300357680 /* CGBaseView.m */; };
-		181EC95F1D437C1300357680 /* CGDoubleTitleBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC7EF1D437C1300357680 /* CGDoubleTitleBaseView.m */; };
 		181EC9601D437C1300357680 /* CGNavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC7F11D437C1300357680 /* CGNavigationBarView.m */; };
 		181EC9611D437C1300357680 /* CGSingeContentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC7F31D437C1300357680 /* CGSingeContentTableView.m */; };
 		181EC9621D437C1300357680 /* CGTitleBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC7F51D437C1300357680 /* CGTitleBaseView.m */; };
-		181EC9631D437C1300357680 /* CGTitleDoubleLayoutBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC7F71D437C1300357680 /* CGTitleDoubleLayoutBaseView.m */; };
 		181EC9641D437C1300357680 /* CGDoubleButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC7FA1D437C1300357680 /* CGDoubleButtonsView.m */; };
 		181EC9651D437C1300357680 /* CGCycleViewCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC7FF1D437C1300357680 /* CGCycleViewCacheManager.m */; };
 		181EC9661D437C1300357680 /* CGCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC8011D437C1300357680 /* CGCycleScrollView.m */; };
@@ -196,7 +194,6 @@
 		181EC9861D437C1300357680 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC8681D437C1300357680 /* ALView+PureLayout.m */; };
 		181EC9871D437C1300357680 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC86A1D437C1300357680 /* NSArray+PureLayout.m */; };
 		181EC9881D437C1300357680 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC86C1D437C1300357680 /* NSLayoutConstraint+PureLayout.m */; };
-		181EC9891D437C1300357680 /* UIView+LayoutSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC8721D437C1300357680 /* UIView+LayoutSetup.m */; };
 		181EC98A1D437C1300357680 /* CGAddSubviewsAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC8771D437C1300357680 /* CGAddSubviewsAppearance.m */; };
 		181EC98B1D437C1300357680 /* CGCreateViewsAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC87A1D437C1300357680 /* CGCreateViewsAppearance.m */; };
 		181EC98C1D437C1300357680 /* CGSubviewsSizeAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC87C1D437C1300357680 /* CGSubviewsSizeAppearance.m */; };
@@ -234,7 +231,7 @@
 		185086E71CC303E4001CBC6B /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185086E61CC303E4001CBC6B /* Photos.framework */; };
 		186D2B991D44F535005327A2 /* CGLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D2B981D44F535005327A2 /* CGLayoutManager.m */; };
 		186D2B9C1D44F576005327A2 /* CGSingleViewConstraintsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D2B9B1D44F576005327A2 /* CGSingleViewConstraintsManager.m */; };
-		187579961C12E8AB0065C29D /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187579951C12E8AB0065C29D /* Reveal.framework */; };
+		1881809C1D454BFD0092B723 /* CGDoubleTitleBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1881809B1D454BFD0092B723 /* CGDoubleTitleBaseView.m */; };
 		1885F3921CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1885F3911CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m */; };
 		1894AE871CAFD4F3005A518C /* CGTestDefinesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AE861CAFD4F3005A518C /* CGTestDefinesTableViewController.m */; };
 		1894AE8B1CAFD83F005A518C /* CGTestDefinesData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AE8A1CAFD83F005A518C /* CGTestDefinesData.m */; };
@@ -625,16 +622,12 @@
 		181EC7E91D437C1300357680 /* CGPhotoGroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPhotoGroupTableViewCell.m; sourceTree = "<group>"; };
 		181EC7EC1D437C1300357680 /* CGBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseView.h; sourceTree = "<group>"; };
 		181EC7ED1D437C1300357680 /* CGBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseView.m; sourceTree = "<group>"; };
-		181EC7EE1D437C1300357680 /* CGDoubleTitleBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDoubleTitleBaseView.h; sourceTree = "<group>"; };
-		181EC7EF1D437C1300357680 /* CGDoubleTitleBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDoubleTitleBaseView.m; sourceTree = "<group>"; };
 		181EC7F01D437C1300357680 /* CGNavigationBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNavigationBarView.h; sourceTree = "<group>"; };
 		181EC7F11D437C1300357680 /* CGNavigationBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGNavigationBarView.m; sourceTree = "<group>"; };
 		181EC7F21D437C1300357680 /* CGSingeContentTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingeContentTableView.h; sourceTree = "<group>"; };
 		181EC7F31D437C1300357680 /* CGSingeContentTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingeContentTableView.m; sourceTree = "<group>"; };
 		181EC7F41D437C1300357680 /* CGTitleBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleBaseView.h; sourceTree = "<group>"; };
 		181EC7F51D437C1300357680 /* CGTitleBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleBaseView.m; sourceTree = "<group>"; };
-		181EC7F61D437C1300357680 /* CGTitleDoubleLayoutBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleDoubleLayoutBaseView.h; sourceTree = "<group>"; };
-		181EC7F71D437C1300357680 /* CGTitleDoubleLayoutBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleDoubleLayoutBaseView.m; sourceTree = "<group>"; };
 		181EC7F91D437C1300357680 /* CGDoubleButtonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDoubleButtonsView.h; sourceTree = "<group>"; };
 		181EC7FA1D437C1300357680 /* CGDoubleButtonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDoubleButtonsView.m; sourceTree = "<group>"; };
 		181EC7FE1D437C1300357680 /* CGCycleViewCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleViewCacheManager.h; sourceTree = "<group>"; };
@@ -712,9 +705,6 @@
 		181EC86D1D437C1300357680 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
 		181EC86E1D437C1300357680 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
 		181EC86F1D437C1300357680 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
-		181EC8711D437C1300357680 /* UIView+LayoutSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutSetup.h"; sourceTree = "<group>"; };
-		181EC8721D437C1300357680 /* UIView+LayoutSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutSetup.m"; sourceTree = "<group>"; };
-		181EC8731D437C1300357680 /* UIView+LayoutSetupHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutSetupHeader.h"; sourceTree = "<group>"; };
 		181EC8761D437C1300357680 /* CGAddSubviewsAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAddSubviewsAppearance.h; sourceTree = "<group>"; };
 		181EC8771D437C1300357680 /* CGAddSubviewsAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAddSubviewsAppearance.m; sourceTree = "<group>"; };
 		181EC8781D437C1300357680 /* CGAddSubviewsErrorTypeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAddSubviewsErrorTypeHeader.h; sourceTree = "<group>"; };
@@ -796,7 +786,8 @@
 		186D2B981D44F535005327A2 /* CGLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLayoutManager.m; sourceTree = "<group>"; };
 		186D2B9A1D44F576005327A2 /* CGSingleViewConstraintsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleViewConstraintsManager.h; sourceTree = "<group>"; };
 		186D2B9B1D44F576005327A2 /* CGSingleViewConstraintsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleViewConstraintsManager.m; sourceTree = "<group>"; };
-		187579951C12E8AB0065C29D /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = TestCG_CGKit/Reveal.framework; sourceTree = "<group>"; };
+		1881809A1D454BFD0092B723 /* CGDoubleTitleBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDoubleTitleBaseView.h; sourceTree = "<group>"; };
+		1881809B1D454BFD0092B723 /* CGDoubleTitleBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDoubleTitleBaseView.m; sourceTree = "<group>"; };
 		1885F3901CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestLayoutConstranintsViewController.h; sourceTree = "<group>"; };
 		1885F3911CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestLayoutConstranintsViewController.m; sourceTree = "<group>"; };
 		1894AE851CAFD4F3005A518C /* CGTestDefinesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestDefinesTableViewController.h; sourceTree = "<group>"; };
@@ -845,7 +836,6 @@
 			files = (
 				185086E71CC303E4001CBC6B /* Photos.framework in Frameworks */,
 				302C9A770D2BEB9460B47FBE /* libPods.a in Frameworks */,
-				187579961C12E8AB0065C29D /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2148,16 +2138,12 @@
 			children = (
 				181EC7EC1D437C1300357680 /* CGBaseView.h */,
 				181EC7ED1D437C1300357680 /* CGBaseView.m */,
-				181EC7EE1D437C1300357680 /* CGDoubleTitleBaseView.h */,
-				181EC7EF1D437C1300357680 /* CGDoubleTitleBaseView.m */,
 				181EC7F01D437C1300357680 /* CGNavigationBarView.h */,
 				181EC7F11D437C1300357680 /* CGNavigationBarView.m */,
 				181EC7F21D437C1300357680 /* CGSingeContentTableView.h */,
 				181EC7F31D437C1300357680 /* CGSingeContentTableView.m */,
 				181EC7F41D437C1300357680 /* CGTitleBaseView.h */,
 				181EC7F51D437C1300357680 /* CGTitleBaseView.m */,
-				181EC7F61D437C1300357680 /* CGTitleDoubleLayoutBaseView.h */,
-				181EC7F71D437C1300357680 /* CGTitleDoubleLayoutBaseView.m */,
 			);
 			path = BaseView;
 			sourceTree = "<group>";
@@ -2394,7 +2380,6 @@
 			children = (
 				181EC84A1D437C1300357680 /* CustomLayoutCategory */,
 				181EC8661D437C1300357680 /* PureLayout */,
-				181EC8701D437C1300357680 /* UIView+Masonry */,
 			);
 			path = Layout;
 			sourceTree = "<group>";
@@ -2492,16 +2477,6 @@
 				181EC86F1D437C1300357680 /* PureLayoutDefines.h */,
 			);
 			path = PureLayout;
-			sourceTree = "<group>";
-		};
-		181EC8701D437C1300357680 /* UIView+Masonry */ = {
-			isa = PBXGroup;
-			children = (
-				181EC8711D437C1300357680 /* UIView+LayoutSetup.h */,
-				181EC8721D437C1300357680 /* UIView+LayoutSetup.m */,
-				181EC8731D437C1300357680 /* UIView+LayoutSetupHeader.h */,
-			);
-			path = "UIView+Masonry";
 			sourceTree = "<group>";
 		};
 		181EC8741D437C1300357680 /* NSObject */ = {
@@ -2770,6 +2745,8 @@
 		181EC9B01D43808400357680 /* Base View */ = {
 			isa = PBXGroup;
 			children = (
+				1881809A1D454BFD0092B723 /* CGDoubleTitleBaseView.h */,
+				1881809B1D454BFD0092B723 /* CGDoubleTitleBaseView.m */,
 				181EC9B81D4380CC00357680 /* CGDoubleLayoutBaseView.h */,
 				181EC9B91D4380CC00357680 /* CGDoubleLayoutBaseView.m */,
 			);
@@ -3038,7 +3015,6 @@
 			isa = PBXGroup;
 			children = (
 				185086E61CC303E4001CBC6B /* Photos.framework */,
-				187579951C12E8AB0065C29D /* Reveal.framework */,
 				222F9D25D26223B807E03656 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -3288,7 +3264,6 @@
 				181EC8F11D437C1300357680 /* NSNotificationCenter+CGCreateNotification.m in Sources */,
 				181EC9371D437C1300357680 /* UIImage+CGDrawAlertArrow.m in Sources */,
 				181EC9491D437C1300357680 /* HorizontalSingleView.m in Sources */,
-				181EC9891D437C1300357680 /* UIView+LayoutSetup.m in Sources */,
 				181EC9831D437C1300357680 /* CGViewConstraintsModel.m in Sources */,
 				181EC8F01D437C1300357680 /* CGKeyboardManager.m in Sources */,
 				181EC9551D437C1300357680 /* CGBaseTextView.m in Sources */,
@@ -3332,7 +3307,6 @@
 				181EC9191D437C1300357680 /* UILabel+CGSetupAppearance.m in Sources */,
 				181EC91D1D437C1300357680 /* UIScrollView+CGSetupScrollProperty.m in Sources */,
 				181EC92A1D437C1300357680 /* UIView+CGCreateViews.m in Sources */,
-				181EC95F1D437C1300357680 /* CGDoubleTitleBaseView.m in Sources */,
 				181EC9311D437C1300357680 /* UIView+CGSetupFrame.m in Sources */,
 				181EC9611D437C1300357680 /* CGSingeContentTableView.m in Sources */,
 				181EC8E41D437C1300357680 /* NSPredicate+CreatePredicate.m in Sources */,
@@ -3399,6 +3373,7 @@
 				181EC9101D437C1300357680 /* UILabel+CGCreateCustomLabel.m in Sources */,
 				0038420C1CEC132C00CB6B9D /* CGFoulLineView.swift in Sources */,
 				181EC9541D437C1300357680 /* CGTextFieldDelegateManager.m in Sources */,
+				1881809C1D454BFD0092B723 /* CGDoubleTitleBaseView.m in Sources */,
 				181EC9011D437C1300357680 /* UIImage+CGDrawImage.m in Sources */,
 				181EC92D1D437C1300357680 /* UIView+CGJudgeProperty.m in Sources */,
 				181EC8EC1D437C1300357680 /* NSTimer+ChangeTimerStatus.m in Sources */,
@@ -3455,7 +3430,6 @@
 				181EC9561D437C1300357680 /* CGInputTextView.m in Sources */,
 				181EC96F1D437C1300357680 /* CGLineBoxView.m in Sources */,
 				181EC98C1D437C1300357680 /* CGSubviewsSizeAppearance.m in Sources */,
-				181EC9631D437C1300357680 /* CGTitleDoubleLayoutBaseView.m in Sources */,
 				181EC8E81D437C1300357680 /* NSString+VerificationString.m in Sources */,
 				181EC9281D437C1300357680 /* UIView+CGAddSubview.m in Sources */,
 				181EC9351D437C1300357680 /* CGAlertView.m in Sources */,

@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0038420C1CEC132C00CB6B9D /* CGFoulLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003842091CEC132C00CB6B9D /* CGFoulLineView.swift */; };
+		0057452B1D45B1D600C59E89 /* CGCycleScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057452A1D45B1D600C59E89 /* CGCycleScrollViewCell.m */; };
 		0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */; };
 		0069BB061C85431A00C5A628 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0069BB051C85431A00C5A628 /* 2.jpg */; };
+		00B739B51D45BBA100B8BE40 /* CGCycleCellReuseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B739B41D45BBA100B8BE40 /* CGCycleCellReuseObject.m */; };
 		00BAB2F11C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BAB2F01C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m */; };
 		00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */; };
 		00D307AD1CC76E350040EFC8 /* CGTestWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */; };
@@ -163,7 +165,7 @@
 		181EC9611D437C1300357680 /* CGSingeContentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC7F31D437C1300357680 /* CGSingeContentTableView.m */; };
 		181EC9621D437C1300357680 /* CGTitleBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC7F51D437C1300357680 /* CGTitleBaseView.m */; };
 		181EC9641D437C1300357680 /* CGDoubleButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC7FA1D437C1300357680 /* CGDoubleButtonsView.m */; };
-		181EC9651D437C1300357680 /* CGCycleViewCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC7FF1D437C1300357680 /* CGCycleViewCacheManager.m */; };
+		181EC9651D437C1300357680 /* CGCycleScrollViewCellManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC7FF1D437C1300357680 /* CGCycleScrollViewCellManager.m */; };
 		181EC9661D437C1300357680 /* CGCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC8011D437C1300357680 /* CGCycleScrollView.m */; };
 		181EC9671D437C1300357680 /* CGCycleScrollView+CGBuildLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC8041D437C1300357680 /* CGCycleScrollView+CGBuildLayout.m */; };
 		181EC9681D437C1300357680 /* CGCycleScrollView+CGBuildView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC8061D437C1300357680 /* CGCycleScrollView+CGBuildView.m */; };
@@ -298,9 +300,13 @@
 /* Begin PBXFileReference section */
 		003842091CEC132C00CB6B9D /* CGFoulLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFoulLineView.swift; sourceTree = "<group>"; };
 		0038420A1CEC132C00CB6B9D /* CGSwiftKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGSwiftKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		005745291D45B1D600C59E89 /* CGCycleScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleScrollViewCell.h; sourceTree = "<group>"; };
+		0057452A1D45B1D600C59E89 /* CGCycleScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleScrollViewCell.m; sourceTree = "<group>"; };
 		0069BB011C85418C00C5A628 /* TestCATranform3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCATranform3DViewController.h; sourceTree = "<group>"; };
 		0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCATranform3DViewController.m; sourceTree = "<group>"; };
 		0069BB051C85431A00C5A628 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		00B739B31D45BBA100B8BE40 /* CGCycleCellReuseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleCellReuseObject.h; sourceTree = "<group>"; };
+		00B739B41D45BBA100B8BE40 /* CGCycleCellReuseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleCellReuseObject.m; sourceTree = "<group>"; };
 		00BAB2EF1C72C37D00FC1F3A /* TestPhotosCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPhotosCollectionViewCell.h; sourceTree = "<group>"; };
 		00BAB2F01C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPhotosCollectionViewCell.m; sourceTree = "<group>"; };
 		00C315CC1CACC17E009BFD7A /* CGHomeDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGHomeDataModel.h; sourceTree = "<group>"; };
@@ -634,8 +640,8 @@
 		181EC7F51D437C1300357680 /* CGTitleBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleBaseView.m; sourceTree = "<group>"; };
 		181EC7F91D437C1300357680 /* CGDoubleButtonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDoubleButtonsView.h; sourceTree = "<group>"; };
 		181EC7FA1D437C1300357680 /* CGDoubleButtonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDoubleButtonsView.m; sourceTree = "<group>"; };
-		181EC7FE1D437C1300357680 /* CGCycleViewCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleViewCacheManager.h; sourceTree = "<group>"; };
-		181EC7FF1D437C1300357680 /* CGCycleViewCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleViewCacheManager.m; sourceTree = "<group>"; };
+		181EC7FE1D437C1300357680 /* CGCycleScrollViewCellManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleScrollViewCellManager.h; sourceTree = "<group>"; };
+		181EC7FF1D437C1300357680 /* CGCycleScrollViewCellManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleScrollViewCellManager.m; sourceTree = "<group>"; };
 		181EC8001D437C1300357680 /* CGCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleScrollView.h; sourceTree = "<group>"; };
 		181EC8011D437C1300357680 /* CGCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleScrollView.m; sourceTree = "<group>"; };
 		181EC8031D437C1300357680 /* CGCycleScrollView+CGBuildLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGCycleScrollView+CGBuildLayout.h"; sourceTree = "<group>"; };
@@ -2203,8 +2209,10 @@
 		181EC7FD1D437C1300357680 /* CacheViews */ = {
 			isa = PBXGroup;
 			children = (
-				181EC7FE1D437C1300357680 /* CGCycleViewCacheManager.h */,
-				181EC7FF1D437C1300357680 /* CGCycleViewCacheManager.m */,
+				181EC7FE1D437C1300357680 /* CGCycleScrollViewCellManager.h */,
+				181EC7FF1D437C1300357680 /* CGCycleScrollViewCellManager.m */,
+				00B739B31D45BBA100B8BE40 /* CGCycleCellReuseObject.h */,
+				00B739B41D45BBA100B8BE40 /* CGCycleCellReuseObject.m */,
 			);
 			path = CacheViews;
 			sourceTree = "<group>";
@@ -2239,6 +2247,8 @@
 				181EC80F1D437C1300357680 /* CGCycleAideContentView.m */,
 				181EC8101D437C1300357680 /* CGCycleContentView.h */,
 				181EC8111D437C1300357680 /* CGCycleContentView.m */,
+				005745291D45B1D600C59E89 /* CGCycleScrollViewCell.h */,
+				0057452A1D45B1D600C59E89 /* CGCycleScrollViewCell.m */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -3306,7 +3316,7 @@
 				181EC9BA1D4380CC00357680 /* CGDoubleLayoutBaseView.m in Sources */,
 				181EC9911D437C1300357680 /* CGBaseViewController+CGSetupItem.m in Sources */,
 				181EC94D1D437C1300357680 /* CGTableViewEditDataSourceManager.m in Sources */,
-				181EC9651D437C1300357680 /* CGCycleViewCacheManager.m in Sources */,
+				181EC9651D437C1300357680 /* CGCycleScrollViewCellManager.m in Sources */,
 				181EC93A1D437C1300357680 /* CGHighlightBgButton.m in Sources */,
 				181EC91E1D437C1300357680 /* UITableView+CGChangeGroupStyle.m in Sources */,
 				181EC9A01D437C1300357680 /* CGPhotoGroupViewController.m in Sources */,
@@ -3458,6 +3468,7 @@
 				181EC9A91D437DB500357680 /* CGLayoutMarginBaseView.m in Sources */,
 				181EC93B1D437C1300357680 /* CGTimerButton.m in Sources */,
 				181EC8DA1D437C1300357680 /* CGRequestBaseModel+Category.m in Sources */,
+				00B739B51D45BBA100B8BE40 /* CGCycleCellReuseObject.m in Sources */,
 				181EC9091D437C1300357680 /* UIButton+AreaCalculate.m in Sources */,
 				181EC9561D437C1300357680 /* CGInputTextView.m in Sources */,
 				181EC96F1D437C1300357680 /* CGLineBoxView.m in Sources */,
@@ -3495,6 +3506,7 @@
 				181EC9A31D437C1300357680 /* CGWebViewController.m in Sources */,
 				1894AE871CAFD4F3005A518C /* CGTestDefinesTableViewController.m in Sources */,
 				181EC96C1D437C1300357680 /* CGCycleContentView.m in Sources */,
+				0057452B1D45B1D600C59E89 /* CGCycleScrollViewCell.m in Sources */,
 				181EC9971D437C1300357680 /* UINavigationController+CGSetupGestureRecognizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

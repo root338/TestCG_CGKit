@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0038420C1CEC132C00CB6B9D /* CGFoulLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003842091CEC132C00CB6B9D /* CGFoulLineView.swift */; };
+		00501F981D476D2700B3BE77 /* CGCycleCellConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00501F971D476D2700B3BE77 /* CGCycleCellConfigModel.m */; };
 		0057452B1D45B1D600C59E89 /* CGCycleScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057452A1D45B1D600C59E89 /* CGCycleScrollViewCell.m */; };
 		0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */; };
 		0069BB061C85431A00C5A628 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0069BB051C85431A00C5A628 /* 2.jpg */; };
@@ -300,6 +301,8 @@
 /* Begin PBXFileReference section */
 		003842091CEC132C00CB6B9D /* CGFoulLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFoulLineView.swift; sourceTree = "<group>"; };
 		0038420A1CEC132C00CB6B9D /* CGSwiftKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGSwiftKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		00501F961D476D2700B3BE77 /* CGCycleCellConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleCellConfigModel.h; sourceTree = "<group>"; };
+		00501F971D476D2700B3BE77 /* CGCycleCellConfigModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleCellConfigModel.m; sourceTree = "<group>"; };
 		005745291D45B1D600C59E89 /* CGCycleScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleScrollViewCell.h; sourceTree = "<group>"; };
 		0057452A1D45B1D600C59E89 /* CGCycleScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleScrollViewCell.m; sourceTree = "<group>"; };
 		0069BB011C85418C00C5A628 /* TestCATranform3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCATranform3DViewController.h; sourceTree = "<group>"; };
@@ -904,6 +907,15 @@
 				0038420A1CEC132C00CB6B9D /* CGSwiftKit-Bridging-Header.h */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		00501F951D476D0900B3BE77 /* Cell Config */ = {
+			isa = PBXGroup;
+			children = (
+				00501F961D476D2700B3BE77 /* CGCycleCellConfigModel.h */,
+				00501F971D476D2700B3BE77 /* CGCycleCellConfigModel.m */,
+			);
+			path = "Cell Config";
 			sourceTree = "<group>";
 		};
 		005633A81CAD1FDC00520F94 /* TestSelectPhoto */ = {
@@ -2196,6 +2208,7 @@
 		181EC7FC1D437C1300357680 /* CycleBaseScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				00501F951D476D0900B3BE77 /* Cell Config */,
 				181EC7FD1D437C1300357680 /* CacheViews */,
 				181EC8001D437C1300357680 /* CGCycleScrollView.h */,
 				181EC8011D437C1300357680 /* CGCycleScrollView.m */,
@@ -3315,6 +3328,7 @@
 				181EC9421D437C1300357680 /* CGImageView.m in Sources */,
 				181EC9BA1D4380CC00357680 /* CGDoubleLayoutBaseView.m in Sources */,
 				181EC9911D437C1300357680 /* CGBaseViewController+CGSetupItem.m in Sources */,
+				00501F981D476D2700B3BE77 /* CGCycleCellConfigModel.m in Sources */,
 				181EC94D1D437C1300357680 /* CGTableViewEditDataSourceManager.m in Sources */,
 				181EC9651D437C1300357680 /* CGCycleScrollViewCellManager.m in Sources */,
 				181EC93A1D437C1300357680 /* CGHighlightBgButton.m in Sources */,

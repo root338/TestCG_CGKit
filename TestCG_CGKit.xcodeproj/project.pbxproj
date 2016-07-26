@@ -232,6 +232,7 @@
 		181EC9BA1D4380CC00357680 /* CGDoubleLayoutBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EC9B91D4380CC00357680 /* CGDoubleLayoutBaseView.m */; };
 		183CCCA41CC5894400235486 /* CGTestPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */; };
 		185086E71CC303E4001CBC6B /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185086E61CC303E4001CBC6B /* Photos.framework */; };
+		185EA9391D481D9700A3568F /* CGTestCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185EA9381D481D9700A3568F /* CGTestCycleViewController.m */; };
 		186D2B991D44F535005327A2 /* CGLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D2B981D44F535005327A2 /* CGLayoutManager.m */; };
 		186D2B9C1D44F576005327A2 /* CGSingleViewConstraintsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D2B9B1D44F576005327A2 /* CGSingleViewConstraintsManager.m */; };
 		1881809C1D454BFD0092B723 /* CGDoubleTitleBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1881809B1D454BFD0092B723 /* CGDoubleTitleBaseView.m */; };
@@ -795,6 +796,8 @@
 		183CCCA21CC5894400235486 /* CGTestPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestPhotosViewController.h; sourceTree = "<group>"; };
 		183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestPhotosViewController.m; sourceTree = "<group>"; };
 		185086E61CC303E4001CBC6B /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		185EA9371D481D9700A3568F /* CGTestCycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestCycleViewController.h; sourceTree = "<group>"; };
+		185EA9381D481D9700A3568F /* CGTestCycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestCycleViewController.m; sourceTree = "<group>"; };
 		186D2B971D44F535005327A2 /* CGLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLayoutManager.h; sourceTree = "<group>"; };
 		186D2B981D44F535005327A2 /* CGLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLayoutManager.m; sourceTree = "<group>"; };
 		186D2B9A1D44F576005327A2 /* CGSingleViewConstraintsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleViewConstraintsManager.h; sourceTree = "<group>"; };
@@ -2892,6 +2895,8 @@
 				18A1D7F81C12A09700B93665 /* TableView */,
 				0069BB011C85418C00C5A628 /* TestCATranform3DViewController.h */,
 				0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */,
+				185EA9371D481D9700A3568F /* CGTestCycleViewController.h */,
+				185EA9381D481D9700A3568F /* CGTestCycleViewController.m */,
 			);
 			path = TestDetailVC;
 			sourceTree = "<group>";
@@ -3336,6 +3341,7 @@
 				181EC9A01D437C1300357680 /* CGPhotoGroupViewController.m in Sources */,
 				181EC9061D437C1300357680 /* CGCalculateCGSize.m in Sources */,
 				181EC99C1D437C1300357680 /* CGAlertController.m in Sources */,
+				185EA9391D481D9700A3568F /* CGTestCycleViewController.m in Sources */,
 				181EC92E1D437C1300357680 /* UIView+CGSearchView.m in Sources */,
 				181EC8CF1D437C1300357680 /* UIView+CGSetupAnimationArea.m in Sources */,
 				181EC96A1D437C1300357680 /* CGCycleScrollView+CGScrollAnimation.m in Sources */,

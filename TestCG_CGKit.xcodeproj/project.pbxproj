@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0038420C1CEC132C00CB6B9D /* CGFoulLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003842091CEC132C00CB6B9D /* CGFoulLineView.swift */; };
-		00501F981D476D2700B3BE77 /* CGCycleCellConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00501F971D476D2700B3BE77 /* CGCycleCellConfigModel.m */; };
 		0057452B1D45B1D600C59E89 /* CGCycleScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057452A1D45B1D600C59E89 /* CGCycleScrollViewCell.m */; };
 		0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */; };
 		0069BB061C85431A00C5A628 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0069BB051C85431A00C5A628 /* 2.jpg */; };
+		007936D51D4858DE007D963C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007936D41D4858DE007D963C /* WebKit.framework */; };
+		007936D91D489484007D963C /* CGCycleCellConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 007936D81D489484007D963C /* CGCycleCellConfigModel.m */; };
+		007936DC1D48952C007D963C /* CGCycleScrollViewBuildLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 007936DB1D48952C007D963C /* CGCycleScrollViewBuildLayout.m */; };
 		00B739B51D45BBA100B8BE40 /* CGCycleCellReuseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B739B41D45BBA100B8BE40 /* CGCycleCellReuseObject.m */; };
 		00BAB2F11C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BAB2F01C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m */; };
 		00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */; };
@@ -302,13 +304,16 @@
 /* Begin PBXFileReference section */
 		003842091CEC132C00CB6B9D /* CGFoulLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFoulLineView.swift; sourceTree = "<group>"; };
 		0038420A1CEC132C00CB6B9D /* CGSwiftKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGSwiftKit-Bridging-Header.h"; sourceTree = "<group>"; };
-		00501F961D476D2700B3BE77 /* CGCycleCellConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleCellConfigModel.h; sourceTree = "<group>"; };
-		00501F971D476D2700B3BE77 /* CGCycleCellConfigModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleCellConfigModel.m; sourceTree = "<group>"; };
 		005745291D45B1D600C59E89 /* CGCycleScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleScrollViewCell.h; sourceTree = "<group>"; };
 		0057452A1D45B1D600C59E89 /* CGCycleScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleScrollViewCell.m; sourceTree = "<group>"; };
 		0069BB011C85418C00C5A628 /* TestCATranform3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCATranform3DViewController.h; sourceTree = "<group>"; };
 		0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCATranform3DViewController.m; sourceTree = "<group>"; };
 		0069BB051C85431A00C5A628 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		007936D41D4858DE007D963C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		007936D71D489484007D963C /* CGCycleCellConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleCellConfigModel.h; sourceTree = "<group>"; };
+		007936D81D489484007D963C /* CGCycleCellConfigModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleCellConfigModel.m; sourceTree = "<group>"; };
+		007936DA1D48952C007D963C /* CGCycleScrollViewBuildLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleScrollViewBuildLayout.h; sourceTree = "<group>"; };
+		007936DB1D48952C007D963C /* CGCycleScrollViewBuildLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleScrollViewBuildLayout.m; sourceTree = "<group>"; };
 		00B739B31D45BBA100B8BE40 /* CGCycleCellReuseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleCellReuseObject.h; sourceTree = "<group>"; };
 		00B739B41D45BBA100B8BE40 /* CGCycleCellReuseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleCellReuseObject.m; sourceTree = "<group>"; };
 		00BAB2EF1C72C37D00FC1F3A /* TestPhotosCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPhotosCollectionViewCell.h; sourceTree = "<group>"; };
@@ -858,6 +863,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007936D51D4858DE007D963C /* WebKit.framework in Frameworks */,
 				185086E71CC303E4001CBC6B /* Photos.framework in Frameworks */,
 				302C9A770D2BEB9460B47FBE /* libPods.a in Frameworks */,
 			);
@@ -912,15 +918,6 @@
 			path = UIView;
 			sourceTree = "<group>";
 		};
-		00501F951D476D0900B3BE77 /* Cell Config */ = {
-			isa = PBXGroup;
-			children = (
-				00501F961D476D2700B3BE77 /* CGCycleCellConfigModel.h */,
-				00501F971D476D2700B3BE77 /* CGCycleCellConfigModel.m */,
-			);
-			path = "Cell Config";
-			sourceTree = "<group>";
-		};
 		005633A81CAD1FDC00520F94 /* TestSelectPhoto */ = {
 			isa = PBXGroup;
 			children = (
@@ -934,6 +931,15 @@
 				0069BB051C85431A00C5A628 /* 2.jpg */,
 			);
 			path = ImageResource;
+			sourceTree = "<group>";
+		};
+		007936D61D489484007D963C /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				007936D71D489484007D963C /* CGCycleCellConfigModel.h */,
+				007936D81D489484007D963C /* CGCycleCellConfigModel.m */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 		00C315CA1CACC0FD009BFD7A /* DataModel */ = {
@@ -2211,10 +2217,12 @@
 		181EC7FC1D437C1300357680 /* CycleBaseScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				00501F951D476D0900B3BE77 /* Cell Config */,
+				007936D61D489484007D963C /* Config */,
 				181EC7FD1D437C1300357680 /* CacheViews */,
 				181EC8001D437C1300357680 /* CGCycleScrollView.h */,
 				181EC8011D437C1300357680 /* CGCycleScrollView.m */,
+				007936DA1D48952C007D963C /* CGCycleScrollViewBuildLayout.h */,
+				007936DB1D48952C007D963C /* CGCycleScrollViewBuildLayout.m */,
 				181EC8021D437C1300357680 /* CycleSceneCategory */,
 				181EC80B1D437C1300357680 /* Header */,
 				181EC80D1D437C1300357680 /* Subviews */,
@@ -3070,6 +3078,7 @@
 		B86B07EE8190F2F261E3DDEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				007936D41D4858DE007D963C /* WebKit.framework */,
 				185086E61CC303E4001CBC6B /* Photos.framework */,
 				222F9D25D26223B807E03656 /* libPods.a */,
 			);
@@ -3333,7 +3342,6 @@
 				181EC9421D437C1300357680 /* CGImageView.m in Sources */,
 				181EC9BA1D4380CC00357680 /* CGDoubleLayoutBaseView.m in Sources */,
 				181EC9911D437C1300357680 /* CGBaseViewController+CGSetupItem.m in Sources */,
-				00501F981D476D2700B3BE77 /* CGCycleCellConfigModel.m in Sources */,
 				181EC94D1D437C1300357680 /* CGTableViewEditDataSourceManager.m in Sources */,
 				181EC9651D437C1300357680 /* CGCycleScrollViewCellManager.m in Sources */,
 				181EC93A1D437C1300357680 /* CGHighlightBgButton.m in Sources */,
@@ -3379,12 +3387,14 @@
 				181EC9071D437C1300357680 /* UILabel+CalculateTextSize.m in Sources */,
 				181EC90D1D437C1300357680 /* UIView+CreateAutoLayoutTypeView.m in Sources */,
 				00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */,
+				007936DC1D48952C007D963C /* CGCycleScrollViewBuildLayout.m in Sources */,
 				181EC97A1D437C1300357680 /* CGBaseWebView.m in Sources */,
 				181EC9041D437C1300357680 /* UIImage+CGScaleImageSize.m in Sources */,
 				181EC8E91D437C1300357680 /* NSObject+CGExchangeSelector.m in Sources */,
 				181EC9921D437C1300357680 /* CGNavigationController.m in Sources */,
 				181EC99B1D437C1300357680 /* CGNavigationDelegateObject.m in Sources */,
 				181EC94A1D437C1300357680 /* CGSingleSectionBaseTableView.m in Sources */,
+				007936D91D489484007D963C /* CGCycleCellConfigModel.m in Sources */,
 				181EC9461D437C1300357680 /* CGRefreshBaseView.m in Sources */,
 				181EC8E71D437C1300357680 /* NSString+CGStrlen.m in Sources */,
 				181EC9571D437C1300357680 /* CGTextView.m in Sources */,
@@ -3700,7 +3710,7 @@
 					"COCOAPODS=1",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/TestCG_CGKit/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
@@ -3732,7 +3742,7 @@
 					"$(PROJECT_DIR)/TestCG_CGKit",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/TestCG_CGKit/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (

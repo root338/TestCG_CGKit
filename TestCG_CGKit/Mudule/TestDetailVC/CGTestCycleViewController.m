@@ -26,7 +26,8 @@
     [super viewDidLoad];
     
     self.cycleScrollView    = [[CGCycleScrollView alloc] init];
-    self.cycleScrollView.dataSource = self;
+    self.cycleScrollView.dataSource     = self;
+    self.cycleScrollView.pagingEnabled  = YES;
     
     [self.view addSubview:self.cycleScrollView];
     [self.cycleScrollView cg_autoEdgesInsetsZeroToViewController:self];

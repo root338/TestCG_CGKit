@@ -152,8 +152,8 @@
     CGHomeDataModel *testFoulLineView   = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestFoulLineViewController class] title:@"测试 四周边框" subtitle:@"测试 视图的四边绘制 swift 实现"];
     [dataSourceList addObject:testFoulLineView];
     
-    CGHomeDataModel *testCycleVC        = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestCycleViewController class] title:@"测试循环滑动视图" subtitle:@"测试CGCycleScrollView"];
-    [dataSourceList addObject:testCycleVC];
+//    CGHomeDataModel *testCycleVC        = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestCycleViewController class] title:@"测试循环滑动视图" subtitle:@"测试CGCycleScrollView"];
+//    [dataSourceList addObject:testCycleVC];
     
     return dataSourceList;
 }

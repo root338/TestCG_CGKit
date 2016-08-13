@@ -28,6 +28,8 @@
 /** 测试 WebKit */
 #import "CGTestWKWebViewController.h"
 
+#import "CGTestCGScrollViewController.h"
+
 #import "TestCG_CGKit-Swift.h"
 
 @implementation CGHomeDataModel
@@ -154,6 +156,9 @@
     
 //    CGHomeDataModel *testCycleVC        = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestCycleViewController class] title:@"测试循环滑动视图" subtitle:@"测试CGCycleScrollView"];
 //    [dataSourceList addObject:testCycleVC];
+    
+    CGHomeDataModel *testCGScrollVC     = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestCGScrollViewController class] title:@"测试 CGScrollView" subtitle:@"测试 CGScrollView 各个属性值"];
+    [dataSourceList addObject:testCGScrollVC];
     
     return dataSourceList;
 }

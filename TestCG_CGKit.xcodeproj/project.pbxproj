@@ -246,6 +246,7 @@
 		1885F3921CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1885F3911CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m */; };
 		1894AE871CAFD4F3005A518C /* CGTestDefinesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AE861CAFD4F3005A518C /* CGTestDefinesTableViewController.m */; };
 		1894AE8B1CAFD83F005A518C /* CGTestDefinesData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AE8A1CAFD83F005A518C /* CGTestDefinesData.m */; };
+		18B19C091D5E961B00EEAFE0 /* CGLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B19C081D5E961B00EEAFE0 /* CGLineView.m */; };
 		18B41A9E1C13FE450031002B /* TestTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B41A9D1C13FE450031002B /* TestTextFieldCell.m */; };
 		18DBAACA1C12818300552828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DBAAC81C12818300552828 /* Main.storyboard */; };
 		18DBAACF1C12818300552828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DBAACD1C12818300552828 /* LaunchScreen.storyboard */; };
@@ -822,6 +823,8 @@
 		1894AE861CAFD4F3005A518C /* CGTestDefinesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestDefinesTableViewController.m; sourceTree = "<group>"; };
 		1894AE891CAFD83F005A518C /* CGTestDefinesData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestDefinesData.h; sourceTree = "<group>"; };
 		1894AE8A1CAFD83F005A518C /* CGTestDefinesData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestDefinesData.m; sourceTree = "<group>"; };
+		18B19C071D5E961B00EEAFE0 /* CGLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLineView.h; sourceTree = "<group>"; };
+		18B19C081D5E961B00EEAFE0 /* CGLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLineView.m; sourceTree = "<group>"; };
 		18B41A9C1C13FE450031002B /* TestTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTextFieldCell.h; sourceTree = "<group>"; };
 		18B41A9D1C13FE450031002B /* TestTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTextFieldCell.m; sourceTree = "<group>"; };
 		18DBAABC1C12818300552828 /* TestCG_CGKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCG_CGKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2291,6 +2294,8 @@
 				181E75981D5D1A4D009F76B0 /* CGLineBoxTypeHeader.h */,
 				181E75991D5D1A4D009F76B0 /* CGLineBoxView.h */,
 				181E759A1D5D1A4D009F76B0 /* CGLineBoxView.m */,
+				18B19C071D5E961B00EEAFE0 /* CGLineView.h */,
+				18B19C081D5E961B00EEAFE0 /* CGLineView.m */,
 			);
 			path = LineView;
 			sourceTree = "<group>";
@@ -3341,6 +3346,7 @@
 				181E76C01D5D1A4D009F76B0 /* UITextField+CG_Create.m in Sources */,
 				0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */,
 				181E76FC1D5D1A4D009F76B0 /* CGTableViewDataSourceManager.m in Sources */,
+				18B19C091D5E961B00EEAFE0 /* CGLineView.m in Sources */,
 				181E77311D5D1A4D009F76B0 /* CGTitleLabelView.m in Sources */,
 				181E77011D5D1A4D009F76B0 /* CGDefalutTextFieldInputView.m in Sources */,
 				181E76EF1D5D1A4D009F76B0 /* CGCollectionViewDataSourceManager.m in Sources */,

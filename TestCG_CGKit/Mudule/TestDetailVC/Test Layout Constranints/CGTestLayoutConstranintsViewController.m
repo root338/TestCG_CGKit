@@ -16,6 +16,9 @@
 #import "UIEdgeInsets+Category.h"
 #import "UIView+CGAddConstraints.h"
 #import "NSArray+CGAddConstraints.h"
+#import "UIView+CGAddConstraintsForSubviews.h"
+
+#import "CGTwoSubviewsConstraintsAppearance.h"
 
 @interface CGTestLayoutConstranintsViewController ()
 {
@@ -29,8 +32,39 @@
 {
     [super viewDidLoad];
     
-    [self testTitleViews];
+//    [self testTitleViews];
+    [self testTwoSubviews];
     self.view.backgroundColor   = [UIColor whiteColor];
+}
+
+- (void)testTwoSubviews
+{
+    UIView *superview   = [[UIView alloc] init];
+    superview.backgroundColor   = [UIColor blueColor];
+    
+    UIView *firstView   = [[UIView alloc] init];
+    firstView.backgroundColor   = [UIColor lightGrayColor];
+    [superview addSubview:firstView];
+    
+    UIView *secondView  = [[UIView alloc] init];
+    secondView.backgroundColor  = [UIColor orangeColor];
+    [superview addSubview:secondView];
+    
+    [self.view addSubview:superview];
+    
+    CGTwoSubviewsConstraintsAppearance *config  = [[CGTwoSubviewsConstraintsAppearance alloc] init];
+    config.edgeInsets   = UIEdgeInsetsMakeAllEqualValue(15);
+    config.firstViewToSecondViewSpace   = 15;
+    config.widthEqual       = YES;
+    config.firstViewSize    = CGSizeMake(100, 100);
+//    config.secondViewHeight = 50;
+//    config.secondViewCenter = YES;
+//    config.firstViewEqualSecondViewEdge = CGLayoutEdgeTop;
+    
+    [superview cg_autoTwoSubviewsWithConfig:config];
+    [superview cg_autoEdgesToViewController:self
+                                 withInsets:UIEdgeInsetsMakeAllEqualValue(15)
+                                       edge:CGLayoutOptionEdgeLeftTop];
 }
 
 - (void)testTitleViews

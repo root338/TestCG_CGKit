@@ -139,7 +139,6 @@
 		00C2B89A1D5EB20D0053E46B /* CGPlaceholderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B6E21D5EB20C0053E46B /* CGPlaceholderLabel.m */; };
 		00C2B89B1D5EB20D0053E46B /* CGTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B6E41D5EB20C0053E46B /* CGTitleLabel.m */; };
 		00C2B89C1D5EB20D0053E46B /* CGRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B6E71D5EB20C0053E46B /* CGRefreshBaseView.m */; };
-		00C2B89D1D5EB20D0053E46B /* CGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B6EA1D5EB20C0053E46B /* CGScrollView.m */; };
 		00C2B89E1D5EB20D0053E46B /* HorizontalSingleAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B6EE1D5EB20C0053E46B /* HorizontalSingleAppearance.m */; };
 		00C2B89F1D5EB20D0053E46B /* HorizontalSingleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B6F01D5EB20C0053E46B /* HorizontalSingleView.m */; };
 		00C2B8A01D5EB20D0053E46B /* CGSingleSectionBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B6F41D5EB20C0053E46B /* CGSingleSectionBaseTableView.m */; };
@@ -167,20 +166,6 @@
 		00C2B8B61D5EB20D0053E46B /* CGSingeContentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B72D1D5EB20C0053E46B /* CGSingeContentTableView.m */; };
 		00C2B8B71D5EB20D0053E46B /* CGTitleBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B72F1D5EB20C0053E46B /* CGTitleBaseView.m */; };
 		00C2B8B81D5EB20D0053E46B /* CGDoubleButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B7321D5EB20C0053E46B /* CGDoubleButtonsView.m */; };
-		00C2B8B91D5EB20D0053E46B /* CGCycleCellReuseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B7371D5EB20C0053E46B /* CGCycleCellReuseObject.m */; };
-		00C2B8BA1D5EB20D0053E46B /* CGCycleScrollViewCellManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B7391D5EB20C0053E46B /* CGCycleScrollViewCellManager.m */; };
-		00C2B8BB1D5EB20D0053E46B /* CGCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B73B1D5EB20C0053E46B /* CGCycleScrollView.m */; };
-		00C2B8BC1D5EB20D0053E46B /* CGCycleScrollViewBuildLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B73D1D5EB20C0053E46B /* CGCycleScrollViewBuildLayout.m */; };
-		00C2B8BD1D5EB20D0053E46B /* CGCycleCellConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B7401D5EB20C0053E46B /* CGCycleCellConfigModel.m */; };
-		00C2B8BE1D5EB20D0053E46B /* CGCycleScrollView+CGBuildLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B7431D5EB20C0053E46B /* CGCycleScrollView+CGBuildLayout.m */; };
-		00C2B8BF1D5EB20D0053E46B /* CGCycleScrollView+CGBuildView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B7451D5EB20C0053E46B /* CGCycleScrollView+CGBuildView.m */; };
-		00C2B8C01D5EB20D0053E46B /* CGCycleScrollView+CGCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B7471D5EB20C0053E46B /* CGCycleScrollView+CGCondition.m */; };
-		00C2B8C11D5EB20D0053E46B /* CGCycleScrollView+CGScrollAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B7491D5EB20C0053E46B /* CGCycleScrollView+CGScrollAnimation.m */; };
-		00C2B8C21D5EB20D0053E46B /* CGCycleAideContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B74E1D5EB20C0053E46B /* CGCycleAideContentView.m */; };
-		00C2B8C31D5EB20D0053E46B /* CGCycleContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B7501D5EB20C0053E46B /* CGCycleContentView.m */; };
-		00C2B8C41D5EB20D0053E46B /* CGCycleScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B7521D5EB20C0053E46B /* CGCycleScrollViewCell.m */; };
-		00C2B8C51D5EB20D0053E46B /* CGCycleBrowseImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B7551D5EB20C0053E46B /* CGCycleBrowseImageScrollView.m */; };
-		00C2B8C61D5EB20D0053E46B /* CGCycleBrowseImageScrollView+CGSetupCycleProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B7581D5EB20C0053E46B /* CGCycleBrowseImageScrollView+CGSetupCycleProperty.m */; };
 		00C2B8C71D5EB20D0053E46B /* CGLineBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B75C1D5EB20C0053E46B /* CGLineBoxView.m */; };
 		00C2B8C81D5EB20D0053E46B /* CGLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B75E1D5EB20C0053E46B /* CGLineView.m */; };
 		00C2B8C91D5EB20D0053E46B /* CGRadioViewAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B7641D5EB20C0053E46B /* CGRadioViewAppearance.m */; };
@@ -243,13 +228,11 @@
 		00C2B9031D5EB20D0053E46B /* CGWebBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B8131D5EB20D0053E46B /* CGWebBottomView.m */; };
 		00C2B9041D5EB20D0053E46B /* CGSingleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B8161D5EB20D0053E46B /* CGSingleTableViewController.m */; };
 		00C2B9051D5EB20D0053E46B /* CGDefaultPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B81C1D5EB20D0053E46B /* CGDefaultPopAnimation.m */; };
-		00C2B9081D5EB4070053E46B /* Value+Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B9071D5EB4070053E46B /* Value+Constant.m */; };
-		00C2B90B1D5EB55D0053E46B /* CGCycleScrollAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B90A1D5EB55D0053E46B /* CGCycleScrollAppearance.m */; };
-		00C2B9121D5EBA2D0053E46B /* CGScrollViewDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B9111D5EBA2D0053E46B /* CGScrollViewDelegateManager.m */; };
 		00C2B9151D5EC8F20053E46B /* CGTestCGScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B9141D5EC8F20053E46B /* CGTestCGScrollViewController.m */; };
-		00C2B9181D5ED9670053E46B /* CGCycleScrollCotentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B9171D5ED9670053E46B /* CGCycleScrollCotentView.m */; };
 		00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */; };
 		00D307AD1CC76E350040EFC8 /* CGTestWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */; };
+		182CF6891D60F10200C708C9 /* UIView+CGAddConstraintsForSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 182CF6881D60F10200C708C9 /* UIView+CGAddConstraintsForSubviews.m */; };
+		182CF68D1D60F18800C708C9 /* CGTwoSubviewsConstraintsAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 182CF68C1D60F18800C708C9 /* CGTwoSubviewsConstraintsAppearance.m */; };
 		183CCCA41CC5894400235486 /* CGTestPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */; };
 		185086E71CC303E4001CBC6B /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185086E61CC303E4001CBC6B /* Photos.framework */; };
 		185EA9391D481D9700A3568F /* CGTestCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185EA9381D481D9700A3568F /* CGTestCycleViewController.m */; };
@@ -599,9 +582,6 @@
 		00C2B6E41D5EB20C0053E46B /* CGTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleLabel.m; sourceTree = "<group>"; };
 		00C2B6E61D5EB20C0053E46B /* CGRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRefreshBaseView.h; sourceTree = "<group>"; };
 		00C2B6E71D5EB20C0053E46B /* CGRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGRefreshBaseView.m; sourceTree = "<group>"; };
-		00C2B6E91D5EB20C0053E46B /* CGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGScrollView.h; sourceTree = "<group>"; };
-		00C2B6EA1D5EB20C0053E46B /* CGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGScrollView.m; sourceTree = "<group>"; };
-		00C2B6EB1D5EB20C0053E46B /* CGScrollViewDefineHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGScrollViewDefineHeader.h; sourceTree = "<group>"; };
 		00C2B6ED1D5EB20C0053E46B /* HorizontalSingleAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalSingleAppearance.h; sourceTree = "<group>"; };
 		00C2B6EE1D5EB20C0053E46B /* HorizontalSingleAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalSingleAppearance.m; sourceTree = "<group>"; };
 		00C2B6EF1D5EB20C0053E46B /* HorizontalSingleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalSingleView.h; sourceTree = "<group>"; };
@@ -656,35 +636,6 @@
 		00C2B72F1D5EB20C0053E46B /* CGTitleBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleBaseView.m; sourceTree = "<group>"; };
 		00C2B7311D5EB20C0053E46B /* CGDoubleButtonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDoubleButtonsView.h; sourceTree = "<group>"; };
 		00C2B7321D5EB20C0053E46B /* CGDoubleButtonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDoubleButtonsView.m; sourceTree = "<group>"; };
-		00C2B7361D5EB20C0053E46B /* CGCycleCellReuseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleCellReuseObject.h; sourceTree = "<group>"; };
-		00C2B7371D5EB20C0053E46B /* CGCycleCellReuseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleCellReuseObject.m; sourceTree = "<group>"; };
-		00C2B7381D5EB20C0053E46B /* CGCycleScrollViewCellManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleScrollViewCellManager.h; sourceTree = "<group>"; };
-		00C2B7391D5EB20C0053E46B /* CGCycleScrollViewCellManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleScrollViewCellManager.m; sourceTree = "<group>"; };
-		00C2B73A1D5EB20C0053E46B /* CGCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleScrollView.h; sourceTree = "<group>"; };
-		00C2B73B1D5EB20C0053E46B /* CGCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleScrollView.m; sourceTree = "<group>"; };
-		00C2B73C1D5EB20C0053E46B /* CGCycleScrollViewBuildLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleScrollViewBuildLayout.h; sourceTree = "<group>"; };
-		00C2B73D1D5EB20C0053E46B /* CGCycleScrollViewBuildLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleScrollViewBuildLayout.m; sourceTree = "<group>"; };
-		00C2B73F1D5EB20C0053E46B /* CGCycleCellConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleCellConfigModel.h; sourceTree = "<group>"; };
-		00C2B7401D5EB20C0053E46B /* CGCycleCellConfigModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleCellConfigModel.m; sourceTree = "<group>"; };
-		00C2B7421D5EB20C0053E46B /* CGCycleScrollView+CGBuildLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGCycleScrollView+CGBuildLayout.h"; sourceTree = "<group>"; };
-		00C2B7431D5EB20C0053E46B /* CGCycleScrollView+CGBuildLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGCycleScrollView+CGBuildLayout.m"; sourceTree = "<group>"; };
-		00C2B7441D5EB20C0053E46B /* CGCycleScrollView+CGBuildView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGCycleScrollView+CGBuildView.h"; sourceTree = "<group>"; };
-		00C2B7451D5EB20C0053E46B /* CGCycleScrollView+CGBuildView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGCycleScrollView+CGBuildView.m"; sourceTree = "<group>"; };
-		00C2B7461D5EB20C0053E46B /* CGCycleScrollView+CGCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGCycleScrollView+CGCondition.h"; sourceTree = "<group>"; };
-		00C2B7471D5EB20C0053E46B /* CGCycleScrollView+CGCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGCycleScrollView+CGCondition.m"; sourceTree = "<group>"; };
-		00C2B7481D5EB20C0053E46B /* CGCycleScrollView+CGScrollAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGCycleScrollView+CGScrollAnimation.h"; sourceTree = "<group>"; };
-		00C2B7491D5EB20C0053E46B /* CGCycleScrollView+CGScrollAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGCycleScrollView+CGScrollAnimation.m"; sourceTree = "<group>"; };
-		00C2B74B1D5EB20C0053E46B /* CGCycleViewPrivateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleViewPrivateHeader.h; sourceTree = "<group>"; };
-		00C2B74D1D5EB20C0053E46B /* CGCycleAideContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleAideContentView.h; sourceTree = "<group>"; };
-		00C2B74E1D5EB20C0053E46B /* CGCycleAideContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleAideContentView.m; sourceTree = "<group>"; };
-		00C2B74F1D5EB20C0053E46B /* CGCycleContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleContentView.h; sourceTree = "<group>"; };
-		00C2B7501D5EB20C0053E46B /* CGCycleContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleContentView.m; sourceTree = "<group>"; };
-		00C2B7511D5EB20C0053E46B /* CGCycleScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleScrollViewCell.h; sourceTree = "<group>"; };
-		00C2B7521D5EB20C0053E46B /* CGCycleScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleScrollViewCell.m; sourceTree = "<group>"; };
-		00C2B7541D5EB20C0053E46B /* CGCycleBrowseImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleBrowseImageScrollView.h; sourceTree = "<group>"; };
-		00C2B7551D5EB20C0053E46B /* CGCycleBrowseImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleBrowseImageScrollView.m; sourceTree = "<group>"; };
-		00C2B7571D5EB20C0053E46B /* CGCycleBrowseImageScrollView+CGSetupCycleProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGCycleBrowseImageScrollView+CGSetupCycleProperty.h"; sourceTree = "<group>"; };
-		00C2B7581D5EB20C0053E46B /* CGCycleBrowseImageScrollView+CGSetupCycleProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGCycleBrowseImageScrollView+CGSetupCycleProperty.m"; sourceTree = "<group>"; };
 		00C2B75A1D5EB20C0053E46B /* CGLineBoxTypeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLineBoxTypeHeader.h; sourceTree = "<group>"; };
 		00C2B75B1D5EB20C0053E46B /* CGLineBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLineBoxView.h; sourceTree = "<group>"; };
 		00C2B75C1D5EB20C0053E46B /* CGLineBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLineBoxView.m; sourceTree = "<group>"; };
@@ -827,22 +778,16 @@
 		00C2B8191D5EB20D0053E46B /* CGPopAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPopAnimationProtocol.h; sourceTree = "<group>"; };
 		00C2B81B1D5EB20D0053E46B /* CGDefaultPopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDefaultPopAnimation.h; sourceTree = "<group>"; };
 		00C2B81C1D5EB20D0053E46B /* CGDefaultPopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDefaultPopAnimation.m; sourceTree = "<group>"; };
-		00C2B9061D5EB4070053E46B /* Value+Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Value+Constant.h"; sourceTree = "<group>"; };
-		00C2B9071D5EB4070053E46B /* Value+Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Value+Constant.m"; sourceTree = "<group>"; };
-		00C2B9091D5EB55D0053E46B /* CGCycleScrollAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleScrollAppearance.h; sourceTree = "<group>"; };
-		00C2B90A1D5EB55D0053E46B /* CGCycleScrollAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleScrollAppearance.m; sourceTree = "<group>"; };
-		00C2B90D1D5EB5D90053E46B /* CGCycleScrollViewProxyProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleScrollViewProxyProtocol.h; sourceTree = "<group>"; };
-		00C2B90E1D5EB6700053E46B /* CGCycleScrollViewDefineHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGCycleScrollViewDefineHeader.h; sourceTree = "<group>"; };
-		00C2B9101D5EBA2D0053E46B /* CGScrollViewDelegateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGScrollViewDelegateManager.h; sourceTree = "<group>"; };
-		00C2B9111D5EBA2D0053E46B /* CGScrollViewDelegateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGScrollViewDelegateManager.m; sourceTree = "<group>"; };
 		00C2B9131D5EC8F20053E46B /* CGTestCGScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestCGScrollViewController.h; sourceTree = "<group>"; };
 		00C2B9141D5EC8F20053E46B /* CGTestCGScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestCGScrollViewController.m; sourceTree = "<group>"; };
-		00C2B9161D5ED9670053E46B /* CGCycleScrollCotentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCycleScrollCotentView.h; sourceTree = "<group>"; };
-		00C2B9171D5ED9670053E46B /* CGCycleScrollCotentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCycleScrollCotentView.m; sourceTree = "<group>"; };
 		00C315CC1CACC17E009BFD7A /* CGHomeDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGHomeDataModel.h; sourceTree = "<group>"; };
 		00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGHomeDataModel.m; sourceTree = "<group>"; };
 		00D307AB1CC76E350040EFC8 /* CGTestWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestWKWebViewController.h; sourceTree = "<group>"; };
 		00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestWKWebViewController.m; sourceTree = "<group>"; };
+		182CF6871D60F10200C708C9 /* UIView+CGAddConstraintsForSubviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGAddConstraintsForSubviews.h"; sourceTree = "<group>"; };
+		182CF6881D60F10200C708C9 /* UIView+CGAddConstraintsForSubviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGAddConstraintsForSubviews.m"; sourceTree = "<group>"; };
+		182CF68B1D60F18800C708C9 /* CGTwoSubviewsConstraintsAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTwoSubviewsConstraintsAppearance.h; sourceTree = "<group>"; };
+		182CF68C1D60F18800C708C9 /* CGTwoSubviewsConstraintsAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTwoSubviewsConstraintsAppearance.m; sourceTree = "<group>"; };
 		183CCCA21CC5894400235486 /* CGTestPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestPhotosViewController.h; sourceTree = "<group>"; };
 		183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestPhotosViewController.m; sourceTree = "<group>"; };
 		185086E61CC303E4001CBC6B /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
@@ -1078,8 +1023,6 @@
 				00C2B5901D5EB20B0053E46B /* CGViewConstantValue.h */,
 				00C2B5921D5EB20B0053E46B /* UIView+Constant.h */,
 				00C2B5931D5EB20B0053E46B /* UIView+Constant.m */,
-				00C2B9061D5EB4070053E46B /* Value+Constant.h */,
-				00C2B9071D5EB4070053E46B /* Value+Constant.m */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
@@ -1995,10 +1938,6 @@
 		00C2B6E81D5EB20C0053E46B /* ScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				00C2B90F1D5EBA0C0053E46B /* DelegateManager */,
-				00C2B6E91D5EB20C0053E46B /* CGScrollView.h */,
-				00C2B6EA1D5EB20C0053E46B /* CGScrollView.m */,
-				00C2B6EB1D5EB20C0053E46B /* CGScrollViewDefineHeader.h */,
 			);
 			path = ScrollView;
 			sourceTree = "<group>";
@@ -2158,7 +2097,6 @@
 			children = (
 				00C2B7271D5EB20C0053E46B /* BaseView */,
 				00C2B7301D5EB20C0053E46B /* Button+Button */,
-				00C2B7331D5EB20C0053E46B /* CycleScrollView */,
 				00C2B7591D5EB20C0053E46B /* LineView */,
 				00C2B75F1D5EB20C0053E46B /* Protocol */,
 				00C2B7611D5EB20C0053E46B /* SingleSelect */,
@@ -2190,112 +2128,6 @@
 				00C2B7321D5EB20C0053E46B /* CGDoubleButtonsView.m */,
 			);
 			path = "Button+Button";
-			sourceTree = "<group>";
-		};
-		00C2B7331D5EB20C0053E46B /* CycleScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				00C2B7341D5EB20C0053E46B /* CycleBaseScrollView */,
-				00C2B7531D5EB20C0053E46B /* OtherCategoryView */,
-			);
-			path = CycleScrollView;
-			sourceTree = "<group>";
-		};
-		00C2B7341D5EB20C0053E46B /* CycleBaseScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				00C2B90C1D5EB5B50053E46B /* ProxyProtocol */,
-				00C2B7351D5EB20C0053E46B /* CacheViews */,
-				00C2B73A1D5EB20C0053E46B /* CGCycleScrollView.h */,
-				00C2B73B1D5EB20C0053E46B /* CGCycleScrollView.m */,
-				00C2B73C1D5EB20C0053E46B /* CGCycleScrollViewBuildLayout.h */,
-				00C2B73D1D5EB20C0053E46B /* CGCycleScrollViewBuildLayout.m */,
-				00C2B73E1D5EB20C0053E46B /* Config */,
-				00C2B7411D5EB20C0053E46B /* CycleSceneCategory */,
-				00C2B74A1D5EB20C0053E46B /* Header */,
-				00C2B74C1D5EB20C0053E46B /* Subviews */,
-			);
-			path = CycleBaseScrollView;
-			sourceTree = "<group>";
-		};
-		00C2B7351D5EB20C0053E46B /* CacheViews */ = {
-			isa = PBXGroup;
-			children = (
-				00C2B7361D5EB20C0053E46B /* CGCycleCellReuseObject.h */,
-				00C2B7371D5EB20C0053E46B /* CGCycleCellReuseObject.m */,
-				00C2B7381D5EB20C0053E46B /* CGCycleScrollViewCellManager.h */,
-				00C2B7391D5EB20C0053E46B /* CGCycleScrollViewCellManager.m */,
-			);
-			path = CacheViews;
-			sourceTree = "<group>";
-		};
-		00C2B73E1D5EB20C0053E46B /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				00C2B73F1D5EB20C0053E46B /* CGCycleCellConfigModel.h */,
-				00C2B7401D5EB20C0053E46B /* CGCycleCellConfigModel.m */,
-				00C2B9091D5EB55D0053E46B /* CGCycleScrollAppearance.h */,
-				00C2B90A1D5EB55D0053E46B /* CGCycleScrollAppearance.m */,
-			);
-			path = Config;
-			sourceTree = "<group>";
-		};
-		00C2B7411D5EB20C0053E46B /* CycleSceneCategory */ = {
-			isa = PBXGroup;
-			children = (
-				00C2B7421D5EB20C0053E46B /* CGCycleScrollView+CGBuildLayout.h */,
-				00C2B7431D5EB20C0053E46B /* CGCycleScrollView+CGBuildLayout.m */,
-				00C2B7441D5EB20C0053E46B /* CGCycleScrollView+CGBuildView.h */,
-				00C2B7451D5EB20C0053E46B /* CGCycleScrollView+CGBuildView.m */,
-				00C2B7461D5EB20C0053E46B /* CGCycleScrollView+CGCondition.h */,
-				00C2B7471D5EB20C0053E46B /* CGCycleScrollView+CGCondition.m */,
-				00C2B7481D5EB20C0053E46B /* CGCycleScrollView+CGScrollAnimation.h */,
-				00C2B7491D5EB20C0053E46B /* CGCycleScrollView+CGScrollAnimation.m */,
-			);
-			path = CycleSceneCategory;
-			sourceTree = "<group>";
-		};
-		00C2B74A1D5EB20C0053E46B /* Header */ = {
-			isa = PBXGroup;
-			children = (
-				00C2B74B1D5EB20C0053E46B /* CGCycleViewPrivateHeader.h */,
-				00C2B90E1D5EB6700053E46B /* CGCycleScrollViewDefineHeader.h */,
-			);
-			path = Header;
-			sourceTree = "<group>";
-		};
-		00C2B74C1D5EB20C0053E46B /* Subviews */ = {
-			isa = PBXGroup;
-			children = (
-				00C2B74D1D5EB20C0053E46B /* CGCycleAideContentView.h */,
-				00C2B74E1D5EB20C0053E46B /* CGCycleAideContentView.m */,
-				00C2B74F1D5EB20C0053E46B /* CGCycleContentView.h */,
-				00C2B7501D5EB20C0053E46B /* CGCycleContentView.m */,
-				00C2B7511D5EB20C0053E46B /* CGCycleScrollViewCell.h */,
-				00C2B7521D5EB20C0053E46B /* CGCycleScrollViewCell.m */,
-				00C2B9161D5ED9670053E46B /* CGCycleScrollCotentView.h */,
-				00C2B9171D5ED9670053E46B /* CGCycleScrollCotentView.m */,
-			);
-			path = Subviews;
-			sourceTree = "<group>";
-		};
-		00C2B7531D5EB20C0053E46B /* OtherCategoryView */ = {
-			isa = PBXGroup;
-			children = (
-				00C2B7541D5EB20C0053E46B /* CGCycleBrowseImageScrollView.h */,
-				00C2B7551D5EB20C0053E46B /* CGCycleBrowseImageScrollView.m */,
-				00C2B7561D5EB20C0053E46B /* PropertyCategory */,
-			);
-			path = OtherCategoryView;
-			sourceTree = "<group>";
-		};
-		00C2B7561D5EB20C0053E46B /* PropertyCategory */ = {
-			isa = PBXGroup;
-			children = (
-				00C2B7571D5EB20C0053E46B /* CGCycleBrowseImageScrollView+CGSetupCycleProperty.h */,
-				00C2B7581D5EB20C0053E46B /* CGCycleBrowseImageScrollView+CGSetupCycleProperty.m */,
-			);
-			path = PropertyCategory;
 			sourceTree = "<group>";
 		};
 		00C2B7591D5EB20C0053E46B /* LineView */ = {
@@ -2534,6 +2366,7 @@
 		00C2B7A31D5EB20D0053E46B /* AddConstraint */ = {
 			isa = PBXGroup;
 			children = (
+				182CF6861D60F10200C708C9 /* SetupSubviews */,
 				00C2B7A41D5EB20D0053E46B /* NSArray+CGAddConstraints.h */,
 				00C2B7A51D5EB20D0053E46B /* NSArray+CGAddConstraints.m */,
 				00C2B7A61D5EB20D0053E46B /* UIView+CGAddConstraints.h */,
@@ -2852,23 +2685,6 @@
 			path = PushPopAnimation;
 			sourceTree = "<group>";
 		};
-		00C2B90C1D5EB5B50053E46B /* ProxyProtocol */ = {
-			isa = PBXGroup;
-			children = (
-				00C2B90D1D5EB5D90053E46B /* CGCycleScrollViewProxyProtocol.h */,
-			);
-			path = ProxyProtocol;
-			sourceTree = "<group>";
-		};
-		00C2B90F1D5EBA0C0053E46B /* DelegateManager */ = {
-			isa = PBXGroup;
-			children = (
-				00C2B9101D5EBA2D0053E46B /* CGScrollViewDelegateManager.h */,
-				00C2B9111D5EBA2D0053E46B /* CGScrollViewDelegateManager.m */,
-			);
-			path = DelegateManager;
-			sourceTree = "<group>";
-		};
 		00C315CA1CACC0FD009BFD7A /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -2894,6 +2710,25 @@
 				00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */,
 			);
 			path = "Test WKWebView";
+			sourceTree = "<group>";
+		};
+		182CF6861D60F10200C708C9 /* SetupSubviews */ = {
+			isa = PBXGroup;
+			children = (
+				182CF68A1D60F16200C708C9 /* Appearance */,
+				182CF6871D60F10200C708C9 /* UIView+CGAddConstraintsForSubviews.h */,
+				182CF6881D60F10200C708C9 /* UIView+CGAddConstraintsForSubviews.m */,
+			);
+			path = SetupSubviews;
+			sourceTree = "<group>";
+		};
+		182CF68A1D60F16200C708C9 /* Appearance */ = {
+			isa = PBXGroup;
+			children = (
+				182CF68B1D60F18800C708C9 /* CGTwoSubviewsConstraintsAppearance.h */,
+				182CF68C1D60F18800C708C9 /* CGTwoSubviewsConstraintsAppearance.m */,
+			);
+			path = Appearance;
 			sourceTree = "<group>";
 		};
 		183CCCA11CC5892B00235486 /* TestPhotos */ = {
@@ -3380,7 +3215,6 @@
 				00C2B8B51D5EB20D0053E46B /* CGNavigationBarView.m in Sources */,
 				00C2B89B1D5EB20D0053E46B /* CGTitleLabel.m in Sources */,
 				00C2B8231D5EB20D0053E46B /* NSObject+JudgePurview.m in Sources */,
-				00C2B8C11D5EB20D0053E46B /* CGCycleScrollView+CGScrollAnimation.m in Sources */,
 				00C2B8F31D5EB20D0053E46B /* CGBaseViewController.m in Sources */,
 				00C2B85C1D5EB20D0053E46B /* UIButton+CGSetupAppearance.m in Sources */,
 				00C2B8D71D5EB20D0053E46B /* CGTitleLabelView.m in Sources */,
@@ -3388,7 +3222,6 @@
 				00C2B8DE1D5EB20D0053E46B /* UIView+CGAddConstraints.m in Sources */,
 				00C2B8661D5EB20D0053E46B /* UITextField+CG_Create.m in Sources */,
 				0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */,
-				00C2B8C21D5EB20D0053E46B /* CGCycleAideContentView.m in Sources */,
 				00C2B8A21D5EB20D0053E46B /* CGTableViewDataSourceManager.m in Sources */,
 				00C2B8A71D5EB20D0053E46B /* CGDefalutTextFieldInputView.m in Sources */,
 				00C2B8FE1D5EB20D0053E46B /* CGBrowsePhotoViewController.m in Sources */,
@@ -3399,13 +3232,9 @@
 				185EA9391D481D9700A3568F /* CGTestCycleViewController.m in Sources */,
 				00C2B8281D5EB20D0053E46B /* CGRequestManager.m in Sources */,
 				00C2B8731D5EB20D0053E46B /* UITableView+CGIndexPath.m in Sources */,
-				00C2B8C41D5EB20D0053E46B /* CGCycleScrollViewCell.m in Sources */,
 				00C2B8D01D5EB20D0053E46B /* CGDoubleTitleBaseView.m in Sources */,
 				00C2B87C1D5EB20D0053E46B /* UIView+CGCopyView.m in Sources */,
-				00C2B8C61D5EB20D0053E46B /* CGCycleBrowseImageScrollView+CGSetupCycleProperty.m in Sources */,
 				00C2B8F11D5EB20D0053E46B /* CGNavigationController.m in Sources */,
-				00C2B9121D5EBA2D0053E46B /* CGScrollViewDelegateManager.m in Sources */,
-				00C2B8BD1D5EB20D0053E46B /* CGCycleCellConfigModel.m in Sources */,
 				00C2B8881D5EB20D0053E46B /* CGAlertView.m in Sources */,
 				00C2B8B21D5EB20D0053E46B /* CGTableViewCell.m in Sources */,
 				00C2B8D61D5EB20D0053E46B /* CGTitleButtonView.m in Sources */,
@@ -3419,9 +3248,7 @@
 				00C2B9041D5EB20D0053E46B /* CGSingleTableViewController.m in Sources */,
 				00C2B81F1D5EB20D0053E46B /* UIView+CGScaleViewFromOverlayView.m in Sources */,
 				00C2B8F01D5EB20D0053E46B /* CGBaseViewController+CGSetupItem.m in Sources */,
-				00C2B8BB1D5EB20D0053E46B /* CGCycleScrollView.m in Sources */,
 				00C2B8CA1D5EB20D0053E46B /* CGTitleRadioCellAppearance.m in Sources */,
-				00C2B8BF1D5EB20D0053E46B /* CGCycleScrollView+CGBuildView.m in Sources */,
 				00C2B8621D5EB20D0053E46B /* UIImageView+CGCreateView.m in Sources */,
 				00C2B86A1D5EB20D0053E46B /* UICollectionView+CGPropertyValue.m in Sources */,
 				00C2B8711D5EB20D0053E46B /* UITableView+CGChangeGroupStyle.m in Sources */,
@@ -3430,7 +3257,6 @@
 				00C2B82F1D5EB20D0053E46B /* NSArray+CGArray.m in Sources */,
 				00C2B87A1D5EB20D0053E46B /* UIView+CGAnimated.m in Sources */,
 				00C2B8E71D5EB20D0053E46B /* NSArray+CGSearchConstraints.m in Sources */,
-				00C2B8C51D5EB20D0053E46B /* CGCycleBrowseImageScrollView.m in Sources */,
 				00C2B8A31D5EB20D0053E46B /* CGTableViewEditDataSourceManager.m in Sources */,
 				18B41A9E1C13FE450031002B /* TestTextFieldCell.m in Sources */,
 				00C2B89F1D5EB20D0053E46B /* HorizontalSingleView.m in Sources */,
@@ -3456,18 +3282,17 @@
 				00C2B8B71D5EB20D0053E46B /* CGTitleBaseView.m in Sources */,
 				18DBAAFB1C12877E00552828 /* main.m in Sources */,
 				00C2B84B1D5EB20D0053E46B /* CGImageManager.m in Sources */,
+				182CF6891D60F10200C708C9 /* UIView+CGAddConstraintsForSubviews.m in Sources */,
 				00C2B8561D5EB20D0053E46B /* UIImage+CGScaleImageSize.m in Sources */,
 				00C2B8EA1D5EB20D0053E46B /* CGCreateViewsAppearance.m in Sources */,
 				00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */,
 				00C2B8A01D5EB20D0053E46B /* CGSingleSectionBaseTableView.m in Sources */,
 				00C2B8391D5EB20D0053E46B /* NSString+CGStrlen.m in Sources */,
 				18F093EE1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift in Sources */,
-				00C2B8C01D5EB20D0053E46B /* CGCycleScrollView+CGCondition.m in Sources */,
 				00C2B89E1D5EB20D0053E46B /* HorizontalSingleAppearance.m in Sources */,
 				00C2B8811D5EB20D0053E46B /* UIView+CGSearchView.m in Sources */,
 				18E6E2AC1C15B87500906A5A /* AFNetworkActivityLogger.m in Sources */,
 				00C2B8DC1D5EB20D0053E46B /* CGBorderBaseLayer.m in Sources */,
-				00C2B8BC1D5EB20D0053E46B /* CGCycleScrollViewBuildLayout.m in Sources */,
 				00C2B8401D5EB20D0053E46B /* UIImage+CGLaunchImage.m in Sources */,
 				00C2B8FF1D5EB20D0053E46B /* CGPhotoGroupViewController.m in Sources */,
 				00C2B9001D5EB20D0053E46B /* CGPhotoListViewController.m in Sources */,
@@ -3482,12 +3307,12 @@
 				00C2B86C1D5EB20D0053E46B /* UILabel+CGSetupAppearance.m in Sources */,
 				00C2B81D1D5EB20D0053E46B /* UIView+CGLineMoveView.m in Sources */,
 				00C2B8851D5EB20D0053E46B /* UIView+CGUpdateLayout.m in Sources */,
+				182CF68D1D60F18800C708C9 /* CGTwoSubviewsConstraintsAppearance.m in Sources */,
 				00C2B88B1D5EB20D0053E46B /* CGBaseButton.m in Sources */,
 				00C2B8F71D5EB20D0053E46B /* UIViewController+CGAlert.m in Sources */,
 				00C2B83C1D5EB20D0053E46B /* NSObject+CGGetPrivateAPI.m in Sources */,
 				00C2B83F1D5EB20D0053E46B /* EXTScope.m in Sources */,
 				00C2B81E1D5EB20D0053E46B /* UIView+CGScaleView.m in Sources */,
-				00C2B89D1D5EB20D0053E46B /* CGScrollView.m in Sources */,
 				00C2B8831D5EB20D0053E46B /* UIView+CGSetupAppearance.m in Sources */,
 				00C2B87F1D5EB20D0053E46B /* UIView+CGAddGestureRecognizer.m in Sources */,
 				00C2B8771D5EB20D0053E46B /* UITableView+SetupBackgroundView.m in Sources */,
@@ -3496,7 +3321,6 @@
 				00C2B8B61D5EB20D0053E46B /* CGSingeContentTableView.m in Sources */,
 				00C2B8511D5EB20D0053E46B /* UIFont+CGCreateFont.m in Sources */,
 				183CCCA41CC5894400235486 /* CGTestPhotosViewController.m in Sources */,
-				00C2B8C31D5EB20D0053E46B /* CGCycleContentView.m in Sources */,
 				00C2B9021D5EB20D0053E46B /* CGWebViewController.m in Sources */,
 				1885F3921CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m in Sources */,
 				00C2B84E1D5EB20D0053E46B /* UIApplication+CGVerifyDeviceDirection.m in Sources */,
@@ -3513,7 +3337,6 @@
 				00C2B88E1D5EB20D0053E46B /* CGSomeColorButton.m in Sources */,
 				00C2B8541D5EB20D0053E46B /* UIImage+CGLoadImage.m in Sources */,
 				00C2B8E31D5EB20D0053E46B /* CGLayoutManager.m in Sources */,
-				00C2B8BA1D5EB20D0053E46B /* CGCycleScrollViewCellManager.m in Sources */,
 				00C2B8B41D5EB20D0053E46B /* CGBaseView.m in Sources */,
 				00C2B8211D5EB20D0053E46B /* UIView+ShowOrHideAnimation.m in Sources */,
 				00C2B86D1D5EB20D0053E46B /* UIScrollView+CGProperty.m in Sources */,
@@ -3538,14 +3361,12 @@
 				00C2B8A61D5EB20D0053E46B /* CGBaseTextField.m in Sources */,
 				00C2B8931D5EB20D0053E46B /* CGBrowseImageCollectionViewFlowLayout.m in Sources */,
 				00C2B8991D5EB20D0053E46B /* CGMultilineLabel.m in Sources */,
-				00C2B8B91D5EB20D0053E46B /* CGCycleCellReuseObject.m in Sources */,
 				00C2B8551D5EB20D0053E46B /* UIImage+CGResizableImage.m in Sources */,
 				00C2B8B11D5EB20D0053E46B /* CGSingleSectionBaseTableViewCell.m in Sources */,
 				00C2B8351D5EB20D0053E46B /* CGBaseObject.m in Sources */,
 				00C2B8B81D5EB20D0053E46B /* CGDoubleButtonsView.m in Sources */,
 				1894AE8B1CAFD83F005A518C /* CGTestDefinesData.m in Sources */,
 				00C2B8B31D5EB20D0053E46B /* CGPhotoGroupTableViewCell.m in Sources */,
-				00C2B8BE1D5EB20D0053E46B /* CGCycleScrollView+CGBuildLayout.m in Sources */,
 				00C2B8F41D5EB20D0053E46B /* CGNavigationBarViewController.m in Sources */,
 				00C2B8A51D5EB20D0053E46B /* CGSingleSectionTableViewDelegate.m in Sources */,
 				00C2B8D11D5EB20D0053E46B /* CGTitleButtonsLayoutView.m in Sources */,
@@ -3571,7 +3392,6 @@
 				00C2B8D31D5EB20D0053E46B /* CGLayoutMarginBaseView.m in Sources */,
 				00C2B87B1D5EB20D0053E46B /* UIView+CGAddSubview.m in Sources */,
 				00C2B8981D5EB20D0053E46B /* CGLabel.m in Sources */,
-				00C2B9081D5EB4070053E46B /* Value+Constant.m in Sources */,
 				00C2B8F51D5EB20D0053E46B /* UINavigationController+CGPushViewController.m in Sources */,
 				00C2B85E1D5EB20D0053E46B /* UILabel+CGCreateLayoutCustomLabel.m in Sources */,
 				18DBAE021C12968900552828 /* HomeViewController.m in Sources */,
@@ -3589,12 +3409,10 @@
 				00C2B8A11D5EB20D0053E46B /* CGTableView.m in Sources */,
 				00BAB2F11C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m in Sources */,
 				00C2B8E01D5EB20D0053E46B /* UIView+CGConstraintsManager.m in Sources */,
-				00C2B9181D5ED9670053E46B /* CGCycleScrollCotentView.m in Sources */,
 				00C2B8DD1D5EB20D0053E46B /* NSArray+CGAddConstraints.m in Sources */,
 				00C2B8F21D5EB20D0053E46B /* CGBaseTableViewController.m in Sources */,
 				00C2B8CF1D5EB20D0053E46B /* CGDoubleLayoutBaseView.m in Sources */,
 				00C2B9051D5EB20D0053E46B /* CGDefaultPopAnimation.m in Sources */,
-				00C2B90B1D5EB55D0053E46B /* CGCycleScrollAppearance.m in Sources */,
 				00C2B8871D5EB20D0053E46B /* UIWebView+CGValue.m in Sources */,
 				00C2B8411D5EB20D0053E46B /* CGKeyboardCacheModel.m in Sources */,
 				00C2B87E1D5EB20D0053E46B /* UIView+LoadXIBFile.m in Sources */,

@@ -8,13 +8,13 @@
 
 #import "CGTestCGScrollViewController.h"
 
-#import "CGScrollView.h"
+//#import "CGScrollView.h"
 
 #import "UIView+CGAddConstraints.h"
 
 @interface CGTestCGScrollViewController ()
 {
-    CGScrollView    *_scrollView;
+    UIScrollView    *_scrollView;
 }
 
 @end
@@ -25,7 +25,7 @@
 {
     [super viewDidLoad];
     
-    _scrollView = [[CGScrollView alloc] init];
+    _scrollView = [[UIScrollView alloc] init];
     [self.view addSubview:_scrollView];
     
     [_scrollView cg_autoEdgesInsetsZeroToViewController:self];

@@ -119,7 +119,6 @@
 		000D19D91D619CC30024F15E /* CGBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D180F1D619CC20024F15E /* CGBaseButton.m */; };
 		000D19DA1D619CC30024F15E /* CGButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D18111D619CC20024F15E /* CGButton.m */; };
 		000D19DB1D619CC30024F15E /* CGHighlightBgButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D18131D619CC20024F15E /* CGHighlightBgButton.m */; };
-		000D19DC1D619CC30024F15E /* CGSomeColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D18151D619CC20024F15E /* CGSomeColorButton.m */; };
 		000D19DD1D619CC30024F15E /* CGTimerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D18171D619CC20024F15E /* CGTimerButton.m */; };
 		000D19DE1D619CC30024F15E /* CGInputConditionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D181A1D619CC20024F15E /* CGInputConditionButton.m */; };
 		000D19DF1D619CC30024F15E /* CGBrowsePhotoListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D181D1D619CC20024F15E /* CGBrowsePhotoListView.m */; };
@@ -185,7 +184,7 @@
 		000D1A1B1D619CC30024F15E /* CGTitleButtonsLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D18C31D619CC20024F15E /* CGTitleButtonsLayoutView.m */; };
 		000D1A1C1D619CC30024F15E /* CGTitleImageLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D18C51D619CC20024F15E /* CGTitleImageLayoutView.m */; };
 		000D1A1D1D619CC30024F15E /* CGLayoutMarginBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D18C91D619CC20024F15E /* CGLayoutMarginBaseView.m */; };
-		000D1A1E1D619CC30024F15E /* CGTitleLabelayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D18CC1D619CC20024F15E /* CGTitleLabelayoutView.m */; };
+		000D1A1E1D619CC30024F15E /* CGTitleLabelLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D18CC1D619CC20024F15E /* CGTitleLabelLayoutView.m */; };
 		000D1A1F1D619CC30024F15E /* CGTitleButtonContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D18D01D619CC20024F15E /* CGTitleButtonContentView.m */; };
 		000D1A201D619CC30024F15E /* CGTitleButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D18D21D619CC20024F15E /* CGTitleButtonView.m */; };
 		000D1A211D619CC30024F15E /* CGTitleLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D18D51D619CC20024F15E /* CGTitleLabelView.m */; };
@@ -556,8 +555,6 @@
 		000D18111D619CC20024F15E /* CGButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGButton.m; sourceTree = "<group>"; };
 		000D18121D619CC20024F15E /* CGHighlightBgButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGHighlightBgButton.h; sourceTree = "<group>"; };
 		000D18131D619CC20024F15E /* CGHighlightBgButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGHighlightBgButton.m; sourceTree = "<group>"; };
-		000D18141D619CC20024F15E /* CGSomeColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSomeColorButton.h; sourceTree = "<group>"; };
-		000D18151D619CC20024F15E /* CGSomeColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSomeColorButton.m; sourceTree = "<group>"; };
 		000D18161D619CC20024F15E /* CGTimerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTimerButton.h; sourceTree = "<group>"; };
 		000D18171D619CC20024F15E /* CGTimerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTimerButton.m; sourceTree = "<group>"; };
 		000D18191D619CC20024F15E /* CGInputConditionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGInputConditionButton.h; sourceTree = "<group>"; };
@@ -693,8 +690,8 @@
 		000D18C51D619CC20024F15E /* CGTitleImageLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleImageLayoutView.m; sourceTree = "<group>"; };
 		000D18C81D619CC20024F15E /* CGLayoutMarginBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLayoutMarginBaseView.h; sourceTree = "<group>"; };
 		000D18C91D619CC20024F15E /* CGLayoutMarginBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLayoutMarginBaseView.m; sourceTree = "<group>"; };
-		000D18CB1D619CC20024F15E /* CGTitleLabelayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleLabelayoutView.h; sourceTree = "<group>"; };
-		000D18CC1D619CC20024F15E /* CGTitleLabelayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleLabelayoutView.m; sourceTree = "<group>"; };
+		000D18CB1D619CC20024F15E /* CGTitleLabelLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleLabelLayoutView.h; sourceTree = "<group>"; };
+		000D18CC1D619CC20024F15E /* CGTitleLabelLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleLabelLayoutView.m; sourceTree = "<group>"; };
 		000D18CF1D619CC20024F15E /* CGTitleButtonContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleButtonContentView.h; sourceTree = "<group>"; };
 		000D18D01D619CC20024F15E /* CGTitleButtonContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleButtonContentView.m; sourceTree = "<group>"; };
 		000D18D11D619CC20024F15E /* CGTitleButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleButtonView.h; sourceTree = "<group>"; };
@@ -1846,8 +1843,6 @@
 				000D18111D619CC20024F15E /* CGButton.m */,
 				000D18121D619CC20024F15E /* CGHighlightBgButton.h */,
 				000D18131D619CC20024F15E /* CGHighlightBgButton.m */,
-				000D18141D619CC20024F15E /* CGSomeColorButton.h */,
-				000D18151D619CC20024F15E /* CGSomeColorButton.m */,
 				000D18161D619CC20024F15E /* CGTimerButton.h */,
 				000D18171D619CC20024F15E /* CGTimerButton.m */,
 				000D18181D619CC20024F15E /* ConditionButton */,
@@ -2340,8 +2335,8 @@
 		000D18CA1D619CC20024F15E /* Detail View */ = {
 			isa = PBXGroup;
 			children = (
-				000D18CB1D619CC20024F15E /* CGTitleLabelayoutView.h */,
-				000D18CC1D619CC20024F15E /* CGTitleLabelayoutView.m */,
+				000D18CB1D619CC20024F15E /* CGTitleLabelLayoutView.h */,
+				000D18CC1D619CC20024F15E /* CGTitleLabelLayoutView.m */,
 			);
 			path = "Detail View";
 			sourceTree = "<group>";
@@ -3332,7 +3327,7 @@
 				185EA9391D481D9700A3568F /* CGTestCycleViewController.m in Sources */,
 				000D19881D619CC30024F15E /* NSString+VerificationString.m in Sources */,
 				18B41A9E1C13FE450031002B /* TestTextFieldCell.m in Sources */,
-				000D1A1E1D619CC30024F15E /* CGTitleLabelayoutView.m in Sources */,
+				000D1A1E1D619CC30024F15E /* CGTitleLabelLayoutView.m in Sources */,
 				000D1A291D619CC30024F15E /* UIView+CGAddConstraintsForSubviews.m in Sources */,
 				00C2B9151D5EC8F20053E46B /* CGTestCGScrollViewController.m in Sources */,
 				000D19C61D619CC30024F15E /* UIView+CustomTableHeaderView.m in Sources */,
@@ -3555,7 +3550,6 @@
 				000D1A321D619CC30024F15E /* CGViewConstraintsModel.m in Sources */,
 				000D19831D619CC30024F15E /* CGBaseObject.m in Sources */,
 				000D1A461D619CC30024F15E /* CGNavigationDelegateObject.m in Sources */,
-				000D19DC1D619CC30024F15E /* CGSomeColorButton.m in Sources */,
 				000D19B81D619CC30024F15E /* UICollectionView+CGPropertyValue.m in Sources */,
 				000D19D01D619CC30024F15E /* UIView+CGBorderLayer.m in Sources */,
 				000D19D11D619CC30024F15E /* UIView+CGSetupAppearance.m in Sources */,

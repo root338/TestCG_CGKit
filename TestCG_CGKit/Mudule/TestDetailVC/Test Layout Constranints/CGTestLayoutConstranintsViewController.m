@@ -8,7 +8,7 @@
 
 #import "CGTestLayoutConstranintsViewController.h"
 
-#import "CGTitleLabelayoutView.h"
+#import "CGTitleLabelLayoutView.h"
 #import "CGTitleImageLayoutView.h"
 #import "CGTitleButtonsLayoutView.h"
 
@@ -23,6 +23,8 @@
 @interface CGTestLayoutConstranintsViewController ()
 {
     UIView *viewFromViewController;
+    
+    CGTitleLabelLayoutView *_titleLabelView;
 }
 @end
 
@@ -33,8 +35,39 @@
     [super viewDidLoad];
     
 //    [self testTitleViews];
-    [self testTwoSubviews];
+    [self testMarginTitleView];
     self.view.backgroundColor   = [UIColor whiteColor];
+}
+
+- (void)testMarginTitleView
+{
+    CGTitleLabelLayoutView *titleLabelView   = [[CGTitleLabelLayoutView alloc] init];
+    UIButton    *button = [UIButton buttonWithType:UIButtonTypeSystem];
+    [button setTitle:@"click button" forState:UIControlStateNormal];
+    
+    titleLabelView.backgroundColor  = [UIColor orangeColor];
+    titleLabelView.titleLabel.backgroundColor   = [UIColor lightGrayColor];
+    
+    [self.view addSubview:titleLabelView];
+    [self.view addSubview:button];
+    
+    self.view.backgroundColor   = [UIColor greenColor];
+    button.backgroundColor      = [UIColor blueColor];
+    
+    [button cg_autoDimension:CGDimensionHeight fixedLength:40];
+    self.view.subviews.subviewsSpaceValue   = 15;
+    [self.view.subviews cg_autoSetupVerticalSubviewsLayoutWithViewController:self];
+    
+    _titleLabelView = titleLabelView;
+    
+    [button addTarget:self action:@selector(changeTitleLabelView:) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)changeTitleLabelView:(id)sender
+{
+    UIEdgeInsets insets = _titleLabelView.marginEdgeInsets;
+    CGFloat value = 5;
+    _titleLabelView.marginEdgeInsets    = UIEdgeInsetsMake(insets.top + value, insets.left + value, insets.bottom + value, insets.right + value);
 }
 
 - (void)testTwoSubviews
@@ -69,7 +102,7 @@
 
 - (void)testTitleViews
 {
-    CGTitleLabelayoutView *titleLabel   = [[CGTitleLabelayoutView alloc] initWithMarginEdgeInstes:UIEdgeInsetsMakeAllEqualValue(15)];
+    CGTitleLabelLayoutView *titleLabel   = [[CGTitleLabelLayoutView alloc] initWithMarginEdgeInstes:UIEdgeInsetsMakeAllEqualValue(15)];
     titleLabel.titleLabel.text   = @"测试 CGTitleLabelayoutView\n\
                                     测试 CGTitleLabelayoutView\n\
                                     测试 CGTitleLabelayoutView";
@@ -178,7 +211,7 @@
     UIView *paramView = [UIView cg_createViewWithBackgroundColor:[UIColor greenColor]];
     [self.view addSubview:paramView];
     paramView.translatesAutoresizingMaskIntoConstraints     = NO;
-    viewFromViewController.layoutPriorityForConstraint      = 1000;
+    
     [viewFromViewController cg_autoEdgesToViewController:self withInsets:edgeInsets exculdingEdge:CGLayoutEdgeBottom];
     [paramView cg_autoEdgesToViewController:self withInsets:edgeInsets exculdingEdge:CGLayoutEdgeTop];
     

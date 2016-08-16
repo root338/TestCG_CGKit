@@ -234,6 +234,9 @@
 		000D1A4F1D619CC30024F15E /* CGWebBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D19611D619CC30024F15E /* CGWebBottomView.m */; };
 		000D1A501D619CC30024F15E /* CGSingleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D19641D619CC30024F15E /* CGSingleTableViewController.m */; };
 		000D1A511D619CC30024F15E /* CGDefaultPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D196A1D619CC30024F15E /* CGDefaultPopAnimation.m */; };
+		002D98331D6304C900AA726F /* CGWebViewControllerConstraintsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 002D98321D6304C900AA726F /* CGWebViewControllerConstraintsManager.m */; };
+		002D98361D630A7B00AA726F /* Value+Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 002D98351D630A7B00AA726F /* Value+Constant.m */; };
+		002D98391D630B5100AA726F /* CGWebPrivateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 002D98381D630B5100AA726F /* CGWebPrivateView.m */; };
 		0038420C1CEC132C00CB6B9D /* CGFoulLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003842091CEC132C00CB6B9D /* CGFoulLineView.swift */; };
 		0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */; };
 		0069BB061C85431A00C5A628 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0069BB051C85431A00C5A628 /* 2.jpg */; };
@@ -804,6 +807,12 @@
 		000D19671D619CC30024F15E /* CGPopAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPopAnimationProtocol.h; sourceTree = "<group>"; };
 		000D19691D619CC30024F15E /* CGDefaultPopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDefaultPopAnimation.h; sourceTree = "<group>"; };
 		000D196A1D619CC30024F15E /* CGDefaultPopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDefaultPopAnimation.m; sourceTree = "<group>"; };
+		002D98311D6304C900AA726F /* CGWebViewControllerConstraintsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebViewControllerConstraintsManager.h; sourceTree = "<group>"; };
+		002D98321D6304C900AA726F /* CGWebViewControllerConstraintsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWebViewControllerConstraintsManager.m; sourceTree = "<group>"; };
+		002D98341D630A7B00AA726F /* Value+Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Value+Constant.h"; sourceTree = "<group>"; };
+		002D98351D630A7B00AA726F /* Value+Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Value+Constant.m"; sourceTree = "<group>"; };
+		002D98371D630B5100AA726F /* CGWebPrivateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebPrivateView.h; sourceTree = "<group>"; };
+		002D98381D630B5100AA726F /* CGWebPrivateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWebPrivateView.m; sourceTree = "<group>"; };
 		003842091CEC132C00CB6B9D /* CGFoulLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFoulLineView.swift; sourceTree = "<group>"; };
 		0038420A1CEC132C00CB6B9D /* CGSwiftKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGSwiftKit-Bridging-Header.h"; sourceTree = "<group>"; };
 		0069BB011C85418C00C5A628 /* TestCATranform3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCATranform3DViewController.h; sourceTree = "<group>"; };
@@ -1010,6 +1019,8 @@
 		000D16E01D619CC10024F15E /* Constant */ = {
 			isa = PBXGroup;
 			children = (
+				002D98341D630A7B00AA726F /* Value+Constant.h */,
+				002D98351D630A7B00AA726F /* Value+Constant.m */,
 				000D16E11D619CC10024F15E /* CGViewConstantValue.h */,
 				000D16E21D619CC10024F15E /* CGViewValueHeader.h */,
 				000D16E31D619CC10024F15E /* UIView+Constant.h */,
@@ -2738,6 +2749,7 @@
 			children = (
 				000D195D1D619CC30024F15E /* CGWebViewController.h */,
 				000D195E1D619CC30024F15E /* CGWebViewController.m */,
+				002D98301D6302BE00AA726F /* WebViewControllerManager */,
 				000D195F1D619CC30024F15E /* WebSubview */,
 			);
 			path = WebViewController;
@@ -2748,6 +2760,8 @@
 			children = (
 				000D19601D619CC30024F15E /* CGWebBottomView.h */,
 				000D19611D619CC30024F15E /* CGWebBottomView.m */,
+				002D98371D630B5100AA726F /* CGWebPrivateView.h */,
+				002D98381D630B5100AA726F /* CGWebPrivateView.m */,
 			);
 			path = WebSubview;
 			sourceTree = "<group>";
@@ -2777,6 +2791,15 @@
 				000D196A1D619CC30024F15E /* CGDefaultPopAnimation.m */,
 			);
 			path = PushPopAnimation;
+			sourceTree = "<group>";
+		};
+		002D98301D6302BE00AA726F /* WebViewControllerManager */ = {
+			isa = PBXGroup;
+			children = (
+				002D98311D6304C900AA726F /* CGWebViewControllerConstraintsManager.h */,
+				002D98321D6304C900AA726F /* CGWebViewControllerConstraintsManager.m */,
+			);
+			path = WebViewControllerManager;
 			sourceTree = "<group>";
 		};
 		003842051CEC132C00CB6B9D /* CGSwiftKit */ = {
@@ -3341,6 +3364,7 @@
 				000D19751D619CC30024F15E /* CGHandleRequestData.m in Sources */,
 				000D19721D619CC30024F15E /* UIView+Constant.m in Sources */,
 				000D1A301D619CC30024F15E /* CGSingleViewConstraintsManager.m in Sources */,
+				002D98361D630A7B00AA726F /* Value+Constant.m in Sources */,
 				000D19BF1D619CC30024F15E /* UITableView+CGChangeGroupStyle.m in Sources */,
 				000D1A131D619CC30024F15E /* CGRadioViewAppearance.m in Sources */,
 				000D19F41D619CC30024F15E /* CGBaseTextField.m in Sources */,
@@ -3419,6 +3443,7 @@
 				000D1A2F1D619CC30024F15E /* CGLayoutManager.m in Sources */,
 				000D19B71D619CC30024F15E /* UICollectionView+CGDequeueReusableCell.m in Sources */,
 				000D1A1C1D619CC30024F15E /* CGTitleImageLayoutView.m in Sources */,
+				002D98331D6304C900AA726F /* CGWebViewControllerConstraintsManager.m in Sources */,
 				000D19901D619CC30024F15E /* CGKeyboardManager.m in Sources */,
 				000D1A421D619CC30024F15E /* UINavigationController+CGSetupGestureRecognizer.m in Sources */,
 				000D19BA1D619CC30024F15E /* UILabel+CGSetupAppearance.m in Sources */,
@@ -3546,6 +3571,7 @@
 				000D1A461D619CC30024F15E /* CGNavigationDelegateObject.m in Sources */,
 				000D19B81D619CC30024F15E /* UICollectionView+CGPropertyValue.m in Sources */,
 				000D19D01D619CC30024F15E /* UIView+CGBorderLayer.m in Sources */,
+				002D98391D630B5100AA726F /* CGWebPrivateView.m in Sources */,
 				000D19D11D619CC30024F15E /* UIView+CGSetupAppearance.m in Sources */,
 				000D19CF1D619CC30024F15E /* UIView+CGSearchView.m in Sources */,
 				000D19C21D619CC30024F15E /* UITableView+CGRegisterCell.m in Sources */,

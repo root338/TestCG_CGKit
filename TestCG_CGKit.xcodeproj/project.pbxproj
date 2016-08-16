@@ -180,7 +180,6 @@
 		000D1A171D619CC30024F15E /* CGTitleRadioCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D18B51D619CC20024F15E /* CGTitleRadioCollectionViewCell.m */; };
 		000D1A181D619CC30024F15E /* CGRadioSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D18B81D619CC20024F15E /* CGRadioSliderView.m */; };
 		000D1A191D619CC30024F15E /* CGDoubleLayoutBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D18BE1D619CC20024F15E /* CGDoubleLayoutBaseView.m */; };
-		000D1A1A1D619CC30024F15E /* CGDoubleTitleBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D18C01D619CC20024F15E /* CGDoubleTitleBaseView.m */; };
 		000D1A1B1D619CC30024F15E /* CGTitleButtonsLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D18C31D619CC20024F15E /* CGTitleButtonsLayoutView.m */; };
 		000D1A1C1D619CC30024F15E /* CGTitleImageLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D18C51D619CC20024F15E /* CGTitleImageLayoutView.m */; };
 		000D1A1D1D619CC30024F15E /* CGLayoutMarginBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D18C91D619CC20024F15E /* CGLayoutMarginBaseView.m */; };
@@ -682,8 +681,6 @@
 		000D18B91D619CC20024F15E /* CGRadioSliderViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRadioSliderViewHeader.h; sourceTree = "<group>"; };
 		000D18BD1D619CC20024F15E /* CGDoubleLayoutBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDoubleLayoutBaseView.h; sourceTree = "<group>"; };
 		000D18BE1D619CC20024F15E /* CGDoubleLayoutBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDoubleLayoutBaseView.m; sourceTree = "<group>"; };
-		000D18BF1D619CC20024F15E /* CGDoubleTitleBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDoubleTitleBaseView.h; sourceTree = "<group>"; };
-		000D18C01D619CC20024F15E /* CGDoubleTitleBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDoubleTitleBaseView.m; sourceTree = "<group>"; };
 		000D18C21D619CC20024F15E /* CGTitleButtonsLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleButtonsLayoutView.h; sourceTree = "<group>"; };
 		000D18C31D619CC20024F15E /* CGTitleButtonsLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleButtonsLayoutView.m; sourceTree = "<group>"; };
 		000D18C41D619CC20024F15E /* CGTitleImageLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleImageLayoutView.h; sourceTree = "<group>"; };
@@ -2297,8 +2294,6 @@
 			children = (
 				000D18BD1D619CC20024F15E /* CGDoubleLayoutBaseView.h */,
 				000D18BE1D619CC20024F15E /* CGDoubleLayoutBaseView.m */,
-				000D18BF1D619CC20024F15E /* CGDoubleTitleBaseView.h */,
-				000D18C01D619CC20024F15E /* CGDoubleTitleBaseView.m */,
 			);
 			path = "Base View";
 			sourceTree = "<group>";
@@ -3473,7 +3468,6 @@
 				000D1A381D619CC30024F15E /* CGSubviewsSpaceAppearance.m in Sources */,
 				000D19C11D619CC30024F15E /* UITableView+CGIndexPath.m in Sources */,
 				000D19E71D619CC30024F15E /* CGMultilineLabel.m in Sources */,
-				000D1A1A1D619CC30024F15E /* CGDoubleTitleBaseView.m in Sources */,
 				000D19C91D619CC30024F15E /* UIView+CGAddSubview.m in Sources */,
 				000D1A0F1D619CC30024F15E /* CGCycleBrowseImageScrollView.m in Sources */,
 				000D198F1D619CC30024F15E /* CGKeyboardCacheModel.m in Sources */,

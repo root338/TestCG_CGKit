@@ -35,8 +35,42 @@
     [super viewDidLoad];
     
 //    [self testTitleViews];
-    [self testMarginTitleView];
+    [self testTwoSubviewsView];
     self.view.backgroundColor   = [UIColor whiteColor];
+}
+
+- (void)testTwoSubviewsView
+{
+    UIView *view    = [UIView cg_createViewWithBackgroundColor:[UIColor orangeColor]];
+    
+    UIView *firstView   = [UIView cg_createViewWithBackgroundColor:[UIColor lightGrayColor]];
+    UIView *secondView  = [UIView cg_createViewWithBackgroundColor:[UIColor blueColor]];
+    
+    [view addSubview:firstView];
+    [view addSubview:secondView];
+    
+    [self.view addSubview:view];
+    
+    [view cg_autoEdgesToViewController:self withInsets:UIEdgeInsetsMakeAllEqualValue(15)];
+    
+    
+    CGTwoSubviewsConstraintsAppearance *config  = [[CGTwoSubviewsConstraintsAppearance alloc] init];
+    config.edgeInsets                   = UIEdgeInsetsMakeAllEqualValue(15);
+    
+    config.firstViewToSecondViewSpace   = 15;
+    config.betweenSpaceLayoutRelation   = NSLayoutRelationGreaterThanOrEqual;
+    
+//    config.secondViewEqualFirstViewEdge = CGLayoutOptionEdgeTop;
+    config.secondViewHeight             = 40;
+    
+    config.secondViewExcludingOptionEdge= CGLayoutOptionEdgeBottom;
+    
+    config.firstViewWidth               = 20;
+    config.secondViewWidth              = 40;
+    config.firstViewHeight              = 50;
+    config.firstViewExcludingOptionEdge = CGLayoutOptionEdgeTop;
+    
+    [view cg_autoTwoSubviewsWithConfig:config];
 }
 
 - (void)testMarginTitleView

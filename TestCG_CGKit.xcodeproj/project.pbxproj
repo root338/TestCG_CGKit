@@ -217,11 +217,7 @@
 		000D1A3E1D619CC30024F15E /* CGBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D19341D619CC20024F15E /* CGBaseTableViewController.m */; };
 		000D1A3F1D619CC30024F15E /* CGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D19361D619CC20024F15E /* CGBaseViewController.m */; };
 		000D1A401D619CC30024F15E /* CGNavigationBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D19381D619CC20024F15E /* CGNavigationBarViewController.m */; };
-		000D1A411D619CC30024F15E /* UINavigationController+CGPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D193B1D619CC20024F15E /* UINavigationController+CGPushViewController.m */; };
-		000D1A421D619CC30024F15E /* UINavigationController+CGSetupGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D193D1D619CC20024F15E /* UINavigationController+CGSetupGestureRecognizer.m */; };
 		000D1A431D619CC30024F15E /* UIViewController+CGAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D193F1D619CC20024F15E /* UIViewController+CGAlert.m */; };
-		000D1A441D619CC30024F15E /* UIViewController+CGFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D19411D619CC20024F15E /* UIViewController+CGFullscreenPopGesture.m */; };
-		000D1A451D619CC30024F15E /* UIViewController+InteractivePopEnable.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D19431D619CC20024F15E /* UIViewController+InteractivePopEnable.m */; };
 		000D1A461D619CC30024F15E /* CGNavigationDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D19471D619CC20024F15E /* CGNavigationDelegateObject.m */; };
 		000D1A471D619CC30024F15E /* CGAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D194D1D619CC20024F15E /* CGAlertController.m */; };
 		000D1A481D619CC30024F15E /* CGQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D19501D619CC20024F15E /* CGQRCodeViewController.m */; };
@@ -234,7 +230,7 @@
 		000D1A4F1D619CC30024F15E /* CGWebBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D19611D619CC30024F15E /* CGWebBottomView.m */; };
 		000D1A501D619CC30024F15E /* CGSingleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D19641D619CC30024F15E /* CGSingleTableViewController.m */; };
 		000D1A511D619CC30024F15E /* CGDefaultPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D196A1D619CC30024F15E /* CGDefaultPopAnimation.m */; };
-		002D98331D6304C900AA726F /* CGWebViewControllerConstraintsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 002D98321D6304C900AA726F /* CGWebViewControllerConstraintsManager.m */; };
+		002D98331D6304C900AA726F /* CGWebPrivateViewConstraintsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 002D98321D6304C900AA726F /* CGWebPrivateViewConstraintsManager.m */; };
 		002D98361D630A7B00AA726F /* Value+Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 002D98351D630A7B00AA726F /* Value+Constant.m */; };
 		002D98391D630B5100AA726F /* CGWebPrivateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 002D98381D630B5100AA726F /* CGWebPrivateView.m */; };
 		0038420C1CEC132C00CB6B9D /* CGFoulLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003842091CEC132C00CB6B9D /* CGFoulLineView.swift */; };
@@ -245,6 +241,11 @@
 		00C2B9151D5EC8F20053E46B /* CGTestCGScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B9141D5EC8F20053E46B /* CGTestCGScrollViewController.m */; };
 		00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */; };
 		00D307AD1CC76E350040EFC8 /* CGTestWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */; };
+		180D1B981D63B27900D80A4A /* UINavigationController+CGPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D1B951D63B27900D80A4A /* UINavigationController+CGPushViewController.m */; };
+		180D1B991D63B27900D80A4A /* UINavigationController+CGSetupGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D1B971D63B27900D80A4A /* UINavigationController+CGSetupGestureRecognizer.m */; };
+		180D1B9F1D63B2B900D80A4A /* UIViewController+CGFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D1B9C1D63B2B900D80A4A /* UIViewController+CGFullscreenPopGesture.m */; };
+		180D1BA01D63B2B900D80A4A /* UIViewController+InteractivePopEnable.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D1B9E1D63B2B900D80A4A /* UIViewController+InteractivePopEnable.m */; };
+		180D1BA31D63B32500D80A4A /* UIViewController+CGPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D1BA21D63B32500D80A4A /* UIViewController+CGPushViewController.m */; };
 		183CCCA41CC5894400235486 /* CGTestPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */; };
 		185086E71CC303E4001CBC6B /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185086E61CC303E4001CBC6B /* Photos.framework */; };
 		185EA9391D481D9700A3568F /* CGTestCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185EA9381D481D9700A3568F /* CGTestCycleViewController.m */; };
@@ -770,16 +771,8 @@
 		000D19361D619CC20024F15E /* CGBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseViewController.m; sourceTree = "<group>"; };
 		000D19371D619CC20024F15E /* CGNavigationBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNavigationBarViewController.h; sourceTree = "<group>"; };
 		000D19381D619CC20024F15E /* CGNavigationBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGNavigationBarViewController.m; sourceTree = "<group>"; };
-		000D193A1D619CC20024F15E /* UINavigationController+CGPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+CGPushViewController.h"; sourceTree = "<group>"; };
-		000D193B1D619CC20024F15E /* UINavigationController+CGPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+CGPushViewController.m"; sourceTree = "<group>"; };
-		000D193C1D619CC20024F15E /* UINavigationController+CGSetupGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+CGSetupGestureRecognizer.h"; sourceTree = "<group>"; };
-		000D193D1D619CC20024F15E /* UINavigationController+CGSetupGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+CGSetupGestureRecognizer.m"; sourceTree = "<group>"; };
 		000D193E1D619CC20024F15E /* UIViewController+CGAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CGAlert.h"; sourceTree = "<group>"; };
 		000D193F1D619CC20024F15E /* UIViewController+CGAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CGAlert.m"; sourceTree = "<group>"; };
-		000D19401D619CC20024F15E /* UIViewController+CGFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CGFullscreenPopGesture.h"; sourceTree = "<group>"; };
-		000D19411D619CC20024F15E /* UIViewController+CGFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CGFullscreenPopGesture.m"; sourceTree = "<group>"; };
-		000D19421D619CC20024F15E /* UIViewController+InteractivePopEnable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+InteractivePopEnable.h"; sourceTree = "<group>"; };
-		000D19431D619CC20024F15E /* UIViewController+InteractivePopEnable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+InteractivePopEnable.m"; sourceTree = "<group>"; };
 		000D19461D619CC20024F15E /* CGNavigationDelegateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNavigationDelegateObject.h; sourceTree = "<group>"; };
 		000D19471D619CC20024F15E /* CGNavigationDelegateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGNavigationDelegateObject.m; sourceTree = "<group>"; };
 		000D19491D619CC20024F15E /* CGTableViewDataSourceManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTableViewDataSourceManagerProtocol.h; sourceTree = "<group>"; };
@@ -807,8 +800,8 @@
 		000D19671D619CC30024F15E /* CGPopAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPopAnimationProtocol.h; sourceTree = "<group>"; };
 		000D19691D619CC30024F15E /* CGDefaultPopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDefaultPopAnimation.h; sourceTree = "<group>"; };
 		000D196A1D619CC30024F15E /* CGDefaultPopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDefaultPopAnimation.m; sourceTree = "<group>"; };
-		002D98311D6304C900AA726F /* CGWebViewControllerConstraintsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebViewControllerConstraintsManager.h; sourceTree = "<group>"; };
-		002D98321D6304C900AA726F /* CGWebViewControllerConstraintsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWebViewControllerConstraintsManager.m; sourceTree = "<group>"; };
+		002D98311D6304C900AA726F /* CGWebPrivateViewConstraintsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebPrivateViewConstraintsManager.h; sourceTree = "<group>"; };
+		002D98321D6304C900AA726F /* CGWebPrivateViewConstraintsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWebPrivateViewConstraintsManager.m; sourceTree = "<group>"; };
 		002D98341D630A7B00AA726F /* Value+Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Value+Constant.h"; sourceTree = "<group>"; };
 		002D98351D630A7B00AA726F /* Value+Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Value+Constant.m"; sourceTree = "<group>"; };
 		002D98371D630B5100AA726F /* CGWebPrivateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebPrivateView.h; sourceTree = "<group>"; };
@@ -827,6 +820,18 @@
 		00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGHomeDataModel.m; sourceTree = "<group>"; };
 		00D307AB1CC76E350040EFC8 /* CGTestWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestWKWebViewController.h; sourceTree = "<group>"; };
 		00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestWKWebViewController.m; sourceTree = "<group>"; };
+		180D1B941D63B27900D80A4A /* UINavigationController+CGPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+CGPushViewController.h"; sourceTree = "<group>"; };
+		180D1B951D63B27900D80A4A /* UINavigationController+CGPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+CGPushViewController.m"; sourceTree = "<group>"; };
+		180D1B961D63B27900D80A4A /* UINavigationController+CGSetupGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+CGSetupGestureRecognizer.h"; sourceTree = "<group>"; };
+		180D1B971D63B27900D80A4A /* UINavigationController+CGSetupGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+CGSetupGestureRecognizer.m"; sourceTree = "<group>"; };
+		180D1B9B1D63B2B900D80A4A /* UIViewController+CGFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CGFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		180D1B9C1D63B2B900D80A4A /* UIViewController+CGFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CGFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		180D1B9D1D63B2B900D80A4A /* UIViewController+InteractivePopEnable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+InteractivePopEnable.h"; sourceTree = "<group>"; };
+		180D1B9E1D63B2B900D80A4A /* UIViewController+InteractivePopEnable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+InteractivePopEnable.m"; sourceTree = "<group>"; };
+		180D1BA11D63B32500D80A4A /* UIViewController+CGPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CGPushViewController.h"; sourceTree = "<group>"; };
+		180D1BA21D63B32500D80A4A /* UIViewController+CGPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CGPushViewController.m"; sourceTree = "<group>"; };
+		180D1BA61D63B3EC00D80A4A /* CGPushPopHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGPushPopHeader.h; sourceTree = "<group>"; };
+		180D1BAC1D63E35C00D80A4A /* CGWebPrivateViewTypeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGWebPrivateViewTypeHeader.h; sourceTree = "<group>"; };
 		183CCCA21CC5894400235486 /* CGTestPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestPhotosViewController.h; sourceTree = "<group>"; };
 		183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestPhotosViewController.m; sourceTree = "<group>"; };
 		185086E61CC303E4001CBC6B /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
@@ -2657,16 +2662,12 @@
 		000D19391D619CC20024F15E /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				000D193A1D619CC20024F15E /* UINavigationController+CGPushViewController.h */,
-				000D193B1D619CC20024F15E /* UINavigationController+CGPushViewController.m */,
-				000D193C1D619CC20024F15E /* UINavigationController+CGSetupGestureRecognizer.h */,
-				000D193D1D619CC20024F15E /* UINavigationController+CGSetupGestureRecognizer.m */,
+				180D1BA41D63B3D000D80A4A /* Header */,
+				180D1B9A1D63B2A400D80A4A /* SetupUIViewController */,
+				180D1B931D63B24700D80A4A /* UIViewControllerPushPop */,
+				180D1B921D63B20300D80A4A /* UINavigationController */,
 				000D193E1D619CC20024F15E /* UIViewController+CGAlert.h */,
 				000D193F1D619CC20024F15E /* UIViewController+CGAlert.m */,
-				000D19401D619CC20024F15E /* UIViewController+CGFullscreenPopGesture.h */,
-				000D19411D619CC20024F15E /* UIViewController+CGFullscreenPopGesture.m */,
-				000D19421D619CC20024F15E /* UIViewController+InteractivePopEnable.h */,
-				000D19431D619CC20024F15E /* UIViewController+InteractivePopEnable.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -2747,8 +2748,10 @@
 		000D195C1D619CC30024F15E /* WebViewController */ = {
 			isa = PBXGroup;
 			children = (
+				180D1BAB1D63E34A00D80A4A /* TypeHeader */,
 				000D195D1D619CC30024F15E /* CGWebViewController.h */,
 				000D195E1D619CC30024F15E /* CGWebViewController.m */,
+				180D1BA71D63B68600D80A4A /* Delegate */,
 				002D98301D6302BE00AA726F /* WebViewControllerManager */,
 				000D195F1D619CC30024F15E /* WebSubview */,
 			);
@@ -2796,8 +2799,8 @@
 		002D98301D6302BE00AA726F /* WebViewControllerManager */ = {
 			isa = PBXGroup;
 			children = (
-				002D98311D6304C900AA726F /* CGWebViewControllerConstraintsManager.h */,
-				002D98321D6304C900AA726F /* CGWebViewControllerConstraintsManager.m */,
+				002D98311D6304C900AA726F /* CGWebPrivateViewConstraintsManager.h */,
+				002D98321D6304C900AA726F /* CGWebPrivateViewConstraintsManager.m */,
 			);
 			path = WebViewControllerManager;
 			sourceTree = "<group>";
@@ -2867,6 +2870,68 @@
 				00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */,
 			);
 			path = "Test WKWebView";
+			sourceTree = "<group>";
+		};
+		180D1B921D63B20300D80A4A /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				180D1B941D63B27900D80A4A /* UINavigationController+CGPushViewController.h */,
+				180D1B951D63B27900D80A4A /* UINavigationController+CGPushViewController.m */,
+				180D1B961D63B27900D80A4A /* UINavigationController+CGSetupGestureRecognizer.h */,
+				180D1B971D63B27900D80A4A /* UINavigationController+CGSetupGestureRecognizer.m */,
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		180D1B931D63B24700D80A4A /* UIViewControllerPushPop */ = {
+			isa = PBXGroup;
+			children = (
+				180D1BA11D63B32500D80A4A /* UIViewController+CGPushViewController.h */,
+				180D1BA21D63B32500D80A4A /* UIViewController+CGPushViewController.m */,
+			);
+			path = UIViewControllerPushPop;
+			sourceTree = "<group>";
+		};
+		180D1B9A1D63B2A400D80A4A /* SetupUIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				180D1B9B1D63B2B900D80A4A /* UIViewController+CGFullscreenPopGesture.h */,
+				180D1B9C1D63B2B900D80A4A /* UIViewController+CGFullscreenPopGesture.m */,
+				180D1B9D1D63B2B900D80A4A /* UIViewController+InteractivePopEnable.h */,
+				180D1B9E1D63B2B900D80A4A /* UIViewController+InteractivePopEnable.m */,
+			);
+			path = SetupUIViewController;
+			sourceTree = "<group>";
+		};
+		180D1BA41D63B3D000D80A4A /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				180D1BA51D63B3DF00D80A4A /* PushPopHeader */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		180D1BA51D63B3DF00D80A4A /* PushPopHeader */ = {
+			isa = PBXGroup;
+			children = (
+				180D1BA61D63B3EC00D80A4A /* CGPushPopHeader.h */,
+			);
+			path = PushPopHeader;
+			sourceTree = "<group>";
+		};
+		180D1BA71D63B68600D80A4A /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		180D1BAB1D63E34A00D80A4A /* TypeHeader */ = {
+			isa = PBXGroup;
+			children = (
+				180D1BAC1D63E35C00D80A4A /* CGWebPrivateViewTypeHeader.h */,
+			);
+			path = TypeHeader;
 			sourceTree = "<group>";
 		};
 		183CCCA11CC5892B00235486 /* TestPhotos */ = {
@@ -3352,8 +3417,8 @@
 				000D19A71D619CC30024F15E /* UILabel+CalculateTextSize.m in Sources */,
 				000D1A001D619CC30024F15E /* CGTableViewCell.m in Sources */,
 				000D19CD1D619CC30024F15E /* UIView+CGAddGestureRecognizer.m in Sources */,
+				180D1B991D63B27900D80A4A /* UINavigationController+CGSetupGestureRecognizer.m in Sources */,
 				000D19951D619CC30024F15E /* ALAsset+CGProperty.m in Sources */,
-				000D1A411D619CC30024F15E /* UINavigationController+CGPushViewController.m in Sources */,
 				000D19F71D619CC30024F15E /* CGTextFieldInputViewAppearance.m in Sources */,
 				000D1A141D619CC30024F15E /* CGTitleRadioCellAppearance.m in Sources */,
 				000D19FE1D619CC30024F15E /* CGPhotoCollectionViewCell.m in Sources */,
@@ -3414,7 +3479,6 @@
 				000D19E41D619CC30024F15E /* CGImageView.m in Sources */,
 				000D19D91D619CC30024F15E /* CGBaseButton.m in Sources */,
 				000D196E1D619CC30024F15E /* UIView+CGSetupAnimationArea.m in Sources */,
-				000D1A451D619CC30024F15E /* UIViewController+InteractivePopEnable.m in Sources */,
 				000D19851D619CC30024F15E /* NSString+CGEncryption.m in Sources */,
 				000D1A031D619CC30024F15E /* CGNavigationBarView.m in Sources */,
 				000D19801D619CC30024F15E /* NSBundle+GetAppInfo.m in Sources */,
@@ -3437,15 +3501,13 @@
 				000D19E61D619CC30024F15E /* CGLabel.m in Sources */,
 				000D1A2B1D619CC30024F15E /* UIView+CGAddConstraintStatus.m in Sources */,
 				000D19F01D619CC30024F15E /* CGTableViewDataSourceManager.m in Sources */,
-				000D1A441D619CC30024F15E /* UIViewController+CGFullscreenPopGesture.m in Sources */,
 				000D1A0B1D619CC30024F15E /* CGCycleScrollView+CGCondition.m in Sources */,
 				000D19DB1D619CC30024F15E /* CGHighlightBgButton.m in Sources */,
 				000D1A2F1D619CC30024F15E /* CGLayoutManager.m in Sources */,
 				000D19B71D619CC30024F15E /* UICollectionView+CGDequeueReusableCell.m in Sources */,
 				000D1A1C1D619CC30024F15E /* CGTitleImageLayoutView.m in Sources */,
-				002D98331D6304C900AA726F /* CGWebViewControllerConstraintsManager.m in Sources */,
+				002D98331D6304C900AA726F /* CGWebPrivateViewConstraintsManager.m in Sources */,
 				000D19901D619CC30024F15E /* CGKeyboardManager.m in Sources */,
-				000D1A421D619CC30024F15E /* UINavigationController+CGSetupGestureRecognizer.m in Sources */,
 				000D19BA1D619CC30024F15E /* UILabel+CGSetupAppearance.m in Sources */,
 				000D19F51D619CC30024F15E /* CGDefalutTextFieldInputView.m in Sources */,
 				000D1A4D1D619CC30024F15E /* CGPhotoNavigationController.m in Sources */,
@@ -3475,6 +3537,7 @@
 				000D19731D619CC30024F15E /* CGDispathMethod.m in Sources */,
 				000D1A431D619CC30024F15E /* UIViewController+CGAlert.m in Sources */,
 				000D1A151D619CC30024F15E /* CGRadioView.m in Sources */,
+				180D1B9F1D63B2B900D80A4A /* UIViewController+CGFullscreenPopGesture.m in Sources */,
 				000D1A271D619CC30024F15E /* NSArray+CGAddConstraints.m in Sources */,
 				000D1A4A1D619CC30024F15E /* CGBrowsePhotoViewController.m in Sources */,
 				0038420C1CEC132C00CB6B9D /* CGFoulLineView.swift in Sources */,
@@ -3498,6 +3561,7 @@
 				000D198F1D619CC30024F15E /* CGKeyboardCacheModel.m in Sources */,
 				000D19BC1D619CC30024F15E /* UIScrollView+CGPullToRefresh.m in Sources */,
 				000D19B41D619CC30024F15E /* UITextField+CG_Create.m in Sources */,
+				180D1BA01D63B2B900D80A4A /* UIViewController+InteractivePopEnable.m in Sources */,
 				00D307AD1CC76E350040EFC8 /* CGTestWKWebViewController.m in Sources */,
 				000D199F1D619CC30024F15E /* UIFont+CGCreateFont.m in Sources */,
 				000D1A211D619CC30024F15E /* CGTitleLabelView.m in Sources */,
@@ -3517,6 +3581,7 @@
 				000D19BB1D619CC30024F15E /* UIScrollView+CGProperty.m in Sources */,
 				000D1A491D619CC30024F15E /* CGTitleBarViewController.m in Sources */,
 				000D1A1B1D619CC30024F15E /* CGTitleButtonsLayoutView.m in Sources */,
+				180D1BA31D63B32500D80A4A /* UIViewController+CGPushViewController.m in Sources */,
 				000D19F81D619CC30024F15E /* CGTextFieldDelegateManager.m in Sources */,
 				000D19C81D619CC30024F15E /* UIView+CGAnimated.m in Sources */,
 				000D19DD1D619CC30024F15E /* CGTimerButton.m in Sources */,
@@ -3563,6 +3628,7 @@
 				000D1A331D619CC30024F15E /* NSArray+CGSearchConstraints.m in Sources */,
 				000D19FC1D619CC30024F15E /* CGCollectionViewCell.m in Sources */,
 				000D19961D619CC30024F15E /* ALAssetsGroup+CGProperty.m in Sources */,
+				180D1B981D63B27900D80A4A /* UINavigationController+CGPushViewController.m in Sources */,
 				000D19D71D619CC30024F15E /* CGAlertArrowAppearance.m in Sources */,
 				000D19861D619CC30024F15E /* NSString+CGString.m in Sources */,
 				000D19AE1D619CC30024F15E /* UIButton+CGCreateCustomButton.m in Sources */,

@@ -19,7 +19,8 @@
 /** 测试约束 */
 #import "CGTestLayoutConstranintsViewController.h"
 /** 测试隐藏导航栏 */
-#import "CGTitleBarViewController.h"
+#import "CGTestTitleBarViewController.h"
+
 /** 测试Photos库 */
 #import "CGTestPhotosViewController.h"
 
@@ -142,7 +143,7 @@
     CGHomeDataModel *testLayoutConstranintsVC   = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestLayoutConstranintsViewController class] title:@"测试约束" subtitle:@"测试 UIView 扩展文件 UIView+CGAddConstraints.h 功能"];
     [dataSourceList addObject:testLayoutConstranintsVC];
     
-    CGHomeDataModel *testCustomBarVC    = [CGHomeDataModel cg_createHomeDataWithClass:[CGTitleBarViewController class] subtitle:@"测试隐藏导航栏"];
+    CGHomeDataModel *testCustomBarVC    = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestTitleBarViewController class] subtitle:@"测试隐藏导航栏"];
     [dataSourceList addObject:testCustomBarVC];
     
     CGHomeDataModel *testPhotosVC       = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestPhotosViewController class] title:@"测试Photos照片库" subtitle:@"测试Photos库中的个各类中的方法"];

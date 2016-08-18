@@ -28,7 +28,7 @@
     _scrollView = [[UIScrollView alloc] init];
     [self.view addSubview:_scrollView];
     
-    [_scrollView cg_autoEdgesInsetsZeroToViewController:self];
+    [_scrollView cg_autoEdgesInsetsZeroToSuperview];
     
     UIView *view = [[UIView alloc] init];
     view.backgroundColor    = [UIColor lightGrayColor];
@@ -37,8 +37,6 @@
     [view cg_autoEdgesInsetsZeroToSuperview];
     [view cg_autoDimension:CGDimensionHeight fixedLength:1000];
     [view cg_autoDimension:CGDimensionWidth equalView:_scrollView];
-    
-    self.automaticallyAdjustsScrollViewInsets   = NO;
 }
 
 @end

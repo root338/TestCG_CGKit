@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0000D9B51D6593C30038E4A0 /* CGTestTitleBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000D9B41D6593C30038E4A0 /* CGTestTitleBarViewController.m */; };
+		0000D9BA1D659AD30038E4A0 /* UIViewController+CGOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000D9B91D659AD30038E4A0 /* UIViewController+CGOrientation.m */; };
+		0000D9BE1D659D080038E4A0 /* UIView+CGOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000D9BD1D659D080038E4A0 /* UIView+CGOrientation.m */; };
 		000D196B1D619CC30024F15E /* UIView+CGLineMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D16CA1D619CC10024F15E /* UIView+CGLineMoveView.m */; };
 		000D196C1D619CC30024F15E /* UIView+CGScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D16CC1D619CC10024F15E /* UIView+CGScaleView.m */; };
 		000D196D1D619CC30024F15E /* UIView+CGScaleViewFromOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D16CE1D619CC10024F15E /* UIView+CGScaleViewFromOverlayView.m */; };
@@ -230,7 +233,6 @@
 		000D1A4F1D619CC30024F15E /* CGWebBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D19611D619CC30024F15E /* CGWebBottomView.m */; };
 		000D1A501D619CC30024F15E /* CGSingleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D19641D619CC30024F15E /* CGSingleTableViewController.m */; };
 		000D1A511D619CC30024F15E /* CGDefaultPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D196A1D619CC30024F15E /* CGDefaultPopAnimation.m */; };
-		002D98331D6304C900AA726F /* CGWebPrivateViewConstraintsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 002D98321D6304C900AA726F /* CGWebPrivateViewConstraintsManager.m */; };
 		002D98361D630A7B00AA726F /* Value+Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 002D98351D630A7B00AA726F /* Value+Constant.m */; };
 		002D98391D630B5100AA726F /* CGWebPrivateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 002D98381D630B5100AA726F /* CGWebPrivateView.m */; };
 		0038420C1CEC132C00CB6B9D /* CGFoulLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003842091CEC132C00CB6B9D /* CGFoulLineView.swift */; };
@@ -307,6 +309,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0000D9B31D6593C30038E4A0 /* CGTestTitleBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestTitleBarViewController.h; sourceTree = "<group>"; };
+		0000D9B41D6593C30038E4A0 /* CGTestTitleBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestTitleBarViewController.m; sourceTree = "<group>"; };
+		0000D9B61D6598C00038E4A0 /* CGDeviceTypeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGDeviceTypeHeader.h; sourceTree = "<group>"; };
+		0000D9B81D659AD30038E4A0 /* UIViewController+CGOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CGOrientation.h"; sourceTree = "<group>"; };
+		0000D9B91D659AD30038E4A0 /* UIViewController+CGOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CGOrientation.m"; sourceTree = "<group>"; };
+		0000D9BB1D659B120038E4A0 /* CGDeviceOrientationHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGDeviceOrientationHeader.h; sourceTree = "<group>"; };
+		0000D9BC1D659D070038E4A0 /* UIView+CGOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGOrientation.h"; sourceTree = "<group>"; };
+		0000D9BD1D659D080038E4A0 /* UIView+CGOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGOrientation.m"; sourceTree = "<group>"; };
 		000D16C61D619CC10024F15E /* CGAngleRadianHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAngleRadianHeader.h; sourceTree = "<group>"; };
 		000D16C81D619CC10024F15E /* CGMoveViewTypeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGMoveViewTypeHeader.h; sourceTree = "<group>"; };
 		000D16C91D619CC10024F15E /* UIView+CGLineMoveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGLineMoveView.h"; sourceTree = "<group>"; };
@@ -328,7 +338,6 @@
 		000D16DE1D619CC10024F15E /* CGBlockdDefinitionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBlockdDefinitionHeader.h; sourceTree = "<group>"; };
 		000D16DF1D619CC10024F15E /* CGBlockHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBlockHeader.h; sourceTree = "<group>"; };
 		000D16E11D619CC10024F15E /* CGViewConstantValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGViewConstantValue.h; sourceTree = "<group>"; };
-		000D16E21D619CC10024F15E /* CGViewValueHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGViewValueHeader.h; sourceTree = "<group>"; };
 		000D16E31D619CC10024F15E /* UIView+Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Constant.h"; sourceTree = "<group>"; };
 		000D16E41D619CC10024F15E /* UIView+Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Constant.m"; sourceTree = "<group>"; };
 		000D16E61D619CC10024F15E /* CGDispathMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDispathMethod.h; sourceTree = "<group>"; };
@@ -800,8 +809,6 @@
 		000D19671D619CC30024F15E /* CGPopAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPopAnimationProtocol.h; sourceTree = "<group>"; };
 		000D19691D619CC30024F15E /* CGDefaultPopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDefaultPopAnimation.h; sourceTree = "<group>"; };
 		000D196A1D619CC30024F15E /* CGDefaultPopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDefaultPopAnimation.m; sourceTree = "<group>"; };
-		002D98311D6304C900AA726F /* CGWebPrivateViewConstraintsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebPrivateViewConstraintsManager.h; sourceTree = "<group>"; };
-		002D98321D6304C900AA726F /* CGWebPrivateViewConstraintsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWebPrivateViewConstraintsManager.m; sourceTree = "<group>"; };
 		002D98341D630A7B00AA726F /* Value+Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Value+Constant.h"; sourceTree = "<group>"; };
 		002D98351D630A7B00AA726F /* Value+Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Value+Constant.m"; sourceTree = "<group>"; };
 		002D98371D630B5100AA726F /* CGWebPrivateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebPrivateView.h; sourceTree = "<group>"; };
@@ -909,6 +916,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0000D9B71D659ABE0038E4A0 /* Orientation */ = {
+			isa = PBXGroup;
+			children = (
+				0000D9B81D659AD30038E4A0 /* UIViewController+CGOrientation.h */,
+				0000D9B91D659AD30038E4A0 /* UIViewController+CGOrientation.m */,
+			);
+			path = Orientation;
+			sourceTree = "<group>";
+		};
 		000D16C31D619CC10024F15E /* CG_CGKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -1027,7 +1043,6 @@
 				002D98341D630A7B00AA726F /* Value+Constant.h */,
 				002D98351D630A7B00AA726F /* Value+Constant.m */,
 				000D16E11D619CC10024F15E /* CGViewConstantValue.h */,
-				000D16E21D619CC10024F15E /* CGViewValueHeader.h */,
 				000D16E31D619CC10024F15E /* UIView+Constant.h */,
 				000D16E41D619CC10024F15E /* UIView+Constant.m */,
 			);
@@ -1470,6 +1485,7 @@
 				000D176D1D619CC10024F15E /* UIApplication+CGVerificationRemoteNotification.m */,
 				000D176E1D619CC10024F15E /* UIApplication+CGVerifyDeviceDirection.h */,
 				000D176F1D619CC10024F15E /* UIApplication+CGVerifyDeviceDirection.m */,
+				0000D9BB1D659B120038E4A0 /* CGDeviceOrientationHeader.h */,
 			);
 			path = UIApplication;
 			sourceTree = "<group>";
@@ -1488,6 +1504,7 @@
 			children = (
 				000D17741D619CC10024F15E /* UIDevice+CGDirection.h */,
 				000D17751D619CC10024F15E /* UIDevice+CGDirection.m */,
+				0000D9B61D6598C00038E4A0 /* CGDeviceTypeHeader.h */,
 			);
 			path = UIDevice;
 			sourceTree = "<group>";
@@ -1765,6 +1782,8 @@
 			children = (
 				000D17F11D619CC20024F15E /* UIView+CGJudgeProperty.h */,
 				000D17F21D619CC20024F15E /* UIView+CGJudgeProperty.m */,
+				0000D9BC1D659D070038E4A0 /* UIView+CGOrientation.h */,
+				0000D9BD1D659D080038E4A0 /* UIView+CGOrientation.m */,
 			);
 			path = JudgeValue;
 			sourceTree = "<group>";
@@ -2662,6 +2681,7 @@
 		000D19391D619CC20024F15E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				0000D9B71D659ABE0038E4A0 /* Orientation */,
 				180D1BA41D63B3D000D80A4A /* Header */,
 				180D1B9A1D63B2A400D80A4A /* SetupUIViewController */,
 				180D1B931D63B24700D80A4A /* UIViewControllerPushPop */,
@@ -2799,8 +2819,6 @@
 		002D98301D6302BE00AA726F /* WebViewControllerManager */ = {
 			isa = PBXGroup;
 			children = (
-				002D98311D6304C900AA726F /* CGWebPrivateViewConstraintsManager.h */,
-				002D98321D6304C900AA726F /* CGWebPrivateViewConstraintsManager.m */,
 			);
 			path = WebViewControllerManager;
 			sourceTree = "<group>";
@@ -3004,6 +3022,8 @@
 				185EA9381D481D9700A3568F /* CGTestCycleViewController.m */,
 				00C2B9131D5EC8F20053E46B /* CGTestCGScrollViewController.h */,
 				00C2B9141D5EC8F20053E46B /* CGTestCGScrollViewController.m */,
+				0000D9B31D6593C30038E4A0 /* CGTestTitleBarViewController.h */,
+				0000D9B41D6593C30038E4A0 /* CGTestTitleBarViewController.m */,
 			);
 			path = TestDetailVC;
 			sourceTree = "<group>";
@@ -3489,6 +3509,7 @@
 				000D19DA1D619CC30024F15E /* CGButton.m in Sources */,
 				000D198D1D619CC30024F15E /* EXTScope.m in Sources */,
 				000D19E21D619CC30024F15E /* UICollectionViewFlowLayout+CGCreateLayout.m in Sources */,
+				0000D9BE1D659D080038E4A0 /* UIView+CGOrientation.m in Sources */,
 				000D19AB1D619CC30024F15E /* UIButton+UpdateLocate.m in Sources */,
 				000D19A01D619CC30024F15E /* UIImage+CGColor.m in Sources */,
 				000D19F11D619CC30024F15E /* CGTableViewEditDataSourceManager.m in Sources */,
@@ -3506,7 +3527,6 @@
 				000D1A2F1D619CC30024F15E /* CGLayoutManager.m in Sources */,
 				000D19B71D619CC30024F15E /* UICollectionView+CGDequeueReusableCell.m in Sources */,
 				000D1A1C1D619CC30024F15E /* CGTitleImageLayoutView.m in Sources */,
-				002D98331D6304C900AA726F /* CGWebPrivateViewConstraintsManager.m in Sources */,
 				000D19901D619CC30024F15E /* CGKeyboardManager.m in Sources */,
 				000D19BA1D619CC30024F15E /* UILabel+CGSetupAppearance.m in Sources */,
 				000D19F51D619CC30024F15E /* CGDefalutTextFieldInputView.m in Sources */,
@@ -3525,6 +3545,7 @@
 				000D1A021D619CC30024F15E /* CGBaseView.m in Sources */,
 				000D19D41D619CC30024F15E /* UIView+DrawBoxLine.m in Sources */,
 				000D19891D619CC30024F15E /* NSObject+CGExchangeSelector.m in Sources */,
+				0000D9BA1D659AD30038E4A0 /* UIViewController+CGOrientation.m in Sources */,
 				000D1A181D619CC30024F15E /* CGRadioSliderView.m in Sources */,
 				000D19981D619CC30024F15E /* CGAssetsLibraryManager.m in Sources */,
 				000D198C1D619CC30024F15E /* NSTimer+ChangeTimerStatus.m in Sources */,
@@ -3548,6 +3569,7 @@
 				18DBAE021C12968900552828 /* HomeViewController.m in Sources */,
 				000D1A041D619CC30024F15E /* CGSingeContentTableView.m in Sources */,
 				000D1A0A1D619CC30024F15E /* CGCycleScrollView+CGBuildView.m in Sources */,
+				0000D9B51D6593C30038E4A0 /* CGTestTitleBarViewController.m in Sources */,
 				18DBAAF91C12877E00552828 /* AppDelegate.m in Sources */,
 				000D1A251D619CC30024F15E /* CGWebView.m in Sources */,
 				000D19781D619CC30024F15E /* CGRequestBaseModel.m in Sources */,

@@ -24,7 +24,7 @@
 {
     [super viewDidAppear:animated];
     
-    [self.webView cg_setupURLForString:@"http://www.baidu.com"];
+    [self.webView setupURLForString:@"http://www.baidu.com"];
 }
 
 @end

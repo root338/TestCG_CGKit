@@ -12,6 +12,7 @@
 
 - (void)viewDidLoad
 {
+    self.backItemImage   = [UIImage imageNamed:@"01"];
     [super viewDidLoad];
     
     self.view.backgroundColor   = [UIColor orangeColor];

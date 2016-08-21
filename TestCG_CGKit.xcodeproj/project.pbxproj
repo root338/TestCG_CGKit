@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0000D9B51D6593C30038E4A0 /* CGTestTitleBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000D9B41D6593C30038E4A0 /* CGTestTitleBarViewController.m */; };
-		0000D9BA1D659AD30038E4A0 /* UIViewController+CGOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000D9B91D659AD30038E4A0 /* UIViewController+CGOrientation.m */; };
-		0000D9BE1D659D080038E4A0 /* UIView+CGOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000D9BD1D659D080038E4A0 /* UIView+CGOrientation.m */; };
 		000D196B1D619CC30024F15E /* UIView+CGLineMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D16CA1D619CC10024F15E /* UIView+CGLineMoveView.m */; };
 		000D196C1D619CC30024F15E /* UIView+CGScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D16CC1D619CC10024F15E /* UIView+CGScaleView.m */; };
 		000D196D1D619CC30024F15E /* UIView+CGScaleViewFromOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D16CE1D619CC10024F15E /* UIView+CGScaleViewFromOverlayView.m */; };
@@ -249,6 +247,8 @@
 		183CCCA41CC5894400235486 /* CGTestPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */; };
 		185086E71CC303E4001CBC6B /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185086E61CC303E4001CBC6B /* Photos.framework */; };
 		185EA9391D481D9700A3568F /* CGTestCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185EA9381D481D9700A3568F /* CGTestCycleViewController.m */; };
+		187A3E3B1D69DE1400C7E67C /* UIBarButtonItem+CGCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A3E3A1D69DE1400C7E67C /* UIBarButtonItem+CGCreate.m */; };
+		187A3E431D69EA1000C7E67C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187A3E421D69EA1000C7E67C /* Assets.xcassets */; };
 		1885F3921CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1885F3911CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m */; };
 		1894AE871CAFD4F3005A518C /* CGTestDefinesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AE861CAFD4F3005A518C /* CGTestDefinesTableViewController.m */; };
 		1894AE8B1CAFD83F005A518C /* CGTestDefinesData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AE8A1CAFD83F005A518C /* CGTestDefinesData.m */; };
@@ -320,11 +320,7 @@
 		0000D9B31D6593C30038E4A0 /* CGTestTitleBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestTitleBarViewController.h; sourceTree = "<group>"; };
 		0000D9B41D6593C30038E4A0 /* CGTestTitleBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestTitleBarViewController.m; sourceTree = "<group>"; };
 		0000D9B61D6598C00038E4A0 /* CGDeviceTypeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGDeviceTypeHeader.h; sourceTree = "<group>"; };
-		0000D9B81D659AD30038E4A0 /* UIViewController+CGOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CGOrientation.h"; sourceTree = "<group>"; };
-		0000D9B91D659AD30038E4A0 /* UIViewController+CGOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CGOrientation.m"; sourceTree = "<group>"; };
 		0000D9BB1D659B120038E4A0 /* CGDeviceOrientationHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGDeviceOrientationHeader.h; sourceTree = "<group>"; };
-		0000D9BC1D659D070038E4A0 /* UIView+CGOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGOrientation.h"; sourceTree = "<group>"; };
-		0000D9BD1D659D080038E4A0 /* UIView+CGOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGOrientation.m"; sourceTree = "<group>"; };
 		000D16C61D619CC10024F15E /* CGAngleRadianHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAngleRadianHeader.h; sourceTree = "<group>"; };
 		000D16C81D619CC10024F15E /* CGMoveViewTypeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGMoveViewTypeHeader.h; sourceTree = "<group>"; };
 		000D16C91D619CC10024F15E /* UIView+CGLineMoveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGLineMoveView.h"; sourceTree = "<group>"; };
@@ -848,6 +844,9 @@
 		185086E61CC303E4001CBC6B /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		185EA9371D481D9700A3568F /* CGTestCycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestCycleViewController.h; sourceTree = "<group>"; };
 		185EA9381D481D9700A3568F /* CGTestCycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestCycleViewController.m; sourceTree = "<group>"; };
+		187A3E391D69DE1400C7E67C /* UIBarButtonItem+CGCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CGCreate.h"; sourceTree = "<group>"; };
+		187A3E3A1D69DE1400C7E67C /* UIBarButtonItem+CGCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CGCreate.m"; sourceTree = "<group>"; };
+		187A3E421D69EA1000C7E67C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1885F3901CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestLayoutConstranintsViewController.h; sourceTree = "<group>"; };
 		1885F3911CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestLayoutConstranintsViewController.m; sourceTree = "<group>"; };
 		1894AE851CAFD4F3005A518C /* CGTestDefinesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestDefinesTableViewController.h; sourceTree = "<group>"; };
@@ -880,7 +879,6 @@
 		18B41A9D1C13FE450031002B /* TestTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTextFieldCell.m; sourceTree = "<group>"; };
 		18DBAABC1C12818300552828 /* TestCG_CGKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCG_CGKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DBAAC91C12818300552828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		18DBAACB1C12818300552828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18DBAACE1C12818300552828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18DBAAD51C12818300552828 /* TestCG_CGKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCG_CGKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DBAAD91C12818300552828 /* TestCG_CGKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCG_CGKitTests.m; sourceTree = "<group>"; };
@@ -942,15 +940,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0000D9B71D659ABE0038E4A0 /* Orientation */ = {
-			isa = PBXGroup;
-			children = (
-				0000D9B81D659AD30038E4A0 /* UIViewController+CGOrientation.h */,
-				0000D9B91D659AD30038E4A0 /* UIViewController+CGOrientation.m */,
-			);
-			path = Orientation;
-			sourceTree = "<group>";
-		};
 		000D16C31D619CC10024F15E /* CG_CGKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -1588,6 +1577,7 @@
 		000D17891D619CC10024F15E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				187A3E381D69DDF900C7E67C /* BarButtonItem */,
 				000D178A1D619CC10024F15E /* AreaCalculate */,
 				000D17921D619CC10024F15E /* Button */,
 				000D179B1D619CC10024F15E /* CreateView */,
@@ -1671,6 +1661,8 @@
 				000D17AF1D619CC10024F15E /* UITextField+CG_Create.m */,
 				000D17B01D619CC10024F15E /* UIView+CGCreate.h */,
 				000D17B11D619CC10024F15E /* UIView+CGCreate.m */,
+				187A3E391D69DE1400C7E67C /* UIBarButtonItem+CGCreate.h */,
+				187A3E3A1D69DE1400C7E67C /* UIBarButtonItem+CGCreate.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1813,8 +1805,6 @@
 			children = (
 				000D17F11D619CC20024F15E /* UIView+CGJudgeProperty.h */,
 				000D17F21D619CC20024F15E /* UIView+CGJudgeProperty.m */,
-				0000D9BC1D659D070038E4A0 /* UIView+CGOrientation.h */,
-				0000D9BD1D659D080038E4A0 /* UIView+CGOrientation.m */,
 			);
 			path = JudgeValue;
 			sourceTree = "<group>";
@@ -2713,7 +2703,6 @@
 			isa = PBXGroup;
 			children = (
 				18A870371D6929D700C76A21 /* Property */,
-				0000D9B71D659ABE0038E4A0 /* Orientation */,
 				180D1BA41D63B3D000D80A4A /* Header */,
 				180D1B9A1D63B2A400D80A4A /* SetupUIViewController */,
 				180D1B931D63B24700D80A4A /* UIViewControllerPushPop */,
@@ -3014,6 +3003,13 @@
 			path = TestCell;
 			sourceTree = "<group>";
 		};
+		187A3E381D69DDF900C7E67C /* BarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BarButtonItem;
+			sourceTree = "<group>";
+		};
 		1885F38F1CB13A4F002A6D68 /* Test Layout Constranints */ = {
 			isa = PBXGroup;
 			children = (
@@ -3151,7 +3147,7 @@
 				18DBAAF31C12872500552828 /* Mudule */,
 				18FAA06B1CD0294400C73C55 /* SwiftMudule */,
 				18DBAAC81C12818300552828 /* Main.storyboard */,
-				18DBAACB1C12818300552828 /* Assets.xcassets */,
+				187A3E421D69EA1000C7E67C /* Assets.xcassets */,
 				18DBAACD1C12818300552828 /* LaunchScreen.storyboard */,
 				18DBAAF41C12877E00552828 /* Supporting Files */,
 			);
@@ -3419,6 +3415,7 @@
 			files = (
 				18DBAACF1C12818300552828 /* LaunchScreen.storyboard in Resources */,
 				0069BB061C85431A00C5A628 /* 2.jpg in Resources */,
+				187A3E431D69EA1000C7E67C /* Assets.xcassets in Resources */,
 				18DBAACA1C12818300552828 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3597,7 +3594,6 @@
 				000D19DA1D619CC30024F15E /* CGButton.m in Sources */,
 				000D198D1D619CC30024F15E /* EXTScope.m in Sources */,
 				000D19E21D619CC30024F15E /* UICollectionViewFlowLayout+CGCreateLayout.m in Sources */,
-				0000D9BE1D659D080038E4A0 /* UIView+CGOrientation.m in Sources */,
 				000D19AB1D619CC30024F15E /* UIButton+UpdateLocate.m in Sources */,
 				000D19A01D619CC30024F15E /* UIImage+CGColor.m in Sources */,
 				000D19F11D619CC30024F15E /* CGTableViewEditDataSourceManager.m in Sources */,
@@ -3635,7 +3631,6 @@
 				000D1A021D619CC30024F15E /* CGBaseView.m in Sources */,
 				000D19D41D619CC30024F15E /* UIView+DrawBoxLine.m in Sources */,
 				000D19891D619CC30024F15E /* NSObject+CGExchangeSelector.m in Sources */,
-				0000D9BA1D659AD30038E4A0 /* UIViewController+CGOrientation.m in Sources */,
 				000D1A181D619CC30024F15E /* CGRadioSliderView.m in Sources */,
 				000D19981D619CC30024F15E /* CGAssetsLibraryManager.m in Sources */,
 				000D198C1D619CC30024F15E /* NSTimer+ChangeTimerStatus.m in Sources */,
@@ -3714,6 +3709,7 @@
 				000D19CA1D619CC30024F15E /* UIView+CGCopyView.m in Sources */,
 				000D19AC1D619CC30024F15E /* UILabel+CGCreateLayoutCustomLabel.m in Sources */,
 				000D19B51D619CC30024F15E /* UIView+CGCreate.m in Sources */,
+				187A3E3B1D69DE1400C7E67C /* UIBarButtonItem+CGCreate.m in Sources */,
 				000D1A481D619CC30024F15E /* CGQRCodeViewController.m in Sources */,
 				000D19741D619CC30024F15E /* RFKeyboard.m in Sources */,
 				000D1A221D619CC30024F15E /* CGTitleTextFieldView.m in Sources */,
@@ -3916,7 +3912,7 @@
 			baseConfigurationReference = CB955F562162540E6C680F5B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3952,7 +3948,7 @@
 			baseConfigurationReference = 2579600A7457913BDB2035A0 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (

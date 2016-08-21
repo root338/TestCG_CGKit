@@ -29,6 +29,9 @@
 /** 测试 WebKit */
 #import "CGTestWKWebViewController.h"
 
+/** 测试 添加子视图 */
+#import "CGTestSubviewViewController.h"
+
 #import "CGTestCGScrollViewController.h"
 
 #import "TestCG_CGKit-Swift.h"
@@ -157,6 +160,9 @@
     
 //    CGHomeDataModel *testCycleVC        = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestCycleViewController class] title:@"测试循环滑动视图" subtitle:@"测试CGCycleScrollView"];
 //    [dataSourceList addObject:testCycleVC];
+    
+    CGHomeDataModel *testSubviewVC  = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestSubviewViewController class] title:@"测试 添加子视图" subtitle:@"测试添加子视图，非约束"];
+    [dataSourceList addObject:testSubviewVC];
     
     CGHomeDataModel *testCGScrollVC     = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestCGScrollViewController class] title:@"测试 CGScrollView" subtitle:@"测试 CGScrollView 各个属性值"];
     [dataSourceList addObject:testCGScrollVC];

@@ -25,6 +25,8 @@
 {
     [super viewDidLoad];
     
+    self.view.backgroundColor   = [UIColor orangeColor];
+    
     _scrollView = [[UIScrollView alloc] init];
     [self.view addSubview:_scrollView];
     
@@ -35,7 +37,7 @@
     [_scrollView addSubview:view];
     
     [view cg_autoEdgesInsetsZeroToSuperview];
-    [view cg_autoDimension:CGDimensionHeight fixedLength:1000];
+    [view cg_autoDimension:CGDimensionHeight fixedLength:2000];
     [view cg_autoDimension:CGDimensionWidth equalView:_scrollView];
 }
 

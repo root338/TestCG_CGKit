@@ -14,7 +14,9 @@ class CGTestFoulLineViewController: CGBaseViewController {
     
     init() {
         
-        foulLineView    = CGFoulLineView(frame: CGRectMake(100, 100, 100, 60))
+        let constantValue = 100
+        
+        foulLineView    = CGFoulLineView(frame: CGRect(x: constantValue, y: constantValue, width: constantValue, height: 60))
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -23,7 +25,7 @@ class CGTestFoulLineViewController: CGBaseViewController {
         super.viewDidLoad()
         
 //        foulLineView.foulLineEdgeInsets = UIEdgeInsetsMake(1, 1, 1, 1)
-        foulLineView.foulLineColor      = UIColor.redColor()
+        foulLineView.foulLineColor      = UIColor.red
         foulLineView.foulLineType       = CGFoulLineType.EdgeInsetsExcludeLeft
 //        foulLineView.layer.cornerRadius = 5
 //        foulLineView.layer.masksToBounds = true

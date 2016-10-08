@@ -112,7 +112,7 @@
         return _storyboard;
     }
     
-    AppDelegate *appDeleage = [UIApplication sharedApplication].delegate;
+    AppDelegate *appDeleage = (AppDelegate *)[UIApplication sharedApplication].delegate;
     _storyboard = appDeleage.window.rootViewController.storyboard;
     
     return _storyboard;

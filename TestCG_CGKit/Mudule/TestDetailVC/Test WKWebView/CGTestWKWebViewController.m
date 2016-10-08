@@ -8,12 +8,12 @@
 
 #import "CGTestWKWebViewController.h"
 
-#import "CGBaseWebView.h"
+#import "CGWebView.h"
 #import "UIView+CGAddConstraints.h"
 
 @interface CGTestWKWebViewController ()<CGWebViewDelegate>
 {
-    CGBaseWebView<UIWebView *> *_webView;
+    CGWebView<UIWebView *> *_webView;
 }
 
 @end
@@ -24,7 +24,7 @@
 {
     [super viewDidLoad];
     
-    _webView    = [[CGBaseWebView alloc] initWithWebViewType:CGWebViewTypeAuto];
+    _webView    = [[CGWebView alloc] initWithWebViewType:CGWebViewTypeWKWebView];
     [self.view addSubview:_webView];
     [_webView cg_autoEdgesInsetsZeroToSuperview];
     
@@ -41,12 +41,12 @@
 }
 
 #pragma mark - CGWebViewDelegate
-- (void)cg_webView:(CGBaseWebView *)webView updateProgress:(CGFloat)progress
+- (void)cg_webView:(CGWebView *)webView updateProgress:(CGFloat)progress
 {
     NSLog(@"%f", progress);
 }
 
-- (void)cg_webView:(CGBaseWebView *)webView webViewTitle:(NSString *)webViewTitle
+- (void)cg_webView:(CGWebView *)webView webViewTitle:(NSString *)webViewTitle
 {
     self.title  = webViewTitle;
 }

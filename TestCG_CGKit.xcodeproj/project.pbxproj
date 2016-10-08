@@ -157,8 +157,7 @@
 		00C95FFC1DA897D500D9BF90 /* CGTableViewEditDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E3A1DA897D300D9BF90 /* CGTableViewEditDataSourceManager.m */; };
 		00C95FFD1DA897D500D9BF90 /* CGSingleSectionTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E3D1DA897D300D9BF90 /* CGSingleSectionTableViewDataSource.m */; };
 		00C95FFE1DA897D500D9BF90 /* CGSingleSectionTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E3F1DA897D300D9BF90 /* CGSingleSectionTableViewDelegate.m */; };
-		00C95FFF1DA897D500D9BF90 /* CGBaseTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E421DA897D300D9BF90 /* CGBaseTextField.m */; };
-		00C960001DA897D500D9BF90 /* CGDefalutTextFieldInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E441DA897D300D9BF90 /* CGDefalutTextFieldInputView.m */; };
+		00C95FFF1DA897D500D9BF90 /* CGTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E421DA897D300D9BF90 /* CGTextField.m */; };
 		00C960011DA897D500D9BF90 /* CGTextFieldInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E461DA897D300D9BF90 /* CGTextFieldInputView.m */; };
 		00C960021DA897D500D9BF90 /* CGTextFieldInputViewAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E481DA897D300D9BF90 /* CGTextFieldInputViewAppearance.m */; };
 		00C960031DA897D500D9BF90 /* CGTextFieldDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E4B1DA897D300D9BF90 /* CGTextFieldDelegateManager.m */; };
@@ -205,7 +204,6 @@
 		00C9602C1DA897D500D9BF90 /* CGTitleLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95EC41DA897D300D9BF90 /* CGTitleLabelView.m */; };
 		00C9602D1DA897D500D9BF90 /* CGTitleTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95EC71DA897D300D9BF90 /* CGTitleTextFieldView.m */; };
 		00C9602E1DA897D500D9BF90 /* CGTitleTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95ECA1DA897D300D9BF90 /* CGTitleTextView.m */; };
-		00C9602F1DA897D500D9BF90 /* CGBaseWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95ECD1DA897D300D9BF90 /* CGBaseWebView.m */; };
 		00C960301DA897D500D9BF90 /* CGWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95ECF1DA897D300D9BF90 /* CGWebView.m */; };
 		00C960311DA897D500D9BF90 /* CGBorderBaseLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95ED71DA897D300D9BF90 /* CGBorderBaseLayer.m */; };
 		00C960321DA897D500D9BF90 /* NSArray+CGAddConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95EDC1DA897D300D9BF90 /* NSArray+CGAddConstraints.m */; };
@@ -647,10 +645,8 @@
 		00C95E3D1DA897D300D9BF90 /* CGSingleSectionTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleSectionTableViewDataSource.m; sourceTree = "<group>"; };
 		00C95E3E1DA897D300D9BF90 /* CGSingleSectionTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleSectionTableViewDelegate.h; sourceTree = "<group>"; };
 		00C95E3F1DA897D300D9BF90 /* CGSingleSectionTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleSectionTableViewDelegate.m; sourceTree = "<group>"; };
-		00C95E411DA897D300D9BF90 /* CGBaseTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseTextField.h; sourceTree = "<group>"; };
-		00C95E421DA897D300D9BF90 /* CGBaseTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseTextField.m; sourceTree = "<group>"; };
-		00C95E431DA897D300D9BF90 /* CGDefalutTextFieldInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDefalutTextFieldInputView.h; sourceTree = "<group>"; };
-		00C95E441DA897D300D9BF90 /* CGDefalutTextFieldInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDefalutTextFieldInputView.m; sourceTree = "<group>"; };
+		00C95E411DA897D300D9BF90 /* CGTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTextField.h; sourceTree = "<group>"; };
+		00C95E421DA897D300D9BF90 /* CGTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTextField.m; sourceTree = "<group>"; };
 		00C95E451DA897D300D9BF90 /* CGTextFieldInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTextFieldInputView.h; sourceTree = "<group>"; };
 		00C95E461DA897D300D9BF90 /* CGTextFieldInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTextFieldInputView.m; sourceTree = "<group>"; };
 		00C95E471DA897D300D9BF90 /* CGTextFieldInputViewAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTextFieldInputViewAppearance.h; sourceTree = "<group>"; };
@@ -748,8 +744,6 @@
 		00C95EC71DA897D300D9BF90 /* CGTitleTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleTextFieldView.m; sourceTree = "<group>"; };
 		00C95EC91DA897D300D9BF90 /* CGTitleTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleTextView.h; sourceTree = "<group>"; };
 		00C95ECA1DA897D300D9BF90 /* CGTitleTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleTextView.m; sourceTree = "<group>"; };
-		00C95ECC1DA897D300D9BF90 /* CGBaseWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseWebView.h; sourceTree = "<group>"; };
-		00C95ECD1DA897D300D9BF90 /* CGBaseWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseWebView.m; sourceTree = "<group>"; };
 		00C95ECE1DA897D300D9BF90 /* CGWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebView.h; sourceTree = "<group>"; };
 		00C95ECF1DA897D300D9BF90 /* CGWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWebView.m; sourceTree = "<group>"; };
 		00C95ED11DA897D300D9BF90 /* CGAlignmentHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAlignmentHeader.h; sourceTree = "<group>"; };
@@ -889,6 +883,7 @@
 		18A870161D68CED100C76A21 /* CGTestSubviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestSubviewViewController.m; sourceTree = "<group>"; };
 		18B41A9C1C13FE450031002B /* TestTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTextFieldCell.h; sourceTree = "<group>"; };
 		18B41A9D1C13FE450031002B /* TestTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTextFieldCell.m; sourceTree = "<group>"; };
+		18B98B9A1DA93B6600757FB6 /* CGImage+CategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGImage+CategoryHeader.h"; sourceTree = "<group>"; };
 		18DBAABC1C12818300552828 /* TestCG_CGKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCG_CGKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DBAAC91C12818300552828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18DBAACE1C12818300552828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -1617,6 +1612,7 @@
 				00C95D651DA897D200D9BF90 /* UIImage+CGResizableImage.m */,
 				00C95D661DA897D200D9BF90 /* UIImage+CGScaleImageSize.h */,
 				00C95D671DA897D200D9BF90 /* UIImage+CGScaleImageSize.m */,
+				18B98B9A1DA93B6600757FB6 /* CGImage+CategoryHeader.h */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -2150,10 +2146,8 @@
 		00C95E401DA897D300D9BF90 /* TextField */ = {
 			isa = PBXGroup;
 			children = (
-				00C95E411DA897D300D9BF90 /* CGBaseTextField.h */,
-				00C95E421DA897D300D9BF90 /* CGBaseTextField.m */,
-				00C95E431DA897D300D9BF90 /* CGDefalutTextFieldInputView.h */,
-				00C95E441DA897D300D9BF90 /* CGDefalutTextFieldInputView.m */,
+				00C95E411DA897D300D9BF90 /* CGTextField.h */,
+				00C95E421DA897D300D9BF90 /* CGTextField.m */,
 				00C95E451DA897D300D9BF90 /* CGTextFieldInputView.h */,
 				00C95E461DA897D300D9BF90 /* CGTextFieldInputView.m */,
 				00C95E471DA897D300D9BF90 /* CGTextFieldInputViewAppearance.h */,
@@ -2550,8 +2544,6 @@
 		00C95ECB1DA897D300D9BF90 /* WebView */ = {
 			isa = PBXGroup;
 			children = (
-				00C95ECC1DA897D300D9BF90 /* CGBaseWebView.h */,
-				00C95ECD1DA897D300D9BF90 /* CGBaseWebView.m */,
 				00C960681DA8B18900D9BF90 /* CGWebViewDelegate.h */,
 				00C960691DA8C58600D9BF90 /* NJKWebViewProgress.h */,
 				00C9606A1DA8C58600D9BF90 /* NJKWebViewProgress.m */,
@@ -3525,7 +3517,6 @@
 				00C95FBF1DA897D400D9BF90 /* UITextField+AddInputView.m in Sources */,
 				00C95FFD1DA897D500D9BF90 /* CGSingleSectionTableViewDataSource.m in Sources */,
 				00C95F8D1DA897D400D9BF90 /* NSString+CGEncryption.m in Sources */,
-				00C960001DA897D500D9BF90 /* CGDefalutTextFieldInputView.m in Sources */,
 				00C95FCD1DA897D400D9BF90 /* UITableView+CGScrolling.m in Sources */,
 				00C9604E1DA897D500D9BF90 /* UIViewController+CGPropertyValue.m in Sources */,
 				00C960531DA897D500D9BF90 /* UIViewController+CGAlert.m in Sources */,
@@ -3570,7 +3561,6 @@
 				00C960411DA897D500D9BF90 /* CGCreateViewsAppearance.m in Sources */,
 				00C9602D1DA897D500D9BF90 /* CGTitleTextFieldView.m in Sources */,
 				00C95F981DA897D400D9BF90 /* CGKeyboardManager.m in Sources */,
-				00C9602F1DA897D500D9BF90 /* CGBaseWebView.m in Sources */,
 				00C95F7B1DA897D400D9BF90 /* CGDispathMethod.m in Sources */,
 				18A870171D68CED100C76A21 /* CGTestSubviewViewController.m in Sources */,
 				00C95F951DA897D400D9BF90 /* EXTScope.m in Sources */,
@@ -3626,7 +3616,7 @@
 				00C95F721DA897D400D9BF90 /* UIView+CGLineMoveView.m in Sources */,
 				00C9605D1DA897D500D9BF90 /* CGPhotoNavigationController.m in Sources */,
 				00C95FA71DA897D400D9BF90 /* UIFont+CGCreateFont.m in Sources */,
-				00C95FFF1DA897D500D9BF90 /* CGBaseTextField.m in Sources */,
+				00C95FFF1DA897D500D9BF90 /* CGTextField.m in Sources */,
 				00C960381DA897D500D9BF90 /* NSLayoutConstraint+CGConstraint.m in Sources */,
 				00C95FC01DA897D400D9BF90 /* UICollectionView+CGDequeueReusableCell.m in Sources */,
 				00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */,

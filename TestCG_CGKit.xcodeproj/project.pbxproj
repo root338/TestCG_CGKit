@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0000D9B51D6593C30038E4A0 /* CGTestTitleBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000D9B41D6593C30038E4A0 /* CGTestTitleBarViewController.m */; };
 		0038420C1CEC132C00CB6B9D /* CGFoulLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003842091CEC132C00CB6B9D /* CGFoulLineView.swift */; };
+		005502A61DA8E495009D8421 /* CGWKWebViewDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 005502A51DA8E495009D8421 /* CGWKWebViewDelegateManager.m */; };
+		005502BC1DA8FBF6009D8421 /* CGUIWebViewDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 005502BB1DA8FBF6009D8421 /* CGUIWebViewDelegateManager.m */; };
 		0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */; };
 		0069BB061C85431A00C5A628 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0069BB051C85431A00C5A628 /* 2.jpg */; };
 		007936D51D4858DE007D963C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007936D41D4858DE007D963C /* WebKit.framework */; };
@@ -254,6 +256,7 @@
 		00C960601DA897D500D9BF90 /* CGWebPrivateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95F671DA897D400D9BF90 /* CGWebPrivateView.m */; };
 		00C960611DA897D500D9BF90 /* CGSingleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95F6B1DA897D400D9BF90 /* CGSingleTableViewController.m */; };
 		00C960621DA897D500D9BF90 /* CGDefaultPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95F711DA897D400D9BF90 /* CGDefaultPopAnimation.m */; };
+		00C9606B1DA8C58600D9BF90 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C9606A1DA8C58600D9BF90 /* NJKWebViewProgress.m */; };
 		00D307AD1CC76E350040EFC8 /* CGTestWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */; };
 		183CCCA41CC5894400235486 /* CGTestPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */; };
 		185086E71CC303E4001CBC6B /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185086E61CC303E4001CBC6B /* Photos.framework */; };
@@ -320,6 +323,10 @@
 		0000D9B41D6593C30038E4A0 /* CGTestTitleBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestTitleBarViewController.m; sourceTree = "<group>"; };
 		003842091CEC132C00CB6B9D /* CGFoulLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFoulLineView.swift; sourceTree = "<group>"; };
 		0038420A1CEC132C00CB6B9D /* CGSwiftKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGSwiftKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		005502A41DA8E495009D8421 /* CGWKWebViewDelegateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWKWebViewDelegateManager.h; sourceTree = "<group>"; };
+		005502A51DA8E495009D8421 /* CGWKWebViewDelegateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWKWebViewDelegateManager.m; sourceTree = "<group>"; };
+		005502BA1DA8FBF6009D8421 /* CGUIWebViewDelegateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUIWebViewDelegateManager.h; sourceTree = "<group>"; };
+		005502BB1DA8FBF6009D8421 /* CGUIWebViewDelegateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGUIWebViewDelegateManager.m; sourceTree = "<group>"; };
 		0069BB011C85418C00C5A628 /* TestCATranform3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCATranform3DViewController.h; sourceTree = "<group>"; };
 		0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCATranform3DViewController.m; sourceTree = "<group>"; };
 		0069BB051C85431A00C5A628 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
@@ -861,6 +868,9 @@
 		00C95F6E1DA897D400D9BF90 /* CGPopAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPopAnimationProtocol.h; sourceTree = "<group>"; };
 		00C95F701DA897D400D9BF90 /* CGDefaultPopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDefaultPopAnimation.h; sourceTree = "<group>"; };
 		00C95F711DA897D400D9BF90 /* CGDefaultPopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDefaultPopAnimation.m; sourceTree = "<group>"; };
+		00C960681DA8B18900D9BF90 /* CGWebViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebViewDelegate.h; sourceTree = "<group>"; };
+		00C960691DA8C58600D9BF90 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
+		00C9606A1DA8C58600D9BF90 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
 		00D307AB1CC76E350040EFC8 /* CGTestWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestWKWebViewController.h; sourceTree = "<group>"; };
 		00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestWKWebViewController.m; sourceTree = "<group>"; };
 		183CCCA21CC5894400235486 /* CGTestPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestPhotosViewController.h; sourceTree = "<group>"; };
@@ -2542,6 +2552,10 @@
 			children = (
 				00C95ECC1DA897D300D9BF90 /* CGBaseWebView.h */,
 				00C95ECD1DA897D300D9BF90 /* CGBaseWebView.m */,
+				00C960681DA8B18900D9BF90 /* CGWebViewDelegate.h */,
+				00C960691DA8C58600D9BF90 /* NJKWebViewProgress.h */,
+				00C9606A1DA8C58600D9BF90 /* NJKWebViewProgress.m */,
+				00C960641DA8A69800D9BF90 /* DelegateManager */,
 				00C95ECE1DA897D300D9BF90 /* CGWebView.h */,
 				00C95ECF1DA897D300D9BF90 /* CGWebView.m */,
 			);
@@ -3018,6 +3032,17 @@
 			path = PushPopAnimation;
 			sourceTree = "<group>";
 		};
+		00C960641DA8A69800D9BF90 /* DelegateManager */ = {
+			isa = PBXGroup;
+			children = (
+				005502BA1DA8FBF6009D8421 /* CGUIWebViewDelegateManager.h */,
+				005502BB1DA8FBF6009D8421 /* CGUIWebViewDelegateManager.m */,
+				005502A41DA8E495009D8421 /* CGWKWebViewDelegateManager.h */,
+				005502A51DA8E495009D8421 /* CGWKWebViewDelegateManager.m */,
+			);
+			path = DelegateManager;
+			sourceTree = "<group>";
+		};
 		00D307AA1CC76E170040EFC8 /* Test WKWebView */ = {
 			isa = PBXGroup;
 			children = (
@@ -3375,10 +3400,12 @@
 					};
 					18DBAAD41C12818300552828 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 29W9687J6A;
 						TestTargetID = 18DBAABB1C12818300552828;
 					};
 					18DBAADF1C12818400552828 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 29W9687J6A;
 						TestTargetID = 18DBAABB1C12818300552828;
 					};
 					18F21B8D1CC3F6B100B58B16 = {
@@ -3531,6 +3558,7 @@
 				00C95FEA1DA897D500D9BF90 /* CGBrowsePhotoListView.m in Sources */,
 				00C95FAE1DA897D400D9BF90 /* CGCalculateCGSize.m in Sources */,
 				00C9600C1DA897D500D9BF90 /* CGPhotoGroupTableViewCell.m in Sources */,
+				005502BC1DA8FBF6009D8421 /* CGUIWebViewDelegateManager.m in Sources */,
 				00C95FB31DA897D400D9BF90 /* UIButton+UpdateLocate.m in Sources */,
 				00C95FA91DA897D400D9BF90 /* UIImage+CGDrawImage.m in Sources */,
 				00C95FBE1DA897D400D9BF90 /* UIView+CGCreate.m in Sources */,
@@ -3593,6 +3621,7 @@
 				00C95FF01DA897D500D9BF90 /* CGBaseLabel.m in Sources */,
 				00C9605A1DA897D500D9BF90 /* CGBrowsePhotoViewController.m in Sources */,
 				00C95FB81DA897D400D9BF90 /* UIImageView+CGCreate.m in Sources */,
+				005502A61DA8E495009D8421 /* CGWKWebViewDelegateManager.m in Sources */,
 				00C95F841DA897D400D9BF90 /* UIImageView+CGSetupImageURL.m in Sources */,
 				00C95F721DA897D400D9BF90 /* UIView+CGLineMoveView.m in Sources */,
 				00C9605D1DA897D500D9BF90 /* CGPhotoNavigationController.m in Sources */,
@@ -3634,6 +3663,7 @@
 				1885F3921CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m in Sources */,
 				00C95F881DA897D400D9BF90 /* NSBundle+GetAppInfo.m in Sources */,
 				00C960581DA897D500D9BF90 /* CGScrollViewController.m in Sources */,
+				00C9606B1DA8C58600D9BF90 /* NJKWebViewProgress.m in Sources */,
 				00C960261DA897D500D9BF90 /* CGTitleButtonsLayoutView.m in Sources */,
 				1894AE8B1CAFD83F005A518C /* CGTestDefinesData.m in Sources */,
 				00C9601D1DA897D500D9BF90 /* CGLineView.m in Sources */,
@@ -3988,7 +4018,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 29W9687J6A;
 				INFOPLIST_FILE = TestCG_CGKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CG.TestCG-CGKitTests";
@@ -4001,7 +4032,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 29W9687J6A;
 				INFOPLIST_FILE = TestCG_CGKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CG.TestCG-CGKitTests";
@@ -4014,7 +4046,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 29W9687J6A;
 				INFOPLIST_FILE = TestCG_CGKitUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CG.TestCG-CGKitUITests";
@@ -4028,7 +4060,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 29W9687J6A;
 				INFOPLIST_FILE = TestCG_CGKitUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CG.TestCG-CGKitUITests";
@@ -4041,6 +4073,7 @@
 		18F21B9B1CC3F6B100B58B16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 29W9687J6A;
 				INFOPLIST_FILE = CGKitShareExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -4054,6 +4087,7 @@
 		18F21B9C1CC3F6B100B58B16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 29W9687J6A;
 				INFOPLIST_FILE = CGKitShareExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

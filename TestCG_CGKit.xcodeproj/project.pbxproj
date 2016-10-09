@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0000D9B51D6593C30038E4A0 /* CGTestTitleBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000D9B41D6593C30038E4A0 /* CGTestTitleBarViewController.m */; };
+		00064D481DA9EFB00019D2BA /* CGTestDrawImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00064D471DA9EFB00019D2BA /* CGTestDrawImageViewController.m */; };
+		00064D4F1DA9FF390019D2BA /* UIImage+CGDrawIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 00064D4E1DA9FF390019D2BA /* UIImage+CGDrawIcon.m */; };
+		00064D531DA9FF7E0019D2BA /* CGIconConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 00064D521DA9FF7E0019D2BA /* CGIconConfig.m */; };
+		00064D561DAA003A0019D2BA /* CGArrowIconConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 00064D551DAA003A0019D2BA /* CGArrowIconConfig.m */; };
+		00064D5B1DAA33D40019D2BA /* CGTestInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00064D5A1DAA33D40019D2BA /* CGTestInputViewController.m */; };
 		0038420C1CEC132C00CB6B9D /* CGFoulLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003842091CEC132C00CB6B9D /* CGFoulLineView.swift */; };
 		005502A61DA8E495009D8421 /* CGWKWebViewDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 005502A51DA8E495009D8421 /* CGWKWebViewDelegateManager.m */; };
 		005502BC1DA8FBF6009D8421 /* CGUIWebViewDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 005502BB1DA8FBF6009D8421 /* CGUIWebViewDelegateManager.m */; };
@@ -158,7 +163,7 @@
 		00C95FFD1DA897D500D9BF90 /* CGSingleSectionTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E3D1DA897D300D9BF90 /* CGSingleSectionTableViewDataSource.m */; };
 		00C95FFE1DA897D500D9BF90 /* CGSingleSectionTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E3F1DA897D300D9BF90 /* CGSingleSectionTableViewDelegate.m */; };
 		00C95FFF1DA897D500D9BF90 /* CGTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E421DA897D300D9BF90 /* CGTextField.m */; };
-		00C960011DA897D500D9BF90 /* CGTextFieldInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E461DA897D300D9BF90 /* CGTextFieldInputView.m */; };
+		00C960011DA897D500D9BF90 /* CGInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E461DA897D300D9BF90 /* CGInputAccessoryView.m */; };
 		00C960021DA897D500D9BF90 /* CGTextFieldInputViewAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E481DA897D300D9BF90 /* CGTextFieldInputViewAppearance.m */; };
 		00C960031DA897D500D9BF90 /* CGTextFieldDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E4B1DA897D300D9BF90 /* CGTextFieldDelegateManager.m */; };
 		00C960041DA897D500D9BF90 /* CGBaseTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E4E1DA897D300D9BF90 /* CGBaseTextView.m */; };
@@ -319,6 +324,17 @@
 /* Begin PBXFileReference section */
 		0000D9B31D6593C30038E4A0 /* CGTestTitleBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestTitleBarViewController.h; sourceTree = "<group>"; };
 		0000D9B41D6593C30038E4A0 /* CGTestTitleBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestTitleBarViewController.m; sourceTree = "<group>"; };
+		00064D461DA9EFB00019D2BA /* CGTestDrawImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestDrawImageViewController.h; sourceTree = "<group>"; };
+		00064D471DA9EFB00019D2BA /* CGTestDrawImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestDrawImageViewController.m; sourceTree = "<group>"; };
+		00064D4D1DA9FF390019D2BA /* UIImage+CGDrawIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CGDrawIcon.h"; sourceTree = "<group>"; };
+		00064D4E1DA9FF390019D2BA /* UIImage+CGDrawIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CGDrawIcon.m"; sourceTree = "<group>"; };
+		00064D511DA9FF7E0019D2BA /* CGIconConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGIconConfig.h; sourceTree = "<group>"; };
+		00064D521DA9FF7E0019D2BA /* CGIconConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGIconConfig.m; sourceTree = "<group>"; };
+		00064D541DAA003A0019D2BA /* CGArrowIconConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGArrowIconConfig.h; sourceTree = "<group>"; };
+		00064D551DAA003A0019D2BA /* CGArrowIconConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGArrowIconConfig.m; sourceTree = "<group>"; };
+		00064D581DAA13FF0019D2BA /* CGOrientationTypeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGOrientationTypeHeader.h; sourceTree = "<group>"; };
+		00064D591DAA33D40019D2BA /* CGTestInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestInputViewController.h; sourceTree = "<group>"; };
+		00064D5A1DAA33D40019D2BA /* CGTestInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestInputViewController.m; sourceTree = "<group>"; };
 		003842091CEC132C00CB6B9D /* CGFoulLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFoulLineView.swift; sourceTree = "<group>"; };
 		0038420A1CEC132C00CB6B9D /* CGSwiftKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGSwiftKit-Bridging-Header.h"; sourceTree = "<group>"; };
 		005502A41DA8E495009D8421 /* CGWKWebViewDelegateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWKWebViewDelegateManager.h; sourceTree = "<group>"; };
@@ -647,8 +663,8 @@
 		00C95E3F1DA897D300D9BF90 /* CGSingleSectionTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleSectionTableViewDelegate.m; sourceTree = "<group>"; };
 		00C95E411DA897D300D9BF90 /* CGTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTextField.h; sourceTree = "<group>"; };
 		00C95E421DA897D300D9BF90 /* CGTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTextField.m; sourceTree = "<group>"; };
-		00C95E451DA897D300D9BF90 /* CGTextFieldInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTextFieldInputView.h; sourceTree = "<group>"; };
-		00C95E461DA897D300D9BF90 /* CGTextFieldInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTextFieldInputView.m; sourceTree = "<group>"; };
+		00C95E451DA897D300D9BF90 /* CGInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGInputAccessoryView.h; sourceTree = "<group>"; };
+		00C95E461DA897D300D9BF90 /* CGInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGInputAccessoryView.m; sourceTree = "<group>"; };
 		00C95E471DA897D300D9BF90 /* CGTextFieldInputViewAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTextFieldInputViewAppearance.h; sourceTree = "<group>"; };
 		00C95E481DA897D300D9BF90 /* CGTextFieldInputViewAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTextFieldInputViewAppearance.m; sourceTree = "<group>"; };
 		00C95E4A1DA897D300D9BF90 /* CGTextFieldDelegateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTextFieldDelegateManager.h; sourceTree = "<group>"; };
@@ -947,6 +963,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00064D4C1DA9FF1F0019D2BA /* DrawIcon */ = {
+			isa = PBXGroup;
+			children = (
+				00064D501DA9FF670019D2BA /* Config File */,
+				00064D4D1DA9FF390019D2BA /* UIImage+CGDrawIcon.h */,
+				00064D4E1DA9FF390019D2BA /* UIImage+CGDrawIcon.m */,
+			);
+			path = DrawIcon;
+			sourceTree = "<group>";
+		};
+		00064D501DA9FF670019D2BA /* Config File */ = {
+			isa = PBXGroup;
+			children = (
+				00064D511DA9FF7E0019D2BA /* CGIconConfig.h */,
+				00064D521DA9FF7E0019D2BA /* CGIconConfig.m */,
+				00064D541DAA003A0019D2BA /* CGArrowIconConfig.h */,
+				00064D551DAA003A0019D2BA /* CGArrowIconConfig.m */,
+			);
+			path = "Config File";
+			sourceTree = "<group>";
+		};
+		00064D571DAA13EE0019D2BA /* Enum Type */ = {
+			isa = PBXGroup;
+			children = (
+				00064D581DAA13FF0019D2BA /* CGOrientationTypeHeader.h */,
+			);
+			path = "Enum Type";
+			sourceTree = "<group>";
+		};
 		003842051CEC132C00CB6B9D /* CGSwiftKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -1008,6 +1053,7 @@
 		00C95CA31DA897D200D9BF90 /* CG_CGKit */ = {
 			isa = PBXGroup;
 			children = (
+				00064D571DAA13EE0019D2BA /* Enum Type */,
 				00C95CA41DA897D200D9BF90 /* Anmation */,
 				00C95CB61DA897D200D9BF90 /* APPPurviewJudge */,
 				00C95CB91DA897D200D9BF90 /* Foundation */,
@@ -1613,6 +1659,7 @@
 				00C95D661DA897D200D9BF90 /* UIImage+CGScaleImageSize.h */,
 				00C95D671DA897D200D9BF90 /* UIImage+CGScaleImageSize.m */,
 				18B98B9A1DA93B6600757FB6 /* CGImage+CategoryHeader.h */,
+				00064D4C1DA9FF1F0019D2BA /* DrawIcon */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -2148,8 +2195,8 @@
 			children = (
 				00C95E411DA897D300D9BF90 /* CGTextField.h */,
 				00C95E421DA897D300D9BF90 /* CGTextField.m */,
-				00C95E451DA897D300D9BF90 /* CGTextFieldInputView.h */,
-				00C95E461DA897D300D9BF90 /* CGTextFieldInputView.m */,
+				00C95E451DA897D300D9BF90 /* CGInputAccessoryView.h */,
+				00C95E461DA897D300D9BF90 /* CGInputAccessoryView.m */,
 				00C95E471DA897D300D9BF90 /* CGTextFieldInputViewAppearance.h */,
 				00C95E481DA897D300D9BF90 /* CGTextFieldInputViewAppearance.m */,
 				00C95E491DA897D300D9BF90 /* TextFieldDelegateManager */,
@@ -3118,6 +3165,10 @@
 				0000D9B41D6593C30038E4A0 /* CGTestTitleBarViewController.m */,
 				18A870151D68CED100C76A21 /* CGTestSubviewViewController.h */,
 				18A870161D68CED100C76A21 /* CGTestSubviewViewController.m */,
+				00064D461DA9EFB00019D2BA /* CGTestDrawImageViewController.h */,
+				00064D471DA9EFB00019D2BA /* CGTestDrawImageViewController.m */,
+				00064D591DAA33D40019D2BA /* CGTestInputViewController.h */,
+				00064D5A1DAA33D40019D2BA /* CGTestInputViewController.m */,
 			);
 			path = TestDetailVC;
 			sourceTree = "<group>";
@@ -3558,6 +3609,7 @@
 				00C960081DA897D500D9BF90 /* CGBrowsePhotoCollectionViewCell.m in Sources */,
 				00C95FEB1DA897D500D9BF90 /* CGCollectionView.m in Sources */,
 				00C95FD11DA897D400D9BF90 /* UIView+CGAnimated.m in Sources */,
+				00064D4F1DA9FF390019D2BA /* UIImage+CGDrawIcon.m in Sources */,
 				00C960411DA897D500D9BF90 /* CGCreateViewsAppearance.m in Sources */,
 				00C9602D1DA897D500D9BF90 /* CGTitleTextFieldView.m in Sources */,
 				00C95F981DA897D400D9BF90 /* CGKeyboardManager.m in Sources */,
@@ -3603,6 +3655,7 @@
 				00C95FBD1DA897D400D9BF90 /* UITextField+CG_Create.m in Sources */,
 				00C95FDD1DA897D400D9BF90 /* UIView+CGSetupAppearance.m in Sources */,
 				00C95FB41DA897D400D9BF90 /* UILabel+CGCreateLayoutCustomLabel.m in Sources */,
+				00064D561DAA003A0019D2BA /* CGArrowIconConfig.m in Sources */,
 				00C95F781DA897D400D9BF90 /* NSObject+JudgePurview.m in Sources */,
 				00C95FAF1DA897D400D9BF90 /* UILabel+CalculateTextSize.m in Sources */,
 				00C960111DA897D500D9BF90 /* CGDoubleButtonsView.m in Sources */,
@@ -3615,6 +3668,7 @@
 				00C95F841DA897D400D9BF90 /* UIImageView+CGSetupImageURL.m in Sources */,
 				00C95F721DA897D400D9BF90 /* UIView+CGLineMoveView.m in Sources */,
 				00C9605D1DA897D500D9BF90 /* CGPhotoNavigationController.m in Sources */,
+				00064D531DA9FF7E0019D2BA /* CGIconConfig.m in Sources */,
 				00C95FA71DA897D400D9BF90 /* UIFont+CGCreateFont.m in Sources */,
 				00C95FFF1DA897D500D9BF90 /* CGTextField.m in Sources */,
 				00C960381DA897D500D9BF90 /* NSLayoutConstraint+CGConstraint.m in Sources */,
@@ -3658,6 +3712,7 @@
 				1894AE8B1CAFD83F005A518C /* CGTestDefinesData.m in Sources */,
 				00C9601D1DA897D500D9BF90 /* CGLineView.m in Sources */,
 				00C9604F1DA897D500D9BF90 /* UIViewController+CGFullscreenPopGesture.m in Sources */,
+				00064D481DA9EFB00019D2BA /* CGTestDrawImageViewController.m in Sources */,
 				00C960121DA897D500D9BF90 /* CGCycleViewCacheManager.m in Sources */,
 				00C95FAC1DA897D400D9BF90 /* UIImage+CGScaleImageSize.m in Sources */,
 				00C95FED1DA897D500D9BF90 /* UICollectionViewFlowLayout+CGCreateLayout.m in Sources */,
@@ -3739,7 +3794,7 @@
 				00C95FAD1DA897D400D9BF90 /* CGFCManager.m in Sources */,
 				18DBAAF91C12877E00552828 /* AppDelegate.m in Sources */,
 				00C95FF11DA897D500D9BF90 /* CGLabel.m in Sources */,
-				00C960011DA897D500D9BF90 /* CGTextFieldInputView.m in Sources */,
+				00C960011DA897D500D9BF90 /* CGInputAccessoryView.m in Sources */,
 				00C95F7E1DA897D400D9BF90 /* CGRequestManager.m in Sources */,
 				00C95FAB1DA897D400D9BF90 /* UIImage+CGResizableImage.m in Sources */,
 				00C960621DA897D500D9BF90 /* CGDefaultPopAnimation.m in Sources */,
@@ -3773,6 +3828,7 @@
 				00C95F741DA897D400D9BF90 /* UIView+CGScaleViewFromOverlayView.m in Sources */,
 				1894AE871CAFD4F3005A518C /* CGTestDefinesTableViewController.m in Sources */,
 				00C95F921DA897D400D9BF90 /* NSObject+CGGetPrivateAPI.m in Sources */,
+				00064D5B1DAA33D40019D2BA /* CGTestInputViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

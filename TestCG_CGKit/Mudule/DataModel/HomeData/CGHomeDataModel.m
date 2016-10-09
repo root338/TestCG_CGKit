@@ -33,6 +33,10 @@
 #import "CGTestSubviewViewController.h"
 
 #import "CGTestCGScrollViewController.h"
+/** 测试绘制图片 */
+#import "CGTestDrawImageViewController.h"
+/** 输入框的切换 */
+#import "CGTestInputViewController.h"
 
 #import "TestCG_CGKit-Swift.h"
 
@@ -166,6 +170,12 @@
     
     CGHomeDataModel *testCGScrollVC     = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestCGScrollViewController class] title:@"测试 CGScrollView" subtitle:@"测试 CGScrollView 各个属性值"];
     [dataSourceList addObject:testCGScrollVC];
+    
+    CGHomeDataModel *testDrawImageVC    = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestDrawImageViewController class] title:@"测试绘制图片" subtitle:nil];
+    [dataSourceList addObject:testDrawImageVC];
+    
+    CGHomeDataModel *testInputVC  = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestInputViewController class] title:@"多个输入框的切换" subtitle:nil];
+    [dataSourceList addObject:testInputVC];
     
     return dataSourceList;
 }

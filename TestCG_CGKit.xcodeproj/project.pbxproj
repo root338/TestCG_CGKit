@@ -164,7 +164,7 @@
 		00C95FFE1DA897D500D9BF90 /* CGSingleSectionTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E3F1DA897D300D9BF90 /* CGSingleSectionTableViewDelegate.m */; };
 		00C95FFF1DA897D500D9BF90 /* CGTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E421DA897D300D9BF90 /* CGTextField.m */; };
 		00C960011DA897D500D9BF90 /* CGInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E461DA897D300D9BF90 /* CGInputAccessoryView.m */; };
-		00C960021DA897D500D9BF90 /* CGTextFieldInputViewAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E481DA897D300D9BF90 /* CGTextFieldInputViewAppearance.m */; };
+		00C960021DA897D500D9BF90 /* CGInputAccessoryViewAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E481DA897D300D9BF90 /* CGInputAccessoryViewAppearance.m */; };
 		00C960031DA897D500D9BF90 /* CGTextFieldDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E4B1DA897D300D9BF90 /* CGTextFieldDelegateManager.m */; };
 		00C960041DA897D500D9BF90 /* CGBaseTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E4E1DA897D300D9BF90 /* CGBaseTextView.m */; };
 		00C960051DA897D500D9BF90 /* CGInputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95E501DA897D300D9BF90 /* CGInputTextView.m */; };
@@ -665,8 +665,8 @@
 		00C95E421DA897D300D9BF90 /* CGTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTextField.m; sourceTree = "<group>"; };
 		00C95E451DA897D300D9BF90 /* CGInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGInputAccessoryView.h; sourceTree = "<group>"; };
 		00C95E461DA897D300D9BF90 /* CGInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGInputAccessoryView.m; sourceTree = "<group>"; };
-		00C95E471DA897D300D9BF90 /* CGTextFieldInputViewAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTextFieldInputViewAppearance.h; sourceTree = "<group>"; };
-		00C95E481DA897D300D9BF90 /* CGTextFieldInputViewAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTextFieldInputViewAppearance.m; sourceTree = "<group>"; };
+		00C95E471DA897D300D9BF90 /* CGInputAccessoryViewAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGInputAccessoryViewAppearance.h; sourceTree = "<group>"; };
+		00C95E481DA897D300D9BF90 /* CGInputAccessoryViewAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGInputAccessoryViewAppearance.m; sourceTree = "<group>"; };
 		00C95E4A1DA897D300D9BF90 /* CGTextFieldDelegateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTextFieldDelegateManager.h; sourceTree = "<group>"; };
 		00C95E4B1DA897D300D9BF90 /* CGTextFieldDelegateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTextFieldDelegateManager.m; sourceTree = "<group>"; };
 		00C95E4D1DA897D300D9BF90 /* CGBaseTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseTextView.h; sourceTree = "<group>"; };
@@ -2197,8 +2197,8 @@
 				00C95E421DA897D300D9BF90 /* CGTextField.m */,
 				00C95E451DA897D300D9BF90 /* CGInputAccessoryView.h */,
 				00C95E461DA897D300D9BF90 /* CGInputAccessoryView.m */,
-				00C95E471DA897D300D9BF90 /* CGTextFieldInputViewAppearance.h */,
-				00C95E481DA897D300D9BF90 /* CGTextFieldInputViewAppearance.m */,
+				00C95E471DA897D300D9BF90 /* CGInputAccessoryViewAppearance.h */,
+				00C95E481DA897D300D9BF90 /* CGInputAccessoryViewAppearance.m */,
 				00C95E491DA897D300D9BF90 /* TextFieldDelegateManager */,
 			);
 			path = TextField;
@@ -3780,7 +3780,7 @@
 				00C960551DA897D500D9BF90 /* CGNavigationDelegateObject.m in Sources */,
 				00C95FF21DA897D500D9BF90 /* CGMultilineLabel.m in Sources */,
 				00C9604B1DA897D500D9BF90 /* CGBaseTableViewController.m in Sources */,
-				00C960021DA897D500D9BF90 /* CGTextFieldInputViewAppearance.m in Sources */,
+				00C960021DA897D500D9BF90 /* CGInputAccessoryViewAppearance.m in Sources */,
 				00C960101DA897D500D9BF90 /* CGTitleBaseView.m in Sources */,
 				00C95FBC1DA897D400D9BF90 /* UITableView+CGCreateTableView.m in Sources */,
 				00C95F7D1DA897D400D9BF90 /* CGHandleRequestData.m in Sources */,

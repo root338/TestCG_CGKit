@@ -255,12 +255,14 @@
 		00C9605C1DA897D500D9BF90 /* CGPhotoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95F5B1DA897D400D9BF90 /* CGPhotoListViewController.m */; };
 		00C9605D1DA897D500D9BF90 /* CGPhotoNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95F5D1DA897D400D9BF90 /* CGPhotoNavigationController.m */; };
 		00C9605E1DA897D500D9BF90 /* CGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95F601DA897D400D9BF90 /* CGWebViewController.m */; };
-		00C9605F1DA897D500D9BF90 /* CGWebBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95F651DA897D400D9BF90 /* CGWebBottomView.m */; };
+		00C9605F1DA897D500D9BF90 /* CGWebViewToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95F651DA897D400D9BF90 /* CGWebViewToolBar.m */; };
 		00C960601DA897D500D9BF90 /* CGWebPrivateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95F671DA897D400D9BF90 /* CGWebPrivateView.m */; };
 		00C960611DA897D500D9BF90 /* CGSingleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95F6B1DA897D400D9BF90 /* CGSingleTableViewController.m */; };
 		00C960621DA897D500D9BF90 /* CGDefaultPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95F711DA897D400D9BF90 /* CGDefaultPopAnimation.m */; };
 		00C9606B1DA8C58600D9BF90 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C9606A1DA8C58600D9BF90 /* NJKWebViewProgress.m */; };
 		00D307AD1CC76E350040EFC8 /* CGTestWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */; };
+		181865C01DABD3AE00DCCB76 /* CGWebViewToolBarItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 181865BF1DABD3AE00DCCB76 /* CGWebViewToolBarItemManager.m */; };
+		181865C41DABD89F00DCCB76 /* CGCloseIconConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 181865C31DABD89F00DCCB76 /* CGCloseIconConfig.m */; };
 		183CCCA41CC5894400235486 /* CGTestPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */; };
 		185086E71CC303E4001CBC6B /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185086E61CC303E4001CBC6B /* Photos.framework */; };
 		185EA9391D481D9700A3568F /* CGTestCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185EA9381D481D9700A3568F /* CGTestCycleViewController.m */; };
@@ -868,8 +870,8 @@
 		00C95F5F1DA897D400D9BF90 /* CGWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebViewController.h; sourceTree = "<group>"; };
 		00C95F601DA897D400D9BF90 /* CGWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWebViewController.m; sourceTree = "<group>"; };
 		00C95F621DA897D400D9BF90 /* CGWebPrivateViewTypeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebPrivateViewTypeHeader.h; sourceTree = "<group>"; };
-		00C95F641DA897D400D9BF90 /* CGWebBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebBottomView.h; sourceTree = "<group>"; };
-		00C95F651DA897D400D9BF90 /* CGWebBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWebBottomView.m; sourceTree = "<group>"; };
+		00C95F641DA897D400D9BF90 /* CGWebViewToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebViewToolBar.h; sourceTree = "<group>"; };
+		00C95F651DA897D400D9BF90 /* CGWebViewToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWebViewToolBar.m; sourceTree = "<group>"; };
 		00C95F661DA897D400D9BF90 /* CGWebPrivateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebPrivateView.h; sourceTree = "<group>"; };
 		00C95F671DA897D400D9BF90 /* CGWebPrivateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWebPrivateView.m; sourceTree = "<group>"; };
 		00C95F6A1DA897D400D9BF90 /* CGSingleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleTableViewController.h; sourceTree = "<group>"; };
@@ -883,6 +885,11 @@
 		00C9606A1DA8C58600D9BF90 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
 		00D307AB1CC76E350040EFC8 /* CGTestWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestWKWebViewController.h; sourceTree = "<group>"; };
 		00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestWKWebViewController.m; sourceTree = "<group>"; };
+		181865BE1DABD3AE00DCCB76 /* CGWebViewToolBarItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebViewToolBarItemManager.h; sourceTree = "<group>"; };
+		181865BF1DABD3AE00DCCB76 /* CGWebViewToolBarItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWebViewToolBarItemManager.m; sourceTree = "<group>"; };
+		181865C11DABD3E700DCCB76 /* CGWebViewToolBarHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGWebViewToolBarHeader.h; sourceTree = "<group>"; };
+		181865C21DABD89F00DCCB76 /* CGCloseIconConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCloseIconConfig.h; sourceTree = "<group>"; };
+		181865C31DABD89F00DCCB76 /* CGCloseIconConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCloseIconConfig.m; sourceTree = "<group>"; };
 		183CCCA21CC5894400235486 /* CGTestPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestPhotosViewController.h; sourceTree = "<group>"; };
 		183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestPhotosViewController.m; sourceTree = "<group>"; };
 		185086E61CC303E4001CBC6B /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
@@ -980,6 +987,8 @@
 				00064D521DA9FF7E0019D2BA /* CGIconConfig.m */,
 				00064D541DAA003A0019D2BA /* CGArrowIconConfig.h */,
 				00064D551DAA003A0019D2BA /* CGArrowIconConfig.m */,
+				181865C21DABD89F00DCCB76 /* CGCloseIconConfig.h */,
+				181865C31DABD89F00DCCB76 /* CGCloseIconConfig.m */,
 			);
 			path = "Config File";
 			sourceTree = "<group>";
@@ -3029,10 +3038,13 @@
 		00C95F631DA897D400D9BF90 /* WebSubview */ = {
 			isa = PBXGroup;
 			children = (
-				00C95F641DA897D400D9BF90 /* CGWebBottomView.h */,
-				00C95F651DA897D400D9BF90 /* CGWebBottomView.m */,
+				00C95F641DA897D400D9BF90 /* CGWebViewToolBar.h */,
+				00C95F651DA897D400D9BF90 /* CGWebViewToolBar.m */,
+				181865BE1DABD3AE00DCCB76 /* CGWebViewToolBarItemManager.h */,
+				181865BF1DABD3AE00DCCB76 /* CGWebViewToolBarItemManager.m */,
 				00C95F661DA897D400D9BF90 /* CGWebPrivateView.h */,
 				00C95F671DA897D400D9BF90 /* CGWebPrivateView.m */,
+				181865C11DABD3E700DCCB76 /* CGWebViewToolBarHeader.h */,
 			);
 			path = WebSubview;
 			sourceTree = "<group>";
@@ -3648,7 +3660,7 @@
 				00C960221DA897D500D9BF90 /* CGTitleRadioCollectionViewCell.m in Sources */,
 				00C9600E1DA897D500D9BF90 /* CGNavigationBarView.m in Sources */,
 				00C9605B1DA897D500D9BF90 /* CGPhotoGroupViewController.m in Sources */,
-				00C9605F1DA897D500D9BF90 /* CGWebBottomView.m in Sources */,
+				00C9605F1DA897D500D9BF90 /* CGWebViewToolBar.m in Sources */,
 				00C960461DA897D500D9BF90 /* CGBorderObject.m in Sources */,
 				00C95FF31DA897D500D9BF90 /* CGPlaceholderLabel.m in Sources */,
 				00C9604D1DA897D500D9BF90 /* CGNavigationBarViewController.m in Sources */,
@@ -3662,6 +3674,7 @@
 				00C9602B1DA897D500D9BF90 /* CGTitleButtonView.m in Sources */,
 				00C95FB01DA897D400D9BF90 /* UIView+Transform.m in Sources */,
 				00C95FF01DA897D500D9BF90 /* CGBaseLabel.m in Sources */,
+				181865C01DABD3AE00DCCB76 /* CGWebViewToolBarItemManager.m in Sources */,
 				00C9605A1DA897D500D9BF90 /* CGBrowsePhotoViewController.m in Sources */,
 				00C95FB81DA897D400D9BF90 /* UIImageView+CGCreate.m in Sources */,
 				005502A61DA8E495009D8421 /* CGWKWebViewDelegateManager.m in Sources */,
@@ -3771,6 +3784,7 @@
 				00C95F7F1DA897D400D9BF90 /* CGUserInfoModel.m in Sources */,
 				00C95FDC1DA897D400D9BF90 /* UIView+CGBorderLayer.m in Sources */,
 				0000D9B51D6593C30038E4A0 /* CGTestTitleBarViewController.m in Sources */,
+				181865C41DABD89F00DCCB76 /* CGCloseIconConfig.m in Sources */,
 				00C960571DA897D500D9BF90 /* CGQRCodeViewController.m in Sources */,
 				00C960141DA897D500D9BF90 /* CGCycleScrollView+CGBuildLayout.m in Sources */,
 				00C95FC41DA897D400D9BF90 /* UIScrollView+CGProperty.m in Sources */,

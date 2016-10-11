@@ -14,6 +14,7 @@
 		00064D561DAA003A0019D2BA /* CGArrowIconConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 00064D551DAA003A0019D2BA /* CGArrowIconConfig.m */; };
 		00064D5B1DAA33D40019D2BA /* CGTestInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00064D5A1DAA33D40019D2BA /* CGTestInputViewController.m */; };
 		0038420C1CEC132C00CB6B9D /* CGFoulLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003842091CEC132C00CB6B9D /* CGFoulLineView.swift */; };
+		003904481DACE9B9009CA949 /* UIImage+CGImageRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 003904471DACE9B9009CA949 /* UIImage+CGImageRotate.m */; };
 		005502A61DA8E495009D8421 /* CGWKWebViewDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 005502A51DA8E495009D8421 /* CGWKWebViewDelegateManager.m */; };
 		005502BC1DA8FBF6009D8421 /* CGUIWebViewDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 005502BB1DA8FBF6009D8421 /* CGUIWebViewDelegateManager.m */; };
 		0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */; };
@@ -339,6 +340,8 @@
 		00064D5A1DAA33D40019D2BA /* CGTestInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestInputViewController.m; sourceTree = "<group>"; };
 		003842091CEC132C00CB6B9D /* CGFoulLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFoulLineView.swift; sourceTree = "<group>"; };
 		0038420A1CEC132C00CB6B9D /* CGSwiftKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGSwiftKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		003904461DACE9B9009CA949 /* UIImage+CGImageRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CGImageRotate.h"; sourceTree = "<group>"; };
+		003904471DACE9B9009CA949 /* UIImage+CGImageRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CGImageRotate.m"; sourceTree = "<group>"; };
 		005502A41DA8E495009D8421 /* CGWKWebViewDelegateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWKWebViewDelegateManager.h; sourceTree = "<group>"; };
 		005502A51DA8E495009D8421 /* CGWKWebViewDelegateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWKWebViewDelegateManager.m; sourceTree = "<group>"; };
 		005502BA1DA8FBF6009D8421 /* CGUIWebViewDelegateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUIWebViewDelegateManager.h; sourceTree = "<group>"; };
@@ -1667,6 +1670,8 @@
 				00C95D651DA897D200D9BF90 /* UIImage+CGResizableImage.m */,
 				00C95D661DA897D200D9BF90 /* UIImage+CGScaleImageSize.h */,
 				00C95D671DA897D200D9BF90 /* UIImage+CGScaleImageSize.m */,
+				003904461DACE9B9009CA949 /* UIImage+CGImageRotate.h */,
+				003904471DACE9B9009CA949 /* UIImage+CGImageRotate.m */,
 				18B98B9A1DA93B6600757FB6 /* CGImage+CategoryHeader.h */,
 				00064D4C1DA9FF1F0019D2BA /* DrawIcon */,
 			);
@@ -3805,6 +3810,7 @@
 				00C95FE51DA897D500D9BF90 /* CGBaseButton.m in Sources */,
 				00C95F971DA897D400D9BF90 /* CGKeyboardCacheModel.m in Sources */,
 				00C95FD41DA897D400D9BF90 /* UIView+CGCopyView.m in Sources */,
+				003904481DACE9B9009CA949 /* UIImage+CGImageRotate.m in Sources */,
 				00C95FAD1DA897D400D9BF90 /* CGFCManager.m in Sources */,
 				18DBAAF91C12877E00552828 /* AppDelegate.m in Sources */,
 				00C95FF11DA897D500D9BF90 /* CGLabel.m in Sources */,

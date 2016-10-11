@@ -8,6 +8,6 @@
 
 #import "CGWebViewController.h"
 
-@interface CGTestWKWebViewController : UIViewController
+@interface CGTestWKWebViewController : CGWebViewController
 
 @end

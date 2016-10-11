@@ -9,11 +9,10 @@
 #import "CGTestWKWebViewController.h"
 
 #import "CGWebView.h"
-#import "UIView+CGAddConstraints.h"
 
-@interface CGTestWKWebViewController ()<CGWebViewDelegate>
+@interface CGTestWKWebViewController ()
 {
-    CGWebView<UIWebView *> *_webView;
+    
 }
 
 @end
@@ -24,31 +23,13 @@
 {
     [super viewDidLoad];
     
-    _webView    = [[CGWebView alloc] initWithWebViewType:CGWebViewTypeAuto];
-    [self.view addSubview:_webView];
-    [_webView cg_autoEdgesInsetsZeroToSuperview];
-    
-    _webView.delegate   = self;
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
     
-//    [self.webView setupURLForString:@"http://www.baidu.com"];
-    
-    [_webView.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.apple.com/"]]];
-}
-
-#pragma mark - CGWebViewDelegate
-- (void)webView:(CGWebView *)webView updateProgress:(CGFloat)progress
-{
-    NSLog(@"%f", progress);
-}
-
-- (void)webView:(CGWebView *)webView webViewTitle:(NSString *)webViewTitle
-{
-    self.title  = webViewTitle;
+    [self.webView loadRequestWithURLString:@"http://www.apple.com"];
 }
 
 @end

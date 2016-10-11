@@ -24,7 +24,7 @@
 {
     [super viewDidLoad];
     
-    _webView    = [[CGWebView alloc] initWithWebViewType:CGWebViewTypeWKWebView];
+    _webView    = [[CGWebView alloc] initWithWebViewType:CGWebViewTypeAuto];
     [self.view addSubview:_webView];
     [_webView cg_autoEdgesInsetsZeroToSuperview];
     
@@ -41,12 +41,12 @@
 }
 
 #pragma mark - CGWebViewDelegate
-- (void)cg_webView:(CGWebView *)webView updateProgress:(CGFloat)progress
+- (void)webView:(CGWebView *)webView updateProgress:(CGFloat)progress
 {
     NSLog(@"%f", progress);
 }
 
-- (void)cg_webView:(CGWebView *)webView webViewTitle:(NSString *)webViewTitle
+- (void)webView:(CGWebView *)webView webViewTitle:(NSString *)webViewTitle
 {
     self.title  = webViewTitle;
 }

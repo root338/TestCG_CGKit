@@ -22,14 +22,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    [self.webView loadRequestWithURLString:@"http://www.apple.com"];
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    
-    [self.webView loadRequestWithURLString:@"http://www.apple.com"];
 }
 
 @end

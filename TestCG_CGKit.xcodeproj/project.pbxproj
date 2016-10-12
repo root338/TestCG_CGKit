@@ -262,6 +262,8 @@
 		00C960621DA897D500D9BF90 /* CGDefaultPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C95F711DA897D400D9BF90 /* CGDefaultPopAnimation.m */; };
 		00C9606B1DA8C58600D9BF90 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C9606A1DA8C58600D9BF90 /* NJKWebViewProgress.m */; };
 		00D307AD1CC76E350040EFC8 /* CGTestWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */; };
+		00F1127E1DADC6850053E839 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F1127D1DADC6850053E839 /* QuartzCore.framework */; };
+		00F112811DAE23480053E839 /* CGWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F112801DAE23480053E839 /* CGWebViewProgressView.m */; };
 		181865C01DABD3AE00DCCB76 /* CGWebViewToolBarItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 181865BF1DABD3AE00DCCB76 /* CGWebViewToolBarItemManager.m */; };
 		181865C41DABD89F00DCCB76 /* CGCloseIconConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 181865C31DABD89F00DCCB76 /* CGCloseIconConfig.m */; };
 		183CCCA41CC5894400235486 /* CGTestPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */; };
@@ -888,6 +890,9 @@
 		00C9606A1DA8C58600D9BF90 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
 		00D307AB1CC76E350040EFC8 /* CGTestWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestWKWebViewController.h; sourceTree = "<group>"; };
 		00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestWKWebViewController.m; sourceTree = "<group>"; };
+		00F1127D1DADC6850053E839 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		00F1127F1DAE23480053E839 /* CGWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebViewProgressView.h; sourceTree = "<group>"; };
+		00F112801DAE23480053E839 /* CGWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWebViewProgressView.m; sourceTree = "<group>"; };
 		181865BE1DABD3AE00DCCB76 /* CGWebViewToolBarItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebViewToolBarItemManager.h; sourceTree = "<group>"; };
 		181865BF1DABD3AE00DCCB76 /* CGWebViewToolBarItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWebViewToolBarItemManager.m; sourceTree = "<group>"; };
 		181865C11DABD3E700DCCB76 /* CGWebViewToolBarHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGWebViewToolBarHeader.h; sourceTree = "<group>"; };
@@ -943,6 +948,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F1127E1DADC6850053E839 /* QuartzCore.framework in Frameworks */,
 				007936D51D4858DE007D963C /* WebKit.framework in Frameworks */,
 				185086E71CC303E4001CBC6B /* Photos.framework in Frameworks */,
 				302C9A770D2BEB9460B47FBE /* libPods.a in Frameworks */,
@@ -3050,6 +3056,8 @@
 				00C95F661DA897D400D9BF90 /* CGWebPrivateView.h */,
 				00C95F671DA897D400D9BF90 /* CGWebPrivateView.m */,
 				181865C11DABD3E700DCCB76 /* CGWebViewToolBarHeader.h */,
+				00F1127F1DAE23480053E839 /* CGWebViewProgressView.h */,
+				00F112801DAE23480053E839 /* CGWebViewProgressView.m */,
 			);
 			path = WebSubview;
 			sourceTree = "<group>";
@@ -3359,6 +3367,7 @@
 		B86B07EE8190F2F261E3DDEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00F1127D1DADC6850053E839 /* QuartzCore.framework */,
 				007936D41D4858DE007D963C /* WebKit.framework */,
 				185086E61CC303E4001CBC6B /* Photos.framework */,
 				222F9D25D26223B807E03656 /* libPods.a */,
@@ -3751,6 +3760,7 @@
 				00C9601A1DA897D500D9BF90 /* CGCycleBrowseImageScrollView.m in Sources */,
 				0038420C1CEC132C00CB6B9D /* CGFoulLineView.swift in Sources */,
 				00C95F911DA897D400D9BF90 /* NSObject+CGExchangeSelector.m in Sources */,
+				00F112811DAE23480053E839 /* CGWebViewProgressView.m in Sources */,
 				00C95FC91DA897D400D9BF90 /* UITableView+CGDequeueReusableCell.m in Sources */,
 				00C95FCC1DA897D400D9BF90 /* UITableView+CGReloadTableView.m in Sources */,
 				00C95FD01DA897D400D9BF90 /* UIView+DeleteTableView.m in Sources */,

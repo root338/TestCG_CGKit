@@ -13,6 +13,8 @@
 		00064D531DA9FF7E0019D2BA /* CGIconConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 00064D521DA9FF7E0019D2BA /* CGIconConfig.m */; };
 		00064D561DAA003A0019D2BA /* CGArrowIconConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 00064D551DAA003A0019D2BA /* CGArrowIconConfig.m */; };
 		00064D5B1DAA33D40019D2BA /* CGTestInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00064D5A1DAA33D40019D2BA /* CGTestInputViewController.m */; };
+		001B55E51DAF2B7D00EB4AB8 /* CGRefreshIconConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 001B55E41DAF2B7D00EB4AB8 /* CGRefreshIconConfig.m */; };
+		001B55E81DAF342800EB4AB8 /* CGCloseIconConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 001B55E71DAF342800EB4AB8 /* CGCloseIconConfig.m */; };
 		0038420C1CEC132C00CB6B9D /* CGFoulLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003842091CEC132C00CB6B9D /* CGFoulLineView.swift */; };
 		003904481DACE9B9009CA949 /* UIImage+CGImageRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 003904471DACE9B9009CA949 /* UIImage+CGImageRotate.m */; };
 		005502A61DA8E495009D8421 /* CGWKWebViewDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 005502A51DA8E495009D8421 /* CGWKWebViewDelegateManager.m */; };
@@ -265,7 +267,6 @@
 		00F1127E1DADC6850053E839 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F1127D1DADC6850053E839 /* QuartzCore.framework */; };
 		00F112811DAE23480053E839 /* CGWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F112801DAE23480053E839 /* CGWebViewProgressView.m */; };
 		181865C01DABD3AE00DCCB76 /* CGWebViewToolBarItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 181865BF1DABD3AE00DCCB76 /* CGWebViewToolBarItemManager.m */; };
-		181865C41DABD89F00DCCB76 /* CGCloseIconConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 181865C31DABD89F00DCCB76 /* CGCloseIconConfig.m */; };
 		183CCCA41CC5894400235486 /* CGTestPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */; };
 		185086E71CC303E4001CBC6B /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185086E61CC303E4001CBC6B /* Photos.framework */; };
 		185EA9391D481D9700A3568F /* CGTestCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185EA9381D481D9700A3568F /* CGTestCycleViewController.m */; };
@@ -340,6 +341,10 @@
 		00064D581DAA13FF0019D2BA /* CGOrientationTypeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGOrientationTypeHeader.h; sourceTree = "<group>"; };
 		00064D591DAA33D40019D2BA /* CGTestInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestInputViewController.h; sourceTree = "<group>"; };
 		00064D5A1DAA33D40019D2BA /* CGTestInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestInputViewController.m; sourceTree = "<group>"; };
+		001B55E31DAF2B7D00EB4AB8 /* CGRefreshIconConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRefreshIconConfig.h; sourceTree = "<group>"; };
+		001B55E41DAF2B7D00EB4AB8 /* CGRefreshIconConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGRefreshIconConfig.m; sourceTree = "<group>"; };
+		001B55E61DAF342800EB4AB8 /* CGCloseIconConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCloseIconConfig.h; sourceTree = "<group>"; };
+		001B55E71DAF342800EB4AB8 /* CGCloseIconConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCloseIconConfig.m; sourceTree = "<group>"; };
 		003842091CEC132C00CB6B9D /* CGFoulLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFoulLineView.swift; sourceTree = "<group>"; };
 		0038420A1CEC132C00CB6B9D /* CGSwiftKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGSwiftKit-Bridging-Header.h"; sourceTree = "<group>"; };
 		003904461DACE9B9009CA949 /* UIImage+CGImageRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CGImageRotate.h"; sourceTree = "<group>"; };
@@ -896,8 +901,6 @@
 		181865BE1DABD3AE00DCCB76 /* CGWebViewToolBarItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebViewToolBarItemManager.h; sourceTree = "<group>"; };
 		181865BF1DABD3AE00DCCB76 /* CGWebViewToolBarItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWebViewToolBarItemManager.m; sourceTree = "<group>"; };
 		181865C11DABD3E700DCCB76 /* CGWebViewToolBarHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGWebViewToolBarHeader.h; sourceTree = "<group>"; };
-		181865C21DABD89F00DCCB76 /* CGCloseIconConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCloseIconConfig.h; sourceTree = "<group>"; };
-		181865C31DABD89F00DCCB76 /* CGCloseIconConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCloseIconConfig.m; sourceTree = "<group>"; };
 		183CCCA21CC5894400235486 /* CGTestPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestPhotosViewController.h; sourceTree = "<group>"; };
 		183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestPhotosViewController.m; sourceTree = "<group>"; };
 		185086E61CC303E4001CBC6B /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
@@ -996,8 +999,10 @@
 				00064D521DA9FF7E0019D2BA /* CGIconConfig.m */,
 				00064D541DAA003A0019D2BA /* CGArrowIconConfig.h */,
 				00064D551DAA003A0019D2BA /* CGArrowIconConfig.m */,
-				181865C21DABD89F00DCCB76 /* CGCloseIconConfig.h */,
-				181865C31DABD89F00DCCB76 /* CGCloseIconConfig.m */,
+				001B55E61DAF342800EB4AB8 /* CGCloseIconConfig.h */,
+				001B55E71DAF342800EB4AB8 /* CGCloseIconConfig.m */,
+				001B55E31DAF2B7D00EB4AB8 /* CGRefreshIconConfig.h */,
+				001B55E41DAF2B7D00EB4AB8 /* CGRefreshIconConfig.m */,
 			);
 			path = "Config File";
 			sourceTree = "<group>";
@@ -3674,6 +3679,7 @@
 				00C960221DA897D500D9BF90 /* CGTitleRadioCollectionViewCell.m in Sources */,
 				00C9600E1DA897D500D9BF90 /* CGNavigationBarView.m in Sources */,
 				00C9605B1DA897D500D9BF90 /* CGPhotoGroupViewController.m in Sources */,
+				001B55E51DAF2B7D00EB4AB8 /* CGRefreshIconConfig.m in Sources */,
 				00C9605F1DA897D500D9BF90 /* CGWebViewToolBar.m in Sources */,
 				00C960461DA897D500D9BF90 /* CGBorderObject.m in Sources */,
 				00C95FF31DA897D500D9BF90 /* CGPlaceholderLabel.m in Sources */,
@@ -3799,7 +3805,6 @@
 				00C95F7F1DA897D400D9BF90 /* CGUserInfoModel.m in Sources */,
 				00C95FDC1DA897D400D9BF90 /* UIView+CGBorderLayer.m in Sources */,
 				0000D9B51D6593C30038E4A0 /* CGTestTitleBarViewController.m in Sources */,
-				181865C41DABD89F00DCCB76 /* CGCloseIconConfig.m in Sources */,
 				00C960571DA897D500D9BF90 /* CGQRCodeViewController.m in Sources */,
 				00C960141DA897D500D9BF90 /* CGCycleScrollView+CGBuildLayout.m in Sources */,
 				00C95FC41DA897D400D9BF90 /* UIScrollView+CGProperty.m in Sources */,
@@ -3855,6 +3860,7 @@
 				00C95FCE1DA897D400D9BF90 /* UITableView+SetupBackgroundView.m in Sources */,
 				00C960251DA897D500D9BF90 /* CGDoubleTitleBaseView.m in Sources */,
 				00C960331DA897D500D9BF90 /* CGTwoSubviewsConstraintsAppearance.m in Sources */,
+				001B55E81DAF342800EB4AB8 /* CGCloseIconConfig.m in Sources */,
 				00C95F741DA897D400D9BF90 /* UIView+CGScaleViewFromOverlayView.m in Sources */,
 				1894AE871CAFD4F3005A518C /* CGTestDefinesTableViewController.m in Sources */,
 				00C95F921DA897D400D9BF90 /* NSObject+CGGetPrivateAPI.m in Sources */,

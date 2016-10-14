@@ -8,6 +8,8 @@
 
 #import "CGTestLayoutConstranintsViewController.h"
 
+#import "UIButton+CGCreateCustomButton.h"
+
 #import "CGTitleLabelLayoutView.h"
 #import "CGTitleImageLayoutView.h"
 #import "CGTitleButtonsLayoutView.h"
@@ -34,9 +36,52 @@
 {
     [super viewDidLoad];
     
+    [self testConstraintsView];
 //    [self testTitleViews];
-    [self testTwoSubviewsView];
+//    [self testTwoSubviewsView];
     self.view.backgroundColor   = [UIColor whiteColor];
+}
+
+- (void)testConstraintsView
+{
+    UIView *contentView = [UIView cg_createViewWithBackgroundColor:[UIColor orangeColor]];
+    [self.view addSubview:contentView];
+    
+    UIFont *font        = [UIFont systemFontOfSize:15];
+    UIButton *button1   = [UIButton cg_createButtonWithButtonType:UIButtonTypeSystem
+                                                            title:@"first Button"
+                                                       titleColor:[UIColor redColor]
+                                                             font:font];
+    UIButton *button2   = [UIButton cg_createButtonWithButtonType:UIButtonTypeSystem
+                                                            title:@"second Button"
+                                                       titleColor:[UIColor blueColor]
+                                                             font:font];
+    [contentView addSubview:button1]; 
+    [contentView addSubview:button2];
+    
+    [UIView cg_autoUpdateConstraints:^{
+        [contentView cg_autoEdgesToViewController:self withInsets:UIEdgeInsetsMakeAllEqualValue(15) exculdingEdge:CGLayoutEdgeBottom];
+        [contentView cg_bottomLayoutGuideOfViewController:self withInset:15 relatedBy:NSLayoutRelationLessThanOrEqual];
+        [button1 cg_autoEdgesToSuperviewEdgesWithEdge:CGLayoutOptionEdgeLeading | CGLayoutOptionEdgeTop insets:UIEdgeInsetsZero];
+        [button2 cg_autoEdgesToSuperviewEdgesWithEdge:CGLayoutOptionEdgeTop | CGLayoutOptionEdgeTrailing insets:UIEdgeInsetsZero];
+        [button1 cg_autoInverseAttribute:CGLayoutEdgeTrailing toItem:button2 relatedBy:NSLayoutRelationGreaterThanOrEqual constant:8];
+        [button1 cg_autoDimensionEqualView:button2];
+        [button1 cg_autoConstrainToSuperviewAttribute:NSLayoutAttributeBottom withOffset:15];
+    }];
+    
+    CGLog(@"视图添加的约束条数：%lu", (unsigned long)contentView.constraints.count);
+    
+    [UIView cg_autoUpdateConstraints:^{
+        [contentView cg_autoEdgesToViewController:self withInsets:UIEdgeInsetsMakeAllEqualValue(15) exculdingEdge:CGLayoutEdgeBottom];
+        [contentView cg_bottomLayoutGuideOfViewController:self withInset:15 relatedBy:NSLayoutRelationLessThanOrEqual];
+        [button1 cg_autoEdgesToSuperviewEdgesWithEdge:CGLayoutOptionEdgeLeading | CGLayoutOptionEdgeTop insets:UIEdgeInsetsZero];
+        [button2 cg_autoEdgesToSuperviewEdgesWithEdge:CGLayoutOptionEdgeTop | CGLayoutOptionEdgeTrailing insets:UIEdgeInsetsZero];
+        [button1 cg_autoInverseAttribute:CGLayoutEdgeTrailing toItem:button2 relatedBy:NSLayoutRelationGreaterThanOrEqual constant:8];
+        [button1 cg_autoDimensionEqualView:button2];
+        [button1 cg_autoConstrainToSuperviewAttribute:NSLayoutAttributeBottom withOffset:15];
+    }];
+    
+    CGLog(@"视图重复添加之后的约束条数：%lu", (unsigned long)contentView.constraints.count);
 }
 
 - (void)testTwoSubviewsView

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0000D9B51D6593C30038E4A0 /* CGTestTitleBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000D9B41D6593C30038E4A0 /* CGTestTitleBarViewController.m */; };
+		00021AFE1DB067AA00EF585E /* CGCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00021AFD1DB067A900EF585E /* CGCacheManager.m */; };
+		00021B021DB0B9EC00EF585E /* CGNavigationViewControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00021B011DB0B9EC00EF585E /* CGNavigationViewControllerManager.m */; };
 		00064D481DA9EFB00019D2BA /* CGTestDrawImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00064D471DA9EFB00019D2BA /* CGTestDrawImageViewController.m */; };
 		00064D4F1DA9FF390019D2BA /* UIImage+CGDrawIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 00064D4E1DA9FF390019D2BA /* UIImage+CGDrawIcon.m */; };
 		00064D531DA9FF7E0019D2BA /* CGIconConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 00064D521DA9FF7E0019D2BA /* CGIconConfig.m */; };
@@ -330,6 +332,11 @@
 /* Begin PBXFileReference section */
 		0000D9B31D6593C30038E4A0 /* CGTestTitleBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestTitleBarViewController.h; sourceTree = "<group>"; };
 		0000D9B41D6593C30038E4A0 /* CGTestTitleBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestTitleBarViewController.m; sourceTree = "<group>"; };
+		00021AFC1DB067A900EF585E /* CGCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCacheManager.h; sourceTree = "<group>"; };
+		00021AFD1DB067A900EF585E /* CGCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCacheManager.m; sourceTree = "<group>"; };
+		00021B001DB0B9EC00EF585E /* CGNavigationViewControllerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNavigationViewControllerManager.h; sourceTree = "<group>"; };
+		00021B011DB0B9EC00EF585E /* CGNavigationViewControllerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGNavigationViewControllerManager.m; sourceTree = "<group>"; };
+		00021B031DB0BA1A00EF585E /* CGNavigationViewControllerManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNavigationViewControllerManagerDelegate.h; sourceTree = "<group>"; };
 		00064D461DA9EFB00019D2BA /* CGTestDrawImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestDrawImageViewController.h; sourceTree = "<group>"; };
 		00064D471DA9EFB00019D2BA /* CGTestDrawImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestDrawImageViewController.m; sourceTree = "<group>"; };
 		00064D4D1DA9FF390019D2BA /* UIImage+CGDrawIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CGDrawIcon.h"; sourceTree = "<group>"; };
@@ -982,6 +989,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00021AFB1DB0679600EF585E /* CGCacheManager */ = {
+			isa = PBXGroup;
+			children = (
+				00021AFC1DB067A900EF585E /* CGCacheManager.h */,
+				00021AFD1DB067A900EF585E /* CGCacheManager.m */,
+			);
+			path = CGCacheManager;
+			sourceTree = "<group>";
+		};
+		00021AFF1DB0B9CF00EF585E /* ViewControllersManager */ = {
+			isa = PBXGroup;
+			children = (
+				00021B001DB0B9EC00EF585E /* CGNavigationViewControllerManager.h */,
+				00021B011DB0B9EC00EF585E /* CGNavigationViewControllerManager.m */,
+				00021B031DB0BA1A00EF585E /* CGNavigationViewControllerManagerDelegate.h */,
+			);
+			path = ViewControllersManager;
+			sourceTree = "<group>";
+		};
 		00064D4C1DA9FF1F0019D2BA /* DrawIcon */ = {
 			isa = PBXGroup;
 			children = (
@@ -1076,6 +1102,7 @@
 		00C95CA31DA897D200D9BF90 /* CG_CGKit */ = {
 			isa = PBXGroup;
 			children = (
+				00021AFB1DB0679600EF585E /* CGCacheManager */,
 				00064D571DAA13EE0019D2BA /* Enum Type */,
 				00C95CA41DA897D200D9BF90 /* Anmation */,
 				00C95CB61DA897D200D9BF90 /* APPPurviewJudge */,
@@ -3095,6 +3122,7 @@
 		00C95F6F1DA897D400D9BF90 /* PushPopAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				00021AFF1DB0B9CF00EF585E /* ViewControllersManager */,
 				00C95F701DA897D400D9BF90 /* CGDefaultPopAnimation.h */,
 				00C95F711DA897D400D9BF90 /* CGDefaultPopAnimation.m */,
 			);
@@ -3751,6 +3779,7 @@
 				00C95FED1DA897D500D9BF90 /* UICollectionViewFlowLayout+CGCreateLayout.m in Sources */,
 				00C95FE81DA897D500D9BF90 /* CGTimerButton.m in Sources */,
 				00C9601C1DA897D500D9BF90 /* CGLineBoxView.m in Sources */,
+				00021B021DB0B9EC00EF585E /* CGNavigationViewControllerManager.m in Sources */,
 				00C960311DA897D500D9BF90 /* CGBorderBaseLayer.m in Sources */,
 				00C95F9B1DA897D400D9BF90 /* NSUserDefaults+CGMethodSave.m in Sources */,
 				00C960281DA897D500D9BF90 /* CGLayoutMarginBaseView.m in Sources */,
@@ -3828,6 +3857,7 @@
 				003904481DACE9B9009CA949 /* UIImage+CGImageRotate.m in Sources */,
 				00C95FAD1DA897D400D9BF90 /* CGFCManager.m in Sources */,
 				18DBAAF91C12877E00552828 /* AppDelegate.m in Sources */,
+				00021AFE1DB067AA00EF585E /* CGCacheManager.m in Sources */,
 				00C95FF11DA897D500D9BF90 /* CGLabel.m in Sources */,
 				00C960011DA897D500D9BF90 /* CGInputAccessoryView.m in Sources */,
 				00C95F7E1DA897D400D9BF90 /* CGRequestManager.m in Sources */,

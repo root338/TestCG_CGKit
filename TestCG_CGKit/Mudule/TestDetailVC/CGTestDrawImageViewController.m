@@ -8,13 +8,19 @@
 
 #import "CGTestDrawImageViewController.h"
 
+#import "UIView+CGSetupFrame.h"
 #import "UIView+CGAddConstraints.h"
 
 #import "UIImage+CGDrawIcon.h"
 #import "CGArrowIconConfig.h"
 
 @interface CGTestDrawImageViewController ()
-
+{
+    CGArrowIconConfig *config;
+    NSInteger a;
+    UIImageView *imageView;
+    NSTimer *time;
+}
 @end
 
 @implementation CGTestDrawImageViewController
@@ -23,15 +29,50 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    CGArrowIconConfig   *arrowConfig    = [CGArrowIconConfig defaultArrowConfig];
-    arrowConfig.angle                   = 80;
-    UIImage *image = [UIImage drawArrowWithConfig:arrowConfig];
-    UIImageView *imageView  = [[UIImageView alloc] initWithImage:image];
-    
+    a           = 1;
+    imageView   = [[UIImageView alloc] init];
     [self.view addSubview: imageView];
+    [imageView cg_autoEdgesInsetsZeroToViewController:self];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    if (time == nil) {
+//        time    = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(handleTime:) userInfo:nil repeats:YES];
+    }
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
     
-    [imageView cg_autoCenterToSuperviewWithAxis:CGAxisVertical];
-    [imageView cg_topLayoutGuideOfViewController:self];
+    if (time) {
+        [time invalidate];
+    }
+}
+
+- (void)handleTime:(NSTimer *)timer {
+    
+    if (config == nil) {
+        
+        config    = [CGArrowIconConfig defaultArrowConfig];
+        config.size                    = CGSizeMake(self.view.width, self.view.height - 64);
+        config.angle                   = 180;
+        config.arrowVertexOrientationType  = CGOrientationTypeUp;
+    }else {
+        
+        config.angle += 5 * a;
+        if (config.angle > 180) {
+            a = -1;
+        }
+        if (config.angle <= 1) {
+            a = 1;
+        }
+    }
+    
+    UIImage *image = [UIImage drawArrowWithConfig:config];
+    [imageView setImage:image];
 }
 
 - (void)didReceiveMemoryWarning {

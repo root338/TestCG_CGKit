@@ -15,6 +15,8 @@
 		00064D531DA9FF7E0019D2BA /* CGIconConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 00064D521DA9FF7E0019D2BA /* CGIconConfig.m */; };
 		00064D561DAA003A0019D2BA /* CGArrowIconConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 00064D551DAA003A0019D2BA /* CGArrowIconConfig.m */; };
 		00064D5B1DAA33D40019D2BA /* CGTestInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00064D5A1DAA33D40019D2BA /* CGTestInputViewController.m */; };
+		000F89E01DB5CD18001077EE /* CGTitleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000F89DF1DB5CD18001077EE /* CGTitleTableViewController.m */; };
+		000F89E41DB5CD93001077EE /* CGTitlesTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000F89E31DB5CD93001077EE /* CGTitlesTableView.m */; };
 		001B55E51DAF2B7D00EB4AB8 /* CGRefreshIconConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 001B55E41DAF2B7D00EB4AB8 /* CGRefreshIconConfig.m */; };
 		001B55E81DAF342800EB4AB8 /* CGCloseIconConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 001B55E71DAF342800EB4AB8 /* CGCloseIconConfig.m */; };
 		0038420C1CEC132C00CB6B9D /* CGFoulLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003842091CEC132C00CB6B9D /* CGFoulLineView.swift */; };
@@ -348,6 +350,10 @@
 		00064D581DAA13FF0019D2BA /* CGOrientationTypeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGOrientationTypeHeader.h; sourceTree = "<group>"; };
 		00064D591DAA33D40019D2BA /* CGTestInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestInputViewController.h; sourceTree = "<group>"; };
 		00064D5A1DAA33D40019D2BA /* CGTestInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestInputViewController.m; sourceTree = "<group>"; };
+		000F89DE1DB5CD18001077EE /* CGTitleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleTableViewController.h; sourceTree = "<group>"; };
+		000F89DF1DB5CD18001077EE /* CGTitleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleTableViewController.m; sourceTree = "<group>"; };
+		000F89E21DB5CD93001077EE /* CGTitlesTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitlesTableView.h; sourceTree = "<group>"; };
+		000F89E31DB5CD93001077EE /* CGTitlesTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitlesTableView.m; sourceTree = "<group>"; };
 		001B55E31DAF2B7D00EB4AB8 /* CGRefreshIconConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRefreshIconConfig.h; sourceTree = "<group>"; };
 		001B55E41DAF2B7D00EB4AB8 /* CGRefreshIconConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGRefreshIconConfig.m; sourceTree = "<group>"; };
 		001B55E61DAF342800EB4AB8 /* CGCloseIconConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCloseIconConfig.h; sourceTree = "<group>"; };
@@ -1039,6 +1045,15 @@
 				00064D581DAA13FF0019D2BA /* CGOrientationTypeHeader.h */,
 			);
 			path = "Enum Type";
+			sourceTree = "<group>";
+		};
+		000F89E11DB5CD76001077EE /* Titles+TableView */ = {
+			isa = PBXGroup;
+			children = (
+				000F89E21DB5CD93001077EE /* CGTitlesTableView.h */,
+				000F89E31DB5CD93001077EE /* CGTitlesTableView.m */,
+			);
+			path = "Titles+TableView";
 			sourceTree = "<group>";
 		};
 		003842051CEC132C00CB6B9D /* CGSwiftKit */ = {
@@ -2585,6 +2600,7 @@
 		00C95EB91DA897D300D9BF90 /* Detail View */ = {
 			isa = PBXGroup;
 			children = (
+				000F89E11DB5CD76001077EE /* Titles+TableView */,
 				00C95EBA1DA897D300D9BF90 /* CGTitleLabelLayoutView.h */,
 				00C95EBB1DA897D300D9BF90 /* CGTitleLabelLayoutView.m */,
 			);
@@ -3106,6 +3122,8 @@
 			children = (
 				00C95F6A1DA897D400D9BF90 /* CGSingleTableViewController.h */,
 				00C95F6B1DA897D400D9BF90 /* CGSingleTableViewController.m */,
+				000F89DE1DB5CD18001077EE /* CGTitleTableViewController.h */,
+				000F89DF1DB5CD18001077EE /* CGTitleTableViewController.m */,
 			);
 			path = TableViewController;
 			sourceTree = "<group>";
@@ -3624,6 +3642,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				000F89E41DB5CD93001077EE /* CGTitlesTableView.m in Sources */,
 				00C95FBF1DA897D400D9BF90 /* UITextField+AddInputView.m in Sources */,
 				00C95FFD1DA897D500D9BF90 /* CGSingleSectionTableViewDataSource.m in Sources */,
 				00C95F8D1DA897D400D9BF90 /* NSString+CGEncryption.m in Sources */,
@@ -3746,6 +3765,7 @@
 				00C95FA61DA897D400D9BF90 /* UIDevice+CGDirection.m in Sources */,
 				00C95F9E1DA897D400D9BF90 /* ALAssetsGroup+CGProperty.m in Sources */,
 				00C960361DA897D500D9BF90 /* UIView+CGAddConstraintStatus.m in Sources */,
+				000F89E01DB5CD18001077EE /* CGTitleTableViewController.m in Sources */,
 				00C95F7A1DA897D400D9BF90 /* Value+Constant.m in Sources */,
 				00C95FC61DA897D400D9BF90 /* UIScrollView+CGSetupAppearance.m in Sources */,
 				00C95FD21DA897D400D9BF90 /* CGAddSubviewsCacheModel.m in Sources */,

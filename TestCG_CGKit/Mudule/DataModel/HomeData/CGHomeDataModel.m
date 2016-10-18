@@ -38,6 +38,8 @@
 /** 输入框的切换 */
 #import "CGTestInputViewController.h"
 
+#import "CGTestTitleRadioViewController.h"
+
 #import "TestCG_CGKit-Swift.h"
 
 @implementation CGHomeDataModel
@@ -176,6 +178,9 @@
     
     CGHomeDataModel *testInputVC  = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestInputViewController class] title:@"多个输入框的切换" subtitle:nil];
     [dataSourceList addObject:testInputVC];
+    
+    CGHomeDataModel *testTitleRadioVC  = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestTitleRadioViewController class] subtitle:@"测试 CGTitleRadio 视图功能"];
+    [dataSourceList addObject:testTitleRadioVC];
     
     return dataSourceList;
 }

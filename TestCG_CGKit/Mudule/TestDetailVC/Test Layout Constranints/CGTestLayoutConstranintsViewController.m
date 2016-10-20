@@ -14,7 +14,7 @@
 #import "CGTitleImageLayoutView.h"
 #import "CGTitleButtonsLayoutView.h"
 
-#import "UIView+CGCreateViews.h"
+#import "UIView+CGCreate.h"
 #import "UIEdgeInsets+Category.h"
 #import "UIView+CGAddConstraints.h"
 #import "NSArray+CGAddConstraints.h"

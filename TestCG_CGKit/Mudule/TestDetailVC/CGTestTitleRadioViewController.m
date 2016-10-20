@@ -10,6 +10,7 @@
 
 #import "CGTitleRadioView.h"
 #import "CGRadioViewAppearance.h"
+#import "CGTitleRadioCellAppearance.h"
 
 #import "UIView+CGAddConstraints.h"
 
@@ -23,17 +24,20 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    CGRadioViewAppearance *appearance   = [[CGRadioViewAppearance alloc] init];
+    CGMutableRadioViewAppearance *appearance   = [[CGMutableRadioViewAppearance alloc] init];
     appearance.scrollDirection          = UICollectionViewScrollDirectionVertical;
     appearance.itemSize                 = CGSizeMake(self.view.width, 44);
     appearance.minimumLineSpacing       = 1;
     appearance.isAutoItemSize           = NO;
     appearance.backgroundColor          = [UIColor lightGrayColor];
-    appearance.itemBackgroundColor      = [UIColor whiteColor];
-    appearance.itemMarginEdgeInsets     = UIEdgeInsetsMake(0, 15, 0, 15);
     appearance.sliderViewHeight         = 1;
     appearance.sliderViewBorderColor    = [UIColor orangeColor];
     appearance.isHideSliderView         = YES;
+    
+    CGMutableTitleRadioCellAppearance *cellAppearance   = [[CGMutableTitleRadioCellAppearance alloc] init];
+    cellAppearance.itemBackgroundColor  = [UIColor whiteColor];
+    cellAppearance.itemMarginEdgeInsets = UIEdgeInsetsMake(0, 15, 0, 15);
+    appearance.titleRadioCellAppearance = cellAppearance;
     
     NSMutableArray<NSString *> *titles  = [NSMutableArray arrayWithCapacity:50];
     for (NSInteger i = 0; i < 50; i++) {

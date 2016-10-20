@@ -24,6 +24,8 @@
 		185EA9391D481D9700A3568F /* CGTestCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185EA9381D481D9700A3568F /* CGTestCycleViewController.m */; };
 		187A3E431D69EA1000C7E67C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187A3E421D69EA1000C7E67C /* Assets.xcassets */; };
 		1885F3921CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1885F3911CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m */; };
+		188BB0F11DB907F800CC4F5A /* CGWKWebViewUIDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 188BB0F01DB907F800CC4F5A /* CGWKWebViewUIDelegateManager.m */; };
+		188BB0F81DB90E8600CC4F5A /* CGWebViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 188BB0F61DB90E8600CC4F5A /* CGWebViewConfig.m */; };
 		1894AE871CAFD4F3005A518C /* CGTestDefinesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AE861CAFD4F3005A518C /* CGTestDefinesTableViewController.m */; };
 		1894AE8B1CAFD83F005A518C /* CGTestDefinesData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AE8A1CAFD83F005A518C /* CGTestDefinesData.m */; };
 		18A870171D68CED100C76A21 /* CGTestSubviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A870161D68CED100C76A21 /* CGTestSubviewViewController.m */; };
@@ -44,7 +46,6 @@
 		18DE26C51DB6D95B00BCEABC /* NSObject+JudgePurview.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE23CF1DB6D95A00BCEABC /* NSObject+JudgePurview.m */; };
 		18DE26C61DB6D95B00BCEABC /* CGCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE23D21DB6D95A00BCEABC /* CGCacheManager.m */; };
 		18DE26C71DB6D95B00BCEABC /* UIView+Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE23DF1DB6D95B00BCEABC /* UIView+Constant.m */; };
-		18DE26C81DB6D95B00BCEABC /* Value+Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE23E11DB6D95B00BCEABC /* Value+Constant.m */; };
 		18DE26C91DB6D95B00BCEABC /* CGDispathMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE23E41DB6D95B00BCEABC /* CGDispathMethod.m */; };
 		18DE26CA1DB6D95B00BCEABC /* RFKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE23E91DB6D95B00BCEABC /* RFKeyboard.m */; };
 		18DE26CB1DB6D95B00BCEABC /* CGHandleRequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE23F01DB6D95B00BCEABC /* CGHandleRequestData.m */; };
@@ -101,8 +102,6 @@
 		18DE26FF1DB6D95B00BCEABC /* UIImage+CGResizableImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE24901DB6D95B00BCEABC /* UIImage+CGResizableImage.m */; };
 		18DE27001DB6D95B00BCEABC /* UIImage+CGScaleImageSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE24921DB6D95B00BCEABC /* UIImage+CGScaleImageSize.m */; };
 		18DE27011DB6D95B00BCEABC /* CGFCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE24951DB6D95B00BCEABC /* CGFCManager.m */; };
-		18DE27021DB6D95B00BCEABC /* CGTitleImageListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE249A1DB6D95B00BCEABC /* CGTitleImageListModel.m */; };
-		18DE27031DB6D95B00BCEABC /* CGTitleListViewAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE249C1DB6D95B00BCEABC /* CGTitleListViewAppearance.m */; };
 		18DE27041DB6D95B00BCEABC /* CGCalculateCGSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE24A11DB6D95B00BCEABC /* CGCalculateCGSize.m */; };
 		18DE27051DB6D95B00BCEABC /* UILabel+CalculateTextSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE24A31DB6D95B00BCEABC /* UILabel+CalculateTextSize.m */; };
 		18DE27061DB6D95B00BCEABC /* UIView+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE24A61DB6D95B00BCEABC /* UIView+Transform.m */; };
@@ -184,7 +183,6 @@
 		18DE27521DB6D95C00BCEABC /* CGTableViewEditDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE256F1DB6D95B00BCEABC /* CGTableViewEditDataSourceManager.m */; };
 		18DE27531DB6D95C00BCEABC /* CGSingleSectionTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE25721DB6D95B00BCEABC /* CGSingleSectionTableViewDataSource.m */; };
 		18DE27541DB6D95C00BCEABC /* CGSingleSectionTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE25741DB6D95B00BCEABC /* CGSingleSectionTableViewDelegate.m */; };
-		18DE27551DB6D95C00BCEABC /* CGTitleListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE25771DB6D95B00BCEABC /* CGTitleListView.m */; };
 		18DE27561DB6D95C00BCEABC /* CGInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE257A1DB6D95B00BCEABC /* CGInputAccessoryView.m */; };
 		18DE27571DB6D95C00BCEABC /* CGInputAccessoryViewAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE257C1DB6D95B00BCEABC /* CGInputAccessoryViewAppearance.m */; };
 		18DE27581DB6D95C00BCEABC /* CGTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE257E1DB6D95B00BCEABC /* CGTextField.m */; };
@@ -198,7 +196,6 @@
 		18DE27601DB6D95C00BCEABC /* CGSingleSectionBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE25951DB6D95B00BCEABC /* CGSingleSectionBaseTableViewCell.m */; };
 		18DE27611DB6D95C00BCEABC /* CGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE25971DB6D95B00BCEABC /* CGTableViewCell.m */; };
 		18DE27621DB6D95C00BCEABC /* CGPhotoGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE259A1DB6D95B00BCEABC /* CGPhotoGroupTableViewCell.m */; };
-		18DE27631DB6D95C00BCEABC /* CGTitleListViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE259C1DB6D95B00BCEABC /* CGTitleListViewTableViewCell.m */; };
 		18DE27641DB6D95C00BCEABC /* CGBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE25A01DB6D95B00BCEABC /* CGBaseView.m */; };
 		18DE27651DB6D95C00BCEABC /* CGNavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE25A21DB6D95B00BCEABC /* CGNavigationBarView.m */; };
 		18DE27661DB6D95C00BCEABC /* CGSingeContentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE25A41DB6D95B00BCEABC /* CGSingeContentTableView.m */; };
@@ -366,6 +363,11 @@
 		187A3E421D69EA1000C7E67C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1885F3901CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestLayoutConstranintsViewController.h; sourceTree = "<group>"; };
 		1885F3911CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestLayoutConstranintsViewController.m; sourceTree = "<group>"; };
+		188BB0E91DB8F77400CC4F5A /* CGWebViewPrivateProxyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebViewPrivateProxyDelegate.h; sourceTree = "<group>"; };
+		188BB0EF1DB907F800CC4F5A /* CGWKWebViewUIDelegateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWKWebViewUIDelegateManager.h; sourceTree = "<group>"; };
+		188BB0F01DB907F800CC4F5A /* CGWKWebViewUIDelegateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWKWebViewUIDelegateManager.m; sourceTree = "<group>"; };
+		188BB0F51DB90E8600CC4F5A /* CGWebViewConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebViewConfig.h; sourceTree = "<group>"; };
+		188BB0F61DB90E8600CC4F5A /* CGWebViewConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWebViewConfig.m; sourceTree = "<group>"; };
 		1894AE851CAFD4F3005A518C /* CGTestDefinesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestDefinesTableViewController.h; sourceTree = "<group>"; };
 		1894AE861CAFD4F3005A518C /* CGTestDefinesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestDefinesTableViewController.m; sourceTree = "<group>"; };
 		1894AE891CAFD83F005A518C /* CGTestDefinesData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestDefinesData.h; sourceTree = "<group>"; };
@@ -415,8 +417,6 @@
 		18DE23DD1DB6D95B00BCEABC /* CGViewConstantValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGViewConstantValue.h; sourceTree = "<group>"; };
 		18DE23DE1DB6D95B00BCEABC /* UIView+Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Constant.h"; sourceTree = "<group>"; };
 		18DE23DF1DB6D95B00BCEABC /* UIView+Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Constant.m"; sourceTree = "<group>"; };
-		18DE23E01DB6D95B00BCEABC /* Value+Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Value+Constant.h"; sourceTree = "<group>"; };
-		18DE23E11DB6D95B00BCEABC /* Value+Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Value+Constant.m"; sourceTree = "<group>"; };
 		18DE23E31DB6D95B00BCEABC /* CGDispathMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDispathMethod.h; sourceTree = "<group>"; };
 		18DE23E41DB6D95B00BCEABC /* CGDispathMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDispathMethod.m; sourceTree = "<group>"; };
 		18DE23E61DB6D95B00BCEABC /* CGVerifyIOSVersionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGVerifyIOSVersionHeader.h; sourceTree = "<group>"; };
@@ -544,10 +544,6 @@
 		18DE24921DB6D95B00BCEABC /* UIImage+CGScaleImageSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CGScaleImageSize.m"; sourceTree = "<group>"; };
 		18DE24941DB6D95B00BCEABC /* CGFCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGFCManager.h; sourceTree = "<group>"; };
 		18DE24951DB6D95B00BCEABC /* CGFCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGFCManager.m; sourceTree = "<group>"; };
-		18DE24991DB6D95B00BCEABC /* CGTitleImageListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleImageListModel.h; sourceTree = "<group>"; };
-		18DE249A1DB6D95B00BCEABC /* CGTitleImageListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleImageListModel.m; sourceTree = "<group>"; };
-		18DE249B1DB6D95B00BCEABC /* CGTitleListViewAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleListViewAppearance.h; sourceTree = "<group>"; };
-		18DE249C1DB6D95B00BCEABC /* CGTitleListViewAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleListViewAppearance.m; sourceTree = "<group>"; };
 		18DE24A01DB6D95B00BCEABC /* CGCalculateCGSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCalculateCGSize.h; sourceTree = "<group>"; };
 		18DE24A11DB6D95B00BCEABC /* CGCalculateCGSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCalculateCGSize.m; sourceTree = "<group>"; };
 		18DE24A21DB6D95B00BCEABC /* UILabel+CalculateTextSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CalculateTextSize.h"; sourceTree = "<group>"; };
@@ -719,8 +715,6 @@
 		18DE25721DB6D95B00BCEABC /* CGSingleSectionTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleSectionTableViewDataSource.m; sourceTree = "<group>"; };
 		18DE25731DB6D95B00BCEABC /* CGSingleSectionTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleSectionTableViewDelegate.h; sourceTree = "<group>"; };
 		18DE25741DB6D95B00BCEABC /* CGSingleSectionTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleSectionTableViewDelegate.m; sourceTree = "<group>"; };
-		18DE25761DB6D95B00BCEABC /* CGTitleListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleListView.h; sourceTree = "<group>"; };
-		18DE25771DB6D95B00BCEABC /* CGTitleListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleListView.m; sourceTree = "<group>"; };
 		18DE25791DB6D95B00BCEABC /* CGInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGInputAccessoryView.h; sourceTree = "<group>"; };
 		18DE257A1DB6D95B00BCEABC /* CGInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGInputAccessoryView.m; sourceTree = "<group>"; };
 		18DE257B1DB6D95B00BCEABC /* CGInputAccessoryViewAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGInputAccessoryViewAppearance.h; sourceTree = "<group>"; };
@@ -747,8 +741,6 @@
 		18DE25971DB6D95B00BCEABC /* CGTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTableViewCell.m; sourceTree = "<group>"; };
 		18DE25991DB6D95B00BCEABC /* CGPhotoGroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPhotoGroupTableViewCell.h; sourceTree = "<group>"; };
 		18DE259A1DB6D95B00BCEABC /* CGPhotoGroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPhotoGroupTableViewCell.m; sourceTree = "<group>"; };
-		18DE259B1DB6D95B00BCEABC /* CGTitleListViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleListViewTableViewCell.h; sourceTree = "<group>"; };
-		18DE259C1DB6D95B00BCEABC /* CGTitleListViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleListViewTableViewCell.m; sourceTree = "<group>"; };
 		18DE259F1DB6D95B00BCEABC /* CGBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseView.h; sourceTree = "<group>"; };
 		18DE25A01DB6D95B00BCEABC /* CGBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseView.m; sourceTree = "<group>"; };
 		18DE25A11DB6D95B00BCEABC /* CGNavigationBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNavigationBarView.h; sourceTree = "<group>"; };
@@ -1114,6 +1106,31 @@
 			path = "Test Layout Constranints";
 			sourceTree = "<group>";
 		};
+		188BB0E81DB8F77400CC4F5A /* PrivateProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				188BB0E91DB8F77400CC4F5A /* CGWebViewPrivateProxyDelegate.h */,
+			);
+			path = PrivateProtocol;
+			sourceTree = "<group>";
+		};
+		188BB0F21DB90E8600CC4F5A /* UIViewAssociationObject */ = {
+			isa = PBXGroup;
+			children = (
+				188BB0F41DB90E8600CC4F5A /* UIView+CGWebView */,
+			);
+			path = UIViewAssociationObject;
+			sourceTree = "<group>";
+		};
+		188BB0F41DB90E8600CC4F5A /* UIView+CGWebView */ = {
+			isa = PBXGroup;
+			children = (
+				188BB0F51DB90E8600CC4F5A /* CGWebViewConfig.h */,
+				188BB0F61DB90E8600CC4F5A /* CGWebViewConfig.m */,
+			);
+			path = "UIView+CGWebView";
+			sourceTree = "<group>";
+		};
 		1894AE841CAFD4BA005A518C /* Defines */ = {
 			isa = PBXGroup;
 			children = (
@@ -1295,6 +1312,7 @@
 		18DE23BA1DB6D95900BCEABC /* CG_CGKit */ = {
 			isa = PBXGroup;
 			children = (
+				188BB0F21DB90E8600CC4F5A /* UIViewAssociationObject */,
 				18DE23BB1DB6D95900BCEABC /* Anmation */,
 				18DE23CD1DB6D95900BCEABC /* APPPurviewJudge */,
 				18DE23D01DB6D95A00BCEABC /* CGCacheManager */,
@@ -1304,7 +1322,6 @@
 				18DE24521DB6D95B00BCEABC /* OtherLibrary */,
 				18DE24631DB6D95B00BCEABC /* Protocol */,
 				18DE24661DB6D95B00BCEABC /* UI */,
-				18DE24961DB6D95B00BCEABC /* UIViewToolObject */,
 				18DE249D1DB6D95B00BCEABC /* View */,
 				18DE265D1DB6D95B00BCEABC /* ViewController */,
 			);
@@ -1430,8 +1447,6 @@
 				18DE23DD1DB6D95B00BCEABC /* CGViewConstantValue.h */,
 				18DE23DE1DB6D95B00BCEABC /* UIView+Constant.h */,
 				18DE23DF1DB6D95B00BCEABC /* UIView+Constant.m */,
-				18DE23E01DB6D95B00BCEABC /* Value+Constant.h */,
-				18DE23E11DB6D95B00BCEABC /* Value+Constant.m */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
@@ -1959,33 +1974,6 @@
 				18DE24951DB6D95B00BCEABC /* CGFCManager.m */,
 			);
 			path = FontAndColorManager;
-			sourceTree = "<group>";
-		};
-		18DE24961DB6D95B00BCEABC /* UIViewToolObject */ = {
-			isa = PBXGroup;
-			children = (
-				18DE24971DB6D95B00BCEABC /* UIView+UITableView */,
-			);
-			path = UIViewToolObject;
-			sourceTree = "<group>";
-		};
-		18DE24971DB6D95B00BCEABC /* UIView+UITableView */ = {
-			isa = PBXGroup;
-			children = (
-				18DE24981DB6D95B00BCEABC /* TitleListViewObject */,
-			);
-			path = "UIView+UITableView";
-			sourceTree = "<group>";
-		};
-		18DE24981DB6D95B00BCEABC /* TitleListViewObject */ = {
-			isa = PBXGroup;
-			children = (
-				18DE24991DB6D95B00BCEABC /* CGTitleImageListModel.h */,
-				18DE249A1DB6D95B00BCEABC /* CGTitleImageListModel.m */,
-				18DE249B1DB6D95B00BCEABC /* CGTitleListViewAppearance.h */,
-				18DE249C1DB6D95B00BCEABC /* CGTitleListViewAppearance.m */,
-			);
-			path = TitleListViewObject;
 			sourceTree = "<group>";
 		};
 		18DE249D1DB6D95B00BCEABC /* View */ = {
@@ -2533,8 +2521,6 @@
 		18DE25751DB6D95B00BCEABC /* Detail Table View */ = {
 			isa = PBXGroup;
 			children = (
-				18DE25761DB6D95B00BCEABC /* CGTitleListView.h */,
-				18DE25771DB6D95B00BCEABC /* CGTitleListView.m */,
 			);
 			path = "Detail Table View";
 			sourceTree = "<group>";
@@ -2629,8 +2615,6 @@
 			children = (
 				18DE25991DB6D95B00BCEABC /* CGPhotoGroupTableViewCell.h */,
 				18DE259A1DB6D95B00BCEABC /* CGPhotoGroupTableViewCell.m */,
-				18DE259B1DB6D95B00BCEABC /* CGTitleListViewTableViewCell.h */,
-				18DE259C1DB6D95B00BCEABC /* CGTitleListViewTableViewCell.m */,
 			);
 			path = DetailCell;
 			sourceTree = "<group>";
@@ -2963,6 +2947,7 @@
 				18DE26081DB6D95B00BCEABC /* CGWebView.h */,
 				18DE26091DB6D95B00BCEABC /* CGWebView.m */,
 				18DE260A1DB6D95B00BCEABC /* CGWebViewDelegate.h */,
+				188BB0E81DB8F77400CC4F5A /* PrivateProtocol */,
 				18DE260B1DB6D95B00BCEABC /* DelegateManager */,
 				18DE26101DB6D95B00BCEABC /* NJKWebViewProgress.h */,
 				18DE26111DB6D95B00BCEABC /* NJKWebViewProgress.m */,
@@ -2977,6 +2962,8 @@
 				18DE260D1DB6D95B00BCEABC /* CGUIWebViewDelegateManager.m */,
 				18DE260E1DB6D95B00BCEABC /* CGWKWebViewDelegateManager.h */,
 				18DE260F1DB6D95B00BCEABC /* CGWKWebViewDelegateManager.m */,
+				188BB0EF1DB907F800CC4F5A /* CGWKWebViewUIDelegateManager.h */,
+				188BB0F01DB907F800CC4F5A /* CGWKWebViewUIDelegateManager.m */,
 			);
 			path = DelegateManager;
 			sourceTree = "<group>";
@@ -3742,7 +3729,6 @@
 				18DE275C1DB6D95C00BCEABC /* CGTextView.m in Sources */,
 				18DE27411DB6D95C00BCEABC /* CGCollectionView.m in Sources */,
 				18DE27B31DB6D95C00BCEABC /* CGTitleBarViewController.m in Sources */,
-				18DE27551DB6D95C00BCEABC /* CGTitleListView.m in Sources */,
 				18DE279A1DB6D95C00BCEABC /* CGAddSubviewsAppearance.m in Sources */,
 				18DE273A1DB6D95C00BCEABC /* UIImage+CGDrawAlertArrow.m in Sources */,
 				18DE279F1DB6D95C00BCEABC /* CGUpdateSubviewsFlowLayoutConfigModel.m in Sources */,
@@ -3763,7 +3749,6 @@
 				18DE26F71DB6D95B00BCEABC /* CGCloseIconConfig.m in Sources */,
 				18DE27291DB6D95C00BCEABC /* UIView+CGAddSubview.m in Sources */,
 				18DE26CE1DB6D95B00BCEABC /* CGRequestBaseModel.m in Sources */,
-				18DE27631DB6D95C00BCEABC /* CGTitleListViewTableViewCell.m in Sources */,
 				185EA9391D481D9700A3568F /* CGTestCycleViewController.m in Sources */,
 				18DE27B81DB6D95C00BCEABC /* CGWebViewController.m in Sources */,
 				18DE27371DB6D95C00BCEABC /* UIWebView+CGValue.m in Sources */,
@@ -3771,12 +3756,12 @@
 				18DE26E71DB6D95B00BCEABC /* NSNotificationCenter+CGCreateNotification.m in Sources */,
 				18DE26E41DB6D95B00BCEABC /* UIImage+CGLaunchImage.m in Sources */,
 				18DE27A71DB6D95C00BCEABC /* CGNavigationBarViewController.m in Sources */,
-				18DE27021DB6D95B00BCEABC /* CGTitleImageListModel.m in Sources */,
 				18DE27081DB6D95B00BCEABC /* UIButton+CGSetupAppearance.m in Sources */,
 				18DE27091DB6D95B00BCEABC /* UIButton+UpdateLocate.m in Sources */,
 				18DE26EA1DB6D95B00BCEABC /* NSUserDefaults+SaveData.m in Sources */,
 				18DE273E1DB6D95C00BCEABC /* CGTimerButton.m in Sources */,
 				18DE27681DB6D95C00BCEABC /* CGDoubleButtonsView.m in Sources */,
+				188BB0F11DB907F800CC4F5A /* CGWKWebViewUIDelegateManager.m in Sources */,
 				18DE27251DB6D95C00BCEABC /* UIView+CustomTableHeaderView.m in Sources */,
 				18DE278E1DB6D95C00BCEABC /* UIView+CGAddConstraintsForSubviews.m in Sources */,
 				18DE26C91DB6D95B00BCEABC /* CGDispathMethod.m in Sources */,
@@ -3788,7 +3773,6 @@
 				18DE26EF1DB6D95B00BCEABC /* CGImageManager.m in Sources */,
 				18DE27001DB6D95B00BCEABC /* UIImage+CGScaleImageSize.m in Sources */,
 				18DE275D1DB6D95C00BCEABC /* CGCollectionViewCell.m in Sources */,
-				18DE27031DB6D95B00BCEABC /* CGTitleListViewAppearance.m in Sources */,
 				18DE274D1DB6D95C00BCEABC /* HorizontalSingleAppearance.m in Sources */,
 				18DE27971DB6D95C00BCEABC /* CGViewConstraintsModel.m in Sources */,
 				18DE27531DB6D95C00BCEABC /* CGSingleSectionTableViewDataSource.m in Sources */,
@@ -3882,6 +3866,7 @@
 				18DE275F1DB6D95C00BCEABC /* CGPhotoCollectionViewCell.m in Sources */,
 				18DE27A31DB6D95C00BCEABC /* CGBaseViewController+CGSetupItem.m in Sources */,
 				18DE278D1DB6D95C00BCEABC /* CGTwoSubviewsConstraintsAppearance.m in Sources */,
+				188BB0F81DB90E8600CC4F5A /* CGWebViewConfig.m in Sources */,
 				18DE272E1DB6D95C00BCEABC /* UIView+CGAddGestureRecognizer.m in Sources */,
 				18DE26D21DB6D95B00BCEABC /* UIImageView+CGSetupImageURL.m in Sources */,
 				18DE27661DB6D95C00BCEABC /* CGSingeContentTableView.m in Sources */,
@@ -3940,7 +3925,6 @@
 				18DE27261DB6D95C00BCEABC /* UIView+DeleteTableView.m in Sources */,
 				00BAB2F11C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m in Sources */,
 				18DE27761DB6D95C00BCEABC /* CGTitleRadioCellAppearance.m in Sources */,
-				18DE26C81DB6D95B00BCEABC /* Value+Constant.m in Sources */,
 				18DE27911DB6D95C00BCEABC /* UIView+CGConstraintsManager.m in Sources */,
 				18DE278F1DB6D95C00BCEABC /* UIView+CGAddConstraints.m in Sources */,
 				18DE26CC1DB6D95B00BCEABC /* CGRequestManager.m in Sources */,

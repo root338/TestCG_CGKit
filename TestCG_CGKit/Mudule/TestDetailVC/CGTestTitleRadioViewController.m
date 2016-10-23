@@ -27,7 +27,7 @@
     CGMutableRadioViewAppearance *appearance   = [[CGMutableRadioViewAppearance alloc] init];
     appearance.scrollDirection          = UICollectionViewScrollDirectionVertical;
     appearance.itemSize                 = CGSizeMake(self.view.width, 44);
-    appearance.minimumLineSpacing       = 1;
+    appearance.minimumLineSpacing       = 0;
     appearance.isAutoItemSize           = NO;
     appearance.backgroundColor          = [UIColor lightGrayColor];
     appearance.sliderViewHeight         = 1;
@@ -36,6 +36,7 @@
     
     CGMutableTitleRadioCellAppearance *cellAppearance   = [[CGMutableTitleRadioCellAppearance alloc] init];
     cellAppearance.itemBackgroundColor  = [UIColor whiteColor];
+    cellAppearance.itemSelectedBackgroundColor  = [UIColor lightGrayColor];
     cellAppearance.itemMarginEdgeInsets = UIEdgeInsetsMake(0, 15, 0, 15);
     appearance.titleRadioCellAppearance = cellAppearance;
     

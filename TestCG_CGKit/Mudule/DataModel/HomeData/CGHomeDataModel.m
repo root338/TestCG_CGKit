@@ -39,6 +39,7 @@
 #import "CGTestInputViewController.h"
 
 #import "CGTestTitleRadioViewController.h"
+#import "CGTestTableViewViewController.h"
 
 #import "TestCG_CGKit-Swift.h"
 
@@ -181,6 +182,9 @@
     
     CGHomeDataModel *testTitleRadioVC  = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestTitleRadioViewController class] subtitle:@"测试 CGTitleRadio 视图功能"];
     [dataSourceList addObject:testTitleRadioVC];
+    
+    CGHomeDataModel *testTableViewVC    = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestTableViewViewController class] subtitle:@"测试 UITableView"];
+    [dataSourceList addObject:testTableViewVC];
     
     return dataSourceList;
 }

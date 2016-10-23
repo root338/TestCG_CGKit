@@ -28,6 +28,7 @@
 		188BB0F81DB90E8600CC4F5A /* CGWebViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 188BB0F61DB90E8600CC4F5A /* CGWebViewConfig.m */; };
 		1894AE871CAFD4F3005A518C /* CGTestDefinesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AE861CAFD4F3005A518C /* CGTestDefinesTableViewController.m */; };
 		1894AE8B1CAFD83F005A518C /* CGTestDefinesData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AE8A1CAFD83F005A518C /* CGTestDefinesData.m */; };
+		1897EAB71DBB8E2000B82491 /* CGRadioCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1897EAB61DBB8E2000B82491 /* CGRadioCollectionViewCell.m */; };
 		18A870171D68CED100C76A21 /* CGTestSubviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A870161D68CED100C76A21 /* CGTestSubviewViewController.m */; };
 		18B41A9E1C13FE450031002B /* TestTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B41A9D1C13FE450031002B /* TestTextFieldCell.m */; };
 		18DBAACA1C12818300552828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DBAAC81C12818300552828 /* Main.storyboard */; };
@@ -289,6 +290,8 @@
 		18DE27BF1DB6D95C00BCEABC /* CGDefaultPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE26BA1DB6D95B00BCEABC /* CGDefaultPopAnimation.m */; };
 		18DE27C01DB6D95C00BCEABC /* CGNavigationViewControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE26BD1DB6D95B00BCEABC /* CGNavigationViewControllerManager.m */; };
 		18DE27C31DB6D95C00BCEABC /* CGTestTitleRadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE27C21DB6D95C00BCEABC /* CGTestTitleRadioViewController.m */; };
+		18DFFB901DBC6847004D774A /* CGTitlesSourceDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFFB8F1DBC6847004D774A /* CGTitlesSourceDataModel.m */; };
+		18DFFB931DBC6B82004D774A /* CGTestTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFFB921DBC6B82004D774A /* CGTestTableViewViewController.m */; };
 		18E6E2AC1C15B87500906A5A /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6E2AB1C15B87500906A5A /* AFNetworkActivityLogger.m */; };
 		18F093EE1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F093ED1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift */; };
 		18F21B921CC3F6B100B58B16 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F21B911CC3F6B100B58B16 /* ShareViewController.m */; };
@@ -372,6 +375,8 @@
 		1894AE861CAFD4F3005A518C /* CGTestDefinesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestDefinesTableViewController.m; sourceTree = "<group>"; };
 		1894AE891CAFD83F005A518C /* CGTestDefinesData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestDefinesData.h; sourceTree = "<group>"; };
 		1894AE8A1CAFD83F005A518C /* CGTestDefinesData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestDefinesData.m; sourceTree = "<group>"; };
+		1897EAB51DBB8E2000B82491 /* CGRadioCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRadioCollectionViewCell.h; sourceTree = "<group>"; };
+		1897EAB61DBB8E2000B82491 /* CGRadioCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGRadioCollectionViewCell.m; sourceTree = "<group>"; };
 		18A870151D68CED100C76A21 /* CGTestSubviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestSubviewViewController.h; sourceTree = "<group>"; };
 		18A870161D68CED100C76A21 /* CGTestSubviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestSubviewViewController.m; sourceTree = "<group>"; };
 		18B41A9C1C13FE450031002B /* TestTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTextFieldCell.h; sourceTree = "<group>"; };
@@ -953,6 +958,10 @@
 		18DE26BE1DB6D95B00BCEABC /* CGNavigationViewControllerManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNavigationViewControllerManagerDelegate.h; sourceTree = "<group>"; };
 		18DE27C11DB6D95C00BCEABC /* CGTestTitleRadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestTitleRadioViewController.h; sourceTree = "<group>"; };
 		18DE27C21DB6D95C00BCEABC /* CGTestTitleRadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestTitleRadioViewController.m; sourceTree = "<group>"; };
+		18DFFB8E1DBC6847004D774A /* CGTitlesSourceDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitlesSourceDataModel.h; sourceTree = "<group>"; };
+		18DFFB8F1DBC6847004D774A /* CGTitlesSourceDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitlesSourceDataModel.m; sourceTree = "<group>"; };
+		18DFFB911DBC6B82004D774A /* CGTestTableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestTableViewViewController.h; sourceTree = "<group>"; };
+		18DFFB921DBC6B82004D774A /* CGTestTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestTableViewViewController.m; sourceTree = "<group>"; };
 		18E6E2AA1C15B87500906A5A /* AFNetworkActivityLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityLogger.h; path = AFNetworkActivityLogger/AFNetworkActivityLogger.h; sourceTree = "<group>"; };
 		18E6E2AB1C15B87500906A5A /* AFNetworkActivityLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityLogger.m; path = AFNetworkActivityLogger/AFNetworkActivityLogger.m; sourceTree = "<group>"; };
 		18F093ED1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGTestFoulLineViewController.swift; sourceTree = "<group>"; };
@@ -1117,6 +1126,7 @@
 		188BB0F21DB90E8600CC4F5A /* UIViewAssociationObject */ = {
 			isa = PBXGroup;
 			children = (
+				18DFFB8D1DBC6827004D774A /* CGTitlesTableView */,
 				188BB0F41DB90E8600CC4F5A /* UIView+CGWebView */,
 			);
 			path = UIViewAssociationObject;
@@ -1174,6 +1184,8 @@
 				00064D5A1DAA33D40019D2BA /* CGTestInputViewController.m */,
 				18DE27C11DB6D95C00BCEABC /* CGTestTitleRadioViewController.h */,
 				18DE27C21DB6D95C00BCEABC /* CGTestTitleRadioViewController.m */,
+				18DFFB911DBC6B82004D774A /* CGTestTableViewViewController.h */,
+				18DFFB921DBC6B82004D774A /* CGTestTableViewViewController.m */,
 			);
 			path = TestDetailVC;
 			sourceTree = "<group>";
@@ -2793,6 +2805,8 @@
 			children = (
 				18DE25DB1DB6D95B00BCEABC /* CGTitleRadioCollectionViewCell.h */,
 				18DE25DC1DB6D95B00BCEABC /* CGTitleRadioCollectionViewCell.m */,
+				1897EAB51DBB8E2000B82491 /* CGRadioCollectionViewCell.h */,
+				1897EAB61DBB8E2000B82491 /* CGRadioCollectionViewCell.m */,
 			);
 			path = RadioCell;
 			sourceTree = "<group>";
@@ -3456,6 +3470,15 @@
 			path = ViewControllersManager;
 			sourceTree = "<group>";
 		};
+		18DFFB8D1DBC6827004D774A /* CGTitlesTableView */ = {
+			isa = PBXGroup;
+			children = (
+				18DFFB8E1DBC6847004D774A /* CGTitlesSourceDataModel.h */,
+				18DFFB8F1DBC6847004D774A /* CGTitlesSourceDataModel.m */,
+			);
+			path = CGTitlesTableView;
+			sourceTree = "<group>";
+		};
 		18F093EC1CDBFFC3001FBE3E /* TestDetailVC-Swift */ = {
 			isa = PBXGroup;
 			children = (
@@ -3756,6 +3779,7 @@
 				18DE26E71DB6D95B00BCEABC /* NSNotificationCenter+CGCreateNotification.m in Sources */,
 				18DE26E41DB6D95B00BCEABC /* UIImage+CGLaunchImage.m in Sources */,
 				18DE27A71DB6D95C00BCEABC /* CGNavigationBarViewController.m in Sources */,
+				18DFFB931DBC6B82004D774A /* CGTestTableViewViewController.m in Sources */,
 				18DE27081DB6D95B00BCEABC /* UIButton+CGSetupAppearance.m in Sources */,
 				18DE27091DB6D95B00BCEABC /* UIButton+UpdateLocate.m in Sources */,
 				18DE26EA1DB6D95B00BCEABC /* NSUserDefaults+SaveData.m in Sources */,
@@ -3795,6 +3819,7 @@
 				18DE27B21DB6D95C00BCEABC /* CGScrollViewController.m in Sources */,
 				18DE278C1DB6D95C00BCEABC /* NSArray+CGAddConstraints.m in Sources */,
 				18DE27181DB6D95C00BCEABC /* UICollectionView+CGRegisterCell.m in Sources */,
+				18DFFB901DBC6847004D774A /* CGTitlesSourceDataModel.m in Sources */,
 				18DE275A1DB6D95C00BCEABC /* CGBaseTextView.m in Sources */,
 				18A870171D68CED100C76A21 /* CGTestSubviewViewController.m in Sources */,
 				18DE27841DB6D95C00BCEABC /* CGTitleLabelView.m in Sources */,
@@ -3836,6 +3861,7 @@
 				18DE271E1DB6D95C00BCEABC /* UITableView+CGChangeGroupStyle.m in Sources */,
 				18DE27641DB6D95C00BCEABC /* CGBaseView.m in Sources */,
 				18DE276D1DB6D95C00BCEABC /* CGCycleScrollView+CGCondition.m in Sources */,
+				1897EAB71DBB8E2000B82491 /* CGRadioCollectionViewCell.m in Sources */,
 				18DE27AD1DB6D95C00BCEABC /* UIViewController+CGAlert.m in Sources */,
 				18DE26FA1DB6D95B00BCEABC /* UIImage+CGDrawIcon.m in Sources */,
 				183CCCA41CC5894400235486 /* CGTestPhotosViewController.m in Sources */,

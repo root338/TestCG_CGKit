@@ -25,8 +25,6 @@
     
     CGMutableRadioViewAppearance *appearance   = [[CGMutableRadioViewAppearance alloc] init];
     appearance.backgroundColor          = [UIColor lightGrayColor];
-    appearance.sliderViewHeight         = 1;
-    appearance.sliderViewBorderColor    = [UIColor orangeColor];
     appearance.isHideSliderView         = YES;
     
     CGMutableRadioViewFlowLayout *flowLayout    = [[CGMutableRadioViewFlowLayout alloc] init];

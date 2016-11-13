@@ -9,8 +9,7 @@
 #import "CGTestTitleRadioViewController.h"
 
 #import "CGTitleRadioView.h"
-#import "CGRadioViewAppearance.h"
-#import "CGTitleRadioCellAppearance.h"
+#import "CGRadioViewAppearanceHeader.h"
 
 #import "UIView+CGAddConstraints.h"
 
@@ -25,14 +24,17 @@
     // Do any additional setup after loading the view.
     
     CGMutableRadioViewAppearance *appearance   = [[CGMutableRadioViewAppearance alloc] init];
-    appearance.scrollDirection          = UICollectionViewScrollDirectionVertical;
-    appearance.itemSize                 = CGSizeMake(self.view.width, 44);
-    appearance.minimumLineSpacing       = 0;
-    appearance.isAutoItemSize           = NO;
     appearance.backgroundColor          = [UIColor lightGrayColor];
     appearance.sliderViewHeight         = 1;
     appearance.sliderViewBorderColor    = [UIColor orangeColor];
     appearance.isHideSliderView         = YES;
+    
+    CGMutableRadioViewFlowLayout *flowLayout    = [[CGMutableRadioViewFlowLayout alloc] init];
+    flowLayout.scrollDirection                  = UICollectionViewScrollDirectionVertical;
+    flowLayout.itemSize                         = CGSizeMake(self.view.width, 44);
+    flowLayout.minimumLineSpacing               = 0;
+    flowLayout.isAutoItemSize                   = NO;
+    appearance.radioViewFlowLayout              = flowLayout;
     
     CGMutableTitleRadioCellAppearance *cellAppearance   = [[CGMutableTitleRadioCellAppearance alloc] init];
     cellAppearance.itemBackgroundColor  = [UIColor whiteColor];

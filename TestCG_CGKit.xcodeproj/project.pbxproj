@@ -26,6 +26,7 @@
 		1885F3921CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1885F3911CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m */; };
 		188BB0F11DB907F800CC4F5A /* CGWKWebViewUIDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 188BB0F01DB907F800CC4F5A /* CGWKWebViewUIDelegateManager.m */; };
 		188BB0F81DB90E8600CC4F5A /* CGWebViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 188BB0F61DB90E8600CC4F5A /* CGWebViewConfig.m */; };
+		188E546F1DCF4EB300B2F86C /* CGRadioViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 188E546E1DCF4EB300B2F86C /* CGRadioViewFlowLayout.m */; };
 		1894AE871CAFD4F3005A518C /* CGTestDefinesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AE861CAFD4F3005A518C /* CGTestDefinesTableViewController.m */; };
 		1894AE8B1CAFD83F005A518C /* CGTestDefinesData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AE8A1CAFD83F005A518C /* CGTestDefinesData.m */; };
 		1897EAB71DBB8E2000B82491 /* CGRadioCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1897EAB61DBB8E2000B82491 /* CGRadioCollectionViewCell.m */; };
@@ -371,6 +372,9 @@
 		188BB0F01DB907F800CC4F5A /* CGWKWebViewUIDelegateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWKWebViewUIDelegateManager.m; sourceTree = "<group>"; };
 		188BB0F51DB90E8600CC4F5A /* CGWebViewConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGWebViewConfig.h; sourceTree = "<group>"; };
 		188BB0F61DB90E8600CC4F5A /* CGWebViewConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGWebViewConfig.m; sourceTree = "<group>"; };
+		188E546D1DCF4EB300B2F86C /* CGRadioViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRadioViewFlowLayout.h; sourceTree = "<group>"; };
+		188E546E1DCF4EB300B2F86C /* CGRadioViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGRadioViewFlowLayout.m; sourceTree = "<group>"; };
+		188E54701DCF50EE00B2F86C /* CGRadioViewAppearanceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGRadioViewAppearanceHeader.h; sourceTree = "<group>"; };
 		1894AE851CAFD4F3005A518C /* CGTestDefinesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestDefinesTableViewController.h; sourceTree = "<group>"; };
 		1894AE861CAFD4F3005A518C /* CGTestDefinesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestDefinesTableViewController.m; sourceTree = "<group>"; };
 		1894AE891CAFD83F005A518C /* CGTestDefinesData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestDefinesData.h; sourceTree = "<group>"; };
@@ -2796,6 +2800,9 @@
 				18DE25D31DB6D95B00BCEABC /* CGRadioViewAppearance.m */,
 				18DE25D41DB6D95B00BCEABC /* CGTitleRadioCellAppearance.h */,
 				18DE25D51DB6D95B00BCEABC /* CGTitleRadioCellAppearance.m */,
+				188E546D1DCF4EB300B2F86C /* CGRadioViewFlowLayout.h */,
+				188E546E1DCF4EB300B2F86C /* CGRadioViewFlowLayout.m */,
+				188E54701DCF50EE00B2F86C /* CGRadioViewAppearanceHeader.h */,
 			);
 			path = Appearance;
 			sourceTree = "<group>";
@@ -3938,6 +3945,7 @@
 				18DE277F1DB6D95C00BCEABC /* CGLayoutMarginBaseView.m in Sources */,
 				0000D9B51D6593C30038E4A0 /* CGTestTitleBarViewController.m in Sources */,
 				18DBAAF91C12877E00552828 /* AppDelegate.m in Sources */,
+				188E546F1DCF4EB300B2F86C /* CGRadioViewFlowLayout.m in Sources */,
 				00D307AD1CC76E350040EFC8 /* CGTestWKWebViewController.m in Sources */,
 				18DE27941DB6D95C00BCEABC /* CGLayoutManager.m in Sources */,
 				18DE26F51DB6D95B00BCEABC /* UIFont+CGCreateFont.m in Sources */,

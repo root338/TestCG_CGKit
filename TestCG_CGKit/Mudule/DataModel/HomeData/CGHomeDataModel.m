@@ -41,6 +41,9 @@
 #import "CGTestTitleRadioViewController.h"
 #import "CGTestTableViewViewController.h"
 
+/** 测试AlertView的动画 */
+#import "CGTestUIAlertAnimationViewController.h"
+
 #import "TestCG_CGKit-Swift.h"
 
 @implementation CGHomeDataModel
@@ -185,6 +188,9 @@
     
     CGHomeDataModel *testTableViewVC    = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestTableViewViewController class] subtitle:@"测试 UITableView"];
     [dataSourceList addObject:testTableViewVC];
+    
+    CGHomeDataModel *testAlertViewVC    = [CGHomeDataModel cg_createHomeDataWithClass:[CGTestUIAlertAnimationViewController class] subtitle:@"测试系统 AlertView 的动画设置"];
+    [dataSourceList addObject:testAlertViewVC];
     
     return dataSourceList;
 }

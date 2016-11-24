@@ -94,11 +94,10 @@
 		00485EB11DE28BD200D6326F /* UIBarButtonItem+CGCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00485C541DE28BD000D6326F /* UIBarButtonItem+CGCreate.m */; };
 		00485EB21DE28BD200D6326F /* UIButton+CGCreateCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 00485C561DE28BD000D6326F /* UIButton+CGCreateCustomButton.m */; };
 		00485EB31DE28BD200D6326F /* UIImageView+CGCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00485C581DE28BD000D6326F /* UIImageView+CGCreate.m */; };
-		00485EB41DE28BD200D6326F /* UIImageView+CGCreateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00485C5A1DE28BD000D6326F /* UIImageView+CGCreateView.m */; };
 		00485EB51DE28BD200D6326F /* UILabel+CGCreateCustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00485C5C1DE28BD000D6326F /* UILabel+CGCreateCustomLabel.m */; };
 		00485EB61DE28BD200D6326F /* UIScrollView+CGCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00485C5E1DE28BD000D6326F /* UIScrollView+CGCreate.m */; };
 		00485EB71DE28BD200D6326F /* UITableView+CGCreateTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00485C601DE28BD000D6326F /* UITableView+CGCreateTableView.m */; };
-		00485EB81DE28BD200D6326F /* UITextField+CG_Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 00485C621DE28BD000D6326F /* UITextField+CG_Create.m */; };
+		00485EB81DE28BD200D6326F /* CGTextField+CGCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00485C621DE28BD000D6326F /* CGTextField+CGCreate.m */; };
 		00485EB91DE28BD200D6326F /* UIView+CGCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00485C641DE28BD000D6326F /* UIView+CGCreate.m */; };
 		00485EBA1DE28BD200D6326F /* UITextField+AddInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00485C671DE28BD000D6326F /* UITextField+AddInputView.m */; };
 		00485EBB1DE28BD200D6326F /* UICollectionView+CGDequeueReusableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00485C6B1DE28BD000D6326F /* UICollectionView+CGDequeueReusableCell.m */; };
@@ -549,16 +548,14 @@
 		00485C561DE28BD000D6326F /* UIButton+CGCreateCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CGCreateCustomButton.m"; sourceTree = "<group>"; };
 		00485C571DE28BD000D6326F /* UIImageView+CGCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CGCreate.h"; sourceTree = "<group>"; };
 		00485C581DE28BD000D6326F /* UIImageView+CGCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CGCreate.m"; sourceTree = "<group>"; };
-		00485C591DE28BD000D6326F /* UIImageView+CGCreateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CGCreateView.h"; sourceTree = "<group>"; };
-		00485C5A1DE28BD000D6326F /* UIImageView+CGCreateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CGCreateView.m"; sourceTree = "<group>"; };
 		00485C5B1DE28BD000D6326F /* UILabel+CGCreateCustomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CGCreateCustomLabel.h"; sourceTree = "<group>"; };
 		00485C5C1DE28BD000D6326F /* UILabel+CGCreateCustomLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CGCreateCustomLabel.m"; sourceTree = "<group>"; };
 		00485C5D1DE28BD000D6326F /* UIScrollView+CGCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CGCreate.h"; sourceTree = "<group>"; };
 		00485C5E1DE28BD000D6326F /* UIScrollView+CGCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CGCreate.m"; sourceTree = "<group>"; };
 		00485C5F1DE28BD000D6326F /* UITableView+CGCreateTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+CGCreateTableView.h"; sourceTree = "<group>"; };
 		00485C601DE28BD000D6326F /* UITableView+CGCreateTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CGCreateTableView.m"; sourceTree = "<group>"; };
-		00485C611DE28BD000D6326F /* UITextField+CG_Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CG_Create.h"; sourceTree = "<group>"; };
-		00485C621DE28BD000D6326F /* UITextField+CG_Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CG_Create.m"; sourceTree = "<group>"; };
+		00485C611DE28BD000D6326F /* CGTextField+CGCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGTextField+CGCreate.h"; sourceTree = "<group>"; };
+		00485C621DE28BD000D6326F /* CGTextField+CGCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGTextField+CGCreate.m"; sourceTree = "<group>"; };
 		00485C631DE28BD000D6326F /* UIView+CGCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGCreate.h"; sourceTree = "<group>"; };
 		00485C641DE28BD000D6326F /* UIView+CGCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGCreate.m"; sourceTree = "<group>"; };
 		00485C661DE28BD000D6326F /* UITextField+AddInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+AddInputView.h"; sourceTree = "<group>"; };
@@ -962,6 +959,8 @@
 		00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGHomeDataModel.m; sourceTree = "<group>"; };
 		00D307AB1CC76E350040EFC8 /* CGTestWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestWKWebViewController.h; sourceTree = "<group>"; };
 		00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestWKWebViewController.m; sourceTree = "<group>"; };
+		00DC45C51DE5905B00A5D083 /* CGKitUICategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGKitUICategoryHeader.h; sourceTree = "<group>"; };
+		00DC45C61DE5916600A5D083 /* CGUICreateViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGUICreateViewHeader.h; sourceTree = "<group>"; };
 		00F1127D1DADC6850053E839 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		183CCCA21CC5894400235486 /* CGTestPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestPhotosViewController.h; sourceTree = "<group>"; };
 		183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestPhotosViewController.m; sourceTree = "<group>"; };
@@ -1886,18 +1885,17 @@
 				00485C561DE28BD000D6326F /* UIButton+CGCreateCustomButton.m */,
 				00485C571DE28BD000D6326F /* UIImageView+CGCreate.h */,
 				00485C581DE28BD000D6326F /* UIImageView+CGCreate.m */,
-				00485C591DE28BD000D6326F /* UIImageView+CGCreateView.h */,
-				00485C5A1DE28BD000D6326F /* UIImageView+CGCreateView.m */,
 				00485C5B1DE28BD000D6326F /* UILabel+CGCreateCustomLabel.h */,
 				00485C5C1DE28BD000D6326F /* UILabel+CGCreateCustomLabel.m */,
 				00485C5D1DE28BD000D6326F /* UIScrollView+CGCreate.h */,
 				00485C5E1DE28BD000D6326F /* UIScrollView+CGCreate.m */,
 				00485C5F1DE28BD000D6326F /* UITableView+CGCreateTableView.h */,
 				00485C601DE28BD000D6326F /* UITableView+CGCreateTableView.m */,
-				00485C611DE28BD000D6326F /* UITextField+CG_Create.h */,
-				00485C621DE28BD000D6326F /* UITextField+CG_Create.m */,
+				00485C611DE28BD000D6326F /* CGTextField+CGCreate.h */,
+				00485C621DE28BD000D6326F /* CGTextField+CGCreate.m */,
 				00485C631DE28BD000D6326F /* UIView+CGCreate.h */,
 				00485C641DE28BD000D6326F /* UIView+CGCreate.m */,
+				00DC45C61DE5916600A5D083 /* CGUICreateViewHeader.h */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -2901,6 +2899,7 @@
 				00485DDE1DE28BD100D6326F /* CGLayoutConstraintsTypeHeader.h */,
 				00485DDF1DE28BD100D6326F /* CGLayoutDefines.h */,
 				00485DE01DE28BD100D6326F /* CGSearchConstraintTypeHeader.h */,
+				00DC45C51DE5905B00A5D083 /* CGKitUICategoryHeader.h */,
 			);
 			path = "Header Type";
 			sourceTree = "<group>";
@@ -4006,7 +4005,6 @@
 				00485EBE1DE28BD200D6326F /* UILabel+CGSetupAppearance.m in Sources */,
 				00485EAE1DE28BD200D6326F /* UIButton+UpdateLocate.m in Sources */,
 				0038420C1CEC132C00CB6B9D /* CGFoulLineView.swift in Sources */,
-				00485EB41DE28BD200D6326F /* UIImageView+CGCreateView.m in Sources */,
 				00485ED91DE28BD200D6326F /* UIView+CGSetupFrame.m in Sources */,
 				00485F151DE28BD300D6326F /* CGCycleBrowseImageScrollView.m in Sources */,
 				18DBAE021C12968900552828 /* HomeViewController.m in Sources */,
@@ -4105,7 +4103,7 @@
 				00485E841DE28BD200D6326F /* NSNotification+CGKeyboardUserInfo.m in Sources */,
 				00485F4B1DE28BD300D6326F /* CGNavigationAppearance.m in Sources */,
 				00485EDF1DE28BD200D6326F /* UIImage+CGDrawAlertArrow.m in Sources */,
-				00485EB81DE28BD200D6326F /* UITextField+CG_Create.m in Sources */,
+				00485EB81DE28BD200D6326F /* CGTextField+CGCreate.m in Sources */,
 				00485F791DE2919400D6326F /* CGSelectorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

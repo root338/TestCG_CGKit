@@ -8,7 +8,8 @@
 
 #import "CGTestCGScrollViewController.h"
 
-//#import "CGScrollView.h"
+#import "CGLineView.h"
+#import "CGScrollView.h"
 
 #import "UIView+CGAddConstraints.h"
 
@@ -27,7 +28,7 @@
     
     self.view.backgroundColor   = [UIColor orangeColor];
     
-    _scrollView = [[UIScrollView alloc] init];
+    _scrollView = [[CGScrollView alloc] init];
     [self.view addSubview:_scrollView];
     
     [_scrollView cg_autoEdgesInsetsZeroToSuperview];
@@ -39,6 +40,8 @@
     [view cg_autoEdgesInsetsZeroToSuperview];
     [view cg_autoDimension:CGDimensionHeight fixedLength:2000];
     [view cg_autoDimension:CGDimensionWidth equalView:_scrollView];
+    
+    
 }
 
 @end

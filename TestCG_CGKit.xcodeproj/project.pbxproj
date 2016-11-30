@@ -10,9 +10,9 @@
 		0000D9B51D6593C30038E4A0 /* CGTestTitleBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000D9B41D6593C30038E4A0 /* CGTestTitleBarViewController.m */; };
 		00064D481DA9EFB00019D2BA /* CGTestDrawImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00064D471DA9EFB00019D2BA /* CGTestDrawImageViewController.m */; };
 		00064D5B1DAA33D40019D2BA /* CGTestInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00064D5A1DAA33D40019D2BA /* CGTestInputViewController.m */; };
+		001AA7A31DEE73D40001CD7B /* UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AA7A21DEE73D40001CD7B /* UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.m */; };
 		00206B5F1DE3DB0F00A9BE52 /* CGBaseSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00206B5E1DE3DB0F00A9BE52 /* CGBaseSelectorView.m */; };
 		00206B631DE4177100A9BE52 /* CGSelectorLayerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00206B621DE4177100A9BE52 /* CGSelectorLayerAnimation.m */; };
-		00206B671DE41F9C00A9BE52 /* UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00206B661DE41F9C00A9BE52 /* UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.m */; };
 		0038420C1CEC132C00CB6B9D /* CGFoulLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003842091CEC132C00CB6B9D /* CGFoulLineView.swift */; };
 		00485E621DE28BD200D6326F /* UIView+CGLineMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00485B581DE28BCF00D6326F /* UIView+CGLineMoveView.m */; };
 		00485E631DE28BD200D6326F /* UIView+CGScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00485B5A1DE28BCF00D6326F /* UIView+CGScaleView.m */; };
@@ -353,13 +353,13 @@
 		00064D471DA9EFB00019D2BA /* CGTestDrawImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestDrawImageViewController.m; sourceTree = "<group>"; };
 		00064D591DAA33D40019D2BA /* CGTestInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestInputViewController.h; sourceTree = "<group>"; };
 		00064D5A1DAA33D40019D2BA /* CGTestInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestInputViewController.m; sourceTree = "<group>"; };
+		001AA7A11DEE73D40001CD7B /* UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.h"; sourceTree = "<group>"; };
+		001AA7A21DEE73D40001CD7B /* UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.m"; sourceTree = "<group>"; };
 		00206B5D1DE3DB0F00A9BE52 /* CGBaseSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseSelectorView.h; sourceTree = "<group>"; };
 		00206B5E1DE3DB0F00A9BE52 /* CGBaseSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseSelectorView.m; sourceTree = "<group>"; };
 		00206B611DE4177100A9BE52 /* CGSelectorLayerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSelectorLayerAnimation.h; sourceTree = "<group>"; };
 		00206B621DE4177100A9BE52 /* CGSelectorLayerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSelectorLayerAnimation.m; sourceTree = "<group>"; };
 		00206B641DE4178900A9BE52 /* CGSelectorLayerAnimationHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGSelectorLayerAnimationHeader.h; sourceTree = "<group>"; };
-		00206B651DE41F9C00A9BE52 /* UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.h"; sourceTree = "<group>"; };
-		00206B661DE41F9C00A9BE52 /* UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.m"; sourceTree = "<group>"; };
 		003842091CEC132C00CB6B9D /* CGFoulLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFoulLineView.swift; sourceTree = "<group>"; };
 		0038420A1CEC132C00CB6B9D /* CGSwiftKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGSwiftKit-Bridging-Header.h"; sourceTree = "<group>"; };
 		00485B541DE28BCF00D6326F /* CGAngleRadianHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAngleRadianHeader.h; sourceTree = "<group>"; };
@@ -1046,6 +1046,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		001AA7A01DEE73D40001CD7B /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				001AA7A11DEE73D40001CD7B /* UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.h */,
+				001AA7A21DEE73D40001CD7B /* UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.m */,
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
 		00206B601DE4173B00A9BE52 /* KeyAnimation */ = {
 			isa = PBXGroup;
 			children = (
@@ -1811,6 +1820,7 @@
 		00485C3A1DE28BD000D6326F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				001AA7A01DEE73D40001CD7B /* UINavigationController */,
 				00485C3B1DE28BD000D6326F /* AreaCalculate */,
 				00485C431DE28BD000D6326F /* Button */,
 				00485C4C1DE28BD000D6326F /* CreateView */,
@@ -2046,8 +2056,6 @@
 			children = (
 				00485CA81DE28BD000D6326F /* UIView+CGAddGestureRecognizer.h */,
 				00485CA91DE28BD000D6326F /* UIView+CGAddGestureRecognizer.m */,
-				00206B651DE41F9C00A9BE52 /* UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.h */,
-				00206B661DE41F9C00A9BE52 /* UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.m */,
 			);
 			path = GestureRecognizer;
 			sourceTree = "<group>";
@@ -3831,7 +3839,7 @@
 				00485F621DE28BD300D6326F /* CGWebPrivateView.m in Sources */,
 				0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */,
 				00485E6E1DE28BD200D6326F /* CGHandleRequestData.m in Sources */,
-				00206B671DE41F9C00A9BE52 /* UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.m in Sources */,
+				001AA7A31DEE73D40001CD7B /* UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.m in Sources */,
 				185EA9391D481D9700A3568F /* CGTestCycleViewController.m in Sources */,
 				00485E741DE28BD200D6326F /* CGRequestModel+Category.m in Sources */,
 				00485EE41DE28BD300D6326F /* CGInputConditionButton.m in Sources */,

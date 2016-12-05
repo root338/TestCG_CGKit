@@ -284,6 +284,7 @@
 		00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */; };
 		00D307AD1CC76E350040EFC8 /* CGTestWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */; };
 		00F1127E1DADC6850053E839 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F1127D1DADC6850053E839 /* QuartzCore.framework */; };
+		00F9088D1DF54DE200AF2579 /* CGBrowseContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F9088C1DF54DE200AF2579 /* CGBrowseContentView.swift */; };
 		183CCCA41CC5894400235486 /* CGTestPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */; };
 		185086E71CC303E4001CBC6B /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185086E61CC303E4001CBC6B /* Photos.framework */; };
 		185EA9391D481D9700A3568F /* CGTestCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185EA9381D481D9700A3568F /* CGTestCycleViewController.m */; };
@@ -962,6 +963,7 @@
 		00DC45C51DE5905B00A5D083 /* CGKitUICategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGKitUICategoryHeader.h; sourceTree = "<group>"; };
 		00DC45C61DE5916600A5D083 /* CGUICreateViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGUICreateViewHeader.h; sourceTree = "<group>"; };
 		00F1127D1DADC6850053E839 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		00F9088C1DF54DE200AF2579 /* CGBrowseContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGBrowseContentView.swift; sourceTree = "<group>"; };
 		183CCCA21CC5894400235486 /* CGTestPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestPhotosViewController.h; sourceTree = "<group>"; };
 		183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestPhotosViewController.m; sourceTree = "<group>"; };
 		185086E61CC303E4001CBC6B /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
@@ -1084,6 +1086,7 @@
 			isa = PBXGroup;
 			children = (
 				003842091CEC132C00CB6B9D /* CGFoulLineView.swift */,
+				00F9088C1DF54DE200AF2579 /* CGBrowseContentView.swift */,
 				0038420A1CEC132C00CB6B9D /* CGSwiftKit-Bridging-Header.h */,
 			);
 			path = UIView;
@@ -4011,6 +4014,7 @@
 				00485E821DE28BD200D6326F /* NSObject+CGExchangeSelector.m in Sources */,
 				00485F661DE28BD300D6326F /* CGSingleTableViewController.m in Sources */,
 				00485EBE1DE28BD200D6326F /* UILabel+CGSetupAppearance.m in Sources */,
+				00F9088D1DF54DE200AF2579 /* CGBrowseContentView.swift in Sources */,
 				00485EAE1DE28BD200D6326F /* UIButton+UpdateLocate.m in Sources */,
 				0038420C1CEC132C00CB6B9D /* CGFoulLineView.swift in Sources */,
 				00485ED91DE28BD200D6326F /* UIView+CGSetupFrame.m in Sources */,

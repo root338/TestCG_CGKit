@@ -42,7 +42,7 @@
     
     NSMutableArray<NSString *> *titles  = [NSMutableArray arrayWithCapacity:50];
     for (NSInteger i = 0; i < 50; i++) {
-        [titles addObject:[NSString stringWithFormat:@"title index %li", i]];
+        [titles addObject:[NSString stringWithFormat:@"title index %li", (long)i]];
     }
     CGTitleRadioView *titleRadioView    = [[CGTitleRadioView alloc] initWithTitles:titles appearance:appearance];
     titleRadioView.disableCurrentSelectedIndexToCenterHorizontalPosition    = YES;

@@ -13,7 +13,6 @@
 		001AA7A31DEE73D40001CD7B /* UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AA7A21DEE73D40001CD7B /* UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.m */; };
 		00206B5F1DE3DB0F00A9BE52 /* CGBaseSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00206B5E1DE3DB0F00A9BE52 /* CGBaseSelectorView.m */; };
 		00206B631DE4177100A9BE52 /* CGSelectorLayerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00206B621DE4177100A9BE52 /* CGSelectorLayerAnimation.m */; };
-		0038420C1CEC132C00CB6B9D /* CGFoulLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003842091CEC132C00CB6B9D /* CGFoulLineView.swift */; };
 		00485E621DE28BD200D6326F /* UIView+CGLineMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00485B581DE28BCF00D6326F /* UIView+CGLineMoveView.m */; };
 		00485E631DE28BD200D6326F /* UIView+CGScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00485B5A1DE28BCF00D6326F /* UIView+CGScaleView.m */; };
 		00485E641DE28BD200D6326F /* UIView+CGScaleViewFromOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00485B5C1DE28BCF00D6326F /* UIView+CGScaleViewFromOverlayView.m */; };
@@ -283,8 +282,11 @@
 		00C2B9151D5EC8F20053E46B /* CGTestCGScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B9141D5EC8F20053E46B /* CGTestCGScrollViewController.m */; };
 		00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */; };
 		00D307AD1CC76E350040EFC8 /* CGTestWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */; };
+		00E0CBF61DF6633600D8E72E /* CGFoulLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E0CBF51DF6633600D8E72E /* CGFoulLineView.swift */; };
+		00E0CBF81DF6633F00D8E72E /* CGBrowseContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E0CBF71DF6633F00D8E72E /* CGBrowseContentView.swift */; };
+		00E0CBFA1DF6636700D8E72E /* CGBrowseViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E0CBF91DF6636700D8E72E /* CGBrowseViewCell.swift */; };
 		00F1127E1DADC6850053E839 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F1127D1DADC6850053E839 /* QuartzCore.framework */; };
-		00F9088D1DF54DE200AF2579 /* CGBrowseContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F9088C1DF54DE200AF2579 /* CGBrowseContentView.swift */; };
+		00F908901DF56D1700AF2579 /* WKWebView+CGValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F9088F1DF56D1700AF2579 /* WKWebView+CGValue.m */; };
 		183CCCA41CC5894400235486 /* CGTestPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */; };
 		185086E71CC303E4001CBC6B /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185086E61CC303E4001CBC6B /* Photos.framework */; };
 		185EA9391D481D9700A3568F /* CGTestCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185EA9381D481D9700A3568F /* CGTestCycleViewController.m */; };
@@ -361,8 +363,6 @@
 		00206B611DE4177100A9BE52 /* CGSelectorLayerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSelectorLayerAnimation.h; sourceTree = "<group>"; };
 		00206B621DE4177100A9BE52 /* CGSelectorLayerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSelectorLayerAnimation.m; sourceTree = "<group>"; };
 		00206B641DE4178900A9BE52 /* CGSelectorLayerAnimationHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGSelectorLayerAnimationHeader.h; sourceTree = "<group>"; };
-		003842091CEC132C00CB6B9D /* CGFoulLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFoulLineView.swift; sourceTree = "<group>"; };
-		0038420A1CEC132C00CB6B9D /* CGSwiftKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGSwiftKit-Bridging-Header.h"; sourceTree = "<group>"; };
 		00485B541DE28BCF00D6326F /* CGAngleRadianHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAngleRadianHeader.h; sourceTree = "<group>"; };
 		00485B561DE28BCF00D6326F /* CGMoveViewTypeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGMoveViewTypeHeader.h; sourceTree = "<group>"; };
 		00485B571DE28BCF00D6326F /* UIView+CGLineMoveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGLineMoveView.h"; sourceTree = "<group>"; };
@@ -962,8 +962,13 @@
 		00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestWKWebViewController.m; sourceTree = "<group>"; };
 		00DC45C51DE5905B00A5D083 /* CGKitUICategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGKitUICategoryHeader.h; sourceTree = "<group>"; };
 		00DC45C61DE5916600A5D083 /* CGUICreateViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGUICreateViewHeader.h; sourceTree = "<group>"; };
+		00E0CBF51DF6633600D8E72E /* CGFoulLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFoulLineView.swift; sourceTree = "<group>"; };
+		00E0CBF71DF6633F00D8E72E /* CGBrowseContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGBrowseContentView.swift; sourceTree = "<group>"; };
+		00E0CBF91DF6636700D8E72E /* CGBrowseViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGBrowseViewCell.swift; sourceTree = "<group>"; };
+		00E0CBFC1DF6663200D8E72E /* CGSwiftKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGSwiftKit-Bridging-Header.h"; sourceTree = "<group>"; };
 		00F1127D1DADC6850053E839 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		00F9088C1DF54DE200AF2579 /* CGBrowseContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGBrowseContentView.swift; sourceTree = "<group>"; };
+		00F9088E1DF56D1700AF2579 /* WKWebView+CGValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+CGValue.h"; sourceTree = "<group>"; };
+		00F9088F1DF56D1700AF2579 /* WKWebView+CGValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+CGValue.m"; sourceTree = "<group>"; };
 		183CCCA21CC5894400235486 /* CGTestPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestPhotosViewController.h; sourceTree = "<group>"; };
 		183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestPhotosViewController.m; sourceTree = "<group>"; };
 		185086E61CC303E4001CBC6B /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
@@ -1069,6 +1074,7 @@
 		003842051CEC132C00CB6B9D /* CGSwiftKit */ = {
 			isa = PBXGroup;
 			children = (
+				00E0CBFB1DF6663200D8E72E /* BridgingHeader */,
 				003842071CEC132C00CB6B9D /* View */,
 			);
 			path = CGSwiftKit;
@@ -1085,9 +1091,8 @@
 		003842081CEC132C00CB6B9D /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				003842091CEC132C00CB6B9D /* CGFoulLineView.swift */,
-				00F9088C1DF54DE200AF2579 /* CGBrowseContentView.swift */,
-				0038420A1CEC132C00CB6B9D /* CGSwiftKit-Bridging-Header.h */,
+				00E0CBF41DF6633600D8E72E /* LineView */,
+				00E0CBF31DF6631600D8E72E /* BrowseView */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -2119,6 +2124,8 @@
 			children = (
 				00485CC01DE28BD100D6326F /* UIWebView+CGValue.h */,
 				00485CC11DE28BD100D6326F /* UIWebView+CGValue.m */,
+				00F9088E1DF56D1700AF2579 /* WKWebView+CGValue.h */,
+				00F9088F1DF56D1700AF2579 /* WKWebView+CGValue.m */,
 			);
 			path = WebView;
 			sourceTree = "<group>";
@@ -3347,6 +3354,31 @@
 			path = "Test WKWebView";
 			sourceTree = "<group>";
 		};
+		00E0CBF31DF6631600D8E72E /* BrowseView */ = {
+			isa = PBXGroup;
+			children = (
+				00E0CBF71DF6633F00D8E72E /* CGBrowseContentView.swift */,
+				00E0CBF91DF6636700D8E72E /* CGBrowseViewCell.swift */,
+			);
+			path = BrowseView;
+			sourceTree = "<group>";
+		};
+		00E0CBF41DF6633600D8E72E /* LineView */ = {
+			isa = PBXGroup;
+			children = (
+				00E0CBF51DF6633600D8E72E /* CGFoulLineView.swift */,
+			);
+			path = LineView;
+			sourceTree = "<group>";
+		};
+		00E0CBFB1DF6663200D8E72E /* BridgingHeader */ = {
+			isa = PBXGroup;
+			children = (
+				00E0CBFC1DF6663200D8E72E /* CGSwiftKit-Bridging-Header.h */,
+			);
+			path = BridgingHeader;
+			sourceTree = "<group>";
+		};
 		183CCCA11CC5892B00235486 /* TestPhotos */ = {
 			isa = PBXGroup;
 			children = (
@@ -3932,6 +3964,7 @@
 				00485E631DE28BD200D6326F /* UIView+CGScaleView.m in Sources */,
 				00485F551DE28BD300D6326F /* UINavigationController+CGSetupGestureRecognizer.m in Sources */,
 				00485E7C1DE28BD200D6326F /* CGBaseObject.m in Sources */,
+				00E0CBF81DF6633F00D8E72E /* CGBrowseContentView.swift in Sources */,
 				00485F381DE28BD300D6326F /* UIView+CGAddConstraints.m in Sources */,
 				00485F691DE28BD300D6326F /* CGNavigationViewControllerManager.m in Sources */,
 				00485F0C1DE28BD300D6326F /* CGDoubleButtonsView.m in Sources */,
@@ -3953,14 +3986,17 @@
 				00064D481DA9EFB00019D2BA /* CGTestDrawImageViewController.m in Sources */,
 				00485F2F1DE28BD300D6326F /* CGWebView.m in Sources */,
 				00485F0A1DE28BD300D6326F /* CGSingeContentTableView.m in Sources */,
+				00E0CBFA1DF6636700D8E72E /* CGBrowseViewCell.swift in Sources */,
 				00485E831DE28BD200D6326F /* NSObject+CGGetPrivateAPI.m in Sources */,
 				00485F291DE28BD300D6326F /* CGTitlesTableView.m in Sources */,
 				00485F2B1DE28BD300D6326F /* CGTitleButtonView.m in Sources */,
 				00485E771DE28BD200D6326F /* NSDate+CGTransformString.m in Sources */,
 				00485EFD1DE28BD300D6326F /* CGTextField.m in Sources */,
 				00485E6A1DE28BD200D6326F /* TEMPCGRequestManager.m in Sources */,
+				00E0CBF61DF6633600D8E72E /* CGFoulLineView.swift in Sources */,
 				00485F181DE28BD300D6326F /* CGLineView.m in Sources */,
 				00485EA11DE28BD200D6326F /* UIImage+CGImageRotate.m in Sources */,
+				00F908901DF56D1700AF2579 /* WKWebView+CGValue.m in Sources */,
 				00485F471DE28BD300D6326F /* CGCreateSubviewsFlowLayoutConfigModel.m in Sources */,
 				00485F011DE28BD300D6326F /* CGTextView.m in Sources */,
 				00485F491DE28BD300D6326F /* CGBorderObject.m in Sources */,
@@ -4014,9 +4050,7 @@
 				00485E821DE28BD200D6326F /* NSObject+CGExchangeSelector.m in Sources */,
 				00485F661DE28BD300D6326F /* CGSingleTableViewController.m in Sources */,
 				00485EBE1DE28BD200D6326F /* UILabel+CGSetupAppearance.m in Sources */,
-				00F9088D1DF54DE200AF2579 /* CGBrowseContentView.swift in Sources */,
 				00485EAE1DE28BD200D6326F /* UIButton+UpdateLocate.m in Sources */,
-				0038420C1CEC132C00CB6B9D /* CGFoulLineView.swift in Sources */,
 				00485ED91DE28BD200D6326F /* UIView+CGSetupFrame.m in Sources */,
 				00485F151DE28BD300D6326F /* CGCycleBrowseImageScrollView.m in Sources */,
 				18DBAE021C12968900552828 /* HomeViewController.m in Sources */,
@@ -4307,7 +4341,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TestKitProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "TestCG_CGKit/CGSwiftKit/View/UIView/CGSwiftKit-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestCG_CGKit/CGSwiftKit/BridgingHeader/CGSwiftKit-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -4341,7 +4375,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TestKitProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "TestCG_CGKit/CGSwiftKit/View/UIView/CGSwiftKit-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestCG_CGKit/CGSwiftKit/BridgingHeader/CGSwiftKit-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				USER_HEADER_SEARCH_PATHS = "";
 				VALID_ARCHS = "arm64 armv7 armv7s";

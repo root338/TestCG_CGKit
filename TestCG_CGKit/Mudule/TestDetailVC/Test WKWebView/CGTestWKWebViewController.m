@@ -8,6 +8,8 @@
 
 #import "CGTestWKWebViewController.h"
 
+#import "CGAlertController.h"
+
 #import "CGWebView.h"
 
 @interface CGTestWKWebViewController ()
@@ -22,12 +24,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.webView loadRequestWithURLString:@"http://www.apple.com"];
+    [self.webView loadRequestWithURLString:@"https://wwws.yuemei.com/api/test/aa.php"];
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+    
 }
 
 @end

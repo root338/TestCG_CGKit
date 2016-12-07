@@ -10,10 +10,10 @@ import UIKit
 
 
 
-class CGTestFoulLineViewController: CGBaseViewController, CGBrowseContentViewDataSource, CGBrowseContentViewDelegate {
+class CGTestFoulLineViewController: CGBaseViewController, CGBrowseViewDataSource, CGBrowseViewDelegate {
     
 //    let foulLineView    = CGFoulLineView.init(frame: CGRect.init(x: 100, y: 100, width: 100, height: 60), foulLineType: .EdgeInsetsExcludeLeft)
-    let browseView  = CGBrowseContentView.init()
+    let browseView  = CGBrowseView.init(frame : CGRect.init(x: 0, y: 0, width: 100, height: 100))
     
     private var didSetupConstraints = false
     
@@ -48,7 +48,7 @@ class CGTestFoulLineViewController: CGBaseViewController, CGBrowseContentViewDat
     }
     
     //MARK:- CGBrowseContentViewDataSource
-    func browseContent(_ browseContent: CGBrowseContentView, index: Int) -> CGBrowseViewCell {
+    func browseContent(_ browseContent: CGBrowseView, index: Int) -> CGBrowseViewCell {
         let cell = CGBrowseViewCell.init()
         cell.backgroundColor    = UIColor.orange
         return cell

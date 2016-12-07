@@ -283,7 +283,7 @@
 		00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */; };
 		00D307AD1CC76E350040EFC8 /* CGTestWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */; };
 		00E0CBF61DF6633600D8E72E /* CGFoulLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E0CBF51DF6633600D8E72E /* CGFoulLineView.swift */; };
-		00E0CBF81DF6633F00D8E72E /* CGBrowseContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E0CBF71DF6633F00D8E72E /* CGBrowseContentView.swift */; };
+		00E0CBF81DF6633F00D8E72E /* CGBrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E0CBF71DF6633F00D8E72E /* CGBrowseView.swift */; };
 		00E0CBFA1DF6636700D8E72E /* CGBrowseViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E0CBF91DF6636700D8E72E /* CGBrowseViewCell.swift */; };
 		00F1127E1DADC6850053E839 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F1127D1DADC6850053E839 /* QuartzCore.framework */; };
 		00F908901DF56D1700AF2579 /* WKWebView+CGValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F9088F1DF56D1700AF2579 /* WKWebView+CGValue.m */; };
@@ -963,7 +963,7 @@
 		00DC45C51DE5905B00A5D083 /* CGKitUICategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGKitUICategoryHeader.h; sourceTree = "<group>"; };
 		00DC45C61DE5916600A5D083 /* CGUICreateViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGUICreateViewHeader.h; sourceTree = "<group>"; };
 		00E0CBF51DF6633600D8E72E /* CGFoulLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFoulLineView.swift; sourceTree = "<group>"; };
-		00E0CBF71DF6633F00D8E72E /* CGBrowseContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGBrowseContentView.swift; sourceTree = "<group>"; };
+		00E0CBF71DF6633F00D8E72E /* CGBrowseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGBrowseView.swift; sourceTree = "<group>"; };
 		00E0CBF91DF6636700D8E72E /* CGBrowseViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGBrowseViewCell.swift; sourceTree = "<group>"; };
 		00E0CBFC1DF6663200D8E72E /* CGSwiftKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGSwiftKit-Bridging-Header.h"; sourceTree = "<group>"; };
 		00F1127D1DADC6850053E839 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -1071,6 +1071,21 @@
 			path = KeyAnimation;
 			sourceTree = "<group>";
 		};
+		0021090A1DF7A13200A8B6A0 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				0021090B1DF7A14200A8B6A0 /* UIViewHeader */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		0021090B1DF7A14200A8B6A0 /* UIViewHeader */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIViewHeader;
+			sourceTree = "<group>";
+		};
 		003842051CEC132C00CB6B9D /* CGSwiftKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -1083,6 +1098,7 @@
 		003842071CEC132C00CB6B9D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0021090A1DF7A13200A8B6A0 /* Header */,
 				003842081CEC132C00CB6B9D /* UIView */,
 			);
 			path = View;
@@ -3357,7 +3373,7 @@
 		00E0CBF31DF6631600D8E72E /* BrowseView */ = {
 			isa = PBXGroup;
 			children = (
-				00E0CBF71DF6633F00D8E72E /* CGBrowseContentView.swift */,
+				00E0CBF71DF6633F00D8E72E /* CGBrowseView.swift */,
 				00E0CBF91DF6636700D8E72E /* CGBrowseViewCell.swift */,
 			);
 			path = BrowseView;
@@ -3964,7 +3980,7 @@
 				00485E631DE28BD200D6326F /* UIView+CGScaleView.m in Sources */,
 				00485F551DE28BD300D6326F /* UINavigationController+CGSetupGestureRecognizer.m in Sources */,
 				00485E7C1DE28BD200D6326F /* CGBaseObject.m in Sources */,
-				00E0CBF81DF6633F00D8E72E /* CGBrowseContentView.swift in Sources */,
+				00E0CBF81DF6633F00D8E72E /* CGBrowseView.swift in Sources */,
 				00485F381DE28BD300D6326F /* UIView+CGAddConstraints.m in Sources */,
 				00485F691DE28BD300D6326F /* CGNavigationViewControllerManager.m in Sources */,
 				00485F0C1DE28BD300D6326F /* CGDoubleButtonsView.m in Sources */,

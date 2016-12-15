@@ -45,6 +45,7 @@ class CGTestFoulLineViewController: CGBaseViewController, CGBrowseViewDataSource
             browseView.cg_autoEdgesInsetsZero(to: self)
             didSetupConstraints = true
         }
+        
     }
     
     required init?(coder aDecoder: NSCoder) {

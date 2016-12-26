@@ -10,13 +10,12 @@ import UIKit
 
 
 
-class CGTestFoulLineViewController: CGBaseViewController, CGBrowseViewDataSource, CGBrowseViewDelegate {
-    
-
+class CGTestFoulLineViewController: CGBaseViewController, CGBrowseViewDataSource, CGBrowseViewDelegate, CGBrowseFullScreenViewDelegate {
     
 //    let foulLineView    = CGFoulLineView.init(frame: CGRect.init(x: 100, y: 100, width: 100, height: 60), foulLineType: .EdgeInsetsExcludeLeft)
-    let browseView  = CGBrowseView.init(frame : CGRect.init(x: 0, y: 0, width: 100, height: 100))
+//    let browseView  = CGBrowseView.init(frame : CGRect.init(x: 0, y: 0, width: 100, height: 100))
     
+    let browseView  = CGBrowseFullScreenView.init(frame: .zero)
     private var didSetupConstraints = false
     
     init() {
@@ -34,10 +33,14 @@ class CGTestFoulLineViewController: CGBaseViewController, CGBrowseViewDataSource
 //        foulLineView.layer.masksToBounds = true
 //        self.view.addSubview(foulLineView)
         
-        browseView.delegate     = self
-        browseView.dataSource   = self
-        browseView.cellWidth    = self.view.width / 2.0
-        browseView.minimumInteritemSpacing  = 10
+//        browseView.delegate     = self
+//        browseView.dataSource   = self
+//        browseView.cellWidth    = self.view.width / 2.0
+//        browseView.minimumInteritemSpacing  = 10
+//        self.view.addSubview(browseView)
+        
+        browseView.delegate = self;
+        browseView.interitemSpacing = 10
         self.view.addSubview(browseView)
         
         if didSetupConstraints == false {
@@ -46,6 +49,7 @@ class CGTestFoulLineViewController: CGBaseViewController, CGBrowseViewDataSource
             didSetupConstraints = true
         }
         
+        browseView.reloadData()
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -63,5 +67,21 @@ class CGTestFoulLineViewController: CGBaseViewController, CGBrowseViewDataSource
     /// 浏览视图的总数
     @objc internal func totalNumberWithBrowseContent(_ browseContent: CGBrowseView) -> Int {
         return 2
+    }
+    
+    //MARK:- CGBrowseFullScreenViewDelegate
+    func browseFullScreenView(_ browseFullScreenView: CGBrowseFullScreenView, index: Int) -> CGBrowseFullScreenViewCell {
+        let cell = CGBrowseFullScreenViewCell.init()
+        if index % 2 == 0 {
+            cell.backgroundColor    = .orange
+        }else {
+            cell.backgroundColor    = .blue
+        }
+        
+        return cell
+    }
+    
+    func numberForFullScreenCells(in browseFullScreenView: CGBrowseFullScreenView) -> Int {
+        return 10
     }
 }

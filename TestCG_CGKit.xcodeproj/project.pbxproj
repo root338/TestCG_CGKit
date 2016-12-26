@@ -14,6 +14,11 @@
 		0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */; };
 		0069BB061C85431A00C5A628 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0069BB051C85431A00C5A628 /* 2.jpg */; };
 		007936D51D4858DE007D963C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007936D41D4858DE007D963C /* WebKit.framework */; };
+		0083B3A51E0B752300A7B699 /* CGBrowseFullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0083B3A41E0B752300A7B699 /* CGBrowseFullScreenView.swift */; };
+		0083B3A71E0B75F500A7B699 /* CGBrowseFullScreenViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0083B3A61E0B75F500A7B699 /* CGBrowseFullScreenViewCell.swift */; };
+		0083B3AB1E0B7AFC00A7B699 /* CGNumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0083B3AA1E0B7AFC00A7B699 /* CGNumberExtension.swift */; };
+		0083B3AE1E0BA5FE00A7B699 /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0083B3AD1E0BA5FE00A7B699 /* CGPointExtension.swift */; };
+		009A43131E10BB9C00A3A1E1 /* CGStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009A43121E10BB9B00A3A1E1 /* CGStringExtension.swift */; };
 		00BAB2F11C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BAB2F01C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m */; };
 		00C2B9151D5EC8F20053E46B /* CGTestCGScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B9141D5EC8F20053E46B /* CGTestCGScrollViewController.m */; };
 		00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */; };
@@ -363,6 +368,11 @@
 		0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCATranform3DViewController.m; sourceTree = "<group>"; };
 		0069BB051C85431A00C5A628 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		007936D41D4858DE007D963C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		0083B3A41E0B752300A7B699 /* CGBrowseFullScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGBrowseFullScreenView.swift; sourceTree = "<group>"; };
+		0083B3A61E0B75F500A7B699 /* CGBrowseFullScreenViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGBrowseFullScreenViewCell.swift; sourceTree = "<group>"; };
+		0083B3AA1E0B7AFC00A7B699 /* CGNumberExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGNumberExtension.swift; sourceTree = "<group>"; };
+		0083B3AD1E0BA5FE00A7B699 /* CGPointExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
+		009A43121E10BB9B00A3A1E1 /* CGStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGStringExtension.swift; sourceTree = "<group>"; };
 		00BAB2EF1C72C37D00FC1F3A /* TestPhotosCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPhotosCollectionViewCell.h; sourceTree = "<group>"; };
 		00BAB2F01C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPhotosCollectionViewCell.m; sourceTree = "<group>"; };
 		00C2B9131D5EC8F20053E46B /* CGTestCGScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestCGScrollViewController.h; sourceTree = "<group>"; };
@@ -1069,6 +1079,40 @@
 				0069BB051C85431A00C5A628 /* 2.jpg */,
 			);
 			path = ImageResource;
+			sourceTree = "<group>";
+		};
+		0083B3A81E0B7A6A00A7B699 /* Foundion */ = {
+			isa = PBXGroup;
+			children = (
+				009A43111E10BB8400A3A1E1 /* String */,
+				0083B3AC1E0BA5EA00A7B699 /* AreaLocation */,
+				0083B3A91E0B7A6A00A7B699 /* Number */,
+			);
+			path = Foundion;
+			sourceTree = "<group>";
+		};
+		0083B3A91E0B7A6A00A7B699 /* Number */ = {
+			isa = PBXGroup;
+			children = (
+				0083B3AA1E0B7AFC00A7B699 /* CGNumberExtension.swift */,
+			);
+			path = Number;
+			sourceTree = "<group>";
+		};
+		0083B3AC1E0BA5EA00A7B699 /* AreaLocation */ = {
+			isa = PBXGroup;
+			children = (
+				0083B3AD1E0BA5FE00A7B699 /* CGPointExtension.swift */,
+			);
+			path = AreaLocation;
+			sourceTree = "<group>";
+		};
+		009A43111E10BB8400A3A1E1 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				009A43121E10BB9B00A3A1E1 /* CGStringExtension.swift */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 		00C315CA1CACC0FD009BFD7A /* DataModel */ = {
@@ -3479,6 +3523,7 @@
 		18D06E461DF84CAE00F64D7F /* CGSwiftKit */ = {
 			isa = PBXGroup;
 			children = (
+				0083B3A81E0B7A6A00A7B699 /* Foundion */,
 				18D06E471DF84CAE00F64D7F /* BridgingHeader */,
 				18D06E4A1DF84CAE00F64D7F /* View */,
 			);
@@ -3515,6 +3560,8 @@
 			children = (
 				18D06E4D1DF84CAE00F64D7F /* CGBrowseView.swift */,
 				18D06E4E1DF84CAE00F64D7F /* CGBrowseViewCell.swift */,
+				0083B3A41E0B752300A7B699 /* CGBrowseFullScreenView.swift */,
+				0083B3A61E0B75F500A7B699 /* CGBrowseFullScreenViewCell.swift */,
 			);
 			path = BrowseView;
 			sourceTree = "<group>";
@@ -3923,6 +3970,7 @@
 				18D06F0E1DF84CAE00F64D7F /* CGRadioSliderViewAppearance.m in Sources */,
 				18D06E5D1DF84CAE00F64D7F /* CGHandleRequestData.m in Sources */,
 				18D06F211DF84CAE00F64D7F /* CGTitleTextFieldView.m in Sources */,
+				0083B3A71E0B75F500A7B699 /* CGBrowseFullScreenViewCell.swift in Sources */,
 				18D06EF91DF84CAE00F64D7F /* CGBaseView.m in Sources */,
 				185EA9391D481D9700A3568F /* CGTestCycleViewController.m in Sources */,
 				18D06EE01DF84CAE00F64D7F /* CGTitleLabel.m in Sources */,
@@ -3970,6 +4018,7 @@
 				18D06EE71DF84CAE00F64D7F /* CGTableView.m in Sources */,
 				18D06ED01DF84CAE00F64D7F /* UIImage+CGDrawAlertArrow.m in Sources */,
 				18D06EC21DF84CAE00F64D7F /* UIView+LoadXIBFile.m in Sources */,
+				0083B3AE1E0BA5FE00A7B699 /* CGPointExtension.swift in Sources */,
 				18D06ECF1DF84CAE00F64D7F /* CGAlertArrowAppearance.m in Sources */,
 				18D06F2B1DF84CAE00F64D7F /* UIView+CGAddConstraintsForSubviews.m in Sources */,
 				18D06EE51DF84CAE00F64D7F /* HorizontalSingleView.m in Sources */,
@@ -4009,6 +4058,7 @@
 				18D06F321DF84CAE00F64D7F /* CGSingleViewConstraintsManager.m in Sources */,
 				18D06F5A1DF84CAE00F64D7F /* CGSingleTableViewController.m in Sources */,
 				18D06F521DF84CAE00F64D7F /* CGPhotoGroupViewController.m in Sources */,
+				0083B3A51E0B752300A7B699 /* CGBrowseFullScreenView.swift in Sources */,
 				18D06E881DF84CAE00F64D7F /* UIFont+CGCreateFont.m in Sources */,
 				18D06ECE1DF84CAE00F64D7F /* CGAlertView.m in Sources */,
 				18D06F5C1DF84CAE00F64D7F /* CGDefaultPopAnimation.m in Sources */,
@@ -4119,6 +4169,7 @@
 				18D06F461DF84CAE00F64D7F /* UIViewController+CGFullscreenPopGesture.m in Sources */,
 				18D06ED91DF84CAE00F64D7F /* UICollectionViewFlowLayout+CGCreateLayout.m in Sources */,
 				18D06EBD1DF84CAE00F64D7F /* CGAddSubviewsCacheModel.m in Sources */,
+				009A43131E10BB9C00A3A1E1 /* CGStringExtension.swift in Sources */,
 				18D06F601DF84CAE00F64D7F /* CGBrowseViewCell.swift in Sources */,
 				18D06EAF1DF84CAE00F64D7F /* UIScrollView+CGProperty.m in Sources */,
 				18D06F101DF84CAE00F64D7F /* CGRadioViewFlowLayout.m in Sources */,
@@ -4138,6 +4189,7 @@
 				18D06F1A1DF84CAE00F64D7F /* CGTitleImageLayoutView.m in Sources */,
 				18D06EF81DF84CAE00F64D7F /* CGPhotoGroupTableViewCell.m in Sources */,
 				18D06EA31DF84CAE00F64D7F /* UIImageView+CGCreate.m in Sources */,
+				0083B3AB1E0B7AFC00A7B699 /* CGNumberExtension.swift in Sources */,
 				18D06ED31DF84CAE00F64D7F /* CGHighlightBgButton.m in Sources */,
 				18D06E931DF84CAE00F64D7F /* UIImage+CGScaleImageSize.m in Sources */,
 				18D06EC61DF84CAE00F64D7F /* UIView+CGSearchView.m in Sources */,

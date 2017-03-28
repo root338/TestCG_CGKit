@@ -50,6 +50,7 @@ class CGTestFoulLineViewController: CGBaseViewController, CGBrowseViewDataSource
         }
         
         browseView.reloadData()
+        
     }
     
     required init?(coder aDecoder: NSCoder) {

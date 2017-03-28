@@ -10,6 +10,9 @@
 		0000D9B51D6593C30038E4A0 /* CGTestTitleBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000D9B41D6593C30038E4A0 /* CGTestTitleBarViewController.m */; };
 		00064D481DA9EFB00019D2BA /* CGTestDrawImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00064D471DA9EFB00019D2BA /* CGTestDrawImageViewController.m */; };
 		00064D5B1DAA33D40019D2BA /* CGTestInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00064D5A1DAA33D40019D2BA /* CGTestInputViewController.m */; };
+		002E27711E84BC5600046DC9 /* CGReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 002E27701E84BC5600046DC9 /* CGReachability.m */; };
+		002E27731E84BE3B00046DC9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E27721E84BE3B00046DC9 /* SystemConfiguration.framework */; };
+		002E27751E84BE4200046DC9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E27741E84BE4200046DC9 /* CoreTelephony.framework */; };
 		00485F6C1DE28C1300D6326F /* CGTestUIAlertAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00485F6B1DE28C1300D6326F /* CGTestUIAlertAnimationViewController.m */; };
 		0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */; };
 		0069BB061C85431A00C5A628 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0069BB051C85431A00C5A628 /* 2.jpg */; };
@@ -362,6 +365,10 @@
 		00064D471DA9EFB00019D2BA /* CGTestDrawImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestDrawImageViewController.m; sourceTree = "<group>"; };
 		00064D591DAA33D40019D2BA /* CGTestInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestInputViewController.h; sourceTree = "<group>"; };
 		00064D5A1DAA33D40019D2BA /* CGTestInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestInputViewController.m; sourceTree = "<group>"; };
+		002E276F1E84BC5600046DC9 /* CGReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGReachability.h; sourceTree = "<group>"; };
+		002E27701E84BC5600046DC9 /* CGReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGReachability.m; sourceTree = "<group>"; };
+		002E27721E84BE3B00046DC9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		002E27741E84BE4200046DC9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		00485F6A1DE28C1300D6326F /* CGTestUIAlertAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestUIAlertAnimationViewController.h; sourceTree = "<group>"; };
 		00485F6B1DE28C1300D6326F /* CGTestUIAlertAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestUIAlertAnimationViewController.m; sourceTree = "<group>"; };
 		0069BB011C85418C00C5A628 /* TestCATranform3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCATranform3DViewController.h; sourceTree = "<group>"; };
@@ -1035,6 +1042,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002E27751E84BE4200046DC9 /* CoreTelephony.framework in Frameworks */,
+				002E27731E84BE3B00046DC9 /* SystemConfiguration.framework in Frameworks */,
 				00F1127E1DADC6850053E839 /* QuartzCore.framework in Frameworks */,
 				007936D51D4858DE007D963C /* WebKit.framework in Frameworks */,
 				185086E71CC303E4001CBC6B /* Photos.framework in Frameworks */,
@@ -1693,6 +1702,8 @@
 			children = (
 				18D06BA11DF84CAD00F64D7F /* CGIPAddress.h */,
 				18D06BA21DF84CAD00F64D7F /* CGIPAddress.m */,
+				002E276F1E84BC5600046DC9 /* CGReachability.h */,
+				002E27701E84BC5600046DC9 /* CGReachability.m */,
 			);
 			path = GetIPAddress;
 			sourceTree = "<group>";
@@ -3736,6 +3747,8 @@
 		B86B07EE8190F2F261E3DDEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				002E27741E84BE4200046DC9 /* CoreTelephony.framework */,
+				002E27721E84BE3B00046DC9 /* SystemConfiguration.framework */,
 				00F1127D1DADC6850053E839 /* QuartzCore.framework */,
 				007936D41D4858DE007D963C /* WebKit.framework */,
 				185086E61CC303E4001CBC6B /* Photos.framework */,
@@ -4064,6 +4077,7 @@
 				18D06F5C1DF84CAE00F64D7F /* CGDefaultPopAnimation.m in Sources */,
 				18D06F4B1DF84CAE00F64D7F /* UIViewController+CGPushViewController.m in Sources */,
 				18D06E781DF84CAE00F64D7F /* CGKeyboardCacheModel.m in Sources */,
+				002E27711E84BC5600046DC9 /* CGReachability.m in Sources */,
 				18E6E2AC1C15B87500906A5A /* AFNetworkActivityLogger.m in Sources */,
 				18D06F111DF84CAE00F64D7F /* CGTitleRadioCellAppearance.m in Sources */,
 				18D06E511DF84CAE00F64D7F /* UIView+CGLineMoveView.m in Sources */,

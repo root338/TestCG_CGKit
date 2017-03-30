@@ -12,6 +12,8 @@
 
 #import "CGWebView.h"
 
+#import "TestCG_CGKit-Swift.h"
+
 @interface CGTestWKWebViewController ()
 {
     
@@ -24,7 +26,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.webView loadRequestWithURLString:@"https://wwws.yuemei.com/api/test/aa.php"];
+    [self.webView loadRequestWithURLString:@"https://www.apple.com"];
+    
+    [[CGURLSessionManager sessionManager] requestWithUrlString:@"https://www.apple.com"];
 }
 
 - (void)viewDidAppear:(BOOL)animated

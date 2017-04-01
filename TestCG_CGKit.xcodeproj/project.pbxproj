@@ -13,10 +13,16 @@
 		002E27711E84BC5600046DC9 /* CGReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 002E27701E84BC5600046DC9 /* CGReachability.m */; };
 		002E27731E84BE3B00046DC9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E27721E84BE3B00046DC9 /* SystemConfiguration.framework */; };
 		002E27751E84BE4200046DC9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E27741E84BE4200046DC9 /* CoreTelephony.framework */; };
-		003E01AB1E8B595E00F35BA5 /* CGURLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E01AA1E8B595E00F35BA5 /* CGURLSessionManager.swift */; };
-		003E01B11E8B67D000F35BA5 /* CGURLSessionDelegateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E01B01E8B67D000F35BA5 /* CGURLSessionDelegateManager.swift */; };
-		003E01B31E8B910500F35BA5 /* CGURLTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E01B21E8B910500F35BA5 /* CGURLTaskManager.swift */; };
-		003E01B91E8CB0D000F35BA5 /* CGTaskDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E01B81E8CB0D000F35BA5 /* CGTaskDataModel.swift */; };
+		003E01C01E8DEAC500F35BA5 /* CGImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E01BF1E8DEAC500F35BA5 /* CGImageDataModel.swift */; };
+		003E01D01E8DF55800F35BA5 /* CGTaskDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E01C71E8DF55700F35BA5 /* CGTaskDataModel.swift */; };
+		003E01D31E8DF55800F35BA5 /* CGURLSessionDelegateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E01CB1E8DF55800F35BA5 /* CGURLSessionDelegateManager.swift */; };
+		003E01D41E8DF55800F35BA5 /* CGURLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E01CC1E8DF55800F35BA5 /* CGURLSessionManager.swift */; };
+		003E01D51E8DF55800F35BA5 /* CGURLTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E01CD1E8DF55800F35BA5 /* CGURLTaskManager.swift */; };
+		003E01D61E8DF55800F35BA5 /* CGURLSessionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E01CF1E8DF55800F35BA5 /* CGURLSessionType.swift */; };
+		003E01D91E8DF57800F35BA5 /* CGTaskRequestDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E01D71E8DF57800F35BA5 /* CGTaskRequestDataModel.swift */; };
+		003E01DA1E8DF57800F35BA5 /* CGUploadImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E01D81E8DF57800F35BA5 /* CGUploadImageModel.swift */; };
+		003E01DD1E8DF5DE00F35BA5 /* CGURLSessionManagerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E01DC1E8DF5DE00F35BA5 /* CGURLSessionManagerConfiguration.swift */; };
+		003E01E01E8E3C7700F35BA5 /* CGDictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E01DF1E8E3C7700F35BA5 /* CGDictionaryExtension.swift */; };
 		00485F6C1DE28C1300D6326F /* CGTestUIAlertAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00485F6B1DE28C1300D6326F /* CGTestUIAlertAnimationViewController.m */; };
 		0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */; };
 		0069BB061C85431A00C5A628 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0069BB051C85431A00C5A628 /* 2.jpg */; };
@@ -373,10 +379,16 @@
 		002E27701E84BC5600046DC9 /* CGReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGReachability.m; sourceTree = "<group>"; };
 		002E27721E84BE3B00046DC9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		002E27741E84BE4200046DC9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		003E01AA1E8B595E00F35BA5 /* CGURLSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGURLSessionManager.swift; sourceTree = "<group>"; };
-		003E01B01E8B67D000F35BA5 /* CGURLSessionDelegateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGURLSessionDelegateManager.swift; sourceTree = "<group>"; };
-		003E01B21E8B910500F35BA5 /* CGURLTaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGURLTaskManager.swift; sourceTree = "<group>"; };
-		003E01B81E8CB0D000F35BA5 /* CGTaskDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGTaskDataModel.swift; sourceTree = "<group>"; };
+		003E01BF1E8DEAC500F35BA5 /* CGImageDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGImageDataModel.swift; sourceTree = "<group>"; };
+		003E01C71E8DF55700F35BA5 /* CGTaskDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGTaskDataModel.swift; sourceTree = "<group>"; };
+		003E01CB1E8DF55800F35BA5 /* CGURLSessionDelegateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGURLSessionDelegateManager.swift; sourceTree = "<group>"; };
+		003E01CC1E8DF55800F35BA5 /* CGURLSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGURLSessionManager.swift; sourceTree = "<group>"; };
+		003E01CD1E8DF55800F35BA5 /* CGURLTaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGURLTaskManager.swift; sourceTree = "<group>"; };
+		003E01CF1E8DF55800F35BA5 /* CGURLSessionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGURLSessionType.swift; sourceTree = "<group>"; };
+		003E01D71E8DF57800F35BA5 /* CGTaskRequestDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGTaskRequestDataModel.swift; sourceTree = "<group>"; };
+		003E01D81E8DF57800F35BA5 /* CGUploadImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGUploadImageModel.swift; sourceTree = "<group>"; };
+		003E01DC1E8DF5DE00F35BA5 /* CGURLSessionManagerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGURLSessionManagerConfiguration.swift; sourceTree = "<group>"; };
+		003E01DF1E8E3C7700F35BA5 /* CGDictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGDictionaryExtension.swift; sourceTree = "<group>"; };
 		00485F6A1DE28C1300D6326F /* CGTestUIAlertAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestUIAlertAnimationViewController.h; sourceTree = "<group>"; };
 		00485F6B1DE28C1300D6326F /* CGTestUIAlertAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestUIAlertAnimationViewController.m; sourceTree = "<group>"; };
 		0069BB011C85418C00C5A628 /* TestCATranform3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCATranform3DViewController.h; sourceTree = "<group>"; };
@@ -1086,12 +1098,80 @@
 		003E01A91E8B592800F35BA5 /* URLRequestManager */ = {
 			isa = PBXGroup;
 			children = (
-				003E01AA1E8B595E00F35BA5 /* CGURLSessionManager.swift */,
-				003E01B01E8B67D000F35BA5 /* CGURLSessionDelegateManager.swift */,
-				003E01B21E8B910500F35BA5 /* CGURLTaskManager.swift */,
-				003E01B81E8CB0D000F35BA5 /* CGTaskDataModel.swift */,
+				003E01DB1E8DF5C300F35BA5 /* Configuration */,
+				003E01C41E8DF55700F35BA5 /* DataModel */,
+				003E01CA1E8DF55800F35BA5 /* Manager */,
+				003E01CE1E8DF55800F35BA5 /* Type */,
 			);
 			path = URLRequestManager;
+			sourceTree = "<group>";
+		};
+		003E01BE1E8DEAAB00F35BA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				003E01BF1E8DEAC500F35BA5 /* CGImageDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		003E01C41E8DF55700F35BA5 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				003E01C51E8DF55700F35BA5 /* RequestModel */,
+				003E01C61E8DF55700F35BA5 /* ResponseModel */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		003E01C51E8DF55700F35BA5 /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+				003E01D71E8DF57800F35BA5 /* CGTaskRequestDataModel.swift */,
+				003E01D81E8DF57800F35BA5 /* CGUploadImageModel.swift */,
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		003E01C61E8DF55700F35BA5 /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+				003E01C71E8DF55700F35BA5 /* CGTaskDataModel.swift */,
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		003E01CA1E8DF55800F35BA5 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				003E01CB1E8DF55800F35BA5 /* CGURLSessionDelegateManager.swift */,
+				003E01CC1E8DF55800F35BA5 /* CGURLSessionManager.swift */,
+				003E01CD1E8DF55800F35BA5 /* CGURLTaskManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		003E01CE1E8DF55800F35BA5 /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				003E01CF1E8DF55800F35BA5 /* CGURLSessionType.swift */,
+			);
+			path = Type;
+			sourceTree = "<group>";
+		};
+		003E01DB1E8DF5C300F35BA5 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				003E01DC1E8DF5DE00F35BA5 /* CGURLSessionManagerConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		003E01DE1E8E3C5700F35BA5 /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				003E01DF1E8E3C7700F35BA5 /* CGDictionaryExtension.swift */,
+			);
+			path = Dictionary;
 			sourceTree = "<group>";
 		};
 		005633A81CAD1FDC00520F94 /* TestSelectPhoto */ = {
@@ -1112,6 +1192,7 @@
 		0083B3A81E0B7A6A00A7B699 /* Foundion */ = {
 			isa = PBXGroup;
 			children = (
+				003E01DE1E8E3C5700F35BA5 /* Dictionary */,
 				009A43111E10BB8400A3A1E1 /* String */,
 				0083B3AC1E0BA5EA00A7B699 /* AreaLocation */,
 				0083B3A91E0B7A6A00A7B699 /* Number */,
@@ -3553,6 +3634,7 @@
 		18D06E461DF84CAE00F64D7F /* CGSwiftKit */ = {
 			isa = PBXGroup;
 			children = (
+				003E01BE1E8DEAAB00F35BA5 /* Model */,
 				003E01A91E8B592800F35BA5 /* URLRequestManager */,
 				0083B3A81E0B7A6A00A7B699 /* Foundion */,
 				18D06E471DF84CAE00F64D7F /* BridgingHeader */,
@@ -4012,6 +4094,7 @@
 				18D06EB01DF84CAE00F64D7F /* UIScrollView+CGPullToRefresh.m in Sources */,
 				18D06E631DF84CAE00F64D7F /* CGRequestModel+Category.m in Sources */,
 				18D06EBF1DF84CAE00F64D7F /* UIView+CGCopyView.m in Sources */,
+				003E01E01E8E3C7700F35BA5 /* CGDictionaryExtension.swift in Sources */,
 				18D06F611DF84CAE00F64D7F /* CGFoulLineView.swift in Sources */,
 				18D06ECD1DF84CAE00F64D7F /* WKWebView+CGValue.m in Sources */,
 				18D06E7C1DF84CAE00F64D7F /* NSUserDefaults+CGMethodSave.m in Sources */,
@@ -4031,6 +4114,7 @@
 				18D06EB21DF84CAE00F64D7F /* UIScrollView+CGSetupScrollProperty.m in Sources */,
 				18D06F241DF84CAE00F64D7F /* CGUIWebViewDelegateManager.m in Sources */,
 				18DFFB931DBC6B82004D774A /* CGTestTableViewViewController.m in Sources */,
+				003E01DA1E8DF57800F35BA5 /* CGUploadImageModel.swift in Sources */,
 				18D06E991DF84CAE00F64D7F /* UILabel+CalculateTextSize.m in Sources */,
 				18D06F511DF84CAE00F64D7F /* CGBrowsePhotoViewController.m in Sources */,
 				18B41A9E1C13FE450031002B /* TestTextFieldCell.m in Sources */,
@@ -4053,9 +4137,9 @@
 				18D06EC21DF84CAE00F64D7F /* UIView+LoadXIBFile.m in Sources */,
 				0083B3AE1E0BA5FE00A7B699 /* CGPointExtension.swift in Sources */,
 				18D06ECF1DF84CAE00F64D7F /* CGAlertArrowAppearance.m in Sources */,
+				003E01DD1E8DF5DE00F35BA5 /* CGURLSessionManagerConfiguration.swift in Sources */,
 				18D06F2B1DF84CAE00F64D7F /* UIView+CGAddConstraintsForSubviews.m in Sources */,
 				18D06EE51DF84CAE00F64D7F /* HorizontalSingleView.m in Sources */,
-				003E01B31E8B910500F35BA5 /* CGURLTaskManager.swift in Sources */,
 				18D06E891DF84CAE00F64D7F /* CGArrowIconConfig.m in Sources */,
 				18D06E8E1DF84CAE00F64D7F /* UIImage+CGColor.m in Sources */,
 				18D06F331DF84CAE00F64D7F /* UIView+CGCreateConstraint.m in Sources */,
@@ -4085,6 +4169,7 @@
 				18D06F151DF84CAE00F64D7F /* CGTitleRadioCollectionViewCell.m in Sources */,
 				18D06E9F1DF84CAE00F64D7F /* UIView+CreateAutoLayoutTypeView.m in Sources */,
 				18D06EAE1DF84CAE00F64D7F /* UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.m in Sources */,
+				003E01C01E8DEAC500F35BA5 /* CGImageDataModel.swift in Sources */,
 				18F093EE1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift in Sources */,
 				18D06F161DF84CAE00F64D7F /* CGRadioSliderView.m in Sources */,
 				18D06EF11DF84CAE00F64D7F /* CGInputTextView.m in Sources */,
@@ -4103,6 +4188,7 @@
 				18D06F111DF84CAE00F64D7F /* CGTitleRadioCellAppearance.m in Sources */,
 				18D06E511DF84CAE00F64D7F /* UIView+CGLineMoveView.m in Sources */,
 				18D06F571DF84CAE00F64D7F /* CGWebViewProgressView.m in Sources */,
+				003E01D91E8DF57800F35BA5 /* CGTaskRequestDataModel.swift in Sources */,
 				18D06F361DF84CAE00F64D7F /* UIView+CGSearchConstraints.m in Sources */,
 				18D06EEB1DF84CAE00F64D7F /* CGSingleSectionTableViewDelegate.m in Sources */,
 				18D06F4F1DF84CAE00F64D7F /* CGScrollViewController.m in Sources */,
@@ -4156,7 +4242,6 @@
 				18D06E591DF84CAE00F64D7F /* TEMPCGRequestManager.m in Sources */,
 				18D06F591DF84CAE00F64D7F /* CGWebViewToolBarItemManager.m in Sources */,
 				18D06E901DF84CAE00F64D7F /* UIImage+CGImageRotate.m in Sources */,
-				003E01AB1E8B595E00F35BA5 /* CGURLSessionManager.swift in Sources */,
 				18D06F121DF84CAE00F64D7F /* CGRadioView.m in Sources */,
 				18D06F5D1DF84CAE00F64D7F /* CGNavigationViewControllerManager.m in Sources */,
 				18D06F451DF84CAE00F64D7F /* UIViewController+CGPropertyValue.m in Sources */,
@@ -4176,6 +4261,7 @@
 				18D06F041DF84CAE00F64D7F /* CGCycleAideContentView.m in Sources */,
 				18D06F231DF84CAE00F64D7F /* CGWebView.m in Sources */,
 				18D06F311DF84CAE00F64D7F /* CGLayoutManager.m in Sources */,
+				003E01D51E8DF55800F35BA5 /* CGURLTaskManager.swift in Sources */,
 				18D06F021DF84CAE00F64D7F /* CGCycleScrollView+CGCondition.m in Sources */,
 				18D06E601DF84CAE00F64D7F /* CGRequestBaseModel.m in Sources */,
 				18D06E771DF84CAE00F64D7F /* UIImage+CGLaunchImage.m in Sources */,
@@ -4197,16 +4283,17 @@
 				18D06E981DF84CAE00F64D7F /* CGCalculateCGSize.m in Sources */,
 				18D06F481DF84CAE00F64D7F /* UINavigationController+CGPushViewController.m in Sources */,
 				18D06F1C1DF84CAE00F64D7F /* CGTitleLabelLayoutView.m in Sources */,
-				003E01B91E8CB0D000F35BA5 /* CGTaskDataModel.swift in Sources */,
 				18D06EC91DF84CAE00F64D7F /* UIView+CGSetupFrame.m in Sources */,
 				18D06F091DF84CAE00F64D7F /* CGLineView.m in Sources */,
 				18D06EAD1DF84CAE00F64D7F /* UILabel+CGSetupAppearance.m in Sources */,
+				003E01D41E8DF55800F35BA5 /* CGURLSessionManager.swift in Sources */,
 				18D06E6D1DF84CAE00F64D7F /* NSString+CGEncryption.m in Sources */,
 				18D06E711DF84CAE00F64D7F /* NSObject+CGExchangeSelector.m in Sources */,
 				18D06F461DF84CAE00F64D7F /* UIViewController+CGFullscreenPopGesture.m in Sources */,
 				18D06ED91DF84CAE00F64D7F /* UICollectionViewFlowLayout+CGCreateLayout.m in Sources */,
 				18D06EBD1DF84CAE00F64D7F /* CGAddSubviewsCacheModel.m in Sources */,
 				009A43131E10BB9C00A3A1E1 /* CGStringExtension.swift in Sources */,
+				003E01D61E8DF55800F35BA5 /* CGURLSessionType.swift in Sources */,
 				18D06F601DF84CAE00F64D7F /* CGBrowseViewCell.swift in Sources */,
 				18D06EAF1DF84CAE00F64D7F /* UIScrollView+CGProperty.m in Sources */,
 				18D06F101DF84CAE00F64D7F /* CGRadioViewFlowLayout.m in Sources */,
@@ -4264,6 +4351,7 @@
 				18D06EF01DF84CAE00F64D7F /* CGBaseTextView.m in Sources */,
 				1894AE871CAFD4F3005A518C /* CGTestDefinesTableViewController.m in Sources */,
 				18D06ED11DF84CAE00F64D7F /* CGBaseButton.m in Sources */,
+				003E01D31E8DF55800F35BA5 /* CGURLSessionDelegateManager.swift in Sources */,
 				18D06E8F1DF84CAE00F64D7F /* UIImage+CGDrawImage.m in Sources */,
 				18D06E761DF84CAE00F64D7F /* CGIPAddress.m in Sources */,
 				00064D5B1DAA33D40019D2BA /* CGTestInputViewController.m in Sources */,
@@ -4272,10 +4360,10 @@
 				18D06ECC1DF84CAE00F64D7F /* UIWebView+CGValue.m in Sources */,
 				18D06EDA1DF84CAE00F64D7F /* CGCollectionViewDataSourceManager.m in Sources */,
 				18D06F561DF84CAE00F64D7F /* CGWebPrivateView.m in Sources */,
-				003E01B11E8B67D000F35BA5 /* CGURLSessionDelegateManager.swift in Sources */,
 				18D06E951DF84CAE00F64D7F /* CGTitlesSourceDataModel.m in Sources */,
 				18D06ECB1DF84CAE00F64D7F /* UIView+CGUpdateViewLayout.m in Sources */,
 				18D06F491DF84CAE00F64D7F /* UINavigationController+CGSetupGestureRecognizer.m in Sources */,
+				003E01D01E8DF55800F35BA5 /* CGTaskDataModel.swift in Sources */,
 				18D06E6C1DF84CAE00F64D7F /* NSPredicate+CreatePredicate.m in Sources */,
 				18D06F0C1DF84CAE00F64D7F /* CGSelectorView.m in Sources */,
 				18D06E5C1DF84CAE00F64D7F /* RFKeyboard.m in Sources */,

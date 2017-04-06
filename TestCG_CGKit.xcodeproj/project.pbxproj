@@ -24,6 +24,9 @@
 		003E01DD1E8DF5DE00F35BA5 /* CGURLSessionManagerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E01DC1E8DF5DE00F35BA5 /* CGURLSessionManagerConfiguration.swift */; };
 		003E01E01E8E3C7700F35BA5 /* CGDictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E01DF1E8E3C7700F35BA5 /* CGDictionaryExtension.swift */; };
 		00485F6C1DE28C1300D6326F /* CGTestUIAlertAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00485F6B1DE28C1300D6326F /* CGTestUIAlertAnimationViewController.m */; };
+		00486CB81E95E130007F6699 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00486CB71E95E130007F6699 /* CoreLocation.framework */; };
+		00486CBD1E95E197007F6699 /* CGMapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00486CBC1E95E197007F6699 /* CGMapManager.swift */; };
+		00486CBF1E95E22E007F6699 /* CGLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00486CBE1E95E22E007F6699 /* CGLocationManager.swift */; };
 		0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */; };
 		0069BB061C85431A00C5A628 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0069BB051C85431A00C5A628 /* 2.jpg */; };
 		007936D51D4858DE007D963C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007936D41D4858DE007D963C /* WebKit.framework */; };
@@ -391,6 +394,9 @@
 		003E01DF1E8E3C7700F35BA5 /* CGDictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGDictionaryExtension.swift; sourceTree = "<group>"; };
 		00485F6A1DE28C1300D6326F /* CGTestUIAlertAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestUIAlertAnimationViewController.h; sourceTree = "<group>"; };
 		00485F6B1DE28C1300D6326F /* CGTestUIAlertAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestUIAlertAnimationViewController.m; sourceTree = "<group>"; };
+		00486CB71E95E130007F6699 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		00486CBC1E95E197007F6699 /* CGMapManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGMapManager.swift; sourceTree = "<group>"; };
+		00486CBE1E95E22E007F6699 /* CGLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGLocationManager.swift; sourceTree = "<group>"; };
 		0069BB011C85418C00C5A628 /* TestCATranform3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCATranform3DViewController.h; sourceTree = "<group>"; };
 		0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCATranform3DViewController.m; sourceTree = "<group>"; };
 		0069BB051C85431A00C5A628 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
@@ -1062,6 +1068,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00486CB81E95E130007F6699 /* CoreLocation.framework in Frameworks */,
 				002E27751E84BE4200046DC9 /* CoreTelephony.framework in Frameworks */,
 				002E27731E84BE3B00046DC9 /* SystemConfiguration.framework in Frameworks */,
 				00F1127E1DADC6850053E839 /* QuartzCore.framework in Frameworks */,
@@ -1172,6 +1179,15 @@
 				003E01DF1E8E3C7700F35BA5 /* CGDictionaryExtension.swift */,
 			);
 			path = Dictionary;
+			sourceTree = "<group>";
+		};
+		00486CB61E95E11E007F6699 /* CGMapManager */ = {
+			isa = PBXGroup;
+			children = (
+				00486CBC1E95E197007F6699 /* CGMapManager.swift */,
+				00486CBE1E95E22E007F6699 /* CGLocationManager.swift */,
+			);
+			path = CGMapManager;
 			sourceTree = "<group>";
 		};
 		005633A81CAD1FDC00520F94 /* TestSelectPhoto */ = {
@@ -3634,6 +3650,7 @@
 		18D06E461DF84CAE00F64D7F /* CGSwiftKit */ = {
 			isa = PBXGroup;
 			children = (
+				00486CB61E95E11E007F6699 /* CGMapManager */,
 				003E01BE1E8DEAAB00F35BA5 /* Model */,
 				003E01A91E8B592800F35BA5 /* URLRequestManager */,
 				0083B3A81E0B7A6A00A7B699 /* Foundion */,
@@ -3849,6 +3866,7 @@
 		B86B07EE8190F2F261E3DDEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00486CB71E95E130007F6699 /* CoreLocation.framework */,
 				002E27741E84BE4200046DC9 /* CoreTelephony.framework */,
 				002E27721E84BE3B00046DC9 /* SystemConfiguration.framework */,
 				00F1127D1DADC6850053E839 /* QuartzCore.framework */,
@@ -4082,6 +4100,7 @@
 				18D06F171DF84CAE00F64D7F /* CGDoubleLayoutBaseView.m in Sources */,
 				18D06E751DF84CAE00F64D7F /* EXTScope.m in Sources */,
 				0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */,
+				00486CBD1E95E197007F6699 /* CGMapManager.swift in Sources */,
 				18D06F0E1DF84CAE00F64D7F /* CGRadioSliderViewAppearance.m in Sources */,
 				18D06E5D1DF84CAE00F64D7F /* CGHandleRequestData.m in Sources */,
 				18D06F211DF84CAE00F64D7F /* CGTitleTextFieldView.m in Sources */,
@@ -4128,6 +4147,7 @@
 				18A870171D68CED100C76A21 /* CGTestSubviewViewController.m in Sources */,
 				00C2B9151D5EC8F20053E46B /* CGTestCGScrollViewController.m in Sources */,
 				18D06EFD1DF84CAE00F64D7F /* CGDoubleButtonsView.m in Sources */,
+				00486CBF1E95E22E007F6699 /* CGLocationManager.swift in Sources */,
 				18D06E531DF84CAE00F64D7F /* UIView+CGScaleViewFromOverlayView.m in Sources */,
 				18D06EDC1DF84CAE00F64D7F /* CGBaseLabel.m in Sources */,
 				18D06E871DF84CAE00F64D7F /* UIDevice+CGDirection.m in Sources */,

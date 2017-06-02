@@ -36,7 +36,6 @@
     label.text  = @"当雷锋精神动力飞机的酸辣粉加微哦 v 多了；啊额吉乐山大佛精神动力飞机上了飞机上了大年初六是颠鸾倒凤加了几分为减肥哦发了几分流口水的肌肤轮廓为减肥论文就流口水的处理技术的 v 额外积分配哦飞机拍摄道具的 v路上看到就烦死了都快飞机失联客机分配我饿减肥 v 你送饭唯饭无聊就饿了但是开发的飞机老师的看法";
     [self.view addSubview:label];
     
-    label.textMarginEdgeInsets  = UIEdgeInsetsMake(15, 15, 15, 15);
     [label cg_setupBorderWithWidth:1 color:[UIColor blueColor]];
     [label cg_autoCenterToSuperview];
 }

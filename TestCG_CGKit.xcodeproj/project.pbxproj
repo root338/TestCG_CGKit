@@ -23,6 +23,9 @@
 		003E01DA1E8DF57800F35BA5 /* CGUploadImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E01D81E8DF57800F35BA5 /* CGUploadImageModel.swift */; };
 		003E01DD1E8DF5DE00F35BA5 /* CGURLSessionManagerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E01DC1E8DF5DE00F35BA5 /* CGURLSessionManagerConfiguration.swift */; };
 		003E01E01E8E3C7700F35BA5 /* CGDictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E01DF1E8E3C7700F35BA5 /* CGDictionaryExtension.swift */; };
+		0046B56B1ED6784100086C1E /* CGURLSessionTaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046B56A1ED6784100086C1E /* CGURLSessionTaskDelegate.swift */; };
+		0046B56D1ED67FC200086C1E /* CGRequestCallbackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046B56C1ED67FC200086C1E /* CGRequestCallbackModel.swift */; };
+		0046B5721ED6B8F800086C1E /* CGImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046B5711ED6B8F800086C1E /* CGImageExtension.swift */; };
 		00485F6C1DE28C1300D6326F /* CGTestUIAlertAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00485F6B1DE28C1300D6326F /* CGTestUIAlertAnimationViewController.m */; };
 		00486CB81E95E130007F6699 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00486CB71E95E130007F6699 /* CoreLocation.framework */; };
 		00486CBD1E95E197007F6699 /* CGMapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00486CBC1E95E197007F6699 /* CGMapManager.swift */; };
@@ -39,6 +42,7 @@
 		00C2B9151D5EC8F20053E46B /* CGTestCGScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B9141D5EC8F20053E46B /* CGTestCGScrollViewController.m */; };
 		00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */; };
 		00D307AD1CC76E350040EFC8 /* CGTestWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */; };
+		00DEB5C01ECC219B00301DD1 /* UIViewController+CGSearchNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DEB5BF1ECC219B00301DD1 /* UIViewController+CGSearchNavigationController.m */; };
 		00F1127E1DADC6850053E839 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F1127D1DADC6850053E839 /* QuartzCore.framework */; };
 		183CCCA41CC5894400235486 /* CGTestPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */; };
 		185086E71CC303E4001CBC6B /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185086E61CC303E4001CBC6B /* Photos.framework */; };
@@ -392,6 +396,9 @@
 		003E01D81E8DF57800F35BA5 /* CGUploadImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGUploadImageModel.swift; sourceTree = "<group>"; };
 		003E01DC1E8DF5DE00F35BA5 /* CGURLSessionManagerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGURLSessionManagerConfiguration.swift; sourceTree = "<group>"; };
 		003E01DF1E8E3C7700F35BA5 /* CGDictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGDictionaryExtension.swift; sourceTree = "<group>"; };
+		0046B56A1ED6784100086C1E /* CGURLSessionTaskDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGURLSessionTaskDelegate.swift; sourceTree = "<group>"; };
+		0046B56C1ED67FC200086C1E /* CGRequestCallbackModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRequestCallbackModel.swift; sourceTree = "<group>"; };
+		0046B5711ED6B8F800086C1E /* CGImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGImageExtension.swift; sourceTree = "<group>"; };
 		00485F6A1DE28C1300D6326F /* CGTestUIAlertAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestUIAlertAnimationViewController.h; sourceTree = "<group>"; };
 		00485F6B1DE28C1300D6326F /* CGTestUIAlertAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestUIAlertAnimationViewController.m; sourceTree = "<group>"; };
 		00486CB71E95E130007F6699 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -414,6 +421,8 @@
 		00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGHomeDataModel.m; sourceTree = "<group>"; };
 		00D307AB1CC76E350040EFC8 /* CGTestWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestWKWebViewController.h; sourceTree = "<group>"; };
 		00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestWKWebViewController.m; sourceTree = "<group>"; };
+		00DEB5BE1ECC219B00301DD1 /* UIViewController+CGSearchNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CGSearchNavigationController.h"; sourceTree = "<group>"; };
+		00DEB5BF1ECC219B00301DD1 /* UIViewController+CGSearchNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CGSearchNavigationController.m"; sourceTree = "<group>"; };
 		00F1127D1DADC6850053E839 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		183CCCA21CC5894400235486 /* CGTestPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestPhotosViewController.h; sourceTree = "<group>"; };
 		183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestPhotosViewController.m; sourceTree = "<group>"; };
@@ -1105,6 +1114,7 @@
 		003E01A91E8B592800F35BA5 /* URLRequestManager */ = {
 			isa = PBXGroup;
 			children = (
+				0046B5691ED6780900086C1E /* Protocol */,
 				003E01DB1E8DF5C300F35BA5 /* Configuration */,
 				003E01C41E8DF55700F35BA5 /* DataModel */,
 				003E01CA1E8DF55800F35BA5 /* Manager */,
@@ -1135,6 +1145,7 @@
 			children = (
 				003E01D71E8DF57800F35BA5 /* CGTaskRequestDataModel.swift */,
 				003E01D81E8DF57800F35BA5 /* CGUploadImageModel.swift */,
+				0046B56C1ED67FC200086C1E /* CGRequestCallbackModel.swift */,
 			);
 			path = RequestModel;
 			sourceTree = "<group>";
@@ -1181,6 +1192,22 @@
 			path = Dictionary;
 			sourceTree = "<group>";
 		};
+		0046B5691ED6780900086C1E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0046B56A1ED6784100086C1E /* CGURLSessionTaskDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		0046B5701ED6B8A900086C1E /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				0046B5711ED6B8F800086C1E /* CGImageExtension.swift */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
 		00486CB61E95E11E007F6699 /* CGMapManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -1208,6 +1235,7 @@
 		0083B3A81E0B7A6A00A7B699 /* Foundion */ = {
 			isa = PBXGroup;
 			children = (
+				0046B5701ED6B8A900086C1E /* UIImage */,
 				003E01DE1E8E3C5700F35BA5 /* Dictionary */,
 				009A43111E10BB8400A3A1E1 /* String */,
 				0083B3AC1E0BA5EA00A7B699 /* AreaLocation */,
@@ -1265,6 +1293,15 @@
 				00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */,
 			);
 			path = "Test WKWebView";
+			sourceTree = "<group>";
+		};
+		00DEB5BD1ECC219B00301DD1 /* SearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00DEB5BE1ECC219B00301DD1 /* UIViewController+CGSearchNavigationController.h */,
+				00DEB5BF1ECC219B00301DD1 /* UIViewController+CGSearchNavigationController.m */,
+			);
+			path = SearchViewController;
 			sourceTree = "<group>";
 		};
 		183CCCA11CC5892B00235486 /* TestPhotos */ = {
@@ -3422,6 +3459,7 @@
 		18D06DF71DF84CAE00F64D7F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				00DEB5BD1ECC219B00301DD1 /* SearchViewController */,
 				18D06DF81DF84CAE00F64D7F /* Header */,
 				18D06DFB1DF84CAE00F64D7F /* Property */,
 				18D06DFE1DF84CAE00F64D7F /* SetupUIViewController */,
@@ -4093,6 +4131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0046B56D1ED67FC200086C1E /* CGRequestCallbackModel.swift in Sources */,
 				18D06EBA1DF84CAE00F64D7F /* UIView+CustomTableHeaderView.m in Sources */,
 				18D06EAC1DF84CAE00F64D7F /* UICollectionView+CGRegisterCell.m in Sources */,
 				18D06ED41DF84CAE00F64D7F /* CGTimerButton.m in Sources */,
@@ -4325,6 +4364,7 @@
 				18DBAE021C12968900552828 /* HomeViewController.m in Sources */,
 				18D06E5A1DF84CAE00F64D7F /* UIView+Constant.m in Sources */,
 				0000D9B51D6593C30038E4A0 /* CGTestTitleBarViewController.m in Sources */,
+				0046B5721ED6B8F800086C1E /* CGImageExtension.swift in Sources */,
 				18D06E641DF84CAE00F64D7F /* UIImageView+CGSetupImageURL.m in Sources */,
 				18D06F051DF84CAE00F64D7F /* CGCycleContentView.m in Sources */,
 				18D06EA01DF84CAE00F64D7F /* CGTextField+CGCreate.m in Sources */,
@@ -4365,6 +4405,7 @@
 				00BAB2F11C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m in Sources */,
 				18D06EEF1DF84CAE00F64D7F /* CGTextFieldDelegateManager.m in Sources */,
 				18D06F581DF84CAE00F64D7F /* CGWebViewToolBar.m in Sources */,
+				0046B56B1ED6784100086C1E /* CGURLSessionTaskDelegate.swift in Sources */,
 				18D06EAB1DF84CAE00F64D7F /* UICollectionView+CGPropertyValue.m in Sources */,
 				18D06F4C1DF84CAE00F64D7F /* CGNavigationDelegateObject.m in Sources */,
 				18D06E8B1DF84CAE00F64D7F /* CGIconConfig.m in Sources */,
@@ -4379,6 +4420,7 @@
 				18D06E671DF84CAE00F64D7F /* NSError+CGCreateError.m in Sources */,
 				18D06ECC1DF84CAE00F64D7F /* UIWebView+CGValue.m in Sources */,
 				18D06EDA1DF84CAE00F64D7F /* CGCollectionViewDataSourceManager.m in Sources */,
+				00DEB5C01ECC219B00301DD1 /* UIViewController+CGSearchNavigationController.m in Sources */,
 				18D06F561DF84CAE00F64D7F /* CGWebPrivateView.m in Sources */,
 				18D06E951DF84CAE00F64D7F /* CGTitlesSourceDataModel.m in Sources */,
 				18D06ECB1DF84CAE00F64D7F /* UIView+CGUpdateViewLayout.m in Sources */,

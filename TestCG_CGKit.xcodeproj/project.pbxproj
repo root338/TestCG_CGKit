@@ -32,6 +32,8 @@
 		0069BB031C85418C00C5A628 /* TestCATranform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */; };
 		0069BB061C85431A00C5A628 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0069BB051C85431A00C5A628 /* 2.jpg */; };
 		007936D51D4858DE007D963C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007936D41D4858DE007D963C /* WebKit.framework */; };
+		008253831FB59E0C00AE3152 /* CGPhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008253821FB59E0C00AE3152 /* CGPhotoLibraryViewController.swift */; };
+		008253861FB59EC000AE3152 /* CGPhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008253851FB59EC000AE3152 /* CGPhotoManager.swift */; };
 		0083B3A51E0B752300A7B699 /* CGBrowseFullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0083B3A41E0B752300A7B699 /* CGBrowseFullScreenView.swift */; };
 		0083B3A71E0B75F500A7B699 /* CGBrowseFullScreenViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0083B3A61E0B75F500A7B699 /* CGBrowseFullScreenViewCell.swift */; };
 		0083B3AB1E0B7AFC00A7B699 /* CGNumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0083B3AA1E0B7AFC00A7B699 /* CGNumberExtension.swift */; };
@@ -40,6 +42,7 @@
 		00BAB2F11C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BAB2F01C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m */; };
 		00C2B9151D5EC8F20053E46B /* CGTestCGScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B9141D5EC8F20053E46B /* CGTestCGScrollViewController.m */; };
 		00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */; };
+		00CA795D1F57F3CC00206583 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CA795C1F57F3CC00206583 /* CoreImage.framework */; };
 		00D307AD1CC76E350040EFC8 /* CGTestWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */; };
 		00F1127E1DADC6850053E839 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F1127D1DADC6850053E839 /* QuartzCore.framework */; };
 		183CCCA41CC5894400235486 /* CGTestPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */; };
@@ -63,11 +66,10 @@
 		18DBAE021C12968900552828 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAE011C12968900552828 /* HomeViewController.m */; };
 		18DE27C31DB6D95C00BCEABC /* CGTestTitleRadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE27C21DB6D95C00BCEABC /* CGTestTitleRadioViewController.m */; };
 		18DFFB931DBC6B82004D774A /* CGTestTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFFB921DBC6B82004D774A /* CGTestTableViewViewController.m */; };
-		18E6E2AC1C15B87500906A5A /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6E2AB1C15B87500906A5A /* AFNetworkActivityLogger.m */; };
 		18F093EE1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F093ED1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift */; };
 		18F21B921CC3F6B100B58B16 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F21B911CC3F6B100B58B16 /* ShareViewController.m */; };
 		18F21B951CC3F6B100B58B16 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F21B931CC3F6B100B58B16 /* MainInterface.storyboard */; };
-		302C9A770D2BEB9460B47FBE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 222F9D25D26223B807E03656 /* libPods.a */; };
+		B34A56136E938D33A10F79C0 /* libPods-TestCG_CGKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DEA84BA89C47E5534055C9 /* libPods-TestCG_CGKit.a */; };
 		C22634EE1F506DF6004A7813 /* UIView+CGLineMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = C22631871F506DF5004A7813 /* UIView+CGLineMoveView.m */; };
 		C22634EF1F506DF6004A7813 /* UIView+CGScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C22631891F506DF5004A7813 /* UIView+CGScaleView.m */; };
 		C22634F01F506DF6004A7813 /* UIView+CGScaleViewFromOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C226318B1F506DF5004A7813 /* UIView+CGScaleViewFromOverlayView.m */; };
@@ -94,8 +96,6 @@
 		C22635051F506DF6004A7813 /* CGDispathMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = C22631CB1F506DF5004A7813 /* CGDispathMethod.m */; };
 		C22635061F506DF6004A7813 /* RFKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = C22631D01F506DF5004A7813 /* RFKeyboard.m */; };
 		C22635071F506DF6004A7813 /* CGHandleRequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = C22631D71F506DF5004A7813 /* CGHandleRequestData.m */; };
-		C22635081F506DF6004A7813 /* CGRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C22631DA1F506DF5004A7813 /* CGRequestManager.m */; };
-		C22635091F506DF6004A7813 /* CGUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C22631DE1F506DF5004A7813 /* CGUserInfoModel.m */; };
 		C226350A1F506DF6004A7813 /* CGRequestBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C22631E11F506DF5004A7813 /* CGRequestBaseModel.m */; };
 		C226350B1F506DF6004A7813 /* CGRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C22631E31F506DF5004A7813 /* CGRequestModel.m */; };
 		C226350C1F506DF6004A7813 /* CGRequestBaseModel+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C22631E61F506DF5004A7813 /* CGRequestBaseModel+Category.m */; };
@@ -146,7 +146,6 @@
 		C226353A1F506DF6004A7813 /* CGIconConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C22632781F506DF5004A7813 /* CGIconConfig.m */; };
 		C226353B1F506DF6004A7813 /* CGRefreshIconConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C226327A1F506DF5004A7813 /* CGRefreshIconConfig.m */; };
 		C226353C1F506DF6004A7813 /* UIImage+CGDrawIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = C226327C1F506DF5004A7813 /* UIImage+CGDrawIcon.m */; };
-		C226353D1F506DF6004A7813 /* UIImage+CGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C226327E1F506DF5004A7813 /* UIImage+CGImage.m */; };
 		C226353E1F506DF6004A7813 /* UIImage+CGColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C22632801F506DF5004A7813 /* UIImage+CGColor.m */; };
 		C226353F1F506DF6004A7813 /* UIImage+CGDrawImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C22632821F506DF5004A7813 /* UIImage+CGDrawImage.m */; };
 		C22635401F506DF6004A7813 /* UIImage+CGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C22632841F506DF5004A7813 /* UIImage+CGImage.m */; };
@@ -434,6 +433,8 @@
 		0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCATranform3DViewController.m; sourceTree = "<group>"; };
 		0069BB051C85431A00C5A628 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		007936D41D4858DE007D963C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		008253821FB59E0C00AE3152 /* CGPhotoLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPhotoLibraryViewController.swift; sourceTree = "<group>"; };
+		008253851FB59EC000AE3152 /* CGPhotoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPhotoManager.swift; sourceTree = "<group>"; };
 		0083B3A41E0B752300A7B699 /* CGBrowseFullScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGBrowseFullScreenView.swift; sourceTree = "<group>"; };
 		0083B3A61E0B75F500A7B699 /* CGBrowseFullScreenViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGBrowseFullScreenViewCell.swift; sourceTree = "<group>"; };
 		0083B3AA1E0B7AFC00A7B699 /* CGNumberExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGNumberExtension.swift; sourceTree = "<group>"; };
@@ -445,9 +446,11 @@
 		00C2B9141D5EC8F20053E46B /* CGTestCGScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestCGScrollViewController.m; sourceTree = "<group>"; };
 		00C315CC1CACC17E009BFD7A /* CGHomeDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGHomeDataModel.h; sourceTree = "<group>"; };
 		00C315CD1CACC17E009BFD7A /* CGHomeDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGHomeDataModel.m; sourceTree = "<group>"; };
+		00CA795C1F57F3CC00206583 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		00D307AB1CC76E350040EFC8 /* CGTestWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestWKWebViewController.h; sourceTree = "<group>"; };
 		00D307AC1CC76E350040EFC8 /* CGTestWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestWKWebViewController.m; sourceTree = "<group>"; };
 		00F1127D1DADC6850053E839 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		180606E4DCE2B6AC950733AC /* Pods-TestCG_CGKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCG_CGKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestCG_CGKit/Pods-TestCG_CGKit.debug.xcconfig"; sourceTree = "<group>"; };
 		183CCCA21CC5894400235486 /* CGTestPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestPhotosViewController.h; sourceTree = "<group>"; };
 		183CCCA31CC5894400235486 /* CGTestPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestPhotosViewController.m; sourceTree = "<group>"; };
 		185086E61CC303E4001CBC6B /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
@@ -487,16 +490,14 @@
 		18DE27C21DB6D95C00BCEABC /* CGTestTitleRadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestTitleRadioViewController.m; sourceTree = "<group>"; };
 		18DFFB911DBC6B82004D774A /* CGTestTableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestTableViewViewController.h; sourceTree = "<group>"; };
 		18DFFB921DBC6B82004D774A /* CGTestTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestTableViewViewController.m; sourceTree = "<group>"; };
-		18E6E2AA1C15B87500906A5A /* AFNetworkActivityLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityLogger.h; path = AFNetworkActivityLogger/AFNetworkActivityLogger.h; sourceTree = "<group>"; };
-		18E6E2AB1C15B87500906A5A /* AFNetworkActivityLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityLogger.m; path = AFNetworkActivityLogger/AFNetworkActivityLogger.m; sourceTree = "<group>"; };
 		18F093ED1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGTestFoulLineViewController.swift; sourceTree = "<group>"; };
 		18F21B8E1CC3F6B100B58B16 /* CGKitShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CGKitShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F21B901CC3F6B100B58B16 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
 		18F21B911CC3F6B100B58B16 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
 		18F21B941CC3F6B100B58B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		18F21B961CC3F6B100B58B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		222F9D25D26223B807E03656 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2579600A7457913BDB2035A0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		23DEA84BA89C47E5534055C9 /* libPods-TestCG_CGKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestCG_CGKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98E44ADCC2C0192ADDD5422 /* Pods-TestCG_CGKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCG_CGKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestCG_CGKit/Pods-TestCG_CGKit.release.xcconfig"; sourceTree = "<group>"; };
 		C22631831F506DF5004A7813 /* CGAngleRadianHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAngleRadianHeader.h; sourceTree = "<group>"; };
 		C22631851F506DF5004A7813 /* CGMoveViewTypeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGMoveViewTypeHeader.h; sourceTree = "<group>"; };
 		C22631861F506DF5004A7813 /* UIView+CGLineMoveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGLineMoveView.h"; sourceTree = "<group>"; };
@@ -547,10 +548,6 @@
 		C22631D41F506DF5004A7813 /* CGRequestDefineHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRequestDefineHeader.h; sourceTree = "<group>"; };
 		C22631D61F506DF5004A7813 /* CGHandleRequestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGHandleRequestData.h; sourceTree = "<group>"; };
 		C22631D71F506DF5004A7813 /* CGHandleRequestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGHandleRequestData.m; sourceTree = "<group>"; };
-		C22631D91F506DF5004A7813 /* CGRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRequestManager.h; sourceTree = "<group>"; };
-		C22631DA1F506DF5004A7813 /* CGRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGRequestManager.m; sourceTree = "<group>"; };
-		C22631DD1F506DF5004A7813 /* CGUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUserInfoModel.h; sourceTree = "<group>"; };
-		C22631DE1F506DF5004A7813 /* CGUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGUserInfoModel.m; sourceTree = "<group>"; };
 		C22631E01F506DF5004A7813 /* CGRequestBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRequestBaseModel.h; sourceTree = "<group>"; };
 		C22631E11F506DF5004A7813 /* CGRequestBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGRequestBaseModel.m; sourceTree = "<group>"; };
 		C22631E21F506DF5004A7813 /* CGRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRequestModel.h; sourceTree = "<group>"; };
@@ -664,8 +661,6 @@
 		C226327A1F506DF5004A7813 /* CGRefreshIconConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGRefreshIconConfig.m; sourceTree = "<group>"; };
 		C226327B1F506DF5004A7813 /* UIImage+CGDrawIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CGDrawIcon.h"; sourceTree = "<group>"; };
 		C226327C1F506DF5004A7813 /* UIImage+CGDrawIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CGDrawIcon.m"; sourceTree = "<group>"; };
-		C226327D1F506DF5004A7813 /* UIImage+CGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CGImage.h"; sourceTree = "<group>"; };
-		C226327E1F506DF5004A7813 /* UIImage+CGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CGImage.m"; sourceTree = "<group>"; };
 		C226327F1F506DF5004A7813 /* UIImage+CGColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CGColor.h"; sourceTree = "<group>"; };
 		C22632801F506DF5004A7813 /* UIImage+CGColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CGColor.m"; sourceTree = "<group>"; };
 		C22632811F506DF5004A7813 /* UIImage+CGDrawImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CGDrawImage.h"; sourceTree = "<group>"; };
@@ -1142,7 +1137,6 @@
 		C22634EC1F506DF6004A7813 /* CGNavigationViewControllerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGNavigationViewControllerManager.m; sourceTree = "<group>"; };
 		C22634ED1F506DF6004A7813 /* CGNavigationViewControllerManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNavigationViewControllerManagerDelegate.h; sourceTree = "<group>"; };
 		C226361A1F506EA8004A7813 /* CGKit+SwiftBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGKit+SwiftBridgingHeader.h"; sourceTree = "<group>"; };
-		CB955F562162540E6C680F5B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1150,13 +1144,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00CA795D1F57F3CC00206583 /* CoreImage.framework in Frameworks */,
 				00486CB81E95E130007F6699 /* CoreLocation.framework in Frameworks */,
 				002E27751E84BE4200046DC9 /* CoreTelephony.framework in Frameworks */,
 				002E27731E84BE3B00046DC9 /* SystemConfiguration.framework in Frameworks */,
 				00F1127E1DADC6850053E839 /* QuartzCore.framework in Frameworks */,
 				007936D51D4858DE007D963C /* WebKit.framework in Frameworks */,
 				185086E71CC303E4001CBC6B /* Photos.framework in Frameworks */,
-				302C9A770D2BEB9460B47FBE /* libPods.a in Frameworks */,
+				B34A56136E938D33A10F79C0 /* libPods-TestCG_CGKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1290,19 +1285,37 @@
 			path = CGMapManager;
 			sourceTree = "<group>";
 		};
-		005633A81CAD1FDC00520F94 /* TestSelectPhoto */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TestSelectPhoto;
-			sourceTree = "<group>";
-		};
 		0069BB041C85431000C5A628 /* ImageResource */ = {
 			isa = PBXGroup;
 			children = (
 				0069BB051C85431A00C5A628 /* 2.jpg */,
 			);
 			path = ImageResource;
+			sourceTree = "<group>";
+		};
+		008253801FB59D8300AE3152 /* PhotoManager */ = {
+			isa = PBXGroup;
+			children = (
+				008253841FB59EA500AE3152 /* Manager */,
+				008253811FB59DA200AE3152 /* Controller */,
+			);
+			path = PhotoManager;
+			sourceTree = "<group>";
+		};
+		008253811FB59DA200AE3152 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				008253821FB59E0C00AE3152 /* CGPhotoLibraryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		008253841FB59EA500AE3152 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				008253851FB59EC000AE3152 /* CGPhotoManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		0083B3A81E0B7A6A00A7B699 /* Foundion */ = {
@@ -1430,7 +1443,6 @@
 				183CCCA11CC5892B00235486 /* TestPhotos */,
 				1885F38F1CB13A4F002A6D68 /* Test Layout Constranints */,
 				1894AE841CAFD4BA005A518C /* Defines */,
-				005633A81CAD1FDC00520F94 /* TestSelectPhoto */,
 				18A1D7F81C12A09700B93665 /* TableView */,
 				0069BB011C85418C00C5A628 /* TestCATranform3DViewController.h */,
 				0069BB021C85418C00C5A628 /* TestCATranform3DViewController.m */,
@@ -1528,8 +1540,8 @@
 				18DBAAE31C12818400552828 /* TestCG_CGKitUITests */,
 				18F21B8F1CC3F6B100B58B16 /* CGKitShareExtension */,
 				18DBAABD1C12818300552828 /* Products */,
-				9E0BE1FB9A8DD6F176B693F1 /* Pods */,
 				B86B07EE8190F2F261E3DDEB /* Frameworks */,
+				207B6DE68D88212F6220CB70 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1547,10 +1559,10 @@
 		18DBAABE1C12818300552828 /* TestCG_CGKit */ = {
 			isa = PBXGroup;
 			children = (
+				008253801FB59D8300AE3152 /* PhotoManager */,
 				C22631801F506DF5004A7813 /* CG_CGKit */,
 				18D06E461DF84CAE00F64D7F /* CGSwiftKit */,
 				18DBAAF31C12872500552828 /* Mudule */,
-				18FAA06B1CD0294400C73C55 /* SwiftMudule */,
 				18DBAAC81C12818300552828 /* Main.storyboard */,
 				187A3E421D69EA1000C7E67C /* Assets.xcassets */,
 				18DBAACD1C12818300552828 /* LaunchScreen.storyboard */,
@@ -1585,9 +1597,7 @@
 				1845475E1C12A4B50030DD0A /* View */,
 				18A1D7F31C129C6600B93665 /* TestDetailVC */,
 				18DBADFF1C12967500552828 /* HomeView */,
-				18DBACCF1C12945A00552828 /* Launch */,
 				18DBACCE1C1293A500552828 /* Navigation */,
-				18DBACC81C128A0600552828 /* RequestNetwork */,
 			);
 			path = Mudule;
 			sourceTree = "<group>";
@@ -1604,35 +1614,11 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		18DBACC81C128A0600552828 /* RequestNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				18DBACC91C128A0600552828 /* AFNetworkActivityLogger */,
-			);
-			path = RequestNetwork;
-			sourceTree = "<group>";
-		};
-		18DBACC91C128A0600552828 /* AFNetworkActivityLogger */ = {
-			isa = PBXGroup;
-			children = (
-				18E6E2AA1C15B87500906A5A /* AFNetworkActivityLogger.h */,
-				18E6E2AB1C15B87500906A5A /* AFNetworkActivityLogger.m */,
-			);
-			path = AFNetworkActivityLogger;
-			sourceTree = "<group>";
-		};
 		18DBACCE1C1293A500552828 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Navigation;
-			sourceTree = "<group>";
-		};
-		18DBACCF1C12945A00552828 /* Launch */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Launch;
 			sourceTree = "<group>";
 		};
 		18DBADFF1C12967500552828 /* HomeView */ = {
@@ -1663,18 +1649,11 @@
 			path = CGKitShareExtension;
 			sourceTree = "<group>";
 		};
-		18FAA06B1CD0294400C73C55 /* SwiftMudule */ = {
+		207B6DE68D88212F6220CB70 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = SwiftMudule;
-			sourceTree = "<group>";
-		};
-		9E0BE1FB9A8DD6F176B693F1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CB955F562162540E6C680F5B /* Pods.debug.xcconfig */,
-				2579600A7457913BDB2035A0 /* Pods.release.xcconfig */,
+				180606E4DCE2B6AC950733AC /* Pods-TestCG_CGKit.debug.xcconfig */,
+				A98E44ADCC2C0192ADDD5422 /* Pods-TestCG_CGKit.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -1682,13 +1661,14 @@
 		B86B07EE8190F2F261E3DDEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00CA795C1F57F3CC00206583 /* CoreImage.framework */,
 				00486CB71E95E130007F6699 /* CoreLocation.framework */,
 				002E27741E84BE4200046DC9 /* CoreTelephony.framework */,
 				002E27721E84BE3B00046DC9 /* SystemConfiguration.framework */,
 				00F1127D1DADC6850053E839 /* QuartzCore.framework */,
 				007936D41D4858DE007D963C /* WebKit.framework */,
 				185086E61CC303E4001CBC6B /* Photos.framework */,
-				222F9D25D26223B807E03656 /* libPods.a */,
+				23DEA84BA89C47E5534055C9 /* libPods-TestCG_CGKit.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2045,7 +2025,6 @@
 			children = (
 				C22631D31F506DF5004A7813 /* ConstantDefine */,
 				C22631D51F506DF5004A7813 /* HandelData */,
-				C22631D81F506DF5004A7813 /* Manager */,
 				C22631DB1F506DF5004A7813 /* Model */,
 			);
 			path = "AFNetwork+Category";
@@ -2068,31 +2047,12 @@
 			path = HandelData;
 			sourceTree = "<group>";
 		};
-		C22631D81F506DF5004A7813 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				C22631D91F506DF5004A7813 /* CGRequestManager.h */,
-				C22631DA1F506DF5004A7813 /* CGRequestManager.m */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
 		C22631DB1F506DF5004A7813 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C22631DC1F506DF5004A7813 /* DataModel */,
 				C22631DF1F506DF5004A7813 /* RequestModel */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		C22631DC1F506DF5004A7813 /* DataModel */ = {
-			isa = PBXGroup;
-			children = (
-				C22631DD1F506DF5004A7813 /* CGUserInfoModel.h */,
-				C22631DE1F506DF5004A7813 /* CGUserInfoModel.m */,
-			);
-			path = DataModel;
 			sourceTree = "<group>";
 		};
 		C22631DF1F506DF5004A7813 /* RequestModel */ = {
@@ -2539,8 +2499,6 @@
 				C22632721F506DF5004A7813 /* Config File */,
 				C226327B1F506DF5004A7813 /* UIImage+CGDrawIcon.h */,
 				C226327C1F506DF5004A7813 /* UIImage+CGDrawIcon.m */,
-				C226327D1F506DF5004A7813 /* UIImage+CGImage.h */,
-				C226327E1F506DF5004A7813 /* UIImage+CGImage.m */,
 			);
 			path = DrawIcon;
 			sourceTree = "<group>";
@@ -4200,13 +4158,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18DBAAE91C12818400552828 /* Build configuration list for PBXNativeTarget "TestCG_CGKit" */;
 			buildPhases = (
-				D5834C265821FE73D4304279 /* Check Pods Manifest.lock */,
+				DB1867AEA86EFC9F8D4B8817 /* [CP] Check Pods Manifest.lock */,
 				18DBAAB81C12818300552828 /* Sources */,
 				18DBAAB91C12818300552828 /* Frameworks */,
 				18DBAABA1C12818300552828 /* Resources */,
-				5E3640145FCA6FE6E2BC7630 /* Copy Pods Resources */,
 				185A740B1C144B98005936A5 /* ShellScript */,
 				18F21B991CC3F6B100B58B16 /* Embed App Extensions */,
+				2A3F14DB828CDAFF88B983AD /* [CP] Embed Pods Frameworks */,
+				617DB89C63922B1CE2E37ABC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -4277,13 +4236,13 @@
 		18DBAAB41C12818300552828 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = apple;
 				TargetAttributes = {
 					18DBAABB1C12818300552828 = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = 29W9687J6A;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0910;
 					};
 					18DBAAD41C12818300552828 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -4372,34 +4331,55 @@
 			shellPath = /bin/sh;
 			shellScript = "\n##自动添加 build 次数\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\n\n#########";
 		};
-		5E3640145FCA6FE6E2BC7630 /* Copy Pods Resources */ = {
+		2A3F14DB828CDAFF88B983AD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestCG_CGKit/Pods-TestCG_CGKit-frameworks.sh",
+				"${PODS_ROOT}/Reveal-SDK/RevealServer-11/iOS/RevealServer.framework",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestCG_CGKit/Pods-TestCG_CGKit-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D5834C265821FE73D4304279 /* Check Pods Manifest.lock */ = {
+		617DB89C63922B1CE2E37ABC /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestCG_CGKit/Pods-TestCG_CGKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB1867AEA86EFC9F8D4B8817 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestCG_CGKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -4431,6 +4411,7 @@
 				C22635F71F506DF6004A7813 /* CGBorderObject.m in Sources */,
 				C22635F91F506DF7004A7813 /* CGNavigationAppearance.m in Sources */,
 				00486CBD1E95E197007F6699 /* CGMapManager.swift in Sources */,
+				008253831FB59E0C00AE3152 /* CGPhotoLibraryViewController.swift in Sources */,
 				C22635DF1F506DF6004A7813 /* CGWKWebViewUIDelegateManager.m in Sources */,
 				C226353C1F506DF6004A7813 /* UIImage+CGDrawIcon.m in Sources */,
 				C22635011F506DF6004A7813 /* CGTitleModifiedView.swift in Sources */,
@@ -4526,7 +4507,6 @@
 				18DBAAFB1C12877E00552828 /* main.m in Sources */,
 				00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */,
 				C226355C1F506DF6004A7813 /* UICollectionView+CGDequeueReusableCell.m in Sources */,
-				C22635081F506DF6004A7813 /* CGRequestManager.m in Sources */,
 				003E01C01E8DEAC500F35BA5 /* CGImageDataModel.swift in Sources */,
 				C22635411F506DF6004A7813 /* UIImage+CGImageRotate.m in Sources */,
 				C22635001F506DF6004A7813 /* CGSquareProgressView.swift in Sources */,
@@ -4555,12 +4535,10 @@
 				C22635751F506DF6004A7813 /* UIView+CGAddGestureRecognizer.m in Sources */,
 				C22635B01F506DF6004A7813 /* CGNavigationBarView.m in Sources */,
 				C22635F41F506DF6004A7813 /* CGBaseSubviewsFlowLayoutConfigModel.m in Sources */,
-				18E6E2AC1C15B87500906A5A /* AFNetworkActivityLogger.m in Sources */,
 				C22635D21F506DF6004A7813 /* CGTitleImageLayoutView.m in Sources */,
 				C22635E01F506DF6004A7813 /* NJKWebViewProgress.m in Sources */,
 				C22636061F506DF7004A7813 /* UIViewController+CGPushViewController.m in Sources */,
 				C22635741F506DF6004A7813 /* UIView+LoadXIBFile.m in Sources */,
-				C22635091F506DF6004A7813 /* CGUserInfoModel.m in Sources */,
 				C22635A91F506DF6004A7813 /* CGBrowsePhotoCollectionViewCell.m in Sources */,
 				003E01D91E8DF57800F35BA5 /* CGTaskRequestDataModel.swift in Sources */,
 				C22635531F506DF6004A7813 /* UIButton+CGCreateCustomButton.m in Sources */,
@@ -4581,6 +4559,7 @@
 				C22634F11F506DF6004A7813 /* UIView+CGSetupAnimationArea.m in Sources */,
 				C22635651F506DF6004A7813 /* UITableView+CGChangeGroupStyle.m in Sources */,
 				C22635891F506DF6004A7813 /* CGBrowsePhotoListView.m in Sources */,
+				008253861FB59EC000AE3152 /* CGPhotoManager.swift in Sources */,
 				C22635731F506DF6004A7813 /* UIView+CGFlowSubviewsSetup.m in Sources */,
 				C22635A31F506DF6004A7813 /* CGTextField.m in Sources */,
 				C22635351F506DF6004A7813 /* UIDevice+CGDirection.m in Sources */,
@@ -4682,7 +4661,6 @@
 				C226351D1F506DF6004A7813 /* NSObject+CGExchangeSelector.m in Sources */,
 				C226357B1F506DF6004A7813 /* UIView+CGSetupFrame.m in Sources */,
 				C226350E1F506DF6004A7813 /* UIImageView+CGSetupImageURL.m in Sources */,
-				C226353D1F506DF6004A7813 /* UIImage+CGImage.m in Sources */,
 				C22635EF1F506DF6004A7813 /* UIView+CGSearchConstraints.m in Sources */,
 				C226352B1F506DF6004A7813 /* ALAsset+CGProperty.m in Sources */,
 				C22635F51F506DF6004A7813 /* CGCreateSubviewsFlowLayoutConfigModel.m in Sources */,
@@ -4834,14 +4812,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -4879,14 +4863,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -4913,7 +4903,7 @@
 		};
 		18DBAAEA1C12818400552828 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB955F562162540E6C680F5B /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 180606E4DCE2B6AC950733AC /* Pods-TestCG_CGKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -4931,19 +4921,18 @@
 				INFOPLIST_FILE = "$(SRCROOT)/TestCG_CGKit/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lz",
-					"-framework",
-					Reveal,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TestKitProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TestCG_CGKit/CGSwiftKit/BridgingHeader/CGSwiftKit-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				USER_HEADER_SEARCH_PATHS = "";
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
@@ -4951,7 +4940,7 @@
 		};
 		18DBAAEB1C12818400552828 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2579600A7457913BDB2035A0 /* Pods.release.xcconfig */;
+			baseConfigurationReference = A98E44ADCC2C0192ADDD5422 /* Pods-TestCG_CGKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -4965,18 +4954,17 @@
 				INFOPLIST_FILE = "$(SRCROOT)/TestCG_CGKit/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lz",
-					"-framework",
-					Reveal,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TestKitProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TestCG_CGKit/CGSwiftKit/BridgingHeader/CGSwiftKit-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				USER_HEADER_SEARCH_PATHS = "";
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};

@@ -28,7 +28,6 @@
     [super viewDidLoad];
     [self.webView loadRequestWithURLString:@"https://www.apple.com"];
     
-    [[CGURLSessionManager sessionManager] requestWithUrlString:@"https://www.apple.com"];
 }
 
 - (void)viewDidAppear:(BOOL)animated

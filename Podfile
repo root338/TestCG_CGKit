@@ -1,10 +1,11 @@
 
-pod 'JSONModel'
+target 'TestCG_CGKit' do
+    
+    platform:ios, '8.0'
+    pod 'JSONModel'
+    pod 'SDWebImage'
+    pod 'AFNetworking'
 
-platform :ios, '6.1'
-pod 'SDWebImage', '~>3.7'
+    pod 'Reveal-SDK', :configurations => ['Debug']
 
-platform :ios, '7.0'
-pod "AFNetworking", "~> 2.0"
-
-pod 'Reveal-iOS-SDK', :configurations => ['Debug']
+end

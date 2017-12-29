@@ -52,6 +52,8 @@
 		1885F3921CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1885F3911CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m */; };
 		1894AE871CAFD4F3005A518C /* CGTestDefinesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AE861CAFD4F3005A518C /* CGTestDefinesTableViewController.m */; };
 		1894AE8B1CAFD83F005A518C /* CGTestDefinesData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AE8A1CAFD83F005A518C /* CGTestDefinesData.m */; };
+		189C9F0B1FF37D42008B5265 /* CGBrowseCellItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C9F0A1FF37D42008B5265 /* CGBrowseCellItem.swift */; };
+		189C9F0E1FF38EC9008B5265 /* CGBrowseScrollContentViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C9F0D1FF38EC9008B5265 /* CGBrowseScrollContentViewItem.swift */; };
 		18A870171D68CED100C76A21 /* CGTestSubviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A870161D68CED100C76A21 /* CGTestSubviewViewController.m */; };
 		18B41A9E1C13FE450031002B /* TestTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B41A9D1C13FE450031002B /* TestTextFieldCell.m */; };
 		18D06F5F1DF84CAE00F64D7F /* CGBrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D06E4D1DF84CAE00F64D7F /* CGBrowseView.swift */; };
@@ -78,7 +80,6 @@
 		C22634F31F506DF6004A7813 /* UINavigationController+PushAndPopAnmation.m in Sources */ = {isa = PBXBuildFile; fileRef = C22631921F506DF5004A7813 /* UINavigationController+PushAndPopAnmation.m */; };
 		C22634F41F506DF6004A7813 /* NSObject+JudgePurview.m in Sources */ = {isa = PBXBuildFile; fileRef = C22631951F506DF5004A7813 /* NSObject+JudgePurview.m */; };
 		C22634F51F506DF6004A7813 /* CGLayerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22631981F506DF5004A7813 /* CGLayerAnimation.swift */; };
-		C22634F61F506DF6004A7813 /* CGLabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226319B1F506DF5004A7813 /* CGLabelExtension.swift */; };
 		C22634F71F506DF6004A7813 /* Array+CGExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226319E1F506DF5004A7813 /* Array+CGExtension.swift */; };
 		C22634F81F506DF6004A7813 /* Double+PriceCalculateRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226319F1F506DF5004A7813 /* Double+PriceCalculateRules.swift */; };
 		C22634F91F506DF6004A7813 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22631A01F506DF5004A7813 /* String+Extension.swift */; };
@@ -463,6 +464,8 @@
 		1894AE861CAFD4F3005A518C /* CGTestDefinesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestDefinesTableViewController.m; sourceTree = "<group>"; };
 		1894AE891CAFD83F005A518C /* CGTestDefinesData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestDefinesData.h; sourceTree = "<group>"; };
 		1894AE8A1CAFD83F005A518C /* CGTestDefinesData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestDefinesData.m; sourceTree = "<group>"; };
+		189C9F0A1FF37D42008B5265 /* CGBrowseCellItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGBrowseCellItem.swift; sourceTree = "<group>"; };
+		189C9F0D1FF38EC9008B5265 /* CGBrowseScrollContentViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGBrowseScrollContentViewItem.swift; sourceTree = "<group>"; };
 		18A870151D68CED100C76A21 /* CGTestSubviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestSubviewViewController.h; sourceTree = "<group>"; };
 		18A870161D68CED100C76A21 /* CGTestSubviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestSubviewViewController.m; sourceTree = "<group>"; };
 		18B41A9C1C13FE450031002B /* TestTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTextFieldCell.h; sourceTree = "<group>"; };
@@ -515,7 +518,6 @@
 		C22631941F506DF5004A7813 /* NSObject+JudgePurview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JudgePurview.h"; sourceTree = "<group>"; };
 		C22631951F506DF5004A7813 /* NSObject+JudgePurview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JudgePurview.m"; sourceTree = "<group>"; };
 		C22631981F506DF5004A7813 /* CGLayerAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGLayerAnimation.swift; sourceTree = "<group>"; };
-		C226319B1F506DF5004A7813 /* CGLabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGLabelExtension.swift; sourceTree = "<group>"; };
 		C226319E1F506DF5004A7813 /* Array+CGExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+CGExtension.swift"; sourceTree = "<group>"; };
 		C226319F1F506DF5004A7813 /* Double+PriceCalculateRules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+PriceCalculateRules.swift"; sourceTree = "<group>"; };
 		C22631A01F506DF5004A7813 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
@@ -1436,6 +1438,15 @@
 			path = TestDefinesData;
 			sourceTree = "<group>";
 		};
+		189C9F0C1FF37DAD008B5265 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				189C9F0A1FF37D42008B5265 /* CGBrowseCellItem.swift */,
+				189C9F0D1FF38EC9008B5265 /* CGBrowseScrollContentViewItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		18A1D7F31C129C6600B93665 /* TestDetailVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -1516,6 +1527,7 @@
 		18D06E4C1DF84CAE00F64D7F /* BrowseView */ = {
 			isa = PBXGroup;
 			children = (
+				189C9F0C1FF37DAD008B5265 /* Model */,
 				18D06E4D1DF84CAE00F64D7F /* CGBrowseView.swift */,
 				18D06E4E1DF84CAE00F64D7F /* CGBrowseViewCell.swift */,
 				0083B3A41E0B752300A7B699 /* CGBrowseFullScreenView.swift */,
@@ -1772,17 +1784,8 @@
 		C22631991F506DF5004A7813 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				C226319A1F506DF5004A7813 /* UIView */,
 			);
 			path = Extension;
-			sourceTree = "<group>";
-		};
-		C226319A1F506DF5004A7813 /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-				C226319B1F506DF5004A7813 /* CGLabelExtension.swift */,
-			);
-			path = UIView;
 			sourceTree = "<group>";
 		};
 		C226319C1F506DF5004A7813 /* Object */ = {
@@ -4553,6 +4556,7 @@
 				C22635921F506DF6004A7813 /* CGLayoutMarginLabel.m in Sources */,
 				C226356A1F506DF6004A7813 /* UITableView+CGScrolling.m in Sources */,
 				C226354D1F506DF6004A7813 /* UIButton+CGSetupAppearance.m in Sources */,
+				189C9F0B1FF37D42008B5265 /* CGBrowseCellItem.swift in Sources */,
 				1885F3921CB13A7C002A6D68 /* CGTestLayoutConstranintsViewController.m in Sources */,
 				C226353B1F506DF6004A7813 /* CGRefreshIconConfig.m in Sources */,
 				C226356C1F506DF6004A7813 /* UIView+CustomTableHeaderView.m in Sources */,
@@ -4657,6 +4661,7 @@
 				C22635551F506DF6004A7813 /* UILabel+CGCreateCustomLabel.m in Sources */,
 				C22634EE1F506DF6004A7813 /* UIView+CGLineMoveView.m in Sources */,
 				00BAB2F11C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m in Sources */,
+				189C9F0E1FF38EC9008B5265 /* CGBrowseScrollContentViewItem.swift in Sources */,
 				C226351A1F506DF6004A7813 /* NSString+CGString.m in Sources */,
 				C226351D1F506DF6004A7813 /* NSObject+CGExchangeSelector.m in Sources */,
 				C226357B1F506DF6004A7813 /* UIView+CGSetupFrame.m in Sources */,
@@ -4702,7 +4707,6 @@
 				C22635251F506DF6004A7813 /* CGKeyboardCacheModel.m in Sources */,
 				C22635F01F506DF6004A7813 /* CGLayoutTypeTransform.m in Sources */,
 				C22635961F506DF6004A7813 /* CGRefreshBaseView.m in Sources */,
-				C22634F61F506DF6004A7813 /* CGLabelExtension.swift in Sources */,
 				C22635621F506DF6004A7813 /* UIScrollView+CGPullToRefresh.m in Sources */,
 				C22635DB1F506DF6004A7813 /* CGWebView.m in Sources */,
 				C22635811F506DF6004A7813 /* CGAlertView.m in Sources */,

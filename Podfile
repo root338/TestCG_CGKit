@@ -6,6 +6,6 @@ target 'TestCG_CGKit' do
 ##    pod 'SDWebImage', '~>3.8.2'
 ##    pod 'AFNetworking'
 
-    pod 'Reveal-SDK', :configurations => ['Debug']
+    pod 'Reveal-SDK', '~> 11', :configurations => ['Debug']
 
 end

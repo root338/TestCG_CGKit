@@ -55,7 +55,10 @@
 		189C9F0B1FF37D42008B5265 /* CGBrowseCellItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C9F0A1FF37D42008B5265 /* CGBrowseCellItem.swift */; };
 		189C9F0E1FF38EC9008B5265 /* CGBrowseScrollContentViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C9F0D1FF38EC9008B5265 /* CGBrowseScrollContentViewItem.swift */; };
 		18A32BA720B2699200A2F23F /* YMListsProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A32BA320B2699100A2F23F /* YMListsProtocolManager.m */; };
-		18A32BA820B2699200A2F23F /* YMListsSourceDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A32BA520B2699100A2F23F /* YMListsSourceDataModel.m */; };
+		18A32BAD20B2731400A2F23F /* MLListsSourceData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A32BAC20B2731400A2F23F /* MLListsSourceData.m */; };
+		18A32BB020B2777D00A2F23F /* MLDoubleListsSourceData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A32BAF20B2777D00A2F23F /* MLDoubleListsSourceData.m */; };
+		18A32BB320B2B1E800A2F23F /* MLListsSourceDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A32BB220B2B1E800A2F23F /* MLListsSourceDataItem.m */; };
+		18A32BB620B2C3B800A2F23F /* MLListsBaseProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A32BB520B2C3B800A2F23F /* MLListsBaseProtocolManager.m */; };
 		18A870171D68CED100C76A21 /* CGTestSubviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A870161D68CED100C76A21 /* CGTestSubviewViewController.m */; };
 		18B41A9E1C13FE450031002B /* TestTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B41A9D1C13FE450031002B /* TestTextFieldCell.m */; };
 		18D06F5F1DF84CAE00F64D7F /* CGBrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D06E4D1DF84CAE00F64D7F /* CGBrowseView.swift */; };
@@ -193,7 +196,6 @@
 		C22635681F506DF6004A7813 /* UITableView+CGRegisterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C22632EE1F506DF5004A7813 /* UITableView+CGRegisterCell.m */; };
 		C22635691F506DF6004A7813 /* UITableView+CGReloadTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C22632F01F506DF5004A7813 /* UITableView+CGReloadTableView.m */; };
 		C226356A1F506DF6004A7813 /* UITableView+CGScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = C22632F21F506DF5004A7813 /* UITableView+CGScrolling.m */; };
-		C226356B1F506DF6004A7813 /* UITableView+SetupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = C22632F41F506DF5004A7813 /* UITableView+SetupBackgroundView.m */; };
 		C226356C1F506DF6004A7813 /* UIView+CustomTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C22632F71F506DF5004A7813 /* UIView+CustomTableHeaderView.m */; };
 		C226356D1F506DF6004A7813 /* UIView+DeleteTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C22632F91F506DF5004A7813 /* UIView+DeleteTableView.m */; };
 		C226356E1F506DF6004A7813 /* UIView+CGAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = C22632FD1F506DF5004A7813 /* UIView+CGAnimated.m */; };
@@ -471,8 +473,16 @@
 		18A32BA020B2699100A2F23F /* YMCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCellProtocol.h; sourceTree = "<group>"; };
 		18A32BA220B2699100A2F23F /* YMListsProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMListsProtocolManager.h; sourceTree = "<group>"; };
 		18A32BA320B2699100A2F23F /* YMListsProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMListsProtocolManager.m; sourceTree = "<group>"; };
-		18A32BA520B2699100A2F23F /* YMListsSourceDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMListsSourceDataModel.m; sourceTree = "<group>"; };
-		18A32BA620B2699100A2F23F /* YMListsSourceDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMListsSourceDataModel.h; sourceTree = "<group>"; };
+		18A32BAA20B26B9200A2F23F /* MLListsDefineHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLListsDefineHeader.h; sourceTree = "<group>"; };
+		18A32BAB20B2731400A2F23F /* MLListsSourceData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLListsSourceData.h; sourceTree = "<group>"; };
+		18A32BAC20B2731400A2F23F /* MLListsSourceData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLListsSourceData.m; sourceTree = "<group>"; };
+		18A32BAE20B2777D00A2F23F /* MLDoubleListsSourceData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLDoubleListsSourceData.h; sourceTree = "<group>"; };
+		18A32BAF20B2777D00A2F23F /* MLDoubleListsSourceData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLDoubleListsSourceData.m; sourceTree = "<group>"; };
+		18A32BB120B2B1E700A2F23F /* MLListsSourceDataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLListsSourceDataItem.h; sourceTree = "<group>"; };
+		18A32BB220B2B1E800A2F23F /* MLListsSourceDataItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLListsSourceDataItem.m; sourceTree = "<group>"; };
+		18A32BB420B2C3B800A2F23F /* MLListsBaseProtocolManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLListsBaseProtocolManager.h; sourceTree = "<group>"; };
+		18A32BB520B2C3B800A2F23F /* MLListsBaseProtocolManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLListsBaseProtocolManager.m; sourceTree = "<group>"; };
+		18A32BB720B2C77200A2F23F /* MLListsManagerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLListsManagerProtocol.h; sourceTree = "<group>"; };
 		18A870151D68CED100C76A21 /* CGTestSubviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestSubviewViewController.h; sourceTree = "<group>"; };
 		18A870161D68CED100C76A21 /* CGTestSubviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestSubviewViewController.m; sourceTree = "<group>"; };
 		18B41A9C1C13FE450031002B /* TestTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTextFieldCell.h; sourceTree = "<group>"; };
@@ -766,8 +776,6 @@
 		C22632F01F506DF5004A7813 /* UITableView+CGReloadTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CGReloadTableView.m"; sourceTree = "<group>"; };
 		C22632F11F506DF5004A7813 /* UITableView+CGScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+CGScrolling.h"; sourceTree = "<group>"; };
 		C22632F21F506DF5004A7813 /* UITableView+CGScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CGScrolling.m"; sourceTree = "<group>"; };
-		C22632F31F506DF5004A7813 /* UITableView+SetupBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SetupBackgroundView.h"; sourceTree = "<group>"; };
-		C22632F41F506DF5004A7813 /* UITableView+SetupBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SetupBackgroundView.m"; sourceTree = "<group>"; };
 		C22632F61F506DF5004A7813 /* UIView+CustomTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomTableHeaderView.h"; sourceTree = "<group>"; };
 		C22632F71F506DF5004A7813 /* UIView+CustomTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomTableHeaderView.m"; sourceTree = "<group>"; };
 		C22632F81F506DF5004A7813 /* UIView+DeleteTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DeleteTableView.h"; sourceTree = "<group>"; };
@@ -1496,6 +1504,7 @@
 		18A32B9E20B2699100A2F23F /* ListsManager */ = {
 			isa = PBXGroup;
 			children = (
+				18A32BA920B26B7E00A2F23F /* Header */,
 				18A32B9F20B2699100A2F23F /* Protocol */,
 				18A32BA120B2699100A2F23F /* Manager */,
 				18A32BA420B2699100A2F23F /* Model */,
@@ -1507,6 +1516,7 @@
 			isa = PBXGroup;
 			children = (
 				18A32BA020B2699100A2F23F /* YMCellProtocol.h */,
+				18A32BB720B2C77200A2F23F /* MLListsManagerProtocol.h */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -1516,6 +1526,8 @@
 			children = (
 				18A32BA220B2699100A2F23F /* YMListsProtocolManager.h */,
 				18A32BA320B2699100A2F23F /* YMListsProtocolManager.m */,
+				18A32BB420B2C3B800A2F23F /* MLListsBaseProtocolManager.h */,
+				18A32BB520B2C3B800A2F23F /* MLListsBaseProtocolManager.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -1523,10 +1535,22 @@
 		18A32BA420B2699100A2F23F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				18A32BA620B2699100A2F23F /* YMListsSourceDataModel.h */,
-				18A32BA520B2699100A2F23F /* YMListsSourceDataModel.m */,
+				18A32BAB20B2731400A2F23F /* MLListsSourceData.h */,
+				18A32BAC20B2731400A2F23F /* MLListsSourceData.m */,
+				18A32BB120B2B1E700A2F23F /* MLListsSourceDataItem.h */,
+				18A32BB220B2B1E800A2F23F /* MLListsSourceDataItem.m */,
+				18A32BAE20B2777D00A2F23F /* MLDoubleListsSourceData.h */,
+				18A32BAF20B2777D00A2F23F /* MLDoubleListsSourceData.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		18A32BA920B26B7E00A2F23F /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				18A32BAA20B26B9200A2F23F /* MLListsDefineHeader.h */,
+			);
+			path = Header;
 			sourceTree = "<group>";
 		};
 		18D06E461DF84CAE00F64D7F /* CGSwiftKit */ = {
@@ -1653,7 +1677,6 @@
 				1845475E1C12A4B50030DD0A /* View */,
 				18A1D7F31C129C6600B93665 /* TestDetailVC */,
 				18DBADFF1C12967500552828 /* HomeView */,
-				18DBACCE1C1293A500552828 /* Navigation */,
 			);
 			path = Mudule;
 			sourceTree = "<group>";
@@ -1668,13 +1691,6 @@
 				18DBAAF81C12877E00552828 /* main.m */,
 			);
 			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		18DBACCE1C1293A500552828 /* Navigation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Navigation;
 			sourceTree = "<group>";
 		};
 		18DBADFF1C12967500552828 /* HomeView */ = {
@@ -2802,8 +2818,6 @@
 				C22632F01F506DF5004A7813 /* UITableView+CGReloadTableView.m */,
 				C22632F11F506DF5004A7813 /* UITableView+CGScrolling.h */,
 				C22632F21F506DF5004A7813 /* UITableView+CGScrolling.m */,
-				C22632F31F506DF5004A7813 /* UITableView+SetupBackgroundView.h */,
-				C22632F41F506DF5004A7813 /* UITableView+SetupBackgroundView.m */,
 			);
 			path = UITableView;
 			sourceTree = "<group>";
@@ -4621,13 +4635,13 @@
 				C22635B41F506DF6004A7813 /* CGCycleViewCacheManager.m in Sources */,
 				C226359C1F506DF6004A7813 /* CGTableView.m in Sources */,
 				C22636031F506DF7004A7813 /* UINavigationController+CGPushViewController.m in Sources */,
+				18A32BB620B2C3B800A2F23F /* MLListsBaseProtocolManager.m in Sources */,
 				C226359D1F506DF6004A7813 /* CGTableViewDataSourceManager.m in Sources */,
 				C226352C1F506DF6004A7813 /* ALAssetsGroup+CGProperty.m in Sources */,
 				C22635771F506DF6004A7813 /* UIView+CGPropertyValue.m in Sources */,
 				1894AE8B1CAFD83F005A518C /* CGTestDefinesData.m in Sources */,
 				18D06F5F1DF84CAE00F64D7F /* CGBrowseView.swift in Sources */,
 				C22635B51F506DF6004A7813 /* CGCycleScrollView.m in Sources */,
-				18A32BA820B2699200A2F23F /* YMListsSourceDataModel.m in Sources */,
 				C22635131F506DF6004A7813 /* NSError+CGCreateError.m in Sources */,
 				C226354E1F506DF6004A7813 /* UIButton+UpdateLocate.m in Sources */,
 				C22635281F506DF6004A7813 /* UIApplication+CGOpenSystemApp.m in Sources */,
@@ -4738,7 +4752,9 @@
 				C22635491F506DF6004A7813 /* CGCalculateCGSize.m in Sources */,
 				C22635F31F506DF6004A7813 /* CGSubviewsSpaceAppearance.m in Sources */,
 				C22635321F506DF6004A7813 /* UIApplication+CGVerificationRemoteNotification.m in Sources */,
+				18A32BB320B2B1E800A2F23F /* MLListsSourceDataItem.m in Sources */,
 				C226354F1F506DF6004A7813 /* UILabel+CGCreateLayoutCustomLabel.m in Sources */,
+				18A32BAD20B2731400A2F23F /* MLListsSourceData.m in Sources */,
 				C22635061F506DF6004A7813 /* RFKeyboard.m in Sources */,
 				C22635C91F506DF6004A7813 /* CGTitleRadioCellAppearance.m in Sources */,
 				C22635841F506DF6004A7813 /* CGBaseButton.m in Sources */,
@@ -4762,7 +4778,6 @@
 				C22635A11F506DF6004A7813 /* CGInputAccessoryView.m in Sources */,
 				C22634F71F506DF6004A7813 /* Array+CGExtension.swift in Sources */,
 				C22635761F506DF6004A7813 /* UIView+CGJudgeProperty.m in Sources */,
-				C226356B1F506DF6004A7813 /* UITableView+SetupBackgroundView.m in Sources */,
 				C22635CE1F506DF6004A7813 /* CGRadioSliderView.m in Sources */,
 				C22635E51F506DF6004A7813 /* UIView+CGAddConstraints.m in Sources */,
 				C22635E71F506DF6004A7813 /* UIView+CGConstraintsManager.m in Sources */,
@@ -4775,6 +4790,7 @@
 				C22634F91F506DF6004A7813 /* String+Extension.swift in Sources */,
 				C22635A71F506DF6004A7813 /* CGTextView.m in Sources */,
 				C22635021F506DF6004A7813 /* CGCacheManager.m in Sources */,
+				18A32BB020B2777D00A2F23F /* MLDoubleListsSourceData.m in Sources */,
 				C22635461F506DF6004A7813 /* CGTitlesSourceDataModel.m in Sources */,
 				18DE27C31DB6D95C00BCEABC /* CGTestTitleRadioViewController.m in Sources */,
 				C226350B1F506DF6004A7813 /* CGRequestModel.m in Sources */,

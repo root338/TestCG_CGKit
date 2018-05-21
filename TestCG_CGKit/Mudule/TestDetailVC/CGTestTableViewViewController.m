@@ -12,10 +12,14 @@
 
 #import "UIView+CGAddConstraints.h"
 
-@interface CGTestTableViewViewController ()<UITableViewDelegate, UITableViewDataSource>
+#import "MLListsBaseProtocolManager.h"
+
+@interface CGTestTableViewViewController ()<MLListsBaseManagerDelegate>
 {
     CGTableView *_tableView;
 }
+
+@property (nonatomic, strong) MLListsBaseProtocolManager<id<MLListsBaseManagerDelegate>, NSString *> *listProtocolManager;
 
 @end
 
@@ -31,28 +35,19 @@
     Class className = [UITableViewCell class];
     [_tableView registerClass:className forCellReuseIdentifier:NSStringFromClass(className)];
     
+    _tableView.delegate = self.listProtocolManager;
+    _tableView.dataSource = self.listProtocolManager;
+    
     [_tableView cg_autoEdgesInsetsZeroToSuperview];
-}
-
-- (void)setupTableView
-{
-    _tableView.dataSource   = self;
-}
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    [self setupTableView];
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
     
+    NSInteger totalCount = 100;
+    NSMutableArray *data = [NSMutableArray arrayWithCapacity:totalCount];
+    for (NSInteger i = 0; i < totalCount; i++) {
+        NSString *str = [NSString stringWithFormat:@"NO.%li", (long)i];
+        [data addObject:str];
+    }
     
-//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-    
-//    });
+    [self.listProtocolManager addNewData:data page:1 index:0];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -60,32 +55,31 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - UITableViewDataSource
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+#pragma mark - MLListsBaseManagerDelegate
+- (UITableViewCell *)manage:(id<MLListsProtocol>)manager tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 1;
-}
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    return 100;
-}
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    NSString *reuseableIdentifier = NSStringFromClass([UITableViewCell class]);
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseableIdentifier];
-    cell.textLabel.text     = [NSString stringWithFormat:@"%@", indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([UITableViewCell class])];
+    
+    cell.textLabel.text = [self.listProtocolManager objectAtIndex:indexPath.row forListIndex:indexPath.section];
+    
     return cell;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)manage:(id<MLListsProtocol>)manager tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
 }
-*/
+
+- (MLListsBaseProtocolManager<id<MLListsBaseManagerDelegate>,id> *)listProtocolManager
+{
+    if (_listProtocolManager) {
+        return _listProtocolManager;
+    }
+    
+    _listProtocolManager = [[MLListsBaseProtocolManager alloc] init];
+    _listProtocolManager.delegate = self;
+    
+    return _listProtocolManager;
+}
 
 @end

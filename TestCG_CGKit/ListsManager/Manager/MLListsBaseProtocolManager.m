@@ -1,0 +1,114 @@
+//
+//  MLListsBaseProtocolManager.m
+//  TestCG_CGKit
+//
+//  Created by apple on 2018/5/21.
+//  Copyright © 2018年 apple. All rights reserved.
+//
+
+#import "MLListsBaseProtocolManager.h"
+
+#import "MLDoubleListsSourceData.h"
+
+#import "CGPrintLogHeader.h"
+
+@interface MLListsBaseProtocolManager ()
+
+@property (nonatomic, strong) MLDoubleListsSourceData *doubleListsSourceData;
+
+@end
+
+@implementation MLListsBaseProtocolManager
+
+@dynamic addFirstPageRemoveIndexAllData;
+
+- (instancetype)initWithTableView:(UITableView *)tableView
+{
+    self = [super init];
+    if (self) {
+        tableView.delegate = self;
+        tableView.dataSource = self;
+        _tableView = tableView;
+    }
+    return self;
+}
+
+#pragma mark - 处理数据
+- (void)addNewData:(NSArray *)data page:(NSInteger)page index:(NSInteger)index
+{
+    [self.doubleListsSourceData addPageList:data page:page index:index];
+}
+
+- (id)objectAtIndex:(NSInteger)index forListIndex:(NSInteger)listIndex
+{
+    MLListsSourceDataItem *item = [self.doubleListsSourceData itemWithIndex:listIndex];
+    __block id targetObj = nil;
+    [item.listsSourceData objectWithIndex:index modelBlock:^(NSInteger page, id  _Nullable obj) {
+        targetObj = obj;
+    }];
+    return targetObj;
+}
+
+#pragma mark - UITableViewDataSource
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return self.doubleListsSourceData.totalIndex;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [self.doubleListsSourceData itemWithIndex:section].listsSourceData.totalCount;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    if ([self.delegate respondsToSelector:@selector(manage:tableView:cellForRowAtIndexPath:)]) {
+        return [self.delegate manage:self tableView:tableView cellForRowAtIndexPath:indexPath];
+    }else if ([self respondsToSelector:@selector(ml_tableView:cellForRowAtIndexPath:)]) {
+        id<MLListsManagerProtocol> protocol = (id)self;
+        return [protocol ml_tableView:tableView cellForRowAtIndexPath:indexPath];
+    }else {
+        CGDebugAssert(nil, @"请实现delegate 代理的manage:tableView:cellForRowAtIndexPath:,或自身实现ml_tableView:cellForRowAtIndexPath:方法，来创建UITableViewCell实例");
+        return [UITableViewCell new];
+    }
+}
+
+#pragma mark - UITableViewDelegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if ([self.delegate respondsToSelector:@selector(manage:tableView:didSelectRowAtIndexPath:)]) {
+        [self.delegate manage:self tableView:tableView didSelectRowAtIndexPath:indexPath];
+    }else if ([self respondsToSelector:@selector(ml_tableView:didSelectRowAtIndexPath:)]) {
+        [(id)self ml_tableView:tableView didSelectRowAtIndexPath:indexPath];
+    }else {
+        CGDebugAssert(nil, @"请实现delegate 代理的manage:tableView:didSelectRowAtIndexPath:,或自身实现ml_tableView:didSelectRowAtIndexPath:方法，来处理tableView的点击回调");
+    }
+}
+
+#pragma mark - Properties
+
+- (MLDoubleListsSourceData *)doubleListsSourceData
+{
+    if (_doubleListsSourceData) {
+        return _doubleListsSourceData;
+    }
+    
+    _doubleListsSourceData = [[MLDoubleListsSourceData alloc] init];
+    
+    return _doubleListsSourceData;
+}
+
+- (BOOL)addFirstPageRemoveIndexAllData
+{
+    return self.doubleListsSourceData.addFirstPageRemoveIndexAllData;
+}
+
+- (void)setAddFirstPageRemoveIndexAllData:(BOOL)addFirstPageRemoveIndexAllData
+{
+    self.doubleListsSourceData.addFirstPageRemoveIndexAllData = addFirstPageRemoveIndexAllData;
+}
+
+@end

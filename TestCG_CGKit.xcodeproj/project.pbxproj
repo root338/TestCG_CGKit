@@ -54,6 +54,8 @@
 		1894AE8B1CAFD83F005A518C /* CGTestDefinesData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AE8A1CAFD83F005A518C /* CGTestDefinesData.m */; };
 		189C9F0B1FF37D42008B5265 /* CGBrowseCellItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C9F0A1FF37D42008B5265 /* CGBrowseCellItem.swift */; };
 		189C9F0E1FF38EC9008B5265 /* CGBrowseScrollContentViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C9F0D1FF38EC9008B5265 /* CGBrowseScrollContentViewItem.swift */; };
+		18A32BA720B2699200A2F23F /* YMListsProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A32BA320B2699100A2F23F /* YMListsProtocolManager.m */; };
+		18A32BA820B2699200A2F23F /* YMListsSourceDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A32BA520B2699100A2F23F /* YMListsSourceDataModel.m */; };
 		18A870171D68CED100C76A21 /* CGTestSubviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A870161D68CED100C76A21 /* CGTestSubviewViewController.m */; };
 		18B41A9E1C13FE450031002B /* TestTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B41A9D1C13FE450031002B /* TestTextFieldCell.m */; };
 		18D06F5F1DF84CAE00F64D7F /* CGBrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D06E4D1DF84CAE00F64D7F /* CGBrowseView.swift */; };
@@ -466,6 +468,11 @@
 		1894AE8A1CAFD83F005A518C /* CGTestDefinesData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestDefinesData.m; sourceTree = "<group>"; };
 		189C9F0A1FF37D42008B5265 /* CGBrowseCellItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGBrowseCellItem.swift; sourceTree = "<group>"; };
 		189C9F0D1FF38EC9008B5265 /* CGBrowseScrollContentViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGBrowseScrollContentViewItem.swift; sourceTree = "<group>"; };
+		18A32BA020B2699100A2F23F /* YMCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCellProtocol.h; sourceTree = "<group>"; };
+		18A32BA220B2699100A2F23F /* YMListsProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMListsProtocolManager.h; sourceTree = "<group>"; };
+		18A32BA320B2699100A2F23F /* YMListsProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMListsProtocolManager.m; sourceTree = "<group>"; };
+		18A32BA520B2699100A2F23F /* YMListsSourceDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMListsSourceDataModel.m; sourceTree = "<group>"; };
+		18A32BA620B2699100A2F23F /* YMListsSourceDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMListsSourceDataModel.h; sourceTree = "<group>"; };
 		18A870151D68CED100C76A21 /* CGTestSubviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestSubviewViewController.h; sourceTree = "<group>"; };
 		18A870161D68CED100C76A21 /* CGTestSubviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestSubviewViewController.m; sourceTree = "<group>"; };
 		18B41A9C1C13FE450031002B /* TestTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTextFieldCell.h; sourceTree = "<group>"; };
@@ -1486,6 +1493,42 @@
 			path = TableView;
 			sourceTree = "<group>";
 		};
+		18A32B9E20B2699100A2F23F /* ListsManager */ = {
+			isa = PBXGroup;
+			children = (
+				18A32B9F20B2699100A2F23F /* Protocol */,
+				18A32BA120B2699100A2F23F /* Manager */,
+				18A32BA420B2699100A2F23F /* Model */,
+			);
+			path = ListsManager;
+			sourceTree = "<group>";
+		};
+		18A32B9F20B2699100A2F23F /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				18A32BA020B2699100A2F23F /* YMCellProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		18A32BA120B2699100A2F23F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				18A32BA220B2699100A2F23F /* YMListsProtocolManager.h */,
+				18A32BA320B2699100A2F23F /* YMListsProtocolManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		18A32BA420B2699100A2F23F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18A32BA620B2699100A2F23F /* YMListsSourceDataModel.h */,
+				18A32BA520B2699100A2F23F /* YMListsSourceDataModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		18D06E461DF84CAE00F64D7F /* CGSwiftKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -1571,6 +1614,7 @@
 		18DBAABE1C12818300552828 /* TestCG_CGKit */ = {
 			isa = PBXGroup;
 			children = (
+				18A32B9E20B2699100A2F23F /* ListsManager */,
 				008253801FB59D8300AE3152 /* PhotoManager */,
 				C22631801F506DF5004A7813 /* CG_CGKit */,
 				18D06E461DF84CAE00F64D7F /* CGSwiftKit */,
@@ -4583,6 +4627,7 @@
 				1894AE8B1CAFD83F005A518C /* CGTestDefinesData.m in Sources */,
 				18D06F5F1DF84CAE00F64D7F /* CGBrowseView.swift in Sources */,
 				C22635B51F506DF6004A7813 /* CGCycleScrollView.m in Sources */,
+				18A32BA820B2699200A2F23F /* YMListsSourceDataModel.m in Sources */,
 				C22635131F506DF6004A7813 /* NSError+CGCreateError.m in Sources */,
 				C226354E1F506DF6004A7813 /* UIButton+UpdateLocate.m in Sources */,
 				C22635281F506DF6004A7813 /* UIApplication+CGOpenSystemApp.m in Sources */,
@@ -4666,6 +4711,7 @@
 				C226351D1F506DF6004A7813 /* NSObject+CGExchangeSelector.m in Sources */,
 				C226357B1F506DF6004A7813 /* UIView+CGSetupFrame.m in Sources */,
 				C226350E1F506DF6004A7813 /* UIImageView+CGSetupImageURL.m in Sources */,
+				18A32BA720B2699200A2F23F /* YMListsProtocolManager.m in Sources */,
 				C22635EF1F506DF6004A7813 /* UIView+CGSearchConstraints.m in Sources */,
 				C226352B1F506DF6004A7813 /* ALAsset+CGProperty.m in Sources */,
 				C22635F51F506DF6004A7813 /* CGCreateSubviewsFlowLayoutConfigModel.m in Sources */,

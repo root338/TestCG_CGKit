@@ -22,7 +22,6 @@
     UIView          *contentView;
 }
 
-
 @end
 
 @implementation CGTestSubviewViewController
@@ -113,14 +112,14 @@
 //    subviewsAppearance.alignmentType    = CGAlignmentTypeVertical;
     
     [UIView animateWithDuration:0.3 animations:^{
-        CGSize contentSize  = [contentView cg_updateFlowViewsWithRule:subviewsAppearance setupSubviewSizeBlock:^CGSize(__kindof UIView * _Nonnull view, NSInteger index) {
+        CGSize contentSize  = [self->contentView cg_updateFlowViewsWithRule:subviewsAppearance setupSubviewSizeBlock:^CGSize(__kindof UIView * _Nonnull view, NSInteger index) {
             return CGSizeMake(view.size.width + 10, view.size.height + 10);
         } failureBlock:nil];
         [UIView cg_autoSetUpdate:YES forConstraints:^{
-            [contentView cg_autoSetupViewSize:contentSize];
+            [self->contentView cg_autoSetupViewSize:contentSize];
         }];
-        [contentView setNeedsUpdateConstraints];
-        [contentView layoutIfNeeded];
+        [self->contentView setNeedsUpdateConstraints];
+        [self->contentView layoutIfNeeded];
     }];
 }
 

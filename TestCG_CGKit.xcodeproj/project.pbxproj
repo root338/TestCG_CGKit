@@ -54,7 +54,7 @@
 		1894AE8B1CAFD83F005A518C /* CGTestDefinesData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894AE8A1CAFD83F005A518C /* CGTestDefinesData.m */; };
 		189C9F0B1FF37D42008B5265 /* CGBrowseCellItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C9F0A1FF37D42008B5265 /* CGBrowseCellItem.swift */; };
 		189C9F0E1FF38EC9008B5265 /* CGBrowseScrollContentViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C9F0D1FF38EC9008B5265 /* CGBrowseScrollContentViewItem.swift */; };
-		18A32BA720B2699200A2F23F /* YMListsProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A32BA320B2699100A2F23F /* YMListsProtocolManager.m */; };
+		18A32BA720B2699200A2F23F /* MLListsProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A32BA320B2699100A2F23F /* MLListsProtocolManager.m */; };
 		18A32BAD20B2731400A2F23F /* MLListsSourceData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A32BAC20B2731400A2F23F /* MLListsSourceData.m */; };
 		18A32BB020B2777D00A2F23F /* MLDoubleListsSourceData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A32BAF20B2777D00A2F23F /* MLDoubleListsSourceData.m */; };
 		18A32BB320B2B1E800A2F23F /* MLListsSourceDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A32BB220B2B1E800A2F23F /* MLListsSourceDataItem.m */; };
@@ -471,8 +471,8 @@
 		189C9F0A1FF37D42008B5265 /* CGBrowseCellItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGBrowseCellItem.swift; sourceTree = "<group>"; };
 		189C9F0D1FF38EC9008B5265 /* CGBrowseScrollContentViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGBrowseScrollContentViewItem.swift; sourceTree = "<group>"; };
 		18A32BA020B2699100A2F23F /* YMCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCellProtocol.h; sourceTree = "<group>"; };
-		18A32BA220B2699100A2F23F /* YMListsProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMListsProtocolManager.h; sourceTree = "<group>"; };
-		18A32BA320B2699100A2F23F /* YMListsProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMListsProtocolManager.m; sourceTree = "<group>"; };
+		18A32BA220B2699100A2F23F /* MLListsProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLListsProtocolManager.h; sourceTree = "<group>"; };
+		18A32BA320B2699100A2F23F /* MLListsProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLListsProtocolManager.m; sourceTree = "<group>"; };
 		18A32BAA20B26B9200A2F23F /* MLListsDefineHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLListsDefineHeader.h; sourceTree = "<group>"; };
 		18A32BAB20B2731400A2F23F /* MLListsSourceData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLListsSourceData.h; sourceTree = "<group>"; };
 		18A32BAC20B2731400A2F23F /* MLListsSourceData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLListsSourceData.m; sourceTree = "<group>"; };
@@ -1524,8 +1524,8 @@
 		18A32BA120B2699100A2F23F /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				18A32BA220B2699100A2F23F /* YMListsProtocolManager.h */,
-				18A32BA320B2699100A2F23F /* YMListsProtocolManager.m */,
+				18A32BA220B2699100A2F23F /* MLListsProtocolManager.h */,
+				18A32BA320B2699100A2F23F /* MLListsProtocolManager.m */,
 				18A32BB420B2C3B800A2F23F /* MLListsBaseProtocolManager.h */,
 				18A32BB520B2C3B800A2F23F /* MLListsBaseProtocolManager.m */,
 			);
@@ -4297,7 +4297,7 @@
 		18DBAAB41C12818300552828 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = apple;
 				TargetAttributes = {
 					18DBAABB1C12818300552828 = {
@@ -4725,7 +4725,7 @@
 				C226351D1F506DF6004A7813 /* NSObject+CGExchangeSelector.m in Sources */,
 				C226357B1F506DF6004A7813 /* UIView+CGSetupFrame.m in Sources */,
 				C226350E1F506DF6004A7813 /* UIImageView+CGSetupImageURL.m in Sources */,
-				18A32BA720B2699200A2F23F /* YMListsProtocolManager.m in Sources */,
+				18A32BA720B2699200A2F23F /* MLListsProtocolManager.m in Sources */,
 				C22635EF1F506DF6004A7813 /* UIView+CGSearchConstraints.m in Sources */,
 				C226352B1F506DF6004A7813 /* ALAsset+CGProperty.m in Sources */,
 				C22635F51F506DF6004A7813 /* CGCreateSubviewsFlowLayoutConfigModel.m in Sources */,
@@ -4882,12 +4882,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -4933,12 +4935,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

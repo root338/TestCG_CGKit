@@ -10,6 +10,8 @@
 
 #import "YMCellProtocol.h"
 
+#import "CGPrintLogHeader.h"
+
 @interface MLListsProtocolManager ()//<MLListsManagerProtocol>
 
 @property (nonatomic, strong, readonly) NSArray *sourceDataArray;
@@ -28,7 +30,18 @@
 
 @implementation MLListsProtocolManager
 
-#pragma mark - MLListsManagerProtocol
+#pragma mark - UITableViewDelegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if ([self.delegate respondsToSelector:@selector(manage:tableView:didSelectRowAtIndexPath:)]) {
+        [self.delegate manage:self tableView:tableView didSelectRowAtIndexPath:indexPath];
+    }else if ([self respondsToSelector:@selector(ml_tableView:didSelectRowAtIndexPath:)]) {
+        [(id)self ml_tableView:tableView didSelectRowAtIndexPath:indexPath];
+    }else {
+        CGDebugAssert(nil, @"请实现delegate 代理的manage:tableView:didSelectRowAtIndexPath:,或自身实现ml_tableView:didSelectRowAtIndexPath:方法，来处理tableView的点击回调");
+    }
+}
 
 #pragma mark - Properties
 

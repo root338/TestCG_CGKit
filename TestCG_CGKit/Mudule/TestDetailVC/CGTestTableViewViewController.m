@@ -32,12 +32,6 @@
     _tableView  = [[CGTableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     [self.view addSubview:_tableView];
     
-    Class className = [UITableViewCell class];
-    [_tableView registerClass:className forCellReuseIdentifier:NSStringFromClass(className)];
-    
-    _tableView.delegate = self.listProtocolManager;
-    _tableView.dataSource = self.listProtocolManager;
-    
     [_tableView cg_autoEdgesInsetsZeroToSuperview];
     
     NSInteger totalCount = 100;
@@ -55,29 +49,18 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - MLListsBaseManagerDelegate
-- (UITableViewCell *)manage:(id<MLListsProtocol>)manager tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([UITableViewCell class])];
-    
-    cell.textLabel.text = [self.listProtocolManager objectAtIndex:indexPath.row forListIndex:indexPath.section];
-    
-    return cell;
-}
-
-- (void)manage:(id<MLListsProtocol>)manager tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    
-}
-
-- (MLListsBaseProtocolManager<id<MLListsBaseManagerDelegate>,id> *)listProtocolManager
+- (MLListsBaseProtocolManager<id<MLListsBaseManagerDelegate>,NSString *> *)listProtocolManager
 {
     if (_listProtocolManager) {
         return _listProtocolManager;
     }
     
-    _listProtocolManager = [[MLListsBaseProtocolManager alloc] init];
+    _listProtocolManager = [[MLListsBaseProtocolManager alloc] initWithTableView:_tableView registerClass:[UITableViewCell class]];
     _listProtocolManager.delegate = self;
+    
+    _listProtocolManager.configureCellBlock = ^(__kindof UITableViewCell * _Nonnull cell, NSString * _Nonnull obj) {
+        cell.textLabel.text = obj;
+    };
     
     return _listProtocolManager;
 }

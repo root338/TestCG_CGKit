@@ -21,7 +21,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// tableView 调用 dequeueReusableCellWithIdentifier: 的标识
 @property (nullable, nonatomic, strong) NSString *reuseIdentifier;
-
+/**
+ 配置cell
+ 
+ 在代理中加的话无法使用范型
+ */
 @property (nullable, nonatomic, copy) void (^configureCellBlock) (__kindof UITableViewCell *cell, ObjectType obj);
 
 #pragma mark - 初始化

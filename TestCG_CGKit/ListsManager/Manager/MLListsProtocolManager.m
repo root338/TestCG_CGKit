@@ -19,13 +19,6 @@
 @property (nonatomic, strong) NSMutableDictionary<NSString *, NSNumber *> *cacheCellHeights;
 @property (nonatomic, strong) NSMutableDictionary<NSString *, UITableViewCell *> *reusableCellsDict;
 
-///// 源数据加载的状态
-//@property (nonatomic, assign, readwrite) YMSourceDataStatus sourceDataStatus;
-///// 页脚的处理方式
-//@property (nonatomic, assign, readwrite) YMHandleRefreshFooterType handleFooterType;
-///// 数据加载完后的处理方式
-//@property (nonatomic, assign, readwrite) YMHandleLoadEndType handleLoadEndType;
-
 @end
 
 @implementation MLListsProtocolManager

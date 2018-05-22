@@ -1,6 +1,6 @@
 ######################################################################## 
 #
-#Swift.gitignore
+#  Swift.gitignore
 #
 ########################################################################
 
@@ -23,7 +23,6 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
-*.xcuserstate
 
 ## Obj-C/Swift specific
 *.hmap
@@ -72,7 +71,7 @@ fastlane/test_output
 
 ######################################################################## 
 #
-#Objective-C.gitignore
+#        Objective-C.gitignore
 #
 ########################################################################
 
@@ -82,7 +81,7 @@ fastlane/test_output
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
- Pods/
+Pods/
 
 # Code Injection
 #

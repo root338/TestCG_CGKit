@@ -1,7 +1,7 @@
 ######################################################################## 
-
-Swift.gitignore
-
+#
+#Swift.gitignore
+#
 ########################################################################
 
 ## Build generated
@@ -23,6 +23,7 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
+*.xcuserstate
 
 ## Obj-C/Swift specific
 *.hmap
@@ -70,9 +71,9 @@ fastlane/screenshots/**/*.png
 fastlane/test_output
 
 ######################################################################## 
-
-Objective-C.gitignore
-
+#
+#Objective-C.gitignore
+#
 ########################################################################
 
 # CocoaPods

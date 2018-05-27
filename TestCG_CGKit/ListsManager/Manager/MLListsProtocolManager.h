@@ -10,14 +10,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MLListsProtocolManager : MLListsBaseProtocolManager
-
-/// cell高度计算增量的偏移量，如：在cell有低线的状态下需要设置为 1
-@property (nonatomic, assign) CGFloat cellHeightAddOffsetValue;
+@interface MLListsProtocolManager<__covariant delegateType, __covariant ObjectType> : MLListsBaseProtocolManager<MLListsManagerProtocol>
 
 @property (nullable, nonatomic, weak) UIViewController *sender;
  
 @property (nonatomic, assign) CGFloat estimatedRowHeight;
+
+@property (nullable, nonatomic, strong) UITableViewCell *cell;
+
+@property (nullable, nonatomic, copy) CGFloat (^configureCellHeightBlock) (__kindof UITableViewCell *cell, ObjectType obj);
 
 @end
 NS_ASSUME_NONNULL_END

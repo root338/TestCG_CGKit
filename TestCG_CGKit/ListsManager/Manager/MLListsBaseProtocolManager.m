@@ -12,6 +12,11 @@
 
 #import "CGPrintLogHeader.h"
 
+@interface _MLListsPlaceholderTableViewCell : UITableViewCell
+@end
+@implementation _MLListsPlaceholderTableViewCell
+@end
+
 @interface MLListsBaseProtocolManager ()
 
 @property (nonatomic, strong) MLDoubleListsSourceData *doubleListsSourceData;
@@ -22,14 +27,17 @@
 
 @dynamic addFirstPageRemoveIndexAllData;
 
-- (instancetype)initWithTableView:(UITableView *)tableView registerClass:(nonnull Class)cellClass
+- (instancetype)initWithTableView:(UITableView *)tableView registerClass:(nullable Class)cellClass
 {
-    NSString *reuseIdentifier = NSStringFromClass(cellClass);
-    [tableView registerClass:cellClass forCellReuseIdentifier:reuseIdentifier];
+    NSString *reuseIdentifier = nil;
+    if (cellClass) {
+        reuseIdentifier = NSStringFromClass(cellClass);
+        [tableView registerClass:cellClass forCellReuseIdentifier:reuseIdentifier];
+    }
     return [self initWithTableView:tableView reuseIdentifier:reuseIdentifier];
 }
 
-- (instancetype)initWithTableView:(UITableView *)tableView reuseIdentifier:(NSString *)reuseIdentifier
+- (instancetype)initWithTableView:(UITableView *)tableView reuseIdentifier:(nullable NSString *)reuseIdentifier
 {
     self = [super init];
     if (self) {
@@ -82,15 +90,38 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    BOOL isShouldConfigureCell = YES;
+    if ([self respondsToSelector:@selector(ml_tableView:shouldConfigureCellForRowAtIndexPath:)]) {
+        id<MLListsManagerProtocol> protocol = (id)self;
+        isShouldConfigureCell = [protocol ml_tableView:tableView shouldConfigureCellForRowAtIndexPath:indexPath];
+    }
+    
+    if (!isShouldConfigureCell) {
+        /// 添加占位 cell
+        if ([self.delegate respondsToSelector:@selector(manage:tableView:placehoderCellForRowAtIndexPath:)]) {
+            /// 加在占位cell
+            return [self.delegate manage:self tableView:tableView placehoderCellForRowAtIndexPath:indexPath];
+        }else {
+            static NSString *placeholderCellIdentifier = nil;
+            if (placeholderCellIdentifier == nil) {
+                placeholderCellIdentifier = @"com.MLKit.placeholderCellIdentifier";
+            }
+            _MLListsPlaceholderTableViewCell *placeholderCell = [tableView dequeueReusableCellWithIdentifier:placeholderCellIdentifier];
+            if (placeholderCell == nil) {
+                placeholderCell = [[_MLListsPlaceholderTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:placeholderCellIdentifier];
+            }
+            return placeholderCell;
+        }
+    }
     
     if ([self.delegate respondsToSelector:@selector(manage:tableView:cellForRowAtIndexPath:)]) {
         return [self.delegate manage:self tableView:tableView cellForRowAtIndexPath:indexPath];
     }else if ([self respondsToSelector:@selector(ml_tableView:cellForRowAtIndexPath:)]) {
-        id<MLListsManagerProtocol> protocol = (id)self;
-        return [protocol ml_tableView:tableView cellForRowAtIndexPath:indexPath];
+        return [self ml_tableView:tableView cellForRowAtIndexPath:indexPath];
     }else if (self.configureCellBlock && self.reuseIdentifier) {
         
         UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:self.reuseIdentifier];
+        
         self.configureCellBlock(cell, [self objectAtIndex:indexPath.row forListIndex:indexPath.section]);
         return cell;
     }else {

@@ -74,8 +74,6 @@
 		18DE27C31DB6D95C00BCEABC /* CGTestTitleRadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE27C21DB6D95C00BCEABC /* CGTestTitleRadioViewController.m */; };
 		18DFFB931DBC6B82004D774A /* CGTestTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFFB921DBC6B82004D774A /* CGTestTableViewViewController.m */; };
 		18F093EE1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F093ED1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift */; };
-		18F21B921CC3F6B100B58B16 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F21B911CC3F6B100B58B16 /* ShareViewController.m */; };
-		18F21B951CC3F6B100B58B16 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F21B931CC3F6B100B58B16 /* MainInterface.storyboard */; };
 		B34A56136E938D33A10F79C0 /* libPods-TestCG_CGKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DEA84BA89C47E5534055C9 /* libPods-TestCG_CGKit.a */; };
 		C22634EE1F506DF6004A7813 /* UIView+CGLineMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = C22631871F506DF5004A7813 /* UIView+CGLineMoveView.m */; };
 		C22634EF1F506DF6004A7813 /* UIView+CGScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C22631891F506DF5004A7813 /* UIView+CGScaleView.m */; };
@@ -368,6 +366,22 @@
 		C22636161F506DF7004A7813 /* CGTitleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22634E31F506DF6004A7813 /* CGTitleTableViewController.m */; };
 		C22636171F506DF7004A7813 /* CGDefaultPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C22634E91F506DF6004A7813 /* CGDefaultPopAnimation.m */; };
 		C22636181F506DF7004A7813 /* CGNavigationViewControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C22634EC1F506DF6004A7813 /* CGNavigationViewControllerManager.m */; };
+		C22A49AF20B4D86800BE90A6 /* UIView+MLArea.m in Sources */ = {isa = PBXBuildFile; fileRef = C22A49AE20B4D86800BE90A6 /* UIView+MLArea.m */; };
+		C22A49B720B4DC1300BE90A6 /* UIView+MLFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = C22A49B620B4DC1300BE90A6 /* UIView+MLFrame.m */; };
+		C22F627220B61F6A007B7237 /* UIImage+MLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C22F627020B61F6A007B7237 /* UIImage+MLAdd.m */; };
+		C22F627920B624FA007B7237 /* TestDrawImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C22F627820B624FA007B7237 /* TestDrawImageView.m */; };
+		C22F627C20B632AE007B7237 /* TestCornerRadiusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C22F627B20B632AE007B7237 /* TestCornerRadiusTableViewCell.m */; };
+		C23DCBD320BAE1900014D1D2 /* YMDiaryPostsCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C23DCBD220BAE1900014D1D2 /* YMDiaryPostsCellLayout.m */; };
+		C23DCBD620BAE2A20014D1D2 /* YMDiaryPostsCellManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C23DCBD520BAE2A20014D1D2 /* YMDiaryPostsCellManager.m */; };
+		C23DCBDB20BB257B0014D1D2 /* MLListsScrollProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C23DCBDA20BB257B0014D1D2 /* MLListsScrollProtocolManager.m */; };
+		C283EAC520B8C60700B6A638 /* MLDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = C283EAC420B8C60700B6A638 /* MLDraw.m */; };
+		C283EAC820B8C75600B6A638 /* MLDrawBaseRule.m in Sources */ = {isa = PBXBuildFile; fileRef = C283EAC720B8C75600B6A638 /* MLDrawBaseRule.m */; };
+		C283EACB20B8C7F000B6A638 /* MLDrawFrameRule.m in Sources */ = {isa = PBXBuildFile; fileRef = C283EACA20B8C7F000B6A638 /* MLDrawFrameRule.m */; };
+		C283EACE20B8C8ED00B6A638 /* MLDrawRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = C283EACD20B8C8ED00B6A638 /* MLDrawRoute.m */; };
+		C283EAD220B8CA4400B6A638 /* MLFramePathTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C283EAD120B8CA4400B6A638 /* MLFramePathTool.m */; };
+		C283EAD820B8CDAF00B6A638 /* MLDrawError.m in Sources */ = {isa = PBXBuildFile; fileRef = C283EAD720B8CDAF00B6A638 /* MLDrawError.m */; };
+		C29AFA3D20BA21D200C13C6F /* YMDiaryPostsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C29AFA3C20BA21D200C13C6F /* YMDiaryPostsTableViewCell.m */; };
+		C29E207720B9FC150009636F /* MLPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C29E207620B9FC150009636F /* MLPageControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -384,13 +398,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 18DBAABB1C12818300552828;
 			remoteInfo = TestCG_CGKit;
-		};
-		18F21B971CC3F6B100B58B16 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 18DBAAB41C12818300552828 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 18F21B8D1CC3F6B100B58B16;
-			remoteInfo = CGKitShareExtension;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -511,7 +518,6 @@
 		18DFFB911DBC6B82004D774A /* CGTestTableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTestTableViewViewController.h; sourceTree = "<group>"; };
 		18DFFB921DBC6B82004D774A /* CGTestTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestTableViewViewController.m; sourceTree = "<group>"; };
 		18F093ED1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGTestFoulLineViewController.swift; sourceTree = "<group>"; };
-		18F21B8E1CC3F6B100B58B16 /* CGKitShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CGKitShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F21B901CC3F6B100B58B16 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
 		18F21B911CC3F6B100B58B16 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
 		18F21B941CC3F6B100B58B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -1154,6 +1160,43 @@
 		C22634EC1F506DF6004A7813 /* CGNavigationViewControllerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGNavigationViewControllerManager.m; sourceTree = "<group>"; };
 		C22634ED1F506DF6004A7813 /* CGNavigationViewControllerManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGNavigationViewControllerManagerDelegate.h; sourceTree = "<group>"; };
 		C226361A1F506EA8004A7813 /* CGKit+SwiftBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGKit+SwiftBridgingHeader.h"; sourceTree = "<group>"; };
+		C22A49AD20B4D86800BE90A6 /* UIView+MLArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MLArea.h"; sourceTree = "<group>"; };
+		C22A49AE20B4D86800BE90A6 /* UIView+MLArea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLArea.m"; sourceTree = "<group>"; };
+		C22A49B420B4DA2700BE90A6 /* MLUILayoutDefineHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLUILayoutDefineHeader.h; sourceTree = "<group>"; };
+		C22A49B520B4DC1300BE90A6 /* UIView+MLFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MLFrame.h"; sourceTree = "<group>"; };
+		C22A49B620B4DC1300BE90A6 /* UIView+MLFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLFrame.m"; sourceTree = "<group>"; };
+		C22F627020B61F6A007B7237 /* UIImage+MLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MLAdd.m"; sourceTree = "<group>"; };
+		C22F627120B61F6A007B7237 /* UIImage+MLAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MLAdd.h"; sourceTree = "<group>"; };
+		C22F627720B624FA007B7237 /* TestDrawImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDrawImageView.h; sourceTree = "<group>"; };
+		C22F627820B624FA007B7237 /* TestDrawImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDrawImageView.m; sourceTree = "<group>"; };
+		C22F627A20B632AE007B7237 /* TestCornerRadiusTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCornerRadiusTableViewCell.h; sourceTree = "<group>"; };
+		C22F627B20B632AE007B7237 /* TestCornerRadiusTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCornerRadiusTableViewCell.m; sourceTree = "<group>"; };
+		C23DCBD120BAE1900014D1D2 /* YMDiaryPostsCellLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMDiaryPostsCellLayout.h; sourceTree = "<group>"; };
+		C23DCBD220BAE1900014D1D2 /* YMDiaryPostsCellLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDiaryPostsCellLayout.m; sourceTree = "<group>"; };
+		C23DCBD420BAE2A20014D1D2 /* YMDiaryPostsCellManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMDiaryPostsCellManager.h; sourceTree = "<group>"; };
+		C23DCBD520BAE2A20014D1D2 /* YMDiaryPostsCellManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDiaryPostsCellManager.m; sourceTree = "<group>"; };
+		C23DCBD920BB257B0014D1D2 /* MLListsScrollProtocolManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLListsScrollProtocolManager.h; sourceTree = "<group>"; };
+		C23DCBDA20BB257B0014D1D2 /* MLListsScrollProtocolManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLListsScrollProtocolManager.m; sourceTree = "<group>"; };
+		C283EAC320B8C60700B6A638 /* MLDraw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLDraw.h; sourceTree = "<group>"; };
+		C283EAC420B8C60700B6A638 /* MLDraw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLDraw.m; sourceTree = "<group>"; };
+		C283EAC620B8C75600B6A638 /* MLDrawBaseRule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLDrawBaseRule.h; sourceTree = "<group>"; };
+		C283EAC720B8C75600B6A638 /* MLDrawBaseRule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLDrawBaseRule.m; sourceTree = "<group>"; };
+		C283EAC920B8C7F000B6A638 /* MLDrawFrameRule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLDrawFrameRule.h; sourceTree = "<group>"; };
+		C283EACA20B8C7F000B6A638 /* MLDrawFrameRule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLDrawFrameRule.m; sourceTree = "<group>"; };
+		C283EACC20B8C8ED00B6A638 /* MLDrawRoute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLDrawRoute.h; sourceTree = "<group>"; };
+		C283EACD20B8C8ED00B6A638 /* MLDrawRoute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLDrawRoute.m; sourceTree = "<group>"; };
+		C283EAD020B8CA4400B6A638 /* MLFramePathTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLFramePathTool.h; sourceTree = "<group>"; };
+		C283EAD120B8CA4400B6A638 /* MLFramePathTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLFramePathTool.m; sourceTree = "<group>"; };
+		C283EAD420B8CADF00B6A638 /* MLFramePathProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLFramePathProtocol.h; sourceTree = "<group>"; };
+		C283EAD520B8CC9E00B6A638 /* MLBasePathProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLBasePathProtocol.h; sourceTree = "<group>"; };
+		C283EAD620B8CDAF00B6A638 /* MLDrawError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLDrawError.h; sourceTree = "<group>"; };
+		C283EAD720B8CDAF00B6A638 /* MLDrawError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLDrawError.m; sourceTree = "<group>"; };
+		C283EADA20B8D30100B6A638 /* MLDefineHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLDefineHeader.h; sourceTree = "<group>"; };
+		C283EADC20B8D9A600B6A638 /* MLFrameAppearanceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLFrameAppearanceProtocol.h; sourceTree = "<group>"; };
+		C29AFA3B20BA21D200C13C6F /* YMDiaryPostsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMDiaryPostsTableViewCell.h; sourceTree = "<group>"; };
+		C29AFA3C20BA21D200C13C6F /* YMDiaryPostsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDiaryPostsTableViewCell.m; sourceTree = "<group>"; };
+		C29E207520B9FC150009636F /* MLPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLPageControl.h; sourceTree = "<group>"; };
+		C29E207620B9FC150009636F /* MLPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLPageControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1180,13 +1223,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		18DBAADD1C12818400552828 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		18F21B8B1CC3F6B100B58B16 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1422,6 +1458,10 @@
 				18B41A9D1C13FE450031002B /* TestTextFieldCell.m */,
 				00BAB2EF1C72C37D00FC1F3A /* TestPhotosCollectionViewCell.h */,
 				00BAB2F01C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m */,
+				C22F627720B624FA007B7237 /* TestDrawImageView.h */,
+				C22F627820B624FA007B7237 /* TestDrawImageView.m */,
+				C22F627A20B632AE007B7237 /* TestCornerRadiusTableViewCell.h */,
+				C22F627B20B632AE007B7237 /* TestCornerRadiusTableViewCell.m */,
 			);
 			path = TestCell;
 			sourceTree = "<group>";
@@ -1526,6 +1566,8 @@
 			children = (
 				18A32BA220B2699100A2F23F /* MLListsProtocolManager.h */,
 				18A32BA320B2699100A2F23F /* MLListsProtocolManager.m */,
+				C23DCBD920BB257B0014D1D2 /* MLListsScrollProtocolManager.h */,
+				C23DCBDA20BB257B0014D1D2 /* MLListsScrollProtocolManager.m */,
 				18A32BB420B2C3B800A2F23F /* MLListsBaseProtocolManager.h */,
 				18A32BB520B2C3B800A2F23F /* MLListsBaseProtocolManager.m */,
 			);
@@ -1630,7 +1672,6 @@
 				18DBAABC1C12818300552828 /* TestCG_CGKit.app */,
 				18DBAAD51C12818300552828 /* TestCG_CGKitTests.xctest */,
 				18DBAAE01C12818400552828 /* TestCG_CGKitUITests.xctest */,
-				18F21B8E1CC3F6B100B58B16 /* CGKitShareExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1638,6 +1679,13 @@
 		18DBAABE1C12818300552828 /* TestCG_CGKit */ = {
 			isa = PBXGroup;
 			children = (
+				C29AFA3A20BA211F00C13C6F /* YM */,
+				C283EADB20B8D30E00B6A638 /* MLDebug */,
+				C283EAD920B8D2E100B6A638 /* MLDefineHeader */,
+				C283EAC220B8C5CF00B6A638 /* CoreAnimation */,
+				C22F626C20B61ED4007B7237 /* UIImage+MLAdd */,
+				C22A49B120B4D9EA00BE90A6 /* MLDefineType */,
+				C22A49AC20B4D83300BE90A6 /* View+Area */,
 				18A32B9E20B2699100A2F23F /* ListsManager */,
 				008253801FB59D8300AE3152 /* PhotoManager */,
 				C22631801F506DF5004A7813 /* CG_CGKit */,
@@ -2968,6 +3016,7 @@
 		C226332D1F506DF5004A7813 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				C29E207420B9FC000009636F /* MLPageControl */,
 				C226332E1F506DF5004A7813 /* AlertView */,
 				C22633361F506DF5004A7813 /* Button */,
 				C22633421F506DF5004A7813 /* CollectionView */,
@@ -4212,6 +4261,125 @@
 			path = "CGKit+Swift+BridgingHeader";
 			sourceTree = "<group>";
 		};
+		C22A49AC20B4D83300BE90A6 /* View+Area */ = {
+			isa = PBXGroup;
+			children = (
+				C22A49AD20B4D86800BE90A6 /* UIView+MLArea.h */,
+				C22A49AE20B4D86800BE90A6 /* UIView+MLArea.m */,
+				C22A49B520B4DC1300BE90A6 /* UIView+MLFrame.h */,
+				C22A49B620B4DC1300BE90A6 /* UIView+MLFrame.m */,
+			);
+			path = "View+Area";
+			sourceTree = "<group>";
+		};
+		C22A49B120B4D9EA00BE90A6 /* MLDefineType */ = {
+			isa = PBXGroup;
+			children = (
+				C22A49B320B4DA0C00BE90A6 /* MLUIType */,
+			);
+			path = MLDefineType;
+			sourceTree = "<group>";
+		};
+		C22A49B320B4DA0C00BE90A6 /* MLUIType */ = {
+			isa = PBXGroup;
+			children = (
+				C22A49B420B4DA2700BE90A6 /* MLUILayoutDefineHeader.h */,
+			);
+			path = MLUIType;
+			sourceTree = "<group>";
+		};
+		C22F626C20B61ED4007B7237 /* UIImage+MLAdd */ = {
+			isa = PBXGroup;
+			children = (
+				C283EAD320B8CAC700B6A638 /* DrawProtocol */,
+				C283EACF20B8CA1800B6A638 /* DrawTool */,
+				C22F627320B62114007B7237 /* Model */,
+				C22F627120B61F6A007B7237 /* UIImage+MLAdd.h */,
+				C22F627020B61F6A007B7237 /* UIImage+MLAdd.m */,
+				C283EACC20B8C8ED00B6A638 /* MLDrawRoute.h */,
+				C283EACD20B8C8ED00B6A638 /* MLDrawRoute.m */,
+			);
+			path = "UIImage+MLAdd";
+			sourceTree = "<group>";
+		};
+		C22F627320B62114007B7237 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C283EAC620B8C75600B6A638 /* MLDrawBaseRule.h */,
+				C283EAC720B8C75600B6A638 /* MLDrawBaseRule.m */,
+				C283EAC920B8C7F000B6A638 /* MLDrawFrameRule.h */,
+				C283EACA20B8C7F000B6A638 /* MLDrawFrameRule.m */,
+				C283EAD620B8CDAF00B6A638 /* MLDrawError.h */,
+				C283EAD720B8CDAF00B6A638 /* MLDrawError.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C283EAC220B8C5CF00B6A638 /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C283EAC320B8C60700B6A638 /* MLDraw.h */,
+				C283EAC420B8C60700B6A638 /* MLDraw.m */,
+			);
+			path = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		C283EACF20B8CA1800B6A638 /* DrawTool */ = {
+			isa = PBXGroup;
+			children = (
+				C283EAD020B8CA4400B6A638 /* MLFramePathTool.h */,
+				C283EAD120B8CA4400B6A638 /* MLFramePathTool.m */,
+			);
+			path = DrawTool;
+			sourceTree = "<group>";
+		};
+		C283EAD320B8CAC700B6A638 /* DrawProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				C283EAD420B8CADF00B6A638 /* MLFramePathProtocol.h */,
+				C283EAD520B8CC9E00B6A638 /* MLBasePathProtocol.h */,
+				C283EADC20B8D9A600B6A638 /* MLFrameAppearanceProtocol.h */,
+			);
+			path = DrawProtocol;
+			sourceTree = "<group>";
+		};
+		C283EAD920B8D2E100B6A638 /* MLDefineHeader */ = {
+			isa = PBXGroup;
+			children = (
+				C283EADA20B8D30100B6A638 /* MLDefineHeader.h */,
+			);
+			path = MLDefineHeader;
+			sourceTree = "<group>";
+		};
+		C283EADB20B8D30E00B6A638 /* MLDebug */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MLDebug;
+			sourceTree = "<group>";
+		};
+		C29AFA3A20BA211F00C13C6F /* YM */ = {
+			isa = PBXGroup;
+			children = (
+				C29AFA3B20BA21D200C13C6F /* YMDiaryPostsTableViewCell.h */,
+				C29AFA3C20BA21D200C13C6F /* YMDiaryPostsTableViewCell.m */,
+				C23DCBD120BAE1900014D1D2 /* YMDiaryPostsCellLayout.h */,
+				C23DCBD220BAE1900014D1D2 /* YMDiaryPostsCellLayout.m */,
+				C23DCBD420BAE2A20014D1D2 /* YMDiaryPostsCellManager.h */,
+				C23DCBD520BAE2A20014D1D2 /* YMDiaryPostsCellManager.m */,
+			);
+			path = YM;
+			sourceTree = "<group>";
+		};
+		C29E207420B9FC000009636F /* MLPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				C29E207520B9FC150009636F /* MLPageControl.h */,
+				C29E207620B9FC150009636F /* MLPageControl.m */,
+			);
+			path = MLPageControl;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -4225,13 +4393,10 @@
 				18DBAABA1C12818300552828 /* Resources */,
 				185A740B1C144B98005936A5 /* ShellScript */,
 				18F21B991CC3F6B100B58B16 /* Embed App Extensions */,
-				2A3F14DB828CDAFF88B983AD /* [CP] Embed Pods Frameworks */,
-				617DB89C63922B1CE2E37ABC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				18F21B981CC3F6B100B58B16 /* PBXTargetDependency */,
 			);
 			name = TestCG_CGKit;
 			productName = TestCG_CGKit;
@@ -4274,23 +4439,6 @@
 			productReference = 18DBAAE01C12818400552828 /* TestCG_CGKitUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		18F21B8D1CC3F6B100B58B16 /* CGKitShareExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 18F21B9D1CC3F6B100B58B16 /* Build configuration list for PBXNativeTarget "CGKitShareExtension" */;
-			buildPhases = (
-				18F21B8A1CC3F6B100B58B16 /* Sources */,
-				18F21B8B1CC3F6B100B58B16 /* Frameworks */,
-				18F21B8C1CC3F6B100B58B16 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CGKitShareExtension;
-			productName = CGKitShareExtension;
-			productReference = 18F21B8E1CC3F6B100B58B16 /* CGKitShareExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -4304,20 +4452,19 @@
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = 29W9687J6A;
 						LastSwiftMigration = 0910;
+						ProvisioningStyle = Manual;
 					};
 					18DBAAD41C12818300552828 = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = 29W9687J6A;
+						ProvisioningStyle = Manual;
 						TestTargetID = 18DBAABB1C12818300552828;
 					};
 					18DBAADF1C12818400552828 = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = 29W9687J6A;
+						ProvisioningStyle = Manual;
 						TestTargetID = 18DBAABB1C12818300552828;
-					};
-					18F21B8D1CC3F6B100B58B16 = {
-						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 29W9687J6A;
 					};
 				};
 			};
@@ -4337,7 +4484,6 @@
 				18DBAABB1C12818300552828 /* TestCG_CGKit */,
 				18DBAAD41C12818300552828 /* TestCG_CGKitTests */,
 				18DBAADF1C12818400552828 /* TestCG_CGKitUITests */,
-				18F21B8D1CC3F6B100B58B16 /* CGKitShareExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -4368,14 +4514,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18F21B8C1CC3F6B100B58B16 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18F21B951CC3F6B100B58B16 /* MainInterface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -4391,39 +4529,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\n##自动添加 build 次数\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\n\n#########";
-		};
-		2A3F14DB828CDAFF88B983AD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TestCG_CGKit/Pods-TestCG_CGKit-frameworks.sh",
-				"${PODS_ROOT}/Reveal-SDK/RevealServer-11/iOS/RevealServer.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestCG_CGKit/Pods-TestCG_CGKit-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		617DB89C63922B1CE2E37ABC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestCG_CGKit/Pods-TestCG_CGKit-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		DB1867AEA86EFC9F8D4B8817 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -4451,6 +4556,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C22635711F506DF6004A7813 /* UIView+CGCopyView.m in Sources */,
+				C29AFA3D20BA21D200C13C6F /* YMDiaryPostsTableViewCell.m in Sources */,
 				C22635F21F506DF6004A7813 /* CGCreateViewsAppearance.m in Sources */,
 				0046B56D1ED67FC200086C1E /* CGRequestCallbackModel.swift in Sources */,
 				C22636041F506DF7004A7813 /* UINavigationController+CGSetupGestureRecognizer.m in Sources */,
@@ -4459,10 +4565,12 @@
 				C22635A51F506DF6004A7813 /* CGBaseTextView.m in Sources */,
 				C22635521F506DF6004A7813 /* UIBarButtonItem+CGCreate.m in Sources */,
 				C22635C71F506DF6004A7813 /* CGRadioViewAppearance.m in Sources */,
+				C29E207720B9FC150009636F /* MLPageControl.m in Sources */,
 				C22635511F506DF6004A7813 /* CGTextField+CGCreate.m in Sources */,
 				C22635C81F506DF6004A7813 /* CGRadioViewFlowLayout.m in Sources */,
 				C22635291F506DF6004A7813 /* NSUserDefaults+CGMethodSave.m in Sources */,
 				C226358E1F506DF6004A7813 /* CGCollectionViewDataSourceManager.m in Sources */,
+				C283EAD820B8CDAF00B6A638 /* MLDrawError.m in Sources */,
 				C22635C21F506DF6004A7813 /* CGBaseSelectorView.m in Sources */,
 				C226354A1F506DF6004A7813 /* UILabel+CalculateTextSize.m in Sources */,
 				C226355A1F506DF6004A7813 /* UINavigationBar+CGSetupAppearance.m in Sources */,
@@ -4532,6 +4640,7 @@
 				C22634FE1F506DF6004A7813 /* UITextField+CGCreate.swift in Sources */,
 				C22635AC1F506DF6004A7813 /* CGTableViewCell.m in Sources */,
 				C22635601F506DF6004A7813 /* UIView+CGSetupInteractivePopGestureRecognizerForNavigationController.m in Sources */,
+				C22F627920B624FA007B7237 /* TestDrawImageView.m in Sources */,
 				C22635401F506DF6004A7813 /* UIImage+CGImage.m in Sources */,
 				C22635791F506DF6004A7813 /* UIView+CGBorderLayer.m in Sources */,
 				C22635271F506DF6004A7813 /* NSNotificationCenter+CGCreateNotification.m in Sources */,
@@ -4550,6 +4659,7 @@
 				C22635F61F506DF6004A7813 /* CGUpdateSubviewsFlowLayoutConfigModel.m in Sources */,
 				18A870171D68CED100C76A21 /* CGTestSubviewViewController.m in Sources */,
 				00C2B9151D5EC8F20053E46B /* CGTestCGScrollViewController.m in Sources */,
+				C22F627220B61F6A007B7237 /* UIImage+MLAdd.m in Sources */,
 				C22634FA1F506DF6004A7813 /* CGTitleModifiedViewConfig.swift in Sources */,
 				C226352A1F506DF6004A7813 /* NSUserDefaults+SaveData.m in Sources */,
 				C22635D11F506DF6004A7813 /* CGTitleButtonsLayoutView.m in Sources */,
@@ -4577,6 +4687,7 @@
 				C226359A1F506DF6004A7813 /* HorizontalSingleView.m in Sources */,
 				18F093EE1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift in Sources */,
 				C22635CC1F506DF6004A7813 /* CGRadioCollectionViewCell.m in Sources */,
+				C283EAC820B8C75600B6A638 /* MLDrawBaseRule.m in Sources */,
 				C22635BE1F506DF6004A7813 /* CGCycleBrowseImageScrollView+CGSetupCycleProperty.m in Sources */,
 				C22635AA1F506DF6004A7813 /* CGPhotoCollectionViewCell.m in Sources */,
 				C22635FE1F506DF7004A7813 /* CGNavigationBarViewController.m in Sources */,
@@ -4608,6 +4719,7 @@
 				C22635D41F506DF6004A7813 /* CGTitleLabelLayoutView.m in Sources */,
 				C22635111F506DF6004A7813 /* NSDate+CGTransformString.m in Sources */,
 				C226351F1F506DF6004A7813 /* NSNotification+CGKeyboardUserInfo.m in Sources */,
+				C283EACE20B8C8ED00B6A638 /* MLDrawRoute.m in Sources */,
 				C22635B11F506DF6004A7813 /* CGSingeContentTableView.m in Sources */,
 				C226356F1F506DF6004A7813 /* CGAddSubviewsCacheModel.m in Sources */,
 				C22635C51F506DF6004A7813 /* CGSelectorLayerAnimation.m in Sources */,
@@ -4652,12 +4764,14 @@
 				C22635A61F506DF6004A7813 /* CGInputTextView.m in Sources */,
 				C22635101F506DF6004A7813 /* NSDate+CGMLDateCategory.m in Sources */,
 				C226357A1F506DF6004A7813 /* UIView+CGSetupAppearance.m in Sources */,
+				C283EACB20B8C7F000B6A638 /* MLDrawFrameRule.m in Sources */,
 				00064D481DA9EFB00019D2BA /* CGTestDrawImageViewController.m in Sources */,
 				003E01D51E8DF55800F35BA5 /* CGURLTaskManager.swift in Sources */,
 				C226350F1F506DF6004A7813 /* NSArray+CGArray.m in Sources */,
 				C22635BD1F506DF6004A7813 /* CGCycleBrowseImageScrollView.m in Sources */,
 				C22635371F506DF6004A7813 /* UIFont+CGCreateFont.m in Sources */,
 				C22635D51F506DF6004A7813 /* CGTitlesTableView.m in Sources */,
+				C283EAD220B8CA4400B6A638 /* MLFramePathTool.m in Sources */,
 				003E01D41E8DF55800F35BA5 /* CGURLSessionManager.swift in Sources */,
 				C22635ED1F506DF6004A7813 /* CGViewConstraintsModel.m in Sources */,
 				009A43131E10BB9C00A3A1E1 /* CGStringExtension.swift in Sources */,
@@ -4681,6 +4795,7 @@
 				C226352F1F506DF6004A7813 /* CTTelephonyNetworkInfo+CGGetIMSI.m in Sources */,
 				C226358D1F506DF6004A7813 /* UICollectionViewFlowLayout+CGCreateLayout.m in Sources */,
 				C22635941F506DF6004A7813 /* CGPlaceholderLabel.m in Sources */,
+				C283EAC520B8C60700B6A638 /* MLDraw.m in Sources */,
 				C22635E81F506DF6004A7813 /* NSLayoutConstraint+CGConstraint.m in Sources */,
 				C226353F1F506DF6004A7813 /* UIImage+CGDrawImage.m in Sources */,
 				C22635D01F506DF6004A7813 /* CGDoubleTitleBaseView.m in Sources */,
@@ -4712,6 +4827,7 @@
 				C22635CF1F506DF6004A7813 /* CGDoubleLayoutBaseView.m in Sources */,
 				C22635541F506DF6004A7813 /* UIImageView+CGCreate.m in Sources */,
 				C22635991F506DF6004A7813 /* HorizontalSingleAppearance.m in Sources */,
+				C23DCBD320BAE1900014D1D2 /* YMDiaryPostsCellLayout.m in Sources */,
 				00D307AD1CC76E350040EFC8 /* CGTestWKWebViewController.m in Sources */,
 				C22635BC1F506DF6004A7813 /* CGCycleBrowseImageScrollViewCell.m in Sources */,
 				C226357D1F506DF6004A7813 /* UIView+DrawBoxLine.m in Sources */,
@@ -4720,6 +4836,7 @@
 				C22635551F506DF6004A7813 /* UILabel+CGCreateCustomLabel.m in Sources */,
 				C22634EE1F506DF6004A7813 /* UIView+CGLineMoveView.m in Sources */,
 				00BAB2F11C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m in Sources */,
+				C22F627C20B632AE007B7237 /* TestCornerRadiusTableViewCell.m in Sources */,
 				189C9F0E1FF38EC9008B5265 /* CGBrowseScrollContentViewItem.swift in Sources */,
 				C226351A1F506DF6004A7813 /* NSString+CGString.m in Sources */,
 				C226351D1F506DF6004A7813 /* NSObject+CGExchangeSelector.m in Sources */,
@@ -4728,6 +4845,7 @@
 				18A32BA720B2699200A2F23F /* MLListsProtocolManager.m in Sources */,
 				C22635EF1F506DF6004A7813 /* UIView+CGSearchConstraints.m in Sources */,
 				C226352B1F506DF6004A7813 /* ALAsset+CGProperty.m in Sources */,
+				C22A49AF20B4D86800BE90A6 /* UIView+MLArea.m in Sources */,
 				C22635F51F506DF6004A7813 /* CGCreateSubviewsFlowLayoutConfigModel.m in Sources */,
 				C22635AD1F506DF6004A7813 /* CGPhotoGroupTableViewCell.m in Sources */,
 				C22635BB1F506DF6004A7813 /* CGCycleContentView.m in Sources */,
@@ -4784,14 +4902,17 @@
 				003E01D31E8DF55800F35BA5 /* CGURLSessionDelegateManager.swift in Sources */,
 				00064D5B1DAA33D40019D2BA /* CGTestInputViewController.m in Sources */,
 				C22635501F506DF6004A7813 /* UIView+CreateAutoLayoutTypeView.m in Sources */,
+				C23DCBD620BAE2A20014D1D2 /* YMDiaryPostsCellManager.m in Sources */,
 				C22636161F506DF7004A7813 /* CGTitleTableViewController.m in Sources */,
 				C22635E11F506DF6004A7813 /* CGBorderBaseLayer.m in Sources */,
 				003E01D01E8DF55800F35BA5 /* CGTaskDataModel.swift in Sources */,
 				C22634F91F506DF6004A7813 /* String+Extension.swift in Sources */,
 				C22635A71F506DF6004A7813 /* CGTextView.m in Sources */,
+				C23DCBDB20BB257B0014D1D2 /* MLListsScrollProtocolManager.m in Sources */,
 				C22635021F506DF6004A7813 /* CGCacheManager.m in Sources */,
 				18A32BB020B2777D00A2F23F /* MLDoubleListsSourceData.m in Sources */,
 				C22635461F506DF6004A7813 /* CGTitlesSourceDataModel.m in Sources */,
+				C22A49B720B4DC1300BE90A6 /* UIView+MLFrame.m in Sources */,
 				18DE27C31DB6D95C00BCEABC /* CGTestTitleRadioViewController.m in Sources */,
 				C226350B1F506DF6004A7813 /* CGRequestModel.m in Sources */,
 				C22635721F506DF6004A7813 /* UIView+CGCreateViews.m in Sources */,
@@ -4814,14 +4935,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18F21B8A1CC3F6B100B58B16 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18F21B921CC3F6B100B58B16 /* ShareViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -4834,11 +4947,6 @@
 			isa = PBXTargetDependency;
 			target = 18DBAABB1C12818300552828 /* TestCG_CGKit */;
 			targetProxy = 18DBAAE11C12818400552828 /* PBXContainerItemProxy */;
-		};
-		18F21B981CC3F6B100B58B16 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 18F21B8D1CC3F6B100B58B16 /* CGKitShareExtension */;
-			targetProxy = 18F21B971CC3F6B100B58B16 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -4978,6 +5086,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 29W9687J6A;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -4997,8 +5106,10 @@
 					"-ObjC",
 					"-lz",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TestKitProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YM.TestKitProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "94bd0d1c-f8ee-452f-8f58-d146ae6d80d9";
+				PROVISIONING_PROFILE_SPECIFIER = YMTestAll;
 				SWIFT_OBJC_BRIDGING_HEADER = "TestCG_CGKit/CGSwiftKit/BridgingHeader/CGSwiftKit-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -5015,7 +5126,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 29W9687J6A;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5030,8 +5142,9 @@
 					"-ObjC",
 					"-lz",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TestKitProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YM.TestKitProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "TestCG_CGKit/CGSwiftKit/BridgingHeader/CGSwiftKit-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -5045,11 +5158,13 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 29W9687J6A;
 				INFOPLIST_FILE = TestCG_CGKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CG.TestCG-CGKitTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestCG_CGKit.app/TestCG_CGKit";
 			};
 			name = Debug;
@@ -5059,11 +5174,13 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 29W9687J6A;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestCG_CGKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CG.TestCG-CGKitTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestCG_CGKit.app/TestCG_CGKit";
 			};
 			name = Release;
@@ -5072,11 +5189,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 29W9687J6A;
 				INFOPLIST_FILE = TestCG_CGKitUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CG.TestCG-CGKitUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "94bd0d1c-f8ee-452f-8f58-d146ae6d80d9";
+				PROVISIONING_PROFILE_SPECIFIER = YMTestAll;
 				TEST_TARGET_NAME = TestCG_CGKit;
 				USES_XCTRUNNER = YES;
 			};
@@ -5086,41 +5206,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 29W9687J6A;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestCG_CGKitUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CG.TestCG-CGKitUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TEST_TARGET_NAME = TestCG_CGKit;
 				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
-		18F21B9B1CC3F6B100B58B16 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 29W9687J6A;
-				INFOPLIST_FILE = CGKitShareExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "CG.TestCG-CGKit.CGKitShareExtension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		18F21B9C1CC3F6B100B58B16 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 29W9687J6A;
-				INFOPLIST_FILE = CGKitShareExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "CG.TestCG-CGKit.CGKitShareExtension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -5159,15 +5253,6 @@
 			buildConfigurations = (
 				18DBAAF01C12818400552828 /* Debug */,
 				18DBAAF11C12818400552828 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		18F21B9D1CC3F6B100B58B16 /* Build configuration list for PBXNativeTarget "CGKitShareExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				18F21B9B1CC3F6B100B58B16 /* Debug */,
-				18F21B9C1CC3F6B100B58B16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MLListsBaseProtocolManager<__covariant delegateType, __covariant ObjectType> : NSObject<UITableViewDataSource, UITableViewDelegate, MLListsProtocol>
+@interface MLListsBaseProtocolManager<__covariant delegateType, __covariant ObjectType> : NSObject<UITableViewDataSource, UITableViewDelegate, MLListsProtocol, MLListsBaseManagerProtocol>
 
 @property (nonatomic, weak) delegateType delegate;
 
@@ -39,9 +39,9 @@ NS_ASSUME_NONNULL_BEGIN
  tableView.delegate = self;
  tableView.dataSource = self;
  */
-- (instancetype)initWithTableView:(UITableView *)tableView registerClass:(Class)cellClass;
+- (instancetype)initWithTableView:(UITableView *)tableView registerClass:(nullable Class)cellClass;
 
-- (instancetype)initWithTableView:(UITableView *)tableView reuseIdentifier:(NSString *)reuseIdentifier;
+- (instancetype)initWithTableView:(UITableView *)tableView reuseIdentifier:(nullable NSString *)reuseIdentifier;
 
 #pragma mark - 数据处理
 

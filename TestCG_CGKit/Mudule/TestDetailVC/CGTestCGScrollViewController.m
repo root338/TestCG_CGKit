@@ -10,6 +10,7 @@
 
 #import "CGLineView.h"
 #import "CGScrollView.h"
+#import "MLPageControl.h"
 
 #import "UIView+CGAddConstraints.h"
 
@@ -41,7 +42,20 @@
     [view cg_autoDimension:CGDimensionHeight fixedLength:2000];
     [view cg_autoDimension:CGDimensionWidth equalView:_scrollView];
     
-    
+    [self showPageControl];
+}
+
+- (void)showPageControl
+{
+    MLPageControl *pageControl  = [[MLPageControl alloc] init];
+    pageControl.style           = MLPageControlStyleFlow;
+    pageControl.pageIndicatorTintColor          = [UIColor blackColor];
+    pageControl.currentPageIndicatorTintColor   = [UIColor redColor];
+    pageControl.numberOfPages   = 100;
+    pageControl.currentPage     = 5;
+    pageControl.pageSize        = CGSizeMake(40, 40);
+    pageControl.frame = CGRectMake(0, 100, self.view.width, 50);
+    [_scrollView addSubview:pageControl];
 }
 
 @end

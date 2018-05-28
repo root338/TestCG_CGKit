@@ -13,11 +13,12 @@
 #import "CGPrintLogHeader.h"
 
 @interface MLListsProtocolManager ()<MLListsManagerProtocol>
-
+{
+    
+}
 @property (nonatomic, strong, readonly) NSArray *sourceDataArray;
 
 @property (nonatomic, strong) NSMutableDictionary<NSString *, NSNumber *> *cacheCellHeights;
-@property (nonatomic, strong) NSMutableDictionary<NSString *, UITableViewCell *> *reusableCellsDict;
 
 @end
 
@@ -27,34 +28,49 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSString *key   = [NSString stringWithFormat:@"{%li,%li}", (long)indexPath.section, (long)indexPath.row];
+    NSString *key = [NSString stringWithFormat:@"{%li,%li}", (long)indexPath.section, (long)indexPath.row];
     NSNumber *value = self.cacheCellHeights[key];
-    
     if (value) {
         return value.floatValue;
     }
     
-    CGFloat height  = 0;
+    BOOL isShouldConfigureHeight = YES;
+    if ([self respondsToSelector:@selector(ml_tableView:shouldConfigureHeightForRowAtIndexPath:)]) {
+        isShouldConfigureHeight = [self ml_tableView:tableView shouldConfigureHeightForRowAtIndexPath:indexPath];
+    }
+    if (!isShouldConfigureHeight) {
+        
+        if ([self.delegate respondsToSelector:@selector(manager:tableView:estimatedHeightForRowAtIndexPath:)]) {
+            return [self.delegate manager:self tableView:tableView estimatedHeightForRowAtIndexPath:indexPath];
+        }else {
+            return self.estimatedRowHeight;
+        }
+    }
     
-    if ([self.delegate respondsToSelector:@selector(manage:tableView:heightForRowAtIndexPath:)]) {
-        height = [self.delegate manage:self tableView:tableView heightForRowAtIndexPath:indexPath];
+    CGFloat cellHeight = 0;
+    if ([self.delegate respondsToSelector:@selector(manager:tableView:heightForRowAtIndexPath:)]) {
+        cellHeight = [self.delegate manager:self tableView:tableView heightForRowAtIndexPath:indexPath];
     }else {
         
         UITableViewCell *cell = nil;
-        if ([self.delegate respondsToSelector:@selector(manage:tableView:calculateHeightCellWithIndexPath:)]) {
-            cell = [self.delegate manage:self tableView:tableView calculateHeightCellWithIndexPath:indexPath];
-        }else {
-            cell = self.cacheCell;
+        if ([self.delegate respondsToSelector:@selector(manager:tableView:heightCacheCellAtIndexPath:)]) {
+            cell = [self.delegate manage:self tableView:tableView cellForRowAtIndexPath:indexPath];
+        }else if ([self respondsToSelector:@selector(ml_tableView:heightCacheCellAtIndexPath:)]) {
+            cell = [(id)self ml_tableView:tableView heightCacheCellAtIndexPath:indexPath];
+        }else if (self.cell) {
+            cell = self.cell;
         }
         
-        CGDebugAssert(cell && _configureCellHeightBlock, @"需要设置 cell 或 _configureCellHeightBlock 值");
+        CGDebugAssert(cell, @"需要实现tableView计算高度的方法");
         
-        height = self.configureCellHeightBlock(cell, [self objectAtIndex:indexPath.row forListIndex:indexPath.section]);
+        if (self.configureCellHeightBlock) {
+            cellHeight = self.configureCellHeightBlock(cell, [self objectAtIndex:indexPath.row forListIndex:indexPath.section]);
+        }
     }
     
-    self.cacheCellHeights[key] = @(height);
+    [self.cacheCellHeights setObject:@(cellHeight) forKey:key];
     
-    return height;
+    return cellHeight;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath

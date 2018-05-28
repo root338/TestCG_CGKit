@@ -28,10 +28,10 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol YMListsManagerDelegate <MLListsBaseManagerDelegate>
 
 @optional
-/// 配置cell
-- (void)manager:(id<MLListsProtocol>)manager tableView:(UITableView *)tableView configureCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath;
-/// 配置cell的高度
-- (CGFloat)manager:(id<MLListsProtocol>)manager tableView:(UITableView *)tableView heightWithCell:(UITableViewCell *)cell indexPath:(NSIndexPath *)indexPath;
+/// 获取指定位置下的 cell 高度
+- (CGFloat)manage:(id<MLListsProtocol>)manager tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath;
+/// 获取计算所需的 cell
+- (UITableViewCell *)manage:(id<MLListsProtocol>)manager tableView:(UITableView *)tableView calculateHeightCellWithIndexPath:(NSIndexPath *)indexPath;
 
 @end
 

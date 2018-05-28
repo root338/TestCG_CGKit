@@ -12,7 +12,7 @@
 
 #import "CGPrintLogHeader.h"
 
-@interface MLListsProtocolManager ()//<MLListsManagerProtocol>
+@interface MLListsProtocolManager ()<MLListsManagerProtocol>
 
 @property (nonatomic, strong, readonly) NSArray *sourceDataArray;
 
@@ -24,6 +24,38 @@
 @implementation MLListsProtocolManager
 
 #pragma mark - UITableViewDelegate
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSString *key   = [NSString stringWithFormat:@"{%li,%li}", (long)indexPath.section, (long)indexPath.row];
+    NSNumber *value = self.cacheCellHeights[key];
+    
+    if (value) {
+        return value.floatValue;
+    }
+    
+    CGFloat height  = 0;
+    
+    if ([self.delegate respondsToSelector:@selector(manage:tableView:heightForRowAtIndexPath:)]) {
+        height = [self.delegate manage:self tableView:tableView heightForRowAtIndexPath:indexPath];
+    }else {
+        
+        UITableViewCell *cell = nil;
+        if ([self.delegate respondsToSelector:@selector(manage:tableView:calculateHeightCellWithIndexPath:)]) {
+            cell = [self.delegate manage:self tableView:tableView calculateHeightCellWithIndexPath:indexPath];
+        }else {
+            cell = self.cacheCell;
+        }
+        
+        CGDebugAssert(cell && _configureCellHeightBlock, @"需要设置 cell 或 _configureCellHeightBlock 值");
+        
+        height = self.configureCellHeightBlock(cell, [self objectAtIndex:indexPath.row forListIndex:indexPath.section]);
+    }
+    
+    self.cacheCellHeights[key] = @(height);
+    
+    return height;
+}
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {

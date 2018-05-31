@@ -19,6 +19,8 @@
 
 #import "YMDiaryPostsCellManager.h"
 
+#import "UILabel+MLCreate.h"
+
 @interface CGTestDrawImageViewController ()
 {
     
@@ -32,12 +34,61 @@
     // Do any additional setup after loading the view.
 //    [self testDraw];
     
-    [self testDrawYMDiaryPostsCell];
+//    [self testDrawYMDiaryPostsCell];
+    
+    [self testCATestLayer];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)testCATestLayer
+{
+    UILabel *label = UILabel.create();
+    label.numberOfLines = 3;
+    
+    NSString *str = @"ldsj里发生的减肥路上看到加夫里什独家发售蓝灯房间里看电视剧历史的减肥了多少减肥路上的距离里发生的减肥了肯定是佛教历史的房间收到代理房间里看电视剧粉丝掉了附近乐山大佛";
+    UIFont *font = [UIFont systemFontOfSize:12];
+    NSMutableParagraphStyle *style = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
+    style.lineSpacing = 5 + font.lineHeight - font.pointSize;
+    NSDictionary *dict = @{
+                           NSFontAttributeName : font,
+                           NSForegroundColorAttributeName : [UIColor blackColor],
+                           NSParagraphStyleAttributeName : style,
+                           };
+    NSAttributedString *att = [[NSAttributedString alloc] initWithString:str attributes:dict];
+    label.attributedText = att;
+    
+    CGRect textRect = [att boundingRectWithSize:CGSizeMake(180, 50) options:NSStringDrawingUsesLineFragmentOrigin context:nil];
+    
+    label.frame = CGRectMake(100, 100, CGRectGetMaxX(textRect), CGRectGetMaxY(textRect));
+    
+    [self.view addSubview:label];
+    label.backgroundColor = [UIColor redColor];
+//    CATextLayer *textLayer = [CATextLayer layer];
+//    textLayer.contentsScale = [UIScreen mainScreen].scale;
+//    NSString *text = @"世界为此而改fjldfjldsjfdsfjsdlkfjdslkfjdslfjdslfkjdslfdjdlskfjdlsjfdlkjlskdfjlksdjfldskfjlsdjflksdjflksdjflksdjflkdsjflkdsfjldskfjldskjfsdlkfjsdlkfjsdlfsjd这是一个虚拟的世界";
+//    NSMutableParagraphStyle *style = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
+////    style.lineBreakMode = NSLineBreakByTruncatingTail;
+//    style.lineSpacing   = 10;
+//    style.minimumLineHeight = 17;
+//    style.maximumLineHeight = 20;
+//    NSDictionary *attDic = @{
+//                             NSFontAttributeName : [UIFont systemFontOfSize:12],
+//                             NSForegroundColorAttributeName : [UIColor redColor],
+//                             NSParagraphStyleAttributeName : style,
+//                             };
+//    NSAttributedString *att = [[NSAttributedString alloc] initWithString:text attributes:attDic];
+//    textLayer.string = att;
+//    textLayer.wrapped   = YES;
+//    textLayer.fontSize  = 10;
+//    textLayer.alignmentMode = kCAAlignmentNatural;
+//    textLayer.truncationMode = kCATruncationEnd;
+//    textLayer.frame     = CGRectMake(100, 100, 200, 50);
+//    [self.view.layer addSublayer:textLayer];
+//    textLayer.backgroundColor = [UIColor lightGrayColor].CGColor;
 }
 
 - (void)testDrawYMDiaryPostsCell

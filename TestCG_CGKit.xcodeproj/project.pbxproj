@@ -371,6 +371,7 @@
 		C22F627220B61F6A007B7237 /* UIImage+MLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C22F627020B61F6A007B7237 /* UIImage+MLAdd.m */; };
 		C22F627920B624FA007B7237 /* TestDrawImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C22F627820B624FA007B7237 /* TestDrawImageView.m */; };
 		C22F627C20B632AE007B7237 /* TestCornerRadiusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C22F627B20B632AE007B7237 /* TestCornerRadiusTableViewCell.m */; };
+		C23860BE20C0C9CB00C70D9B /* UIButton+MLCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = C23860BD20C0C9CB00C70D9B /* UIButton+MLCreate.m */; };
 		C23DCBD320BAE1900014D1D2 /* YMDiaryPostsCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C23DCBD220BAE1900014D1D2 /* YMDiaryPostsCellLayout.m */; };
 		C23DCBD620BAE2A20014D1D2 /* YMDiaryPostsCellManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C23DCBD520BAE2A20014D1D2 /* YMDiaryPostsCellManager.m */; };
 		C23DCBD820BB0E610014D1D2 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C23DCBD720BB0E610014D1D2 /* 1.jpg */; };
@@ -383,6 +384,8 @@
 		C283EAD820B8CDAF00B6A638 /* MLDrawError.m in Sources */ = {isa = PBXBuildFile; fileRef = C283EAD720B8CDAF00B6A638 /* MLDrawError.m */; };
 		C29AFA3D20BA21D200C13C6F /* YMDiaryPostsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C29AFA3C20BA21D200C13C6F /* YMDiaryPostsTableViewCell.m */; };
 		C29E207720B9FC150009636F /* MLPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C29E207620B9FC150009636F /* MLPageControl.m */; };
+		C2F447DE20C0B02F0032A271 /* UILabel+MLCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F447DD20C0B02F0032A271 /* UILabel+MLCreate.m */; };
+		C2F447E420C0BBFE0032A271 /* UIView+MLCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F447E320C0BBFE0032A271 /* UIView+MLCreate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1172,6 +1175,8 @@
 		C22F627820B624FA007B7237 /* TestDrawImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDrawImageView.m; sourceTree = "<group>"; };
 		C22F627A20B632AE007B7237 /* TestCornerRadiusTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCornerRadiusTableViewCell.h; sourceTree = "<group>"; };
 		C22F627B20B632AE007B7237 /* TestCornerRadiusTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCornerRadiusTableViewCell.m; sourceTree = "<group>"; };
+		C23860BC20C0C9CB00C70D9B /* UIButton+MLCreate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+MLCreate.h"; sourceTree = "<group>"; };
+		C23860BD20C0C9CB00C70D9B /* UIButton+MLCreate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MLCreate.m"; sourceTree = "<group>"; };
 		C23DCBD120BAE1900014D1D2 /* YMDiaryPostsCellLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMDiaryPostsCellLayout.h; sourceTree = "<group>"; };
 		C23DCBD220BAE1900014D1D2 /* YMDiaryPostsCellLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDiaryPostsCellLayout.m; sourceTree = "<group>"; };
 		C23DCBD420BAE2A20014D1D2 /* YMDiaryPostsCellManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMDiaryPostsCellManager.h; sourceTree = "<group>"; };
@@ -1199,6 +1204,12 @@
 		C29AFA3C20BA21D200C13C6F /* YMDiaryPostsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDiaryPostsTableViewCell.m; sourceTree = "<group>"; };
 		C29E207520B9FC150009636F /* MLPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLPageControl.h; sourceTree = "<group>"; };
 		C29E207620B9FC150009636F /* MLPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLPageControl.m; sourceTree = "<group>"; };
+		C2F447DC20C0B02F0032A271 /* UILabel+MLCreate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+MLCreate.h"; sourceTree = "<group>"; };
+		C2F447DD20C0B02F0032A271 /* UILabel+MLCreate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MLCreate.m"; sourceTree = "<group>"; };
+		C2F447E220C0BBFE0032A271 /* UIView+MLCreate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MLCreate.h"; sourceTree = "<group>"; };
+		C2F447E320C0BBFE0032A271 /* UIView+MLCreate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLCreate.m"; sourceTree = "<group>"; };
+		C2F447E520C0C50E0032A271 /* MLCreateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLCreateProtocol.h; sourceTree = "<group>"; };
+		C2F447E620C0C7FC0032A271 /* MLCreateViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLCreateViewHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1681,6 +1692,7 @@
 		18DBAABE1C12818300552828 /* TestCG_CGKit */ = {
 			isa = PBXGroup;
 			children = (
+				C2F447DA20C0AFBA0032A271 /* MLKit */,
 				C23DCBD720BB0E610014D1D2 /* 1.jpg */,
 				C29AFA3A20BA211F00C13C6F /* YM */,
 				C283EADB20B8D30E00B6A638 /* MLDebug */,
@@ -4383,6 +4395,29 @@
 			path = MLPageControl;
 			sourceTree = "<group>";
 		};
+		C2F447DA20C0AFBA0032A271 /* MLKit */ = {
+			isa = PBXGroup;
+			children = (
+				C2F447DB20C0AFFA0032A271 /* CreateViews */,
+			);
+			path = MLKit;
+			sourceTree = "<group>";
+		};
+		C2F447DB20C0AFFA0032A271 /* CreateViews */ = {
+			isa = PBXGroup;
+			children = (
+				C2F447DC20C0B02F0032A271 /* UILabel+MLCreate.h */,
+				C2F447DD20C0B02F0032A271 /* UILabel+MLCreate.m */,
+				C2F447E220C0BBFE0032A271 /* UIView+MLCreate.h */,
+				C2F447E320C0BBFE0032A271 /* UIView+MLCreate.m */,
+				C23860BC20C0C9CB00C70D9B /* UIButton+MLCreate.h */,
+				C23860BD20C0C9CB00C70D9B /* UIButton+MLCreate.m */,
+				C2F447E520C0C50E0032A271 /* MLCreateProtocol.h */,
+				C2F447E620C0C7FC0032A271 /* MLCreateViewHeader.h */,
+			);
+			path = CreateViews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -4716,6 +4751,7 @@
 				C226360E1F506DF7004A7813 /* CGPhotoListViewController.m in Sources */,
 				18DBAAFB1C12877E00552828 /* main.m in Sources */,
 				00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */,
+				C2F447E420C0BBFE0032A271 /* UIView+MLCreate.m in Sources */,
 				C226355C1F506DF6004A7813 /* UICollectionView+CGDequeueReusableCell.m in Sources */,
 				003E01C01E8DEAC500F35BA5 /* CGImageDataModel.swift in Sources */,
 				C22635411F506DF6004A7813 /* UIImage+CGImageRotate.m in Sources */,
@@ -4741,6 +4777,7 @@
 				C22635221F506DF6004A7813 /* CGIPAddress.m in Sources */,
 				C22635B81F506DF6004A7813 /* CGCycleScrollView+CGCondition.m in Sources */,
 				C22634FF1F506DF6004A7813 /* CGBaseFlowButtonsView.swift in Sources */,
+				C2F447DE20C0B02F0032A271 /* UILabel+MLCreate.m in Sources */,
 				C226350A1F506DF6004A7813 /* CGRequestBaseModel.m in Sources */,
 				C22635D71F506DF6004A7813 /* CGTitleButtonView.m in Sources */,
 				C22635751F506DF6004A7813 /* UIView+CGAddGestureRecognizer.m in Sources */,
@@ -4852,6 +4889,7 @@
 				0000D9B51D6593C30038E4A0 /* CGTestTitleBarViewController.m in Sources */,
 				0046B5721ED6B8F800086C1E /* CGImageExtension.swift in Sources */,
 				0083B3AB1E0B7AFC00A7B699 /* CGNumberExtension.swift in Sources */,
+				C23860BE20C0C9CB00C70D9B /* UIButton+MLCreate.m in Sources */,
 				C22635171F506DF6004A7813 /* CGBaseObject.m in Sources */,
 				C226356D1F506DF6004A7813 /* UIView+DeleteTableView.m in Sources */,
 				C22635971F506DF6004A7813 /* CGScrollView.m in Sources */,

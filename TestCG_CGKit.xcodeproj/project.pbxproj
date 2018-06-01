@@ -61,6 +61,10 @@
 		18A32BB620B2C3B800A2F23F /* MLListsBaseProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A32BB520B2C3B800A2F23F /* MLListsBaseProtocolManager.m */; };
 		18A870171D68CED100C76A21 /* CGTestSubviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A870161D68CED100C76A21 /* CGTestSubviewViewController.m */; };
 		18B41A9E1C13FE450031002B /* TestTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B41A9D1C13FE450031002B /* TestTextFieldCell.m */; };
+		18B8AD1220C0DC9B00D3C19A /* YMDiaryPostsBaseLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8AD0B20C0DC9800D3C19A /* YMDiaryPostsBaseLayout.m */; };
+		18B8AD1320C0DC9B00D3C19A /* YMDiaryPostsRecommendDiaryCellManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8AD0F20C0DC9A00D3C19A /* YMDiaryPostsRecommendDiaryCellManager.m */; };
+		18B8AD1420C0DC9B00D3C19A /* YMDiaryPostsRecommendDiaryCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8AD1020C0DC9A00D3C19A /* YMDiaryPostsRecommendDiaryCellLayout.m */; };
+		18B8AD2A20C1430500D3C19A /* NSDictionary+NSAttributedStringKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8AD2920C1430400D3C19A /* NSDictionary+NSAttributedStringKey.m */; };
 		18D06F5F1DF84CAE00F64D7F /* CGBrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D06E4D1DF84CAE00F64D7F /* CGBrowseView.swift */; };
 		18D06F601DF84CAE00F64D7F /* CGBrowseViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D06E4E1DF84CAE00F64D7F /* CGBrowseViewCell.swift */; };
 		18D06F611DF84CAE00F64D7F /* CGFoulLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D06E501DF84CAE00F64D7F /* CGFoulLineView.swift */; };
@@ -74,11 +78,6 @@
 		18DE27C31DB6D95C00BCEABC /* CGTestTitleRadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE27C21DB6D95C00BCEABC /* CGTestTitleRadioViewController.m */; };
 		18DFFB931DBC6B82004D774A /* CGTestTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFFB921DBC6B82004D774A /* CGTestTableViewViewController.m */; };
 		18F093EE1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F093ED1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift */; };
-		18F4C8EE20BB99A8003A4D8E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18F4C8ED20BB99A7003A4D8E /* 1.jpg */; };
-		18F4C8F120BBB774003A4D8E /* YMDiaryPostsRecommendDiaryCellManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4C8F020BBB774003A4D8E /* YMDiaryPostsRecommendDiaryCellManager.m */; };
-		18F4C8F420BBB799003A4D8E /* YMDiaryPostsBaseLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4C8F320BBB799003A4D8E /* YMDiaryPostsBaseLayout.m */; };
-		18F4C8F720BBB8FA003A4D8E /* YMDiaryPostsRecommendDiaryCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4C8F620BBB8FA003A4D8E /* YMDiaryPostsRecommendDiaryCellLayout.m */; };
-		18F4C90020BBC1EA003A4D8E /* NSDictionary+NSAttributedStringKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4C8FF20BBC1EA003A4D8E /* NSDictionary+NSAttributedStringKey.m */; };
 		B34A56136E938D33A10F79C0 /* libPods-TestCG_CGKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DEA84BA89C47E5534055C9 /* libPods-TestCG_CGKit.a */; };
 		C22634EE1F506DF6004A7813 /* UIView+CGLineMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = C22631871F506DF5004A7813 /* UIView+CGLineMoveView.m */; };
 		C22634EF1F506DF6004A7813 /* UIView+CGScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C22631891F506DF5004A7813 /* UIView+CGScaleView.m */; };
@@ -376,6 +375,7 @@
 		C22F627220B61F6A007B7237 /* UIImage+MLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C22F627020B61F6A007B7237 /* UIImage+MLAdd.m */; };
 		C22F627920B624FA007B7237 /* TestDrawImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C22F627820B624FA007B7237 /* TestDrawImageView.m */; };
 		C22F627C20B632AE007B7237 /* TestCornerRadiusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C22F627B20B632AE007B7237 /* TestCornerRadiusTableViewCell.m */; };
+		C23860BE20C0C9CB00C70D9B /* UIButton+MLCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = C23860BD20C0C9CB00C70D9B /* UIButton+MLCreate.m */; };
 		C23DCBD320BAE1900014D1D2 /* YMDiaryPostsCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C23DCBD220BAE1900014D1D2 /* YMDiaryPostsCellLayout.m */; };
 		C23DCBD620BAE2A20014D1D2 /* YMDiaryPostsCellManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C23DCBD520BAE2A20014D1D2 /* YMDiaryPostsCellManager.m */; };
 		C23DCBDB20BB257B0014D1D2 /* MLListsScrollProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C23DCBDA20BB257B0014D1D2 /* MLListsScrollProtocolManager.m */; };
@@ -387,6 +387,8 @@
 		C283EAD820B8CDAF00B6A638 /* MLDrawError.m in Sources */ = {isa = PBXBuildFile; fileRef = C283EAD720B8CDAF00B6A638 /* MLDrawError.m */; };
 		C29AFA3D20BA21D200C13C6F /* YMDiaryPostsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C29AFA3C20BA21D200C13C6F /* YMDiaryPostsTableViewCell.m */; };
 		C29E207720B9FC150009636F /* MLPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C29E207620B9FC150009636F /* MLPageControl.m */; };
+		C2F447DE20C0B02F0032A271 /* UILabel+MLCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F447DD20C0B02F0032A271 /* UILabel+MLCreate.m */; };
+		C2F447E420C0BBFE0032A271 /* UIView+MLCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F447E320C0BBFE0032A271 /* UIView+MLCreate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -499,6 +501,14 @@
 		18A870161D68CED100C76A21 /* CGTestSubviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTestSubviewViewController.m; sourceTree = "<group>"; };
 		18B41A9C1C13FE450031002B /* TestTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTextFieldCell.h; sourceTree = "<group>"; };
 		18B41A9D1C13FE450031002B /* TestTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTextFieldCell.m; sourceTree = "<group>"; };
+		18B8AD0B20C0DC9800D3C19A /* YMDiaryPostsBaseLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDiaryPostsBaseLayout.m; sourceTree = "<group>"; };
+		18B8AD0C20C0DC9900D3C19A /* YMDiaryPostsRecommendDiaryCellManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDiaryPostsRecommendDiaryCellManager.h; sourceTree = "<group>"; };
+		18B8AD0D20C0DC9900D3C19A /* YMDiaryPostsRecommendDiaryCellLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDiaryPostsRecommendDiaryCellLayout.h; sourceTree = "<group>"; };
+		18B8AD0E20C0DC9900D3C19A /* YMDiaryPostsBaseLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDiaryPostsBaseLayout.h; sourceTree = "<group>"; };
+		18B8AD0F20C0DC9A00D3C19A /* YMDiaryPostsRecommendDiaryCellManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDiaryPostsRecommendDiaryCellManager.m; sourceTree = "<group>"; };
+		18B8AD1020C0DC9A00D3C19A /* YMDiaryPostsRecommendDiaryCellLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDiaryPostsRecommendDiaryCellLayout.m; sourceTree = "<group>"; };
+		18B8AD2820C1430400D3C19A /* NSDictionary+NSAttributedStringKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NSAttributedStringKey.h"; sourceTree = "<group>"; };
+		18B8AD2920C1430400D3C19A /* NSDictionary+NSAttributedStringKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NSAttributedStringKey.m"; sourceTree = "<group>"; };
 		18D06E481DF84CAE00F64D7F /* CGSwiftKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGSwiftKit-Bridging-Header.h"; sourceTree = "<group>"; };
 		18D06E4D1DF84CAE00F64D7F /* CGBrowseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGBrowseView.swift; sourceTree = "<group>"; };
 		18D06E4E1DF84CAE00F64D7F /* CGBrowseViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGBrowseViewCell.swift; sourceTree = "<group>"; };
@@ -527,15 +537,6 @@
 		18F21B911CC3F6B100B58B16 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
 		18F21B941CC3F6B100B58B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		18F21B961CC3F6B100B58B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18F4C8ED20BB99A7003A4D8E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		18F4C8EF20BBB774003A4D8E /* YMDiaryPostsRecommendDiaryCellManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMDiaryPostsRecommendDiaryCellManager.h; sourceTree = "<group>"; };
-		18F4C8F020BBB774003A4D8E /* YMDiaryPostsRecommendDiaryCellManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDiaryPostsRecommendDiaryCellManager.m; sourceTree = "<group>"; };
-		18F4C8F220BBB799003A4D8E /* YMDiaryPostsBaseLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMDiaryPostsBaseLayout.h; sourceTree = "<group>"; };
-		18F4C8F320BBB799003A4D8E /* YMDiaryPostsBaseLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDiaryPostsBaseLayout.m; sourceTree = "<group>"; };
-		18F4C8F520BBB8FA003A4D8E /* YMDiaryPostsRecommendDiaryCellLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMDiaryPostsRecommendDiaryCellLayout.h; sourceTree = "<group>"; };
-		18F4C8F620BBB8FA003A4D8E /* YMDiaryPostsRecommendDiaryCellLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDiaryPostsRecommendDiaryCellLayout.m; sourceTree = "<group>"; };
-		18F4C8FE20BBC1EA003A4D8E /* NSDictionary+NSAttributedStringKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NSAttributedStringKey.h"; sourceTree = "<group>"; };
-		18F4C8FF20BBC1EA003A4D8E /* NSDictionary+NSAttributedStringKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NSAttributedStringKey.m"; sourceTree = "<group>"; };
 		23DEA84BA89C47E5534055C9 /* libPods-TestCG_CGKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestCG_CGKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A98E44ADCC2C0192ADDD5422 /* Pods-TestCG_CGKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCG_CGKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestCG_CGKit/Pods-TestCG_CGKit.release.xcconfig"; sourceTree = "<group>"; };
 		C22631831F506DF5004A7813 /* CGAngleRadianHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAngleRadianHeader.h; sourceTree = "<group>"; };
@@ -1185,6 +1186,8 @@
 		C22F627820B624FA007B7237 /* TestDrawImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDrawImageView.m; sourceTree = "<group>"; };
 		C22F627A20B632AE007B7237 /* TestCornerRadiusTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCornerRadiusTableViewCell.h; sourceTree = "<group>"; };
 		C22F627B20B632AE007B7237 /* TestCornerRadiusTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCornerRadiusTableViewCell.m; sourceTree = "<group>"; };
+		C23860BC20C0C9CB00C70D9B /* UIButton+MLCreate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+MLCreate.h"; sourceTree = "<group>"; };
+		C23860BD20C0C9CB00C70D9B /* UIButton+MLCreate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MLCreate.m"; sourceTree = "<group>"; };
 		C23DCBD120BAE1900014D1D2 /* YMDiaryPostsCellLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMDiaryPostsCellLayout.h; sourceTree = "<group>"; };
 		C23DCBD220BAE1900014D1D2 /* YMDiaryPostsCellLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDiaryPostsCellLayout.m; sourceTree = "<group>"; };
 		C23DCBD420BAE2A20014D1D2 /* YMDiaryPostsCellManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMDiaryPostsCellManager.h; sourceTree = "<group>"; };
@@ -1211,6 +1214,12 @@
 		C29AFA3C20BA21D200C13C6F /* YMDiaryPostsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDiaryPostsTableViewCell.m; sourceTree = "<group>"; };
 		C29E207520B9FC150009636F /* MLPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLPageControl.h; sourceTree = "<group>"; };
 		C29E207620B9FC150009636F /* MLPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLPageControl.m; sourceTree = "<group>"; };
+		C2F447DC20C0B02F0032A271 /* UILabel+MLCreate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+MLCreate.h"; sourceTree = "<group>"; };
+		C2F447DD20C0B02F0032A271 /* UILabel+MLCreate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MLCreate.m"; sourceTree = "<group>"; };
+		C2F447E220C0BBFE0032A271 /* UIView+MLCreate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MLCreate.h"; sourceTree = "<group>"; };
+		C2F447E320C0BBFE0032A271 /* UIView+MLCreate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLCreate.m"; sourceTree = "<group>"; };
+		C2F447E520C0C50E0032A271 /* MLCreateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLCreateProtocol.h; sourceTree = "<group>"; };
+		C2F447E620C0C7FC0032A271 /* MLCreateViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLCreateViewHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1693,7 +1702,7 @@
 		18DBAABE1C12818300552828 /* TestCG_CGKit */ = {
 			isa = PBXGroup;
 			children = (
-				18F4C8ED20BB99A7003A4D8E /* 1.jpg */,
+				C2F447DA20C0AFBA0032A271 /* MLKit */,
 				C29AFA3A20BA211F00C13C6F /* YM */,
 				C283EADB20B8D30E00B6A638 /* MLDebug */,
 				C283EAD920B8D2E100B6A638 /* MLDefineHeader */,
@@ -2245,10 +2254,10 @@
 		C22631F61F506DF5004A7813 /* NSDictorary */ = {
 			isa = PBXGroup;
 			children = (
+				18B8AD2820C1430400D3C19A /* NSDictionary+NSAttributedStringKey.h */,
+				18B8AD2920C1430400D3C19A /* NSDictionary+NSAttributedStringKey.m */,
 				C22631F71F506DF5004A7813 /* NSDictionary+CGKeyIndexPath.h */,
 				C22631F81F506DF5004A7813 /* NSDictionary+CGKeyIndexPath.m */,
-				18F4C8FE20BBC1EA003A4D8E /* NSDictionary+NSAttributedStringKey.h */,
-				18F4C8FF20BBC1EA003A4D8E /* NSDictionary+NSAttributedStringKey.m */,
 			);
 			path = NSDictorary;
 			sourceTree = "<group>";
@@ -4378,18 +4387,18 @@
 		C29AFA3A20BA211F00C13C6F /* YM */ = {
 			isa = PBXGroup;
 			children = (
+				18B8AD0E20C0DC9900D3C19A /* YMDiaryPostsBaseLayout.h */,
+				18B8AD0B20C0DC9800D3C19A /* YMDiaryPostsBaseLayout.m */,
+				18B8AD0D20C0DC9900D3C19A /* YMDiaryPostsRecommendDiaryCellLayout.h */,
+				18B8AD1020C0DC9A00D3C19A /* YMDiaryPostsRecommendDiaryCellLayout.m */,
+				18B8AD0C20C0DC9900D3C19A /* YMDiaryPostsRecommendDiaryCellManager.h */,
+				18B8AD0F20C0DC9A00D3C19A /* YMDiaryPostsRecommendDiaryCellManager.m */,
 				C29AFA3B20BA21D200C13C6F /* YMDiaryPostsTableViewCell.h */,
 				C29AFA3C20BA21D200C13C6F /* YMDiaryPostsTableViewCell.m */,
-				18F4C8F220BBB799003A4D8E /* YMDiaryPostsBaseLayout.h */,
-				18F4C8F320BBB799003A4D8E /* YMDiaryPostsBaseLayout.m */,
 				C23DCBD120BAE1900014D1D2 /* YMDiaryPostsCellLayout.h */,
 				C23DCBD220BAE1900014D1D2 /* YMDiaryPostsCellLayout.m */,
-				18F4C8F520BBB8FA003A4D8E /* YMDiaryPostsRecommendDiaryCellLayout.h */,
-				18F4C8F620BBB8FA003A4D8E /* YMDiaryPostsRecommendDiaryCellLayout.m */,
 				C23DCBD420BAE2A20014D1D2 /* YMDiaryPostsCellManager.h */,
 				C23DCBD520BAE2A20014D1D2 /* YMDiaryPostsCellManager.m */,
-				18F4C8EF20BBB774003A4D8E /* YMDiaryPostsRecommendDiaryCellManager.h */,
-				18F4C8F020BBB774003A4D8E /* YMDiaryPostsRecommendDiaryCellManager.m */,
 			);
 			path = YM;
 			sourceTree = "<group>";
@@ -4401,6 +4410,29 @@
 				C29E207620B9FC150009636F /* MLPageControl.m */,
 			);
 			path = MLPageControl;
+			sourceTree = "<group>";
+		};
+		C2F447DA20C0AFBA0032A271 /* MLKit */ = {
+			isa = PBXGroup;
+			children = (
+				C2F447DB20C0AFFA0032A271 /* CreateViews */,
+			);
+			path = MLKit;
+			sourceTree = "<group>";
+		};
+		C2F447DB20C0AFFA0032A271 /* CreateViews */ = {
+			isa = PBXGroup;
+			children = (
+				C2F447DC20C0B02F0032A271 /* UILabel+MLCreate.h */,
+				C2F447DD20C0B02F0032A271 /* UILabel+MLCreate.m */,
+				C2F447E220C0BBFE0032A271 /* UIView+MLCreate.h */,
+				C2F447E320C0BBFE0032A271 /* UIView+MLCreate.m */,
+				C23860BC20C0C9CB00C70D9B /* UIButton+MLCreate.h */,
+				C23860BD20C0C9CB00C70D9B /* UIButton+MLCreate.m */,
+				C2F447E520C0C50E0032A271 /* MLCreateProtocol.h */,
+				C2F447E620C0C7FC0032A271 /* MLCreateViewHeader.h */,
+			);
+			path = CreateViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -4416,6 +4448,8 @@
 				18DBAABA1C12818300552828 /* Resources */,
 				185A740B1C144B98005936A5 /* ShellScript */,
 				18F21B991CC3F6B100B58B16 /* Embed App Extensions */,
+				2A3F14DB828CDAFF88B983AD /* [CP] Embed Pods Frameworks */,
+				617DB89C63922B1CE2E37ABC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -4475,7 +4509,7 @@
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = 29W9687J6A;
 						LastSwiftMigration = 0910;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					18DBAAD41C12818300552828 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -4520,7 +4554,6 @@
 				0069BB061C85431A00C5A628 /* 2.jpg in Resources */,
 				187A3E431D69EA1000C7E67C /* Assets.xcassets in Resources */,
 				18DBAACA1C12818300552828 /* Main.storyboard in Resources */,
-				18F4C8EE20BB99A8003A4D8E /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4553,6 +4586,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\n##自动添加 build 次数\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\n\n#########";
+		};
+		2A3F14DB828CDAFF88B983AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestCG_CGKit/Pods-TestCG_CGKit-frameworks.sh",
+				"${PODS_ROOT}/Reveal-SDK/RevealServer-11/iOS/RevealServer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestCG_CGKit/Pods-TestCG_CGKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		617DB89C63922B1CE2E37ABC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestCG_CGKit/Pods-TestCG_CGKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		DB1867AEA86EFC9F8D4B8817 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -4611,6 +4677,7 @@
 				C22635951F506DF6004A7813 /* CGTitleLabel.m in Sources */,
 				0083B3A71E0B75F500A7B699 /* CGBrowseFullScreenViewCell.swift in Sources */,
 				C22635051F506DF6004A7813 /* CGDispathMethod.m in Sources */,
+				18B8AD1220C0DC9B00D3C19A /* YMDiaryPostsBaseLayout.m in Sources */,
 				C22635561F506DF6004A7813 /* UIScrollView+CGCreate.m in Sources */,
 				C22635EC1F506DF6004A7813 /* UIView+CGCreateConstraint.m in Sources */,
 				C22635861F506DF6004A7813 /* CGHighlightBgButton.m in Sources */,
@@ -4636,6 +4703,7 @@
 				C22635E61F506DF6004A7813 /* UIView+CGAddConstraintStatus.m in Sources */,
 				C226359B1F506DF6004A7813 /* CGSingleSectionBaseTableView.m in Sources */,
 				C22635451F506DF6004A7813 /* CGFCManager.m in Sources */,
+				18B8AD1420C0DC9B00D3C19A /* YMDiaryPostsRecommendDiaryCellLayout.m in Sources */,
 				C226358F1F506DF6004A7813 /* CGImageView.m in Sources */,
 				C226358B1F506DF6004A7813 /* CGBrowseImageCollectionViewFlowLayout.m in Sources */,
 				C22635041F506DF6004A7813 /* UIView+Constant.m in Sources */,
@@ -4651,6 +4719,7 @@
 				C22635FB1F506DF7004A7813 /* CGNavigationController.m in Sources */,
 				C22635EE1F506DF6004A7813 /* NSArray+CGSearchConstraints.m in Sources */,
 				C22635481F506DF6004A7813 /* CGWebViewConfig.m in Sources */,
+				18B8AD2A20C1430500D3C19A /* NSDictionary+NSAttributedStringKey.m in Sources */,
 				18D06F611DF84CAE00F64D7F /* CGFoulLineView.swift in Sources */,
 				C22635591F506DF6004A7813 /* UITextField+AddInputView.m in Sources */,
 				18DFFB931DBC6B82004D774A /* CGTestTableViewViewController.m in Sources */,
@@ -4701,6 +4770,7 @@
 				C226360E1F506DF7004A7813 /* CGPhotoListViewController.m in Sources */,
 				18DBAAFB1C12877E00552828 /* main.m in Sources */,
 				00C315CE1CACC17E009BFD7A /* CGHomeDataModel.m in Sources */,
+				C2F447E420C0BBFE0032A271 /* UIView+MLCreate.m in Sources */,
 				C226355C1F506DF6004A7813 /* UICollectionView+CGDequeueReusableCell.m in Sources */,
 				003E01C01E8DEAC500F35BA5 /* CGImageDataModel.swift in Sources */,
 				C22635411F506DF6004A7813 /* UIImage+CGImageRotate.m in Sources */,
@@ -4726,13 +4796,13 @@
 				C22635221F506DF6004A7813 /* CGIPAddress.m in Sources */,
 				C22635B81F506DF6004A7813 /* CGCycleScrollView+CGCondition.m in Sources */,
 				C22634FF1F506DF6004A7813 /* CGBaseFlowButtonsView.swift in Sources */,
+				C2F447DE20C0B02F0032A271 /* UILabel+MLCreate.m in Sources */,
 				C226350A1F506DF6004A7813 /* CGRequestBaseModel.m in Sources */,
 				C22635D71F506DF6004A7813 /* CGTitleButtonView.m in Sources */,
 				C22635751F506DF6004A7813 /* UIView+CGAddGestureRecognizer.m in Sources */,
 				C22635B01F506DF6004A7813 /* CGNavigationBarView.m in Sources */,
 				C22635F41F506DF6004A7813 /* CGBaseSubviewsFlowLayoutConfigModel.m in Sources */,
 				C22635D21F506DF6004A7813 /* CGTitleImageLayoutView.m in Sources */,
-				18F4C90020BBC1EA003A4D8E /* NSDictionary+NSAttributedStringKey.m in Sources */,
 				C22635E01F506DF6004A7813 /* NJKWebViewProgress.m in Sources */,
 				C22636061F506DF7004A7813 /* UIViewController+CGPushViewController.m in Sources */,
 				C22635741F506DF6004A7813 /* UIView+LoadXIBFile.m in Sources */,
@@ -4741,7 +4811,6 @@
 				C22635531F506DF6004A7813 /* UIButton+CGCreateCustomButton.m in Sources */,
 				183CCCA41CC5894400235486 /* CGTestPhotosViewController.m in Sources */,
 				C22635671F506DF6004A7813 /* UITableView+CGIndexPath.m in Sources */,
-				18F4C8F420BBB799003A4D8E /* YMDiaryPostsBaseLayout.m in Sources */,
 				C22635D41F506DF6004A7813 /* CGTitleLabelLayoutView.m in Sources */,
 				C22635111F506DF6004A7813 /* NSDate+CGTransformString.m in Sources */,
 				C226351F1F506DF6004A7813 /* NSNotification+CGKeyboardUserInfo.m in Sources */,
@@ -4822,7 +4891,6 @@
 				C226358D1F506DF6004A7813 /* UICollectionViewFlowLayout+CGCreateLayout.m in Sources */,
 				C22635941F506DF6004A7813 /* CGPlaceholderLabel.m in Sources */,
 				C283EAC520B8C60700B6A638 /* MLDraw.m in Sources */,
-				18F4C8F720BBB8FA003A4D8E /* YMDiaryPostsRecommendDiaryCellLayout.m in Sources */,
 				C22635E81F506DF6004A7813 /* NSLayoutConstraint+CGConstraint.m in Sources */,
 				C226353F1F506DF6004A7813 /* UIImage+CGDrawImage.m in Sources */,
 				C22635D01F506DF6004A7813 /* CGDoubleTitleBaseView.m in Sources */,
@@ -4840,6 +4908,7 @@
 				0000D9B51D6593C30038E4A0 /* CGTestTitleBarViewController.m in Sources */,
 				0046B5721ED6B8F800086C1E /* CGImageExtension.swift in Sources */,
 				0083B3AB1E0B7AFC00A7B699 /* CGNumberExtension.swift in Sources */,
+				C23860BE20C0C9CB00C70D9B /* UIButton+MLCreate.m in Sources */,
 				C22635171F506DF6004A7813 /* CGBaseObject.m in Sources */,
 				C226356D1F506DF6004A7813 /* UIView+DeleteTableView.m in Sources */,
 				C22635971F506DF6004A7813 /* CGScrollView.m in Sources */,
@@ -4906,11 +4975,11 @@
 				C22635161F506DF6004A7813 /* NSObject+CGObjectToDictionary.m in Sources */,
 				C22635E41F506DF6004A7813 /* UIView+CGAddConstraintsForSubviews.m in Sources */,
 				1894AE871CAFD4F3005A518C /* CGTestDefinesTableViewController.m in Sources */,
-				18F4C8F120BBB774003A4D8E /* YMDiaryPostsRecommendDiaryCellManager.m in Sources */,
 				C226357C1F506DF6004A7813 /* UIView+CGViewCategory.m in Sources */,
 				C22635AE1F506DF6004A7813 /* CGBaseLayoutView.m in Sources */,
 				C22635911F506DF6004A7813 /* CGLabel.m in Sources */,
 				C22636001F506DF7004A7813 /* UIViewController+CGSearchNavigationController.m in Sources */,
+				18B8AD1320C0DC9B00D3C19A /* YMDiaryPostsRecommendDiaryCellManager.m in Sources */,
 				C22635E21F506DF6004A7813 /* NSArray+CGAddConstraints.m in Sources */,
 				C22635251F506DF6004A7813 /* CGKeyboardCacheModel.m in Sources */,
 				C22635F01F506DF6004A7813 /* CGLayoutTypeTransform.m in Sources */,
@@ -5114,9 +5183,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 29W9687J6A;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5137,8 +5205,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YM.TestKitProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "94bd0d1c-f8ee-452f-8f58-d146ae6d80d9";
+				PROVISIONING_PROFILE_SPECIFIER = YMTestAll;
 				SWIFT_OBJC_BRIDGING_HEADER = "TestCG_CGKit/CGSwiftKit/BridgingHeader/CGSwiftKit-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -5155,8 +5223,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -5174,7 +5241,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YM.TestKitProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "TestCG_CGKit/CGSwiftKit/BridgingHeader/CGSwiftKit-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;

@@ -153,7 +153,7 @@ typedef NS_OPTIONS(NSInteger, _YMDiaryPostsImagesLayoutStyle) {
                 [bezierPath fill];
                 
                 UIImage *testImage = self.testImage;
-                CGRect drawImageRect = [testImage imageFrameWithFrame:imageRect contentModel:UIViewContentModeScaleAspectFill];
+                CGRect drawImageRect = [testImage imageFrameWithRect:imageRect contentModel:UIViewContentModeScaleAspectFill];
                 CGContextDrawImage(context, drawImageRect, self.testImage.CGImage);
                 
                 CGContextRestoreGState(context);

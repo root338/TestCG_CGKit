@@ -9,6 +9,8 @@
 #import "YMDiaryPostsCellManager.h"
 #import "YMDiaryPostsCellLayout.h"
 
+#import "UIImage+CGImage.h"
+
 /**
  日记帖子图片的布局样式
  
@@ -116,45 +118,70 @@ typedef NS_OPTIONS(NSInteger, _YMDiaryPostsImagesLayoutStyle) {
 
 - (void)getDiaryPostsContentImageWithData:(id)data layout:(YMDiaryPostsCellLayout *)layout completion:(void (^)(UIImage *))completion
 {
+    
     dispatch_queue_t globalQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
     dispatch_async(globalQueue, ^{
         
-        NSString *day   = @"198";
-        NSString *text  = @"劳动节弗拉索夫绝世独立风刀霜剑雷锋精神的浪费的房间里都是减肥的说了分手的房间收到了附近圣诞快乐都是分离圣诞节费拉达斯房间收到了附近的说了";
-        
-        UIGraphicsBeginImageContextWithOptions(layout.drawSize, layout.opaque, layout.scale);
-        
-        CGContextRef context = UIGraphicsGetCurrentContext();
-        [[UIColor whiteColor] setFill];
-        CGContextFillRect(context, CGRectMake(0, 0, layout.drawSize.width, layout.drawSize.height + 1));
-        
-        [self.titleMutableAtt replaceCharactersInRange:self.titleDayRange withAttributedString:[[NSAttributedString alloc] initWithString:day attributes:self.titleDayAttDict]];
-        self.titleDayRange  = NSMakeRange(2, day.length);
-        [self.titleMutableAtt drawWithRect:layout.titleRect options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingTruncatesLastVisibleLine context:nil];
-        [text drawWithRect:layout.contentTextRect options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingTruncatesLastVisibleLine attributes:self.textAttDict context:nil];
-        
-        for (NSValue *obj in layout.imageRectValues) {
+        UIImage * (^drawImage) (CGContextRef) = ^(CGContextRef context) {
+            NSString *day   = @"198";
+            NSString *text  = @"劳动节弗拉索夫绝世独立风刀霜剑雷锋精神的浪费的房间里都是减肥的说了分手的房间收到了附近圣诞快乐都是分离圣诞节费拉达斯房间收到了附近的说了";
+            
+            [[UIColor whiteColor] setFill];
+            CGContextFillRect(context, CGRectMake(0, 0, layout.drawSize.width, layout.drawSize.height + 1));
+            
+            NSMutableAttributedString *titleAtt = [[NSMutableAttributedString alloc] initWithString:self.title attributes:self.titleAttDict];
+            [titleAtt replaceCharactersInRange:NSMakeRange(2, 0) withAttributedString:[[NSAttributedString alloc] initWithString:day attributes:self.titleDayAttDict]];
+            self.titleDayRange  = NSMakeRange(2, day.length);
+            [self.titleMutableAtt drawWithRect:layout.titleRect options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingTruncatesLastVisibleLine context:nil];
+            [text drawWithRect:layout.contentTextRect options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingTruncatesLastVisibleLine attributes:self.textAttDict context:nil];
             
             CGContextSaveGState(context);
             
-            CGRect imageRect = obj.CGRectValue;
-            UIBezierPath *bezierPath = [UIBezierPath bezierPathWithRoundedRect:imageRect byRoundingCorners:UIRectCornerAllCorners cornerRadii:CGSizeMake(layout.imageCornerRadius, layout.imageCornerRadius)];
-            [bezierPath addClip];
-            
-            [[UIColor orangeColor] setFill];
-            [bezierPath fill];
-            
-            //        CGContextTranslateCTM(context, 0, 30);
-            //        CGContextScaleCTM(context, 1.0, -1.0);
-            //        CGContextTranslateCTM(context, 0, <#CGFloat ty#>)
-            //        CGContextRotateCTM(context, 20 * M_PI / 180);
-            
-            CGContextDrawImage(context, imageRect, self.testImage.CGImage);
+            CGContextTranslateCTM(context, 0, CGRectGetMinY(layout.imageRectValues.firstObject.CGRectValue) - layout.insets.bottom);
+            for (NSValue *obj in layout.imageRectValues) {
+                
+                CGRect imageRect = obj.CGRectValue;
+                
+                CGContextSaveGState(context);
+                CGContextTranslateCTM(context, 0, layout.drawSize.height);
+                CGContextScaleCTM(context, 1.0, -1.0);
+                
+                UIBezierPath *bezierPath = [UIBezierPath bezierPathWithRoundedRect:imageRect byRoundingCorners:UIRectCornerAllCorners cornerRadii:CGSizeMake(layout.imageCornerRadius, layout.imageCornerRadius)];
+                [bezierPath addClip];
+                
+                [[UIColor orangeColor] setFill];
+                [bezierPath fill];
+                
+                UIImage *testImage = self.testImage;
+                CGRect drawImageRect = [testImage imageFrameWithFrame:imageRect contentModel:UIViewContentModeScaleAspectFill];
+                CGContextDrawImage(context, drawImageRect, self.testImage.CGImage);
+                
+                CGContextRestoreGState(context);
+            }
             
             CGContextRestoreGState(context);
+            UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+            UIGraphicsEndImageContext();
+            
+            return image;
+        };
+        
+        UIGraphicsBeginImageContextWithOptions(layout.drawSize, layout.opaque, layout.scale);
+        CGContextRef context = UIGraphicsGetCurrentContext();
+        
+        if (context == nil) {
+            UIGraphicsEndImageContext();
+            dispatch_sync(dispatch_get_main_queue(), ^{
+                if (completion) {
+                    completion(nil);
+                }
+            });
+            
+            NSLog(@"获取 context 失败");
+            return;
         }
         
-        UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+        UIImage *image = drawImage(context);
         
         UIGraphicsEndImageContext();
         
@@ -405,7 +432,8 @@ typedef NS_OPTIONS(NSInteger, _YMDiaryPostsImagesLayoutStyle) {
 - (UIImage *)testImage
 {
     
-    _testImage = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"1" ofType:@"jpg"]];
+    UIImage *image = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"1" ofType:@"jpg"]];
+    _testImage = [[UIImage alloc] initWithCGImage:image.CGImage scale:image.scale orientation:UIImageOrientationDown];
     
     return _testImage;
 }

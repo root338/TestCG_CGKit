@@ -74,6 +74,11 @@
 		18DE27C31DB6D95C00BCEABC /* CGTestTitleRadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE27C21DB6D95C00BCEABC /* CGTestTitleRadioViewController.m */; };
 		18DFFB931DBC6B82004D774A /* CGTestTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFFB921DBC6B82004D774A /* CGTestTableViewViewController.m */; };
 		18F093EE1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F093ED1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift */; };
+		18F4C8EE20BB99A8003A4D8E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18F4C8ED20BB99A7003A4D8E /* 1.jpg */; };
+		18F4C8F120BBB774003A4D8E /* YMDiaryPostsRecommendDiaryCellManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4C8F020BBB774003A4D8E /* YMDiaryPostsRecommendDiaryCellManager.m */; };
+		18F4C8F420BBB799003A4D8E /* YMDiaryPostsBaseLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4C8F320BBB799003A4D8E /* YMDiaryPostsBaseLayout.m */; };
+		18F4C8F720BBB8FA003A4D8E /* YMDiaryPostsRecommendDiaryCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4C8F620BBB8FA003A4D8E /* YMDiaryPostsRecommendDiaryCellLayout.m */; };
+		18F4C90020BBC1EA003A4D8E /* NSDictionary+NSAttributedStringKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4C8FF20BBC1EA003A4D8E /* NSDictionary+NSAttributedStringKey.m */; };
 		B34A56136E938D33A10F79C0 /* libPods-TestCG_CGKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DEA84BA89C47E5534055C9 /* libPods-TestCG_CGKit.a */; };
 		C22634EE1F506DF6004A7813 /* UIView+CGLineMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = C22631871F506DF5004A7813 /* UIView+CGLineMoveView.m */; };
 		C22634EF1F506DF6004A7813 /* UIView+CGScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C22631891F506DF5004A7813 /* UIView+CGScaleView.m */; };
@@ -522,6 +527,15 @@
 		18F21B911CC3F6B100B58B16 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
 		18F21B941CC3F6B100B58B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		18F21B961CC3F6B100B58B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F4C8ED20BB99A7003A4D8E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		18F4C8EF20BBB774003A4D8E /* YMDiaryPostsRecommendDiaryCellManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMDiaryPostsRecommendDiaryCellManager.h; sourceTree = "<group>"; };
+		18F4C8F020BBB774003A4D8E /* YMDiaryPostsRecommendDiaryCellManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDiaryPostsRecommendDiaryCellManager.m; sourceTree = "<group>"; };
+		18F4C8F220BBB799003A4D8E /* YMDiaryPostsBaseLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMDiaryPostsBaseLayout.h; sourceTree = "<group>"; };
+		18F4C8F320BBB799003A4D8E /* YMDiaryPostsBaseLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDiaryPostsBaseLayout.m; sourceTree = "<group>"; };
+		18F4C8F520BBB8FA003A4D8E /* YMDiaryPostsRecommendDiaryCellLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMDiaryPostsRecommendDiaryCellLayout.h; sourceTree = "<group>"; };
+		18F4C8F620BBB8FA003A4D8E /* YMDiaryPostsRecommendDiaryCellLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDiaryPostsRecommendDiaryCellLayout.m; sourceTree = "<group>"; };
+		18F4C8FE20BBC1EA003A4D8E /* NSDictionary+NSAttributedStringKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NSAttributedStringKey.h"; sourceTree = "<group>"; };
+		18F4C8FF20BBC1EA003A4D8E /* NSDictionary+NSAttributedStringKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NSAttributedStringKey.m"; sourceTree = "<group>"; };
 		23DEA84BA89C47E5534055C9 /* libPods-TestCG_CGKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestCG_CGKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A98E44ADCC2C0192ADDD5422 /* Pods-TestCG_CGKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCG_CGKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestCG_CGKit/Pods-TestCG_CGKit.release.xcconfig"; sourceTree = "<group>"; };
 		C22631831F506DF5004A7813 /* CGAngleRadianHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAngleRadianHeader.h; sourceTree = "<group>"; };
@@ -1679,6 +1693,7 @@
 		18DBAABE1C12818300552828 /* TestCG_CGKit */ = {
 			isa = PBXGroup;
 			children = (
+				18F4C8ED20BB99A7003A4D8E /* 1.jpg */,
 				C29AFA3A20BA211F00C13C6F /* YM */,
 				C283EADB20B8D30E00B6A638 /* MLDebug */,
 				C283EAD920B8D2E100B6A638 /* MLDefineHeader */,
@@ -2232,6 +2247,8 @@
 			children = (
 				C22631F71F506DF5004A7813 /* NSDictionary+CGKeyIndexPath.h */,
 				C22631F81F506DF5004A7813 /* NSDictionary+CGKeyIndexPath.m */,
+				18F4C8FE20BBC1EA003A4D8E /* NSDictionary+NSAttributedStringKey.h */,
+				18F4C8FF20BBC1EA003A4D8E /* NSDictionary+NSAttributedStringKey.m */,
 			);
 			path = NSDictorary;
 			sourceTree = "<group>";
@@ -4363,10 +4380,16 @@
 			children = (
 				C29AFA3B20BA21D200C13C6F /* YMDiaryPostsTableViewCell.h */,
 				C29AFA3C20BA21D200C13C6F /* YMDiaryPostsTableViewCell.m */,
+				18F4C8F220BBB799003A4D8E /* YMDiaryPostsBaseLayout.h */,
+				18F4C8F320BBB799003A4D8E /* YMDiaryPostsBaseLayout.m */,
 				C23DCBD120BAE1900014D1D2 /* YMDiaryPostsCellLayout.h */,
 				C23DCBD220BAE1900014D1D2 /* YMDiaryPostsCellLayout.m */,
+				18F4C8F520BBB8FA003A4D8E /* YMDiaryPostsRecommendDiaryCellLayout.h */,
+				18F4C8F620BBB8FA003A4D8E /* YMDiaryPostsRecommendDiaryCellLayout.m */,
 				C23DCBD420BAE2A20014D1D2 /* YMDiaryPostsCellManager.h */,
 				C23DCBD520BAE2A20014D1D2 /* YMDiaryPostsCellManager.m */,
+				18F4C8EF20BBB774003A4D8E /* YMDiaryPostsRecommendDiaryCellManager.h */,
+				18F4C8F020BBB774003A4D8E /* YMDiaryPostsRecommendDiaryCellManager.m */,
 			);
 			path = YM;
 			sourceTree = "<group>";
@@ -4452,7 +4475,7 @@
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = 29W9687J6A;
 						LastSwiftMigration = 0910;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					18DBAAD41C12818300552828 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -4497,6 +4520,7 @@
 				0069BB061C85431A00C5A628 /* 2.jpg in Resources */,
 				187A3E431D69EA1000C7E67C /* Assets.xcassets in Resources */,
 				18DBAACA1C12818300552828 /* Main.storyboard in Resources */,
+				18F4C8EE20BB99A8003A4D8E /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4708,6 +4732,7 @@
 				C22635B01F506DF6004A7813 /* CGNavigationBarView.m in Sources */,
 				C22635F41F506DF6004A7813 /* CGBaseSubviewsFlowLayoutConfigModel.m in Sources */,
 				C22635D21F506DF6004A7813 /* CGTitleImageLayoutView.m in Sources */,
+				18F4C90020BBC1EA003A4D8E /* NSDictionary+NSAttributedStringKey.m in Sources */,
 				C22635E01F506DF6004A7813 /* NJKWebViewProgress.m in Sources */,
 				C22636061F506DF7004A7813 /* UIViewController+CGPushViewController.m in Sources */,
 				C22635741F506DF6004A7813 /* UIView+LoadXIBFile.m in Sources */,
@@ -4716,6 +4741,7 @@
 				C22635531F506DF6004A7813 /* UIButton+CGCreateCustomButton.m in Sources */,
 				183CCCA41CC5894400235486 /* CGTestPhotosViewController.m in Sources */,
 				C22635671F506DF6004A7813 /* UITableView+CGIndexPath.m in Sources */,
+				18F4C8F420BBB799003A4D8E /* YMDiaryPostsBaseLayout.m in Sources */,
 				C22635D41F506DF6004A7813 /* CGTitleLabelLayoutView.m in Sources */,
 				C22635111F506DF6004A7813 /* NSDate+CGTransformString.m in Sources */,
 				C226351F1F506DF6004A7813 /* NSNotification+CGKeyboardUserInfo.m in Sources */,
@@ -4796,6 +4822,7 @@
 				C226358D1F506DF6004A7813 /* UICollectionViewFlowLayout+CGCreateLayout.m in Sources */,
 				C22635941F506DF6004A7813 /* CGPlaceholderLabel.m in Sources */,
 				C283EAC520B8C60700B6A638 /* MLDraw.m in Sources */,
+				18F4C8F720BBB8FA003A4D8E /* YMDiaryPostsRecommendDiaryCellLayout.m in Sources */,
 				C22635E81F506DF6004A7813 /* NSLayoutConstraint+CGConstraint.m in Sources */,
 				C226353F1F506DF6004A7813 /* UIImage+CGDrawImage.m in Sources */,
 				C22635D01F506DF6004A7813 /* CGDoubleTitleBaseView.m in Sources */,
@@ -4879,6 +4906,7 @@
 				C22635161F506DF6004A7813 /* NSObject+CGObjectToDictionary.m in Sources */,
 				C22635E41F506DF6004A7813 /* UIView+CGAddConstraintsForSubviews.m in Sources */,
 				1894AE871CAFD4F3005A518C /* CGTestDefinesTableViewController.m in Sources */,
+				18F4C8F120BBB774003A4D8E /* YMDiaryPostsRecommendDiaryCellManager.m in Sources */,
 				C226357C1F506DF6004A7813 /* UIView+CGViewCategory.m in Sources */,
 				C22635AE1F506DF6004A7813 /* CGBaseLayoutView.m in Sources */,
 				C22635911F506DF6004A7813 /* CGLabel.m in Sources */,
@@ -5086,8 +5114,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 29W9687J6A;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5108,8 +5137,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YM.TestKitProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "94bd0d1c-f8ee-452f-8f58-d146ae6d80d9";
-				PROVISIONING_PROFILE_SPECIFIER = YMTestAll;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "TestCG_CGKit/CGSwiftKit/BridgingHeader/CGSwiftKit-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -5126,7 +5155,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -5144,6 +5174,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YM.TestKitProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "TestCG_CGKit/CGSwiftKit/BridgingHeader/CGSwiftKit-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;

@@ -6,18 +6,10 @@
 //  Copyright © 2018年 apple. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "YMDiaryPostsBaseLayout.h"
 
-@interface YMDiaryPostsCellLayout : NSObject<NSCopying>
+@interface YMDiaryPostsCellLayout : YMDiaryPostsBaseLayout<NSCopying>
 
-/// 是否不透明，默认YES
-@property (nonatomic, assign, readonly) CGFloat opaque;
-/// 比例因子 , 默认 [UIScreen mainScreen].scale;
-@property (nonatomic, assign, readonly) CGFloat scale;
-/// 画布大小
-@property (nonatomic, assign, readonly) CGSize drawSize;
-/// 边距
-@property (nonatomic, assign, readonly) UIEdgeInsets insets;
 /// 标题的显示区域
 @property (nonatomic, assign, readonly) CGRect titleRect;
 /// 内容的显示区域

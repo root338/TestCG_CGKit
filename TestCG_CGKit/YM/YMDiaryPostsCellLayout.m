@@ -10,12 +10,6 @@
 
 @interface YMDiaryPostsCellLayout ()
 
-@property (nonatomic, assign, readwrite) CGFloat opaque;
-@property (nonatomic, assign, readwrite) CGFloat scale;
-/// 画布大小
-@property (nonatomic, assign, readwrite) CGSize drawSize;
-/// 边距
-@property (nonatomic, assign, readwrite) UIEdgeInsets insets;
 /// 标题的显示区域
 @property (nonatomic, assign, readwrite) CGRect titleRect;
 /// 内容的显示区域
@@ -38,8 +32,6 @@
     self = [super init];
     if (self) {
         
-        _opaque = YES;
-        _scale  = [UIScreen mainScreen].scale;
         _imageCornerRadius  = 8;
     }
     return self;
@@ -48,10 +40,8 @@
 #pragma mark - NSCopying
 - (id)copyWithZone:(NSZone *)zone
 {
-    YMDiaryPostsCellLayout *cellLayout = [[[self class] alloc] init];
-    cellLayout.opaque           = self.opaque;
-    cellLayout.scale            = self.scale;
-    cellLayout.drawSize         = self.drawSize;
+    YMDiaryPostsCellLayout *cellLayout = [super copyWithZone:zone];
+    
     cellLayout.titleRect        = self.titleRect;
     cellLayout.contentTextRect  = self.contentTextRect;
     cellLayout.imagesTotalRect  = self.imagesTotalRect;

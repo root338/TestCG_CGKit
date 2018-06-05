@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+#pragma mark - UIView
 @protocol MLCreateViewProtocol <NSObject>
 
 @required
@@ -34,6 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+#pragma mark - UILabel
 @protocol MLCreateLabelProtocol <MLCreateViewProtocol, MLEnableProtocol>
 
 @required
@@ -47,6 +49,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+#pragma mark - UIButton
 @protocol MLCreateButtonProtocol <MLCreateViewProtocol, MLEnableProtocol>
 
 @required
@@ -56,6 +59,26 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) __kindof UIButton * (^ml_setBackgroundImage) (UIImage *, UIControlState);
 @property (nonatomic) __kindof UIButton * (^ml_setAttributedTitle) (NSAttributedString *, UIControlState);
 
+//@property (nonatomic) __kindof UIButton * (^ml_title) (NSString *);
+//@property (nonatomic) __kindof UIButton * (^ml_image) (UIImage *);
+//@property (nonatomic) __kindof UIButton * (^ml_attributedTitle) (NSAttributedString *);
+//@property (nonatomic) __kindof UIButton * (^ml_backgroundImage) (UIImage *);
+
+
+/**
+ 设置当前设置按钮环境 使用此属性最后需要 调用 ml_end 来释放保存的值
+ @bug 暂时还没有想到自动释放的方法，所有必须手动调用 ml_end
+ 比如 button.ml_state(UIControlStateHighlighted).ml_title(@"hello") 这时设置的 @"hello" 就相当于 [button setTitle:@"hello" forState:UIControlStateHighlighted]
+ 后面的值会同时符合前面设置的 ml_state() 状态
+ */
+//@property (nonatomic) __kindof UIButton * (^ml_state) (UIControlState);
+//
+//@property (nonatomic) __kindof UIButton * (^ml_imageRenderingMode) (UIImageRenderingMode);
+//
+//@property (nonatomic) __kindof UIButton * ml_end;
+
 @end
+
+
 
 NS_ASSUME_NONNULL_END

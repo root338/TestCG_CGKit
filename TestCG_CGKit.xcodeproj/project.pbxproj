@@ -79,6 +79,8 @@
 		18DFFB931DBC6B82004D774A /* CGTestTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFFB921DBC6B82004D774A /* CGTestTableViewViewController.m */; };
 		18F093EE1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F093ED1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift */; };
 		B34A56136E938D33A10F79C0 /* libPods-TestCG_CGKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DEA84BA89C47E5534055C9 /* libPods-TestCG_CGKit.a */; };
+		C2110DBC20C3DE230090A9E6 /* MLCellItemBucket.m in Sources */ = {isa = PBXBuildFile; fileRef = C2110DBB20C3DE230090A9E6 /* MLCellItemBucket.m */; };
+		C2110DBF20C3F2510090A9E6 /* MLTestDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = C2110DBE20C3F2510090A9E6 /* MLTestDispatch.m */; };
 		C22634EE1F506DF6004A7813 /* UIView+CGLineMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = C22631871F506DF5004A7813 /* UIView+CGLineMoveView.m */; };
 		C22634EF1F506DF6004A7813 /* UIView+CGScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C22631891F506DF5004A7813 /* UIView+CGScaleView.m */; };
 		C22634F01F506DF6004A7813 /* UIView+CGScaleViewFromOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C226318B1F506DF5004A7813 /* UIView+CGScaleViewFromOverlayView.m */; };
@@ -379,14 +381,29 @@
 		C23DCBD320BAE1900014D1D2 /* YMDiaryPostsCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C23DCBD220BAE1900014D1D2 /* YMDiaryPostsCellLayout.m */; };
 		C23DCBD620BAE2A20014D1D2 /* YMDiaryPostsCellManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C23DCBD520BAE2A20014D1D2 /* YMDiaryPostsCellManager.m */; };
 		C23DCBDB20BB257B0014D1D2 /* MLListsScrollProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C23DCBDA20BB257B0014D1D2 /* MLListsScrollProtocolManager.m */; };
-		C283EAC520B8C60700B6A638 /* MLDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = C283EAC420B8C60700B6A638 /* MLDraw.m */; };
-		C283EAC820B8C75600B6A638 /* MLDrawBaseRule.m in Sources */ = {isa = PBXBuildFile; fileRef = C283EAC720B8C75600B6A638 /* MLDrawBaseRule.m */; };
-		C283EACB20B8C7F000B6A638 /* MLDrawFrameRule.m in Sources */ = {isa = PBXBuildFile; fileRef = C283EACA20B8C7F000B6A638 /* MLDrawFrameRule.m */; };
+		C2455F9220C2B93B0053452A /* MLTestUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C2455F9120C2B93B0053452A /* MLTestUserInfo.m */; };
+		C2455F9620C2BB9A0053452A /* MLTestUserDetailInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C2455F9520C2BB9A0053452A /* MLTestUserDetailInfo.m */; };
+		C2455FAE20C31A3E0053452A /* MLScrollCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C2455FAD20C31A3E0053452A /* MLScrollCellItem.m */; };
+		C2455FB120C35A550053452A /* MLScrollReusePool.m in Sources */ = {isa = PBXBuildFile; fileRef = C2455FB020C35A550053452A /* MLScrollReusePool.m */; };
+		C26E759A20C2052F00365B0F /* MLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C26E759920C2052F00365B0F /* MLScrollView.m */; };
+		C26E759D20C2057500365B0F /* UIView+MLScrollAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C26E759C20C2057500365B0F /* UIView+MLScrollAdd.m */; };
 		C283EACE20B8C8ED00B6A638 /* MLDrawRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = C283EACD20B8C8ED00B6A638 /* MLDrawRoute.m */; };
 		C283EAD220B8CA4400B6A638 /* MLFramePathTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C283EAD120B8CA4400B6A638 /* MLFramePathTool.m */; };
 		C283EAD820B8CDAF00B6A638 /* MLDrawError.m in Sources */ = {isa = PBXBuildFile; fileRef = C283EAD720B8CDAF00B6A638 /* MLDrawError.m */; };
 		C29AFA3D20BA21D200C13C6F /* YMDiaryPostsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C29AFA3C20BA21D200C13C6F /* YMDiaryPostsTableViewCell.m */; };
 		C29E207720B9FC150009636F /* MLPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C29E207620B9FC150009636F /* MLPageControl.m */; };
+		C2D2850520C742DB0082D383 /* MLDrawCanvasRule.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2850420C742DB0082D383 /* MLDrawCanvasRule.m */; };
+		C2D2850B20C745390082D383 /* MLDrawFilletRule.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2850A20C745390082D383 /* MLDrawFilletRule.m */; };
+		C2D2850E20C7460F0082D383 /* MLDrawImageRule.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2850D20C7460F0082D383 /* MLDrawImageRule.m */; };
+		C2D2851120C746F90082D383 /* MLDrawGradientRule.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2851020C746F90082D383 /* MLDrawGradientRule.m */; };
+		C2D2851420C7480C0082D383 /* MLPath.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2851320C7480C0082D383 /* MLPath.m */; };
+		C2D2851720C7483C0082D383 /* MLDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2851620C7483C0082D383 /* MLDraw.m */; };
+		C2D2851A20C7484C0082D383 /* MLDraw+AddPath.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2851920C7484C0082D383 /* MLDraw+AddPath.m */; };
+		C2D2851D20C748AB0082D383 /* MLDraw+CreatePath.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2851C20C748AB0082D383 /* MLDraw+CreatePath.m */; };
+		C2D2852120C755130082D383 /* UIView+MLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2852020C755130082D383 /* UIView+MLAdd.m */; };
+		C2D2852720C757E00082D383 /* MLDrawResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2852620C757E00082D383 /* MLDrawResult.m */; };
+		C2D2852A20C75EA30082D383 /* MLDraw+DrawCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2852920C75EA30082D383 /* MLDraw+DrawCanvas.m */; };
+		C2D2852D20C75EEB0082D383 /* MLDraw+AddCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2852C20C75EEB0082D383 /* MLDraw+AddCanvas.m */; };
 		C2F447DE20C0B02F0032A271 /* UILabel+MLCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F447DD20C0B02F0032A271 /* UILabel+MLCreate.m */; };
 		C2F447E420C0BBFE0032A271 /* UIView+MLCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F447E320C0BBFE0032A271 /* UIView+MLCreate.m */; };
 /* End PBXBuildFile section */
@@ -539,6 +556,10 @@
 		18F21B961CC3F6B100B58B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23DEA84BA89C47E5534055C9 /* libPods-TestCG_CGKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestCG_CGKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A98E44ADCC2C0192ADDD5422 /* Pods-TestCG_CGKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCG_CGKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestCG_CGKit/Pods-TestCG_CGKit.release.xcconfig"; sourceTree = "<group>"; };
+		C2110DBA20C3DE230090A9E6 /* MLCellItemBucket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLCellItemBucket.h; sourceTree = "<group>"; };
+		C2110DBB20C3DE230090A9E6 /* MLCellItemBucket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLCellItemBucket.m; sourceTree = "<group>"; };
+		C2110DBD20C3F2510090A9E6 /* MLTestDispatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLTestDispatch.h; sourceTree = "<group>"; };
+		C2110DBE20C3F2510090A9E6 /* MLTestDispatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLTestDispatch.m; sourceTree = "<group>"; };
 		C22631831F506DF5004A7813 /* CGAngleRadianHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAngleRadianHeader.h; sourceTree = "<group>"; };
 		C22631851F506DF5004A7813 /* CGMoveViewTypeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGMoveViewTypeHeader.h; sourceTree = "<group>"; };
 		C22631861F506DF5004A7813 /* UIView+CGLineMoveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGLineMoveView.h"; sourceTree = "<group>"; };
@@ -1194,26 +1215,54 @@
 		C23DCBD520BAE2A20014D1D2 /* YMDiaryPostsCellManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDiaryPostsCellManager.m; sourceTree = "<group>"; };
 		C23DCBD920BB257B0014D1D2 /* MLListsScrollProtocolManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLListsScrollProtocolManager.h; sourceTree = "<group>"; };
 		C23DCBDA20BB257B0014D1D2 /* MLListsScrollProtocolManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLListsScrollProtocolManager.m; sourceTree = "<group>"; };
-		C283EAC320B8C60700B6A638 /* MLDraw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLDraw.h; sourceTree = "<group>"; };
-		C283EAC420B8C60700B6A638 /* MLDraw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLDraw.m; sourceTree = "<group>"; };
-		C283EAC620B8C75600B6A638 /* MLDrawBaseRule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLDrawBaseRule.h; sourceTree = "<group>"; };
-		C283EAC720B8C75600B6A638 /* MLDrawBaseRule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLDrawBaseRule.m; sourceTree = "<group>"; };
-		C283EAC920B8C7F000B6A638 /* MLDrawFrameRule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLDrawFrameRule.h; sourceTree = "<group>"; };
-		C283EACA20B8C7F000B6A638 /* MLDrawFrameRule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLDrawFrameRule.m; sourceTree = "<group>"; };
+		C2455F9020C2B93B0053452A /* MLTestUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLTestUserInfo.h; sourceTree = "<group>"; };
+		C2455F9120C2B93B0053452A /* MLTestUserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLTestUserInfo.m; sourceTree = "<group>"; };
+		C2455F9320C2B9CD0053452A /* MLUserInfoHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLUserInfoHeader.h; sourceTree = "<group>"; };
+		C2455F9420C2BB9A0053452A /* MLTestUserDetailInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLTestUserDetailInfo.h; sourceTree = "<group>"; };
+		C2455F9520C2BB9A0053452A /* MLTestUserDetailInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLTestUserDetailInfo.m; sourceTree = "<group>"; };
+		C2455FAC20C31A3E0053452A /* MLScrollCellItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLScrollCellItem.h; sourceTree = "<group>"; };
+		C2455FAD20C31A3E0053452A /* MLScrollCellItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLScrollCellItem.m; sourceTree = "<group>"; };
+		C2455FAF20C35A550053452A /* MLScrollReusePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLScrollReusePool.h; sourceTree = "<group>"; };
+		C2455FB020C35A550053452A /* MLScrollReusePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLScrollReusePool.m; sourceTree = "<group>"; };
+		C26E759820C2052F00365B0F /* MLScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLScrollView.h; sourceTree = "<group>"; };
+		C26E759920C2052F00365B0F /* MLScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLScrollView.m; sourceTree = "<group>"; };
+		C26E759B20C2057500365B0F /* UIView+MLScrollAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MLScrollAdd.h"; sourceTree = "<group>"; };
+		C26E759C20C2057500365B0F /* UIView+MLScrollAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLScrollAdd.m"; sourceTree = "<group>"; };
 		C283EACC20B8C8ED00B6A638 /* MLDrawRoute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLDrawRoute.h; sourceTree = "<group>"; };
 		C283EACD20B8C8ED00B6A638 /* MLDrawRoute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLDrawRoute.m; sourceTree = "<group>"; };
 		C283EAD020B8CA4400B6A638 /* MLFramePathTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLFramePathTool.h; sourceTree = "<group>"; };
 		C283EAD120B8CA4400B6A638 /* MLFramePathTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLFramePathTool.m; sourceTree = "<group>"; };
-		C283EAD420B8CADF00B6A638 /* MLFramePathProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLFramePathProtocol.h; sourceTree = "<group>"; };
-		C283EAD520B8CC9E00B6A638 /* MLBasePathProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLBasePathProtocol.h; sourceTree = "<group>"; };
 		C283EAD620B8CDAF00B6A638 /* MLDrawError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLDrawError.h; sourceTree = "<group>"; };
 		C283EAD720B8CDAF00B6A638 /* MLDrawError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLDrawError.m; sourceTree = "<group>"; };
 		C283EADA20B8D30100B6A638 /* MLDefineHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLDefineHeader.h; sourceTree = "<group>"; };
-		C283EADC20B8D9A600B6A638 /* MLFrameAppearanceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLFrameAppearanceProtocol.h; sourceTree = "<group>"; };
 		C29AFA3B20BA21D200C13C6F /* YMDiaryPostsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMDiaryPostsTableViewCell.h; sourceTree = "<group>"; };
 		C29AFA3C20BA21D200C13C6F /* YMDiaryPostsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDiaryPostsTableViewCell.m; sourceTree = "<group>"; };
 		C29E207520B9FC150009636F /* MLPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLPageControl.h; sourceTree = "<group>"; };
 		C29E207620B9FC150009636F /* MLPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLPageControl.m; sourceTree = "<group>"; };
+		C2D2850320C742DB0082D383 /* MLDrawCanvasRule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLDrawCanvasRule.h; sourceTree = "<group>"; };
+		C2D2850420C742DB0082D383 /* MLDrawCanvasRule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLDrawCanvasRule.m; sourceTree = "<group>"; };
+		C2D2850920C745390082D383 /* MLDrawFilletRule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLDrawFilletRule.h; sourceTree = "<group>"; };
+		C2D2850A20C745390082D383 /* MLDrawFilletRule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLDrawFilletRule.m; sourceTree = "<group>"; };
+		C2D2850C20C7460F0082D383 /* MLDrawImageRule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLDrawImageRule.h; sourceTree = "<group>"; };
+		C2D2850D20C7460F0082D383 /* MLDrawImageRule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLDrawImageRule.m; sourceTree = "<group>"; };
+		C2D2850F20C746F90082D383 /* MLDrawGradientRule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLDrawGradientRule.h; sourceTree = "<group>"; };
+		C2D2851020C746F90082D383 /* MLDrawGradientRule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLDrawGradientRule.m; sourceTree = "<group>"; };
+		C2D2851220C7480C0082D383 /* MLPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLPath.h; sourceTree = "<group>"; };
+		C2D2851320C7480C0082D383 /* MLPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLPath.m; sourceTree = "<group>"; };
+		C2D2851520C7483C0082D383 /* MLDraw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLDraw.h; sourceTree = "<group>"; };
+		C2D2851620C7483C0082D383 /* MLDraw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLDraw.m; sourceTree = "<group>"; };
+		C2D2851820C7484C0082D383 /* MLDraw+AddPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLDraw+AddPath.h"; sourceTree = "<group>"; };
+		C2D2851920C7484C0082D383 /* MLDraw+AddPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MLDraw+AddPath.m"; sourceTree = "<group>"; };
+		C2D2851B20C748AB0082D383 /* MLDraw+CreatePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLDraw+CreatePath.h"; sourceTree = "<group>"; };
+		C2D2851C20C748AB0082D383 /* MLDraw+CreatePath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MLDraw+CreatePath.m"; sourceTree = "<group>"; };
+		C2D2851F20C755130082D383 /* UIView+MLAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MLAdd.h"; sourceTree = "<group>"; };
+		C2D2852020C755130082D383 /* UIView+MLAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLAdd.m"; sourceTree = "<group>"; };
+		C2D2852520C757E00082D383 /* MLDrawResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLDrawResult.h; sourceTree = "<group>"; };
+		C2D2852620C757E00082D383 /* MLDrawResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLDrawResult.m; sourceTree = "<group>"; };
+		C2D2852820C75EA30082D383 /* MLDraw+DrawCanvas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLDraw+DrawCanvas.h"; sourceTree = "<group>"; };
+		C2D2852920C75EA30082D383 /* MLDraw+DrawCanvas.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MLDraw+DrawCanvas.m"; sourceTree = "<group>"; };
+		C2D2852B20C75EEB0082D383 /* MLDraw+AddCanvas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLDraw+AddCanvas.h"; sourceTree = "<group>"; };
+		C2D2852C20C75EEB0082D383 /* MLDraw+AddCanvas.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MLDraw+AddCanvas.m"; sourceTree = "<group>"; };
 		C2F447DC20C0B02F0032A271 /* UILabel+MLCreate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+MLCreate.h"; sourceTree = "<group>"; };
 		C2F447DD20C0B02F0032A271 /* UILabel+MLCreate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MLCreate.m"; sourceTree = "<group>"; };
 		C2F447E220C0BBFE0032A271 /* UIView+MLCreate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MLCreate.h"; sourceTree = "<group>"; };
@@ -1702,6 +1751,7 @@
 		18DBAABE1C12818300552828 /* TestCG_CGKit */ = {
 			isa = PBXGroup;
 			children = (
+				C26E759720C2051600365B0F /* MLScrollView */,
 				C2F447DA20C0AFBA0032A271 /* MLKit */,
 				C29AFA3A20BA211F00C13C6F /* YM */,
 				C283EADB20B8D30E00B6A638 /* MLDebug */,
@@ -1744,6 +1794,7 @@
 		18DBAAF31C12872500552828 /* Mudule */ = {
 			isa = PBXGroup;
 			children = (
+				C2455F8F20C2B91D0053452A /* Test */,
 				18F093EC1CDBFFC3001FBE3E /* TestDetailVC-Swift */,
 				00C315CA1CACC0FD009BFD7A /* DataModel */,
 				1845475E1C12A4B50030DD0A /* View */,
@@ -4317,7 +4368,6 @@
 		C22F626C20B61ED4007B7237 /* UIImage+MLAdd */ = {
 			isa = PBXGroup;
 			children = (
-				C283EAD320B8CAC700B6A638 /* DrawProtocol */,
 				C283EACF20B8CA1800B6A638 /* DrawTool */,
 				C22F627320B62114007B7237 /* Model */,
 				C22F627120B61F6A007B7237 /* UIImage+MLAdd.h */,
@@ -4331,21 +4381,56 @@
 		C22F627320B62114007B7237 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C283EAC620B8C75600B6A638 /* MLDrawBaseRule.h */,
-				C283EAC720B8C75600B6A638 /* MLDrawBaseRule.m */,
-				C283EAC920B8C7F000B6A638 /* MLDrawFrameRule.h */,
-				C283EACA20B8C7F000B6A638 /* MLDrawFrameRule.m */,
 				C283EAD620B8CDAF00B6A638 /* MLDrawError.h */,
 				C283EAD720B8CDAF00B6A638 /* MLDrawError.m */,
+				C2D2850320C742DB0082D383 /* MLDrawCanvasRule.h */,
+				C2D2850420C742DB0082D383 /* MLDrawCanvasRule.m */,
+				C2D2850920C745390082D383 /* MLDrawFilletRule.h */,
+				C2D2850A20C745390082D383 /* MLDrawFilletRule.m */,
+				C2D2850C20C7460F0082D383 /* MLDrawImageRule.h */,
+				C2D2850D20C7460F0082D383 /* MLDrawImageRule.m */,
+				C2D2850F20C746F90082D383 /* MLDrawGradientRule.h */,
+				C2D2851020C746F90082D383 /* MLDrawGradientRule.m */,
+				C2D2852520C757E00082D383 /* MLDrawResult.h */,
+				C2D2852620C757E00082D383 /* MLDrawResult.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C2455F8F20C2B91D0053452A /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				C2455F9020C2B93B0053452A /* MLTestUserInfo.h */,
+				C2455F9120C2B93B0053452A /* MLTestUserInfo.m */,
+				C2455F9420C2BB9A0053452A /* MLTestUserDetailInfo.h */,
+				C2455F9520C2BB9A0053452A /* MLTestUserDetailInfo.m */,
+				C2455F9320C2B9CD0053452A /* MLUserInfoHeader.h */,
+				C2110DBD20C3F2510090A9E6 /* MLTestDispatch.h */,
+				C2110DBE20C3F2510090A9E6 /* MLTestDispatch.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		C26E759720C2051600365B0F /* MLScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				C26E759820C2052F00365B0F /* MLScrollView.h */,
+				C26E759920C2052F00365B0F /* MLScrollView.m */,
+				C2455FAF20C35A550053452A /* MLScrollReusePool.h */,
+				C2455FB020C35A550053452A /* MLScrollReusePool.m */,
+				C2455FAC20C31A3E0053452A /* MLScrollCellItem.h */,
+				C2455FAD20C31A3E0053452A /* MLScrollCellItem.m */,
+				C26E759B20C2057500365B0F /* UIView+MLScrollAdd.h */,
+				C26E759C20C2057500365B0F /* UIView+MLScrollAdd.m */,
+				C2110DBA20C3DE230090A9E6 /* MLCellItemBucket.h */,
+				C2110DBB20C3DE230090A9E6 /* MLCellItemBucket.m */,
+			);
+			path = MLScrollView;
 			sourceTree = "<group>";
 		};
 		C283EAC220B8C5CF00B6A638 /* CoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				C283EAC320B8C60700B6A638 /* MLDraw.h */,
-				C283EAC420B8C60700B6A638 /* MLDraw.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -4355,18 +4440,20 @@
 			children = (
 				C283EAD020B8CA4400B6A638 /* MLFramePathTool.h */,
 				C283EAD120B8CA4400B6A638 /* MLFramePathTool.m */,
+				C2D2851220C7480C0082D383 /* MLPath.h */,
+				C2D2851320C7480C0082D383 /* MLPath.m */,
+				C2D2851520C7483C0082D383 /* MLDraw.h */,
+				C2D2851620C7483C0082D383 /* MLDraw.m */,
+				C2D2852820C75EA30082D383 /* MLDraw+DrawCanvas.h */,
+				C2D2852920C75EA30082D383 /* MLDraw+DrawCanvas.m */,
+				C2D2852B20C75EEB0082D383 /* MLDraw+AddCanvas.h */,
+				C2D2852C20C75EEB0082D383 /* MLDraw+AddCanvas.m */,
+				C2D2851820C7484C0082D383 /* MLDraw+AddPath.h */,
+				C2D2851920C7484C0082D383 /* MLDraw+AddPath.m */,
+				C2D2851B20C748AB0082D383 /* MLDraw+CreatePath.h */,
+				C2D2851C20C748AB0082D383 /* MLDraw+CreatePath.m */,
 			);
 			path = DrawTool;
-			sourceTree = "<group>";
-		};
-		C283EAD320B8CAC700B6A638 /* DrawProtocol */ = {
-			isa = PBXGroup;
-			children = (
-				C283EAD420B8CADF00B6A638 /* MLFramePathProtocol.h */,
-				C283EAD520B8CC9E00B6A638 /* MLBasePathProtocol.h */,
-				C283EADC20B8D9A600B6A638 /* MLFrameAppearanceProtocol.h */,
-			);
-			path = DrawProtocol;
 			sourceTree = "<group>";
 		};
 		C283EAD920B8D2E100B6A638 /* MLDefineHeader */ = {
@@ -4412,9 +4499,19 @@
 			path = MLPageControl;
 			sourceTree = "<group>";
 		};
+		C2D2851E20C754F70082D383 /* MLAdd */ = {
+			isa = PBXGroup;
+			children = (
+				C2D2851F20C755130082D383 /* UIView+MLAdd.h */,
+				C2D2852020C755130082D383 /* UIView+MLAdd.m */,
+			);
+			path = MLAdd;
+			sourceTree = "<group>";
+		};
 		C2F447DA20C0AFBA0032A271 /* MLKit */ = {
 			isa = PBXGroup;
 			children = (
+				C2D2851E20C754F70082D383 /* MLAdd */,
 				C2F447DB20C0AFFA0032A271 /* CreateViews */,
 			);
 			path = MLKit;
@@ -4675,6 +4772,7 @@
 				C226353C1F506DF6004A7813 /* UIImage+CGDrawIcon.m in Sources */,
 				C22635011F506DF6004A7813 /* CGTitleModifiedView.swift in Sources */,
 				C22635951F506DF6004A7813 /* CGTitleLabel.m in Sources */,
+				C2D2851120C746F90082D383 /* MLDrawGradientRule.m in Sources */,
 				0083B3A71E0B75F500A7B699 /* CGBrowseFullScreenViewCell.swift in Sources */,
 				C22635051F506DF6004A7813 /* CGDispathMethod.m in Sources */,
 				18B8AD1220C0DC9B00D3C19A /* YMDiaryPostsBaseLayout.m in Sources */,
@@ -4705,6 +4803,7 @@
 				C22635451F506DF6004A7813 /* CGFCManager.m in Sources */,
 				18B8AD1420C0DC9B00D3C19A /* YMDiaryPostsRecommendDiaryCellLayout.m in Sources */,
 				C226358F1F506DF6004A7813 /* CGImageView.m in Sources */,
+				C2110DBF20C3F2510090A9E6 /* MLTestDispatch.m in Sources */,
 				C226358B1F506DF6004A7813 /* CGBrowseImageCollectionViewFlowLayout.m in Sources */,
 				C22635041F506DF6004A7813 /* UIView+Constant.m in Sources */,
 				C22635681F506DF6004A7813 /* UITableView+CGRegisterCell.m in Sources */,
@@ -4725,6 +4824,7 @@
 				18DFFB931DBC6B82004D774A /* CGTestTableViewViewController.m in Sources */,
 				003E01DA1E8DF57800F35BA5 /* CGUploadImageModel.swift in Sources */,
 				C22636171F506DF7004A7813 /* CGDefaultPopAnimation.m in Sources */,
+				C2D2850520C742DB0082D383 /* MLDrawCanvasRule.m in Sources */,
 				C22634FD1F506DF6004A7813 /* CGTableViewProtocolBaseManager.swift in Sources */,
 				C22635611F506DF6004A7813 /* UIScrollView+CGProperty.m in Sources */,
 				18B41A9E1C13FE450031002B /* TestTextFieldCell.m in Sources */,
@@ -4779,9 +4879,9 @@
 				C22635D61F506DF6004A7813 /* CGTitleButtonContentView.m in Sources */,
 				C22635781F506DF6004A7813 /* UIView+CGSearchView.m in Sources */,
 				C226359A1F506DF6004A7813 /* HorizontalSingleView.m in Sources */,
+				C2D2852120C755130082D383 /* UIView+MLAdd.m in Sources */,
 				18F093EE1CDBFFFE001FBE3E /* CGTestFoulLineViewController.swift in Sources */,
 				C22635CC1F506DF6004A7813 /* CGRadioCollectionViewCell.m in Sources */,
-				C283EAC820B8C75600B6A638 /* MLDrawBaseRule.m in Sources */,
 				C22635BE1F506DF6004A7813 /* CGCycleBrowseImageScrollView+CGSetupCycleProperty.m in Sources */,
 				C22635AA1F506DF6004A7813 /* CGPhotoCollectionViewCell.m in Sources */,
 				C22635FE1F506DF7004A7813 /* CGNavigationBarViewController.m in Sources */,
@@ -4814,9 +4914,11 @@
 				C22635D41F506DF6004A7813 /* CGTitleLabelLayoutView.m in Sources */,
 				C22635111F506DF6004A7813 /* NSDate+CGTransformString.m in Sources */,
 				C226351F1F506DF6004A7813 /* NSNotification+CGKeyboardUserInfo.m in Sources */,
+				C2D2851A20C7484C0082D383 /* MLDraw+AddPath.m in Sources */,
 				C283EACE20B8C8ED00B6A638 /* MLDrawRoute.m in Sources */,
 				C22635B11F506DF6004A7813 /* CGSingeContentTableView.m in Sources */,
 				C226356F1F506DF6004A7813 /* CGAddSubviewsCacheModel.m in Sources */,
+				C26E759D20C2057500365B0F /* UIView+MLScrollAdd.m in Sources */,
 				C22635C51F506DF6004A7813 /* CGSelectorLayerAnimation.m in Sources */,
 				C22635921F506DF6004A7813 /* CGLayoutMarginLabel.m in Sources */,
 				C226356A1F506DF6004A7813 /* UITableView+CGScrolling.m in Sources */,
@@ -4847,19 +4949,21 @@
 				C226352C1F506DF6004A7813 /* ALAssetsGroup+CGProperty.m in Sources */,
 				C22635771F506DF6004A7813 /* UIView+CGPropertyValue.m in Sources */,
 				1894AE8B1CAFD83F005A518C /* CGTestDefinesData.m in Sources */,
+				C2D2852720C757E00082D383 /* MLDrawResult.m in Sources */,
 				18D06F5F1DF84CAE00F64D7F /* CGBrowseView.swift in Sources */,
 				C22635B51F506DF6004A7813 /* CGCycleScrollView.m in Sources */,
 				C22635131F506DF6004A7813 /* NSError+CGCreateError.m in Sources */,
 				C226354E1F506DF6004A7813 /* UIButton+UpdateLocate.m in Sources */,
 				C22635281F506DF6004A7813 /* UIApplication+CGOpenSystemApp.m in Sources */,
 				C22635821F506DF6004A7813 /* CGAlertArrowAppearance.m in Sources */,
+				C2D2852D20C75EEB0082D383 /* MLDraw+AddCanvas.m in Sources */,
 				C22635641F506DF6004A7813 /* UIScrollView+CGSetupScrollProperty.m in Sources */,
 				C22635FA1F506DF7004A7813 /* CGBaseViewController+CGSetupItem.m in Sources */,
 				C22635A01F506DF6004A7813 /* CGSingleSectionTableViewDelegate.m in Sources */,
 				C22635A61F506DF6004A7813 /* CGInputTextView.m in Sources */,
 				C22635101F506DF6004A7813 /* NSDate+CGMLDateCategory.m in Sources */,
 				C226357A1F506DF6004A7813 /* UIView+CGSetupAppearance.m in Sources */,
-				C283EACB20B8C7F000B6A638 /* MLDrawFrameRule.m in Sources */,
+				C26E759A20C2052F00365B0F /* MLScrollView.m in Sources */,
 				00064D481DA9EFB00019D2BA /* CGTestDrawImageViewController.m in Sources */,
 				003E01D51E8DF55800F35BA5 /* CGURLTaskManager.swift in Sources */,
 				C226350F1F506DF6004A7813 /* NSArray+CGArray.m in Sources */,
@@ -4883,6 +4987,7 @@
 				C22634F01F506DF6004A7813 /* UIView+CGScaleViewFromOverlayView.m in Sources */,
 				C22635431F506DF6004A7813 /* UIImage+CGResizableImage.m in Sources */,
 				C22636051F506DF7004A7813 /* UIViewController+CGAlert.m in Sources */,
+				C2455FAE20C31A3E0053452A /* MLScrollCellItem.m in Sources */,
 				C22635FD1F506DF7004A7813 /* CGBaseViewController.m in Sources */,
 				C22635901F506DF6004A7813 /* CGBaseLabel.m in Sources */,
 				00485F6C1DE28C1300D6326F /* CGTestUIAlertAnimationViewController.m in Sources */,
@@ -4890,7 +4995,6 @@
 				C226352F1F506DF6004A7813 /* CTTelephonyNetworkInfo+CGGetIMSI.m in Sources */,
 				C226358D1F506DF6004A7813 /* UICollectionViewFlowLayout+CGCreateLayout.m in Sources */,
 				C22635941F506DF6004A7813 /* CGPlaceholderLabel.m in Sources */,
-				C283EAC520B8C60700B6A638 /* MLDraw.m in Sources */,
 				C22635E81F506DF6004A7813 /* NSLayoutConstraint+CGConstraint.m in Sources */,
 				C226353F1F506DF6004A7813 /* UIImage+CGDrawImage.m in Sources */,
 				C22635D01F506DF6004A7813 /* CGDoubleTitleBaseView.m in Sources */,
@@ -4901,6 +5005,7 @@
 				C226351E1F506DF6004A7813 /* NSObject+CGGetPrivateAPI.m in Sources */,
 				18DBAE021C12968900552828 /* HomeViewController.m in Sources */,
 				C22635871F506DF6004A7813 /* CGTimerButton.m in Sources */,
+				C2110DBC20C3DE230090A9E6 /* MLCellItemBucket.m in Sources */,
 				C226354B1F506DF6004A7813 /* UIView+Transform.m in Sources */,
 				C22635A41F506DF6004A7813 /* CGTextFieldDelegateManager.m in Sources */,
 				C22635C01F506DF6004A7813 /* CGLineView.m in Sources */,
@@ -4911,6 +5016,7 @@
 				C23860BE20C0C9CB00C70D9B /* UIButton+MLCreate.m in Sources */,
 				C22635171F506DF6004A7813 /* CGBaseObject.m in Sources */,
 				C226356D1F506DF6004A7813 /* UIView+DeleteTableView.m in Sources */,
+				C2D2851420C7480C0082D383 /* MLPath.m in Sources */,
 				C22635971F506DF6004A7813 /* CGScrollView.m in Sources */,
 				C22635801F506DF6004A7813 /* WKWebView+CGValue.m in Sources */,
 				C226355D1F506DF6004A7813 /* UICollectionView+CGPropertyValue.m in Sources */,
@@ -4922,6 +5028,7 @@
 				C226357E1F506DF6004A7813 /* UIView+CGUpdateViewLayout.m in Sources */,
 				C22635CF1F506DF6004A7813 /* CGDoubleLayoutBaseView.m in Sources */,
 				C22635541F506DF6004A7813 /* UIImageView+CGCreate.m in Sources */,
+				C2D2850E20C7460F0082D383 /* MLDrawImageRule.m in Sources */,
 				C22635991F506DF6004A7813 /* HorizontalSingleAppearance.m in Sources */,
 				C23DCBD320BAE1900014D1D2 /* YMDiaryPostsCellLayout.m in Sources */,
 				00D307AD1CC76E350040EFC8 /* CGTestWKWebViewController.m in Sources */,
@@ -4930,6 +5037,7 @@
 				C22635FF1F506DF7004A7813 /* UIViewController+CGPropertyValue.m in Sources */,
 				C22635691F506DF6004A7813 /* UITableView+CGReloadTableView.m in Sources */,
 				C22635551F506DF6004A7813 /* UILabel+CGCreateCustomLabel.m in Sources */,
+				C2455FB120C35A550053452A /* MLScrollReusePool.m in Sources */,
 				C22634EE1F506DF6004A7813 /* UIView+CGLineMoveView.m in Sources */,
 				00BAB2F11C72C37D00FC1F3A /* TestPhotosCollectionViewCell.m in Sources */,
 				C22F627C20B632AE007B7237 /* TestCornerRadiusTableViewCell.m in Sources */,
@@ -4944,12 +5052,15 @@
 				C22A49AF20B4D86800BE90A6 /* UIView+MLArea.m in Sources */,
 				C22635F51F506DF6004A7813 /* CGCreateSubviewsFlowLayoutConfigModel.m in Sources */,
 				C22635AD1F506DF6004A7813 /* CGPhotoGroupTableViewCell.m in Sources */,
+				C2D2852A20C75EA30082D383 /* MLDraw+DrawCanvas.m in Sources */,
 				C22635BB1F506DF6004A7813 /* CGCycleContentView.m in Sources */,
 				C226360D1F506DF7004A7813 /* CGPhotoGroupViewController.m in Sources */,
+				C2D2850B20C745390082D383 /* MLDrawFilletRule.m in Sources */,
 				C22635201F506DF6004A7813 /* NSTimer+ChangeTimerStatus.m in Sources */,
 				C22636021F506DF7004A7813 /* UIViewController+InteractivePopEnable.m in Sources */,
 				C22635B91F506DF6004A7813 /* CGCycleScrollView+CGScrollAnimation.m in Sources */,
 				C226351C1F506DF6004A7813 /* NSString+VerificationString.m in Sources */,
+				C2D2851D20C748AB0082D383 /* MLDraw+CreatePath.m in Sources */,
 				C22635571F506DF6004A7813 /* UITableView+CGCreateTableView.m in Sources */,
 				C22635361F506DF6004A7813 /* UIDevice+CGSetupDevicePrivateProperty.m in Sources */,
 				C22636111F506DF7004A7813 /* CGWebPrivateView.m in Sources */,
@@ -4966,10 +5077,12 @@
 				C22635491F506DF6004A7813 /* CGCalculateCGSize.m in Sources */,
 				C22635F31F506DF6004A7813 /* CGSubviewsSpaceAppearance.m in Sources */,
 				C22635321F506DF6004A7813 /* UIApplication+CGVerificationRemoteNotification.m in Sources */,
+				C2D2851720C7483C0082D383 /* MLDraw.m in Sources */,
 				18A32BB320B2B1E800A2F23F /* MLListsSourceDataItem.m in Sources */,
 				C226354F1F506DF6004A7813 /* UILabel+CGCreateLayoutCustomLabel.m in Sources */,
 				18A32BAD20B2731400A2F23F /* MLListsSourceData.m in Sources */,
 				C22635061F506DF6004A7813 /* RFKeyboard.m in Sources */,
+				C2455F9220C2B93B0053452A /* MLTestUserInfo.m in Sources */,
 				C22635C91F506DF6004A7813 /* CGTitleRadioCellAppearance.m in Sources */,
 				C22635841F506DF6004A7813 /* CGBaseButton.m in Sources */,
 				C22635161F506DF6004A7813 /* NSObject+CGObjectToDictionary.m in Sources */,
@@ -5010,6 +5123,7 @@
 				18A32BB020B2777D00A2F23F /* MLDoubleListsSourceData.m in Sources */,
 				C22635461F506DF6004A7813 /* CGTitlesSourceDataModel.m in Sources */,
 				C22A49B720B4DC1300BE90A6 /* UIView+MLFrame.m in Sources */,
+				C2455F9620C2BB9A0053452A /* MLTestUserDetailInfo.m in Sources */,
 				18DE27C31DB6D95C00BCEABC /* CGTestTitleRadioViewController.m in Sources */,
 				C226350B1F506DF6004A7813 /* CGRequestModel.m in Sources */,
 				C22635721F506DF6004A7813 /* UIView+CGCreateViews.m in Sources */,

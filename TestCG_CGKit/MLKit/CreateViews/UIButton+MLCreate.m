@@ -71,4 +71,63 @@
     };
 }
 
+//配置设置环境
+//- (UIButton * _Nonnull (^)(UIControlState))ml_state
+//{
+//    return ^(UIControlState state){
+//        [self._statesArray addObject:@(state)];
+//        return self;
+//    };
+//}
+//
+//- (UIButton * _Nonnull (^)(UIImageRenderingMode))ml_imageRenderingMode
+//{
+//    return ^(UIImageRenderingMode mode) {
+//        [self._imageRenderingModesArray addObject:@(mode)];
+//        return self;
+//    };
+//}
+
+//进行配置
+
+//- (UIButton * _Nonnull (^)(NSString * _Nonnull))ml_title
+//{
+//    return ^(NSString *title) {
+//
+//    };
+//}
+
 @end
+
+//#import <objc/runtime.h>
+//
+//@interface UIButton (_MLCreate)
+//
+//@property (nonatomic, strong) NSMutableArray<NSNumber *> *_statesArray;
+//@property (nonatomic, strong) NSMutableArray<NSNumber *> *_imageRenderingModesArray;
+//
+//@end
+//
+//@implementation UIButton (_MLCreate)
+//
+//- (void)set_statesArray:(NSMutableArray<NSNumber *> *)_statesArray
+//{
+//    objc_setAssociatedObject(self, @selector(set_statesArray:), _statesArray, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+//}
+//
+//- (NSMutableArray<NSNumber *> *)_statesArray
+//{
+//    return objc_getAssociatedObject(self, _cmd);
+//}
+//
+//- (void)set_imageRenderingModesArray:(NSMutableArray<NSNumber *> *)_imageRenderingModesArray
+//{
+//    objc_setAssociatedObject(self, @selector(set_imageRenderingModesArray:), _imageRenderingModesArray, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+//}
+//
+//- (NSMutableArray<NSNumber *> *)_imageRenderingModesArray
+//{
+//    return objc_getAssociatedObject(self, _cmd);
+//}
+//
+//@end

@@ -39,7 +39,7 @@
     [_scrollView addSubview:view];
     
     [view cg_autoEdgesInsetsZeroToSuperview];
-    [view cg_autoDimension:CGDimensionHeight fixedLength:2000];
+    [view cg_autoDimension:CGDimensionHeight fixedLength:FLT_MAX];
     [view cg_autoDimension:CGDimensionWidth equalView:_scrollView];
     
     [self showPageControl];
